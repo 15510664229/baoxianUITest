@@ -1,0 +1,50 @@
+pages:
+  - page:
+      pageName: sun.baoxian.pageObject.jiankangbao2vpage
+      value: "http://test.bxm.ncfimg.com/#/long_insurance/detail?product_code=701911S0061"
+      desc: "华瑞-健康保2.0"
+      locators:
+        - {type: "xpath",timeout: "5",value: "//*[text()='立即投保']",desc: "submit",name: "submit"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='30万",desc: "baoe30",name: "baoe30"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='40万",desc: "baoe40",name: "baoe40"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='50万",desc: "baoe50",name: "baoe50"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='60万']",desc: "baoe60",name: "baoe60"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='70万']",desc: "baoe70",name: "baoe70"}
+        - {type: "xpath",timeout: "5",value: "//div[@class='mb-trial-item-left period']/following-sibling::div[1]/div/div[1]/div[text()='至80岁']",desc: "period80A",name: "period80A"}
+        - {type: "xpath",timeout: "5",value: "//div[@class='mb-trial-item-left period']/following-sibling::div[1]/div/div[1]/div[text()='终身']",desc: "periodZ",name: "periodZ"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='一次缴清']",desc: "jiaoqing",name: "jiaoqing"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='年缴']",desc: "payY",name: "payY"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='10年']",desc: "period10",name: "period10"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='15年']",desc: "period15",name: "period15"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='20年']",desc: "period20",name: "period20"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='30年']",desc: "period30",name: "period30"}
+        - {type: "xpath",timeout: "5",value: "//div[text()='恶性肿瘤保险金']/following-sibling::div[1]/div[1]/div[1]/div[2]",desc: "exzlbxj",name: "exzlbxj"}
+        - {type: "xpath",timeout: "5",value: "//div[text()='少儿特定疾病保险金']/following-sibling::div[1]/div[1]/div[1]/div[2]",desc: "setdjbbxj",name: "setdjbbxj"}
+        - {type: "xpath",timeout: "5",value: "//div[text()='成人特定疾病保险金']/following-sibling::div[1]/div[1]/div[1]/div[1]",desc: "crtdjbbxj",name: "crtdjbbxj"}
+        - {type: "xpath",timeout: "5",value: "//div[text()='重大疾病医疗津贴']/following-sibling::div[1]/div[1]/div[1]/div[1]",desc: "zdjbyljt",name: "zdjbyljt"}
+        - {type: "xpath",timeout: "5",value: "//div[text()='身故/全残/疾病终末期保险金']/following-sibling::div[1]/div[1]/div[1]/div[1]",desc: "sfqcjbzmqbxj",name: "sfqcjbzmqbxj"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='以上情况全无']",desc: "jiangao",name: "jiangao"}
+        - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入投保人姓名']",desc: "ins_name",name: "ins_name"}
+        - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入投保人证件号码']",desc: "ins_idcard",name: "ins_idcard"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='长期']",desc: "changqi",name: "changqi"}
+        - {type: "name",timeout: "5",value: "mobile",desc: "mobile",name: "mobile"}
+        - {type: "cssSelector",timeout: "5",value: "input[placeholder=\"请输入验证码\"]",desc: "sms_code",name: "sms_code"}
+        - {type: "name",timeout: "5",value: "email",desc: "email",name: "email"}
+        - {type: "name",timeout: "5",value: "address",desc: "address",name: "address"}
+        - {type: "name",timeout: "5",value: "postcode",desc: "postcode",name: "postcode"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='确定']",desc: "queding",name: "queding"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='本人']",desc: "self",name: "self"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='配偶']",desc: "mate",name: "mate"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='子女']",desc: "child",name: "child"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='父母']",desc: "parent",name: "parent"}
+        - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入真实姓名']",desc: "apl_name",name: "apl_name"}
+        - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入被保人证件号码']",desc: "apl_idcard",name: "apl_idcard"}
+        - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入被保人手机号']",desc: "apl_mobile",name: "apl_mobile"}
+        - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入银行卡号']",desc: "bank_card",name: "bank_card"}
+        - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入预留手机号']",desc: "bank_mobile",name: "bank_mobile"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='立即投保']",desc: "submitF",name: "submitF"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='立即支付']",desc: "pay",name: "pay"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='支付成功']",desc: "success",name: "success"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='查看保单']",desc: "baodan",name: "baodan"}
+        - {type: "classname",timeout: "5",value: "protocol-btm-btn",desc: "confirm",name: "confirm"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='请在 23:50 前完成支付，逾期订单将自动取消']",desc: "deadline",name: "deadline"}

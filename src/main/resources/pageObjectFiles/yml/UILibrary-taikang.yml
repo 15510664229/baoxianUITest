@@ -1,0 +1,19 @@
+pages:
+  - page:
+      pageName: sun.baoxian.pageObject.taikangpage
+      value: "http://test.bxm.ncfimg.com/#/detail_externalv2?product_code=101911S0035&tid=14"
+      desc: "泰康下单"
+      locators:
+        - {type: "xpath",timeout: "5",value: "//*[@id='btnbox']/div/div[3]",desc: "order",name: "order"}
+        - {type: "xpath",timeout: "5",value: "(//div[@name='本人']//input[@type='text'])[position()=1]",desc: "name",name: "name"}
+        - {type: "xpath",timeout: "5",value: "(//div[@name='本人']//input[@type='text'])[position()=2]",desc: "idcard",name: "idcard"}
+        - {type: "xpath",timeout: "5",value: "(//div[@name='本人']//input[@type='tel'])[position()=1]",desc: "mobile",name: "mobile"}
+        - {type: "xpath",timeout: "5",value: "(//div[@name='本人']//input[@type='tel'])[position()=2]",desc: "sms_code",name: "sms_code"}
+        - {type: "xpath",timeout: "5",value: "//div[@name='本人']//*[text()='无']",desc: "shebao",name: "shebao"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='全额缴清']",desc: "pay_type",name: "pay_type"}
+        - {type: "xpath",timeout: "5",value: "//*[@class='baoxian-button-base baoxian-button-orange m-auto']",desc: "confrim",name: "confrim"}
+        - {type: "classname",timeout: "5",value: "hz-button-text",desc: "pay",name: "pay"}
+
+
+
+

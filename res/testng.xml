@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners><!-- 监听器设置，生成测试报告的监听器，不要改此处代码 -->
+		<listener class-name="sun.baoxian.utils.ExtentIReporterListenerUtil"></listener>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+	 	<listener class-name='sun.baoxian.utils.RetryListener'/>
+
+	</listeners>
+	
+	<test name="短险自动化测试" preserve-order="true">
+		<parameter name="browerType" value="chrome" />
+		<classes>
+			<class name="sun.baoxian.fangaiTest"></class>
+			<class name="sun.baoxian.yanguangTest"></class>
+			<class name="sun.baoxian.shortInsuranceTest"></class>
+			<class name="sun.baoxian.yanguangTest"></class>
+			<class name="sun.baoxian.changqingbaoTest"></class>
+			<class name="sun.baoxian.jinglingbaoTest"></class>
+			<class name="sun.baoxian.mamibaobeiTest"></class>
+			<class name="sun.baoxian.taikangActionTest"></class>
+			<class name="sun.baoxian.kaixinbaobeiTest"></class>
+			<class name="sun.baoxian.jiankangbao2vTest"></class>
+		</classes>
+	</test>
+
+</suite> 
