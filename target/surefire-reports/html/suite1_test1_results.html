@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - 短险自动化测试</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>短险自动化测试</h1>
+<p>
+  Test duration: 279.745s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">sun.baoxian.changqingbaoTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  changqingbao
+      </td>
+  <td class="duration">
+    13.811s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[text()=&apos;确定&apos;]&quot;}<br/>
+&nbsp; (Session info: headless chrome=80.0.3987.132)<br/>
+&nbsp; (Driver info: chromedriver=70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)<br/>
+Command duration or timeout: 0 milliseconds<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
+System info: host: &apos;xuepingsundeMacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:c98:507b:278f:dbbb%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_191&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.67 (9ab0cfab84ded..., userDataDir: /var/folders/gq/rj3hd6rn3tn...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60797}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.132, webStorageEnabled: true}<br/>
+Session ID: 8d91e75ce601e4a68530afa836d39a3d<br/>
+*** Element info: {Using=xpath, value=//*[text()=&apos;确定&apos;]}</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)<br />
+              org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)<br />
+              org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)<br />
+              org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)<br />
+              org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)<br />
+              org.openqa.selenium.By$ByXPath.findElement(By.java:353)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              sun.baoxian.actions.changqingbaoAction.changqingbao_001(changqingbaoAction.java:45)<br />
+              sun.baoxian.changqingbaoTest.changqingbao(changqingbaoTest.java:11)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:580)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)<br />
+              org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)<br />
+              org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)<br />
+                </div>
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">sun.baoxian.kaixinbaobeiTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  kaixinbaobei_001
+      </td>
+  <td class="duration">
+    5.669s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.WebDriverException: unknown error: Element &lt;span class=&quot;b-amount&quot;&gt;...&lt;/span&gt; is not clickable at point (318, 501). Other element would receive the click: &lt;div class=&quot;flex-center pt25 mr40 mb40&quot;&gt;...&lt;/div&gt;<br/>
+&nbsp; (Session info: headless chrome=80.0.3987.132)<br/>
+&nbsp; (Driver info: chromedriver=70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)<br/>
+Command duration or timeout: 0 milliseconds<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
+System info: host: &apos;xuepingsundeMacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:c98:507b:278f:dbbb%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_191&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.67 (9ab0cfab84ded..., userDataDir: /var/folders/gq/rj3hd6rn3tn...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60972}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.132, webStorageEnabled: true}<br/>
+Session ID: fe6a0bd2c85246caf9a0b16e7d1c5ce6</b></a><br />
+    <div class="stackTrace" id="exception-1">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)<br />
+              org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)<br />
+              org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)<br />
+              org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)<br />
+              org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)<br />
+              org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)<br />
+              sun.baoxian.base.WebElementBase.click(WebElementBase.java:122)<br />
+              sun.baoxian.actions.kaixinbaobeiAction.kaixinbaobei(kaixinbaobeiAction.java:26)<br />
+              sun.baoxian.kaixinbaobeiTest.kaixinbaobei_001(kaixinbaobeiTest.java:11)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:580)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)<br />
+              org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)<br />
+              org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)<br />
+                </div>
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">sun.baoxian.mamibaobeiTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  mamibaobei
+      </td>
+  <td class="duration">
+    57.146s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        <a href=snapshot/2020-03-16 110004447.jpg target=_blank><img src=snapshot//2020-03-16 110004447.jpg style=width:30px;height:30px img/>失败截图</a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse"><b>java.lang.NullPointerException</b></a><br />
+    <div class="stackTrace" id="exception-2">
+              org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)<br />
+              org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)<br />
+              org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)<br />
+              org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)<br />
+              org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)<br />
+              sun.baoxian.base.WebElementBase.DisplayElement(WebElementBase.java:540)<br />
+              sun.baoxian.actions.mamibaobeiAction.mamibaobei_test(mamibaobeiAction.java:102)<br />
+              sun.baoxian.mamibaobeiTest.mamibaobei(mamibaobeiTest.java:12)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:580)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)<br />
+              org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)<br />
+              org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)<br />
+                </div>
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">sun.baoxian.shortInsuranceTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  yangguang_001
+      </td>
+  <td class="duration">
+    1.351s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-3', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.WebDriverException: unknown error: Element &lt;div class=&quot;b-amount&quot;&gt;...&lt;/div&gt; is not clickable at point (388, 558). Other element would receive the click: &lt;div class=&quot;flex-start flex-direction-column ml40 fee-wrap&quot;&gt;...&lt;/div&gt;<br/>
+&nbsp; (Session info: headless chrome=80.0.3987.132)<br/>
+&nbsp; (Driver info: chromedriver=70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)<br/>
+Command duration or timeout: 0 milliseconds<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
+System info: host: &apos;xuepingsundeMacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:c98:507b:278f:dbbb%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_191&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.67 (9ab0cfab84ded..., userDataDir: /var/folders/gq/rj3hd6rn3tn...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60619}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.132, webStorageEnabled: true}<br/>
+Session ID: ec6adb6ca0ab8d1df860d6c354da7b58</b></a><br />
+    <div class="stackTrace" id="exception-3">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)<br />
+              org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)<br />
+              org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)<br />
+              org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)<br />
+              org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)<br />
+              org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)<br />
+              sun.baoxian.base.WebElementBase.click(WebElementBase.java:122)<br />
+              sun.baoxian.actions.shortInsurance19Action.YG_ZH_Plus(shortInsurance19Action.java:200)<br />
+              sun.baoxian.shortInsuranceTest.yangguang_001(shortInsuranceTest.java:47)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:580)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)<br />
+              org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)<br />
+              org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  yangguang_002
+      </td>
+  <td class="duration">
+    12.162s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        <a href=snapshot/2020-03-16 105754067.jpg target=_blank><img src=snapshot//2020-03-16 105754067.jpg style=width:30px;height:30px img/>失败截图</a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-4', 'block')" title="Click to expand/collapse"><b>java.lang.NullPointerException</b></a><br />
+    <div class="stackTrace" id="exception-4">
+              org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)<br />
+              org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)<br />
+              org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)<br />
+              org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)<br />
+              org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)<br />
+              sun.baoxian.base.WebElementBase.DisplayElement(WebElementBase.java:540)<br />
+              sun.baoxian.actions.shortInsurance19Action.YG_BW_Plus(shortInsurance19Action.java:238)<br />
+              sun.baoxian.shortInsuranceTest.yangguang_002(shortInsuranceTest.java:52)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:580)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)<br />
+              org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)<br />
+              org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)<br />
+                </div>
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">sun.baoxian.yanguangTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  yangguang_BW_001
+      </td>
+  <td class="duration">
+    28.502s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        <a href=snapshot/2020-03-16 105633109.jpg target=_blank><img src=snapshot//2020-03-16 105633109.jpg style=width:30px;height:30px img/>失败截图</a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-5', 'block')" title="Click to expand/collapse"><b>java.lang.NullPointerException</b></a><br />
+    <div class="stackTrace" id="exception-5">
+              org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)<br />
+              org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)<br />
+              org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)<br />
+              org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)<br />
+              org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)<br />
+              sun.baoxian.base.WebElementBase.DisplayElement(WebElementBase.java:540)<br />
+              sun.baoxian.actions.yangguangAction.yangguangBW(yangguangAction.java:35)<br />
+              sun.baoxian.yanguangTest.yangguang_BW_001(yanguangTest.java:12)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:580)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)<br />
+              org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)<br />
+              org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  yanguang_ZH_001
+      </td>
+  <td class="duration">
+    15.155s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        <a href=snapshot/2020-03-16 105648888.jpg target=_blank><img src=snapshot//2020-03-16 105648888.jpg style=width:30px;height:30px img/>失败截图</a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-6', 'block')" title="Click to expand/collapse"><b>java.lang.NullPointerException</b></a><br />
+    <div class="stackTrace" id="exception-6">
+              org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)<br />
+              org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)<br />
+              org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)<br />
+              org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)<br />
+              org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)<br />
+              sun.baoxian.base.WebElementBase.DisplayElement(WebElementBase.java:540)<br />
+              sun.baoxian.actions.yangguangAction.yangguangZH(yangguangAction.java:61)<br />
+              sun.baoxian.yanguangTest.yanguang_ZH_001(yanguangTest.java:17)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:580)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)<br />
+              org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)<br />
+              org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)<br />
+              org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">sun.baoxian.fangaiTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  jiangxin_test
+      </td>
+  <td class="duration">
+    17.384s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        投保人信息：手机号：13607793518      身份证号：632123198811019916
+                                http://test.bxm.ncfimg.com/#/pay_accident?btoken=32b8d244fa34bbc7cd088fc7c7c7e3d1&__a=
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">sun.baoxian.jinglingbaoTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  jingling
+      </td>
+  <td class="duration">
+    14.652s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        投保人信息：手机号：15500138339      身份证号：520111199312105010
+                                http://test.bxm.ncfimg.com/#/pay_accident?btoken=72ad79080ce5c89809965ae40f0f735c&__a=
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">sun.baoxian.shortInsuranceTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  taikang2020_PH_001
+      </td>
+  <td class="duration">
+    10.755s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        投保人信息：手机号：13002564411      身份证号：513232199212102005
+                                http://test.bxm.ncfimg.com/#/pay_accident?btoken=9627de7d8e7608f02d2b4ec72ca07a47&__a=
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  taikang2020_SC_001
+      </td>
+  <td class="duration">
+    15.887s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        投保人信息：手机号：15001836548      身份证号：210903199212104003
+                                http://test.bxm.ncfimg.com/#/pay_accident?btoken=e16c1125d97ac3a9e41b6d961d83f841&__a=
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  taikang2020_SC_002
+      </td>
+  <td class="duration">
+    10.174s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  taikang2020_SC_003
+      </td>
+  <td class="duration">
+    10.669s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        投保人信息：手机号：15904386443      身份证号：511821199212101004
+                                http://test.bxm.ncfimg.com/#/pay_accident?btoken=f7d1023009be2558a672e7ae65c888cf&__a=
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  zhonghui_001
+      </td>
+  <td class="duration">
+    13.367s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        投保人信息：手机号：15002500881      身份证号：410403199212100002
+                                http://test.bxm.ncfimg.com/#/pay_accident?btoken=aae8418005de6c5804af040ad2ce0c48&__a=
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  zhonghui_002
+      </td>
+  <td class="duration">
+    10.437s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        投保人信息：手机号：15507137522      身份证号：230822199212109303
+                                http://test.bxm.ncfimg.com/#/pay_accident?btoken=ed5bdf60b9f22636ab3119d23de26367&__a=
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  zhonghui_003
+      </td>
+  <td class="duration">
+    17.124s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        投保人信息：手机号：15008687840      身份证号：431129199212100207
+                                http://test.bxm.ncfimg.com/#/pay_accident?btoken=f9d176983755c9e1f88a191388f4f545&__a=
+                  </div>
+    
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">sun.baoxian.taikangActionTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  taikang2019_001
+      </td>
+  <td class="duration">
+    12.554s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        投保人信息：手机号：15106498078      身份证号：410782199311112318
+                                http://test.bxm.ncfimg.com/#/pay_accident?btoken=65ff478e820d52e9d3a64159d44cfa5b&__a=
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>

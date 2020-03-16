@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="7" ignored="0" total="17" passed="10">
+  <reporter-output>
+    <line>
+      <![CDATA[投保人信息：手机号：13607793518      身份证号：632123198811019916]]>
+    </line>
+    <line>
+      <![CDATA[http://test.bxm.ncfimg.com/#/pay_accident?btoken=32b8d244fa34bbc7cd088fc7c7c7e3d1&__a=]]>
+    </line>
+    <line>
+      <![CDATA[<a href=snapshot/2020-03-16 105633109.jpg target=_blank><img src=snapshot//2020-03-16 105633109.jpg style=width:30px;height:30px img/>失败截图</a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href=snapshot/2020-03-16 105648888.jpg target=_blank><img src=snapshot//2020-03-16 105648888.jpg style=width:30px;height:30px img/>失败截图</a>]]>
+    </line>
+    <line>
+      <![CDATA[投保人信息：手机号：13002564411      身份证号：513232199212102005]]>
+    </line>
+    <line>
+      <![CDATA[http://test.bxm.ncfimg.com/#/pay_accident?btoken=9627de7d8e7608f02d2b4ec72ca07a47&__a=]]>
+    </line>
+    <line>
+      <![CDATA[投保人信息：手机号：15001836548      身份证号：210903199212104003]]>
+    </line>
+    <line>
+      <![CDATA[http://test.bxm.ncfimg.com/#/pay_accident?btoken=e16c1125d97ac3a9e41b6d961d83f841&__a=]]>
+    </line>
+    <line>
+      <![CDATA[投保人信息：手机号：15904386443      身份证号：511821199212101004]]>
+    </line>
+    <line>
+      <![CDATA[http://test.bxm.ncfimg.com/#/pay_accident?btoken=f7d1023009be2558a672e7ae65c888cf&__a=]]>
+    </line>
+    <line>
+      <![CDATA[<a href=snapshot/2020-03-16 105754067.jpg target=_blank><img src=snapshot//2020-03-16 105754067.jpg style=width:30px;height:30px img/>失败截图</a>]]>
+    </line>
+    <line>
+      <![CDATA[投保人信息：手机号：15002500881      身份证号：410403199212100002]]>
+    </line>
+    <line>
+      <![CDATA[http://test.bxm.ncfimg.com/#/pay_accident?btoken=aae8418005de6c5804af040ad2ce0c48&__a=]]>
+    </line>
+    <line>
+      <![CDATA[投保人信息：手机号：15507137522      身份证号：230822199212109303]]>
+    </line>
+    <line>
+      <![CDATA[http://test.bxm.ncfimg.com/#/pay_accident?btoken=ed5bdf60b9f22636ab3119d23de26367&__a=]]>
+    </line>
+    <line>
+      <![CDATA[投保人信息：手机号：15008687840      身份证号：431129199212100207]]>
+    </line>
+    <line>
+      <![CDATA[http://test.bxm.ncfimg.com/#/pay_accident?btoken=f9d176983755c9e1f88a191388f4f545&__a=]]>
+    </line>
+    <line>
+      <![CDATA[投保人信息：手机号：15500138339      身份证号：520111199312105010]]>
+    </line>
+    <line>
+      <![CDATA[http://test.bxm.ncfimg.com/#/pay_accident?btoken=72ad79080ce5c89809965ae40f0f735c&__a=]]>
+    </line>
+    <line>
+      <![CDATA[<a href=snapshot/2020-03-16 110004447.jpg target=_blank><img src=snapshot//2020-03-16 110004447.jpg style=width:30px;height:30px img/>失败截图</a>]]>
+    </line>
+    <line>
+      <![CDATA[投保人信息：手机号：15106498078      身份证号：410782199311112318]]>
+    </line>
+    <line>
+      <![CDATA[http://test.bxm.ncfimg.com/#/pay_accident?btoken=65ff478e820d52e9d3a64159d44cfa5b&__a=]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="280073" started-at="2020-03-16T02:55:45Z" finished-at="2020-03-16T03:00:25Z">
+    <groups>
+    </groups>
+    <test name="短险自动化测试" duration-ms="280073" started-at="2020-03-16T02:55:45Z" finished-at="2020-03-16T03:00:25Z">
+      <class name="sun.baoxian.taikangActionTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:sun.baoxian.taikangActionTest@41c2284a]" name="setup" is-config="true" duration-ms="1070" started-at="2020-03-16T03:00:04Z" finished-at="2020-03-16T03:00:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="taikang2019_001()[pri:0, instance:sun.baoxian.taikangActionTest@41c2284a]" name="taikang2019_001" duration-ms="12554" started-at="2020-03-16T03:00:06Z" finished-at="2020-03-16T03:00:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[投保人信息：手机号：15106498078      身份证号：410782199311112318]]>
+            </line>
+            <line>
+              <![CDATA[http://test.bxm.ncfimg.com/#/pay_accident?btoken=65ff478e820d52e9d3a64159d44cfa5b&__a=]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- taikang2019_001 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:sun.baoxian.taikangActionTest@41c2284a]" name="tearDown" is-config="true" duration-ms="84" started-at="2020-03-16T03:00:18Z" finished-at="2020-03-16T03:00:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- sun.baoxian.taikangActionTest -->
+      <class name="sun.baoxian.yanguangTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:sun.baoxian.yanguangTest@55f616cf]" name="setup" is-config="true" duration-ms="509" started-at="2020-03-16T02:56:04Z" finished-at="2020-03-16T02:56:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="yangguang_BW_001()[pri:0, instance:sun.baoxian.yanguangTest@55f616cf]" name="yangguang_BW_001" duration-ms="28502" started-at="2020-03-16T02:56:05Z" finished-at="2020-03-16T02:56:33Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+at sun.baoxian.base.WebElementBase.DisplayElement(WebElementBase.java:540)
+at sun.baoxian.actions.yangguangAction.yangguangBW(yangguangAction.java:35)
+at sun.baoxian.yanguangTest.yangguang_BW_001(yanguangTest.java:12)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href=snapshot/2020-03-16 105633109.jpg target=_blank><img src=snapshot//2020-03-16 105633109.jpg style=width:30px;height:30px img/>失败截图</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- yangguang_BW_001 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:sun.baoxian.yanguangTest@55f616cf]" name="tearDown" is-config="true" duration-ms="81" started-at="2020-03-16T02:56:33Z" finished-at="2020-03-16T02:56:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:sun.baoxian.yanguangTest@55f616cf]" name="setup" is-config="true" duration-ms="515" started-at="2020-03-16T02:56:33Z" finished-at="2020-03-16T02:56:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="yanguang_ZH_001()[pri:0, instance:sun.baoxian.yanguangTest@55f616cf]" name="yanguang_ZH_001" duration-ms="15155" started-at="2020-03-16T02:56:34Z" finished-at="2020-03-16T02:56:49Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+at sun.baoxian.base.WebElementBase.DisplayElement(WebElementBase.java:540)
+at sun.baoxian.actions.yangguangAction.yangguangZH(yangguangAction.java:61)
+at sun.baoxian.yanguangTest.yanguang_ZH_001(yanguangTest.java:17)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href=snapshot/2020-03-16 105648888.jpg target=_blank><img src=snapshot//2020-03-16 105648888.jpg style=width:30px;height:30px img/>失败截图</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- yanguang_ZH_001 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:sun.baoxian.yanguangTest@55f616cf]" name="tearDown" is-config="true" duration-ms="84" started-at="2020-03-16T02:56:49Z" finished-at="2020-03-16T02:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- sun.baoxian.yanguangTest -->
+      <class name="sun.baoxian.fangaiTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:sun.baoxian.fangaiTest@609db43b]" name="setup" is-config="true" duration-ms="1524" started-at="2020-03-16T02:55:45Z" finished-at="2020-03-16T02:55:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="jiangxin_test()[pri:0, instance:sun.baoxian.fangaiTest@609db43b]" name="jiangxin_test" duration-ms="17384" started-at="2020-03-16T02:55:47Z" finished-at="2020-03-16T02:56:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[投保人信息：手机号：13607793518      身份证号：632123198811019916]]>
+            </line>
+            <line>
+              <![CDATA[http://test.bxm.ncfimg.com/#/pay_accident?btoken=32b8d244fa34bbc7cd088fc7c7c7e3d1&__a=]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- jiangxin_test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:sun.baoxian.fangaiTest@609db43b]" name="tearDown" is-config="true" duration-ms="97" started-at="2020-03-16T02:56:04Z" finished-at="2020-03-16T02:56:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- sun.baoxian.fangaiTest -->
+      <class name="sun.baoxian.shortInsuranceTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:sun.baoxian.shortInsuranceTest@1356d4d4]" name="setup" is-config="true" duration-ms="825" started-at="2020-03-16T02:56:49Z" finished-at="2020-03-16T02:56:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="taikang2020_PH_001()[pri:0, instance:sun.baoxian.shortInsuranceTest@1356d4d4]" name="taikang2020_PH_001" duration-ms="10755" started-at="2020-03-16T02:56:50Z" finished-at="2020-03-16T02:57:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[投保人信息：手机号：13002564411      身份证号：513232199212102005]]>
+            </line>
+            <line>
+              <![CDATA[http://test.bxm.ncfimg.com/#/pay_accident?btoken=9627de7d8e7608f02d2b4ec72ca07a47&__a=]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- taikang2020_PH_001 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:sun.baoxian.shortInsuranceTest@1356d4d4]" name="tearDown" is-config="true" duration-ms="86" started-at="2020-03-16T02:57:00Z" finished-at="2020-03-16T02:57:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:sun.baoxian.shortInsuranceTest@1356d4d4]" name="setup" is-config="true" duration-ms="663" started-at="2020-03-16T02:57:01Z" finished-at="2020-03-16T02:57:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="taikang2020_SC_001()[pri:0, instance:sun.baoxian.shortInsuranceTest@1356d4d4]" name="taikang2020_SC_001" duration-ms="15887" started-at="2020-03-16T02:57:01Z" finished-at="2020-03-16T02:57:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[投保人信息：手机号：15001836548      身份证号：210903199212104003]]>
+            </line>
+            <line>
+              <![CDATA[http://test.bxm.ncfimg.com/#/pay_accident?btoken=e16c1125d97ac3a9e41b6d961d83f841&__a=]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- taikang2020_SC_001 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:sun.baoxian.shortInsuranceTest@1356d4d4]" name="tearDown" is-config="true" duration-ms="94" started-at="2020-03-16T02:57:17Z" finished-at="2020-03-16T02:57:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:sun.baoxian.shortInsuranceTest@1356d4d4]" name="setup" is-config="true" duration-ms="703" started-at="2020-03-16T02:57:17Z" finished-at="2020-03-16T02:57:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="taikang2020_SC_002()[pri:0, instance:sun.baoxian.shortInsuranceTest@1356d4d4]" name="taikang2020_SC_002" duration-ms="10174" started-at="2020-03-16T02:57:18Z" finished-at="2020-03-16T02:57:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- taikang2020_SC_002 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:sun.baoxian.shortInsuranceTest@1356d4d4]" name="tearDown" is-config="true" duration-ms="78" started-at="2020-03-16T02:57:28Z" finished-at="2020-03-16T02:57:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:sun.baoxian.shortInsuranceTest@1356d4d4]" name="setup" is-config="true" duration-ms="548" started-at="2020-03-16T02:57:28Z" finished-at="2020-03-16T02:57:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="taikang2020_SC_003()[pri:0, instance:sun.baoxian.shortInsuranceTest@1356d4d4]" name="taikang2020_SC_003" duration-ms="10669" started-at="2020-03-16T02:57:29Z" finished-at="2020-03-16T02:57:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[投保人信息：手机号：15904386443      身份证号：511821199212101004]]>
+            </line>
+            <line>
+              <![CDATA[http://test.bxm.ncfimg.com/#/pay_accident?btoken=f7d1023009be2558a672e7ae65c888cf&__a=]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- taikang2020_SC_003 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:sun.baoxian.shortInsuranceTest@1356d4d4]" name="tearDown" is-config="true" duration-ms="77" started-at="2020-03-16T02:57:39Z" finished-at="2020-03-16T02:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:sun.baoxian.shortInsuranceTest@1356d4d4]" name="setup" is-config="true" duration-ms="449" started-at="2020-03-16T02:57:39Z" finished-at="2020-03-16T02:57:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="yangguang_001()[pri:0, instance:sun.baoxian.shortInsuranceTest@1356d4d4]" name="yangguang_001" duration-ms="1351" started-at="2020-03-16T02:57:40Z" finished-at="2020-03-16T02:57:41Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: Element <div class="b-amount">...</div> is not clickable at point (388, 558). Other element would receive the click: <div class="flex-start flex-direction-column ml40 fee-wrap">...</div>
+  (Session info: headless chrome=80.0.3987.132)
+  (Driver info: chromedriver=70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'xuepingsundeMacBook-Pro.local', ip: 'fe80:0:0:0:c98:507b:278f:dbbb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.67 (9ab0cfab84ded..., userDataDir: /var/folders/gq/rj3hd6rn3tn...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60619}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.132, webStorageEnabled: true}
+Session ID: ec6adb6ca0ab8d1df860d6c354da7b58]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <div class="b-amount">...</div> is not clickable at point (388, 558). Other element would receive the click: <div class="flex-start flex-direction-column ml40 fee-wrap">...</div>
+  (Session info: headless chrome=80.0.3987.132)
+  (Driver info: chromedriver=70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'xuepingsundeMacBook-Pro.local', ip: 'fe80:0:0:0:c98:507b:278f:dbbb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.67 (9ab0cfab84ded..., userDataDir: /var/folders/gq/rj3hd6rn3tn...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60619}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.132, webStorageEnabled: true}
+Session ID: ec6adb6ca0ab8d1df860d6c354da7b58
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at sun.baoxian.base.WebElementBase.click(WebElementBase.java:122)
+at sun.baoxian.actions.shortInsurance19Action.YG_ZH_Plus(shortInsurance19Action.java:200)
+at sun.baoxian.shortInsuranceTest.yangguang_001(shortInsuranceTest.java:47)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yangguang_001 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:sun.baoxian.shortInsuranceTest@1356d4d4]" name="tearDown" is-config="true" duration-ms="76" started-at="2020-03-16T02:57:41Z" finished-at="2020-03-16T02:57:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:sun.baoxian.shortInsuranceTest@1356d4d4]" name="setup" is-config="true" duration-ms="421" started-at="2020-03-16T02:57:41Z" finished-at="2020-03-16T02:57:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="yangguang_002()[pri:0, instance:sun.baoxian.shortInsuranceTest@1356d4d4]" name="yangguang_002" duration-ms="12162" started-at="2020-03-16T02:57:42Z" finished-at="2020-03-16T02:57:54Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+at sun.baoxian.base.WebElementBase.DisplayElement(WebElementBase.java:540)
+at sun.baoxian.actions.shortInsurance19Action.YG_BW_Plus(shortInsurance19Action.java:238)
+at sun.baoxian.shortInsuranceTest.yangguang_002(shortInsuranceTest.java:52)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href=snapshot/2020-03-16 105754067.jpg target=_blank><img src=snapshot//2020-03-16 105754067.jpg style=width:30px;height:30px img/>失败截图</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- yangguang_002 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:sun.baoxian.shortInsuranceTest@1356d4d4]" name="tearDown" is-config="true" duration-ms="96" started-at="2020-03-16T02:57:54Z" finished-at="2020-03-16T02:57:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:sun.baoxian.shortInsuranceTest@1356d4d4]" name="setup" is-config="true" duration-ms="643" started-at="2020-03-16T02:57:54Z" finished-at="2020-03-16T02:57:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="zhonghui_001()[pri:0, instance:sun.baoxian.shortInsuranceTest@1356d4d4]" name="zhonghui_001" duration-ms="13367" started-at="2020-03-16T02:57:55Z" finished-at="2020-03-16T02:58:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[投保人信息：手机号：15002500881      身份证号：410403199212100002]]>
+            </line>
+            <line>
+              <![CDATA[http://test.bxm.ncfimg.com/#/pay_accident?btoken=aae8418005de6c5804af040ad2ce0c48&__a=]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- zhonghui_001 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:sun.baoxian.shortInsuranceTest@1356d4d4]" name="tearDown" is-config="true" duration-ms="79" started-at="2020-03-16T02:58:08Z" finished-at="2020-03-16T02:58:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:sun.baoxian.shortInsuranceTest@1356d4d4]" name="setup" is-config="true" duration-ms="483" started-at="2020-03-16T02:58:08Z" finished-at="2020-03-16T02:58:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="zhonghui_002()[pri:0, instance:sun.baoxian.shortInsuranceTest@1356d4d4]" name="zhonghui_002" duration-ms="10437" started-at="2020-03-16T02:58:09Z" finished-at="2020-03-16T02:58:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[投保人信息：手机号：15507137522      身份证号：230822199212109303]]>
+            </line>
+            <line>
+              <![CDATA[http://test.bxm.ncfimg.com/#/pay_accident?btoken=ed5bdf60b9f22636ab3119d23de26367&__a=]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- zhonghui_002 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:sun.baoxian.shortInsuranceTest@1356d4d4]" name="tearDown" is-config="true" duration-ms="81" started-at="2020-03-16T02:58:19Z" finished-at="2020-03-16T02:58:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:sun.baoxian.shortInsuranceTest@1356d4d4]" name="setup" is-config="true" duration-ms="592" started-at="2020-03-16T02:58:19Z" finished-at="2020-03-16T02:58:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="zhonghui_003()[pri:0, instance:sun.baoxian.shortInsuranceTest@1356d4d4]" name="zhonghui_003" duration-ms="17124" started-at="2020-03-16T02:58:20Z" finished-at="2020-03-16T02:58:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[投保人信息：手机号：15008687840      身份证号：431129199212100207]]>
+            </line>
+            <line>
+              <![CDATA[http://test.bxm.ncfimg.com/#/pay_accident?btoken=f9d176983755c9e1f88a191388f4f545&__a=]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- zhonghui_003 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:sun.baoxian.shortInsuranceTest@1356d4d4]" name="tearDown" is-config="true" duration-ms="81" started-at="2020-03-16T02:58:37Z" finished-at="2020-03-16T02:58:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- sun.baoxian.shortInsuranceTest -->
+      <class name="sun.baoxian.kaixinbaobeiTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:sun.baoxian.kaixinbaobeiTest@53aad5d5]" name="setup" is-config="true" duration-ms="930" started-at="2020-03-16T03:00:18Z" finished-at="2020-03-16T03:00:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="kaixinbaobei_001()[pri:0, instance:sun.baoxian.kaixinbaobeiTest@53aad5d5]" name="kaixinbaobei_001" duration-ms="5669" started-at="2020-03-16T03:00:19Z" finished-at="2020-03-16T03:00:25Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: Element <span class="b-amount">...</span> is not clickable at point (318, 501). Other element would receive the click: <div class="flex-center pt25 mr40 mb40">...</div>
+  (Session info: headless chrome=80.0.3987.132)
+  (Driver info: chromedriver=70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'xuepingsundeMacBook-Pro.local', ip: 'fe80:0:0:0:c98:507b:278f:dbbb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.67 (9ab0cfab84ded..., userDataDir: /var/folders/gq/rj3hd6rn3tn...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60972}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.132, webStorageEnabled: true}
+Session ID: fe6a0bd2c85246caf9a0b16e7d1c5ce6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <span class="b-amount">...</span> is not clickable at point (318, 501). Other element would receive the click: <div class="flex-center pt25 mr40 mb40">...</div>
+  (Session info: headless chrome=80.0.3987.132)
+  (Driver info: chromedriver=70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'xuepingsundeMacBook-Pro.local', ip: 'fe80:0:0:0:c98:507b:278f:dbbb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.67 (9ab0cfab84ded..., userDataDir: /var/folders/gq/rj3hd6rn3tn...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60972}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.132, webStorageEnabled: true}
+Session ID: fe6a0bd2c85246caf9a0b16e7d1c5ce6
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at sun.baoxian.base.WebElementBase.click(WebElementBase.java:122)
+at sun.baoxian.actions.kaixinbaobeiAction.kaixinbaobei(kaixinbaobeiAction.java:26)
+at sun.baoxian.kaixinbaobeiTest.kaixinbaobei_001(kaixinbaobeiTest.java:11)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kaixinbaobei_001 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:sun.baoxian.kaixinbaobeiTest@53aad5d5]" name="tearDown" is-config="true" duration-ms="84" started-at="2020-03-16T03:00:25Z" finished-at="2020-03-16T03:00:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- sun.baoxian.kaixinbaobeiTest -->
+      <class name="sun.baoxian.changqingbaoTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:sun.baoxian.changqingbaoTest@c03cf28]" name="setup" is-config="true" duration-ms="430" started-at="2020-03-16T02:58:37Z" finished-at="2020-03-16T02:58:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="changqingbao()[pri:0, instance:sun.baoxian.changqingbaoTest@c03cf28]" name="changqingbao" duration-ms="13811" started-at="2020-03-16T02:58:37Z" finished-at="2020-03-16T02:58:51Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='确定']"}
+  (Session info: headless chrome=80.0.3987.132)
+  (Driver info: chromedriver=70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'xuepingsundeMacBook-Pro.local', ip: 'fe80:0:0:0:c98:507b:278f:dbbb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.67 (9ab0cfab84ded..., userDataDir: /var/folders/gq/rj3hd6rn3tn...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60797}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.132, webStorageEnabled: true}
+Session ID: 8d91e75ce601e4a68530afa836d39a3d
+*** Element info: {Using=xpath, value=//*[text()='确定']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='确定']"}
+  (Session info: headless chrome=80.0.3987.132)
+  (Driver info: chromedriver=70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'xuepingsundeMacBook-Pro.local', ip: 'fe80:0:0:0:c98:507b:278f:dbbb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.67 (9ab0cfab84ded..., userDataDir: /var/folders/gq/rj3hd6rn3tn...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60797}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.132, webStorageEnabled: true}
+Session ID: 8d91e75ce601e4a68530afa836d39a3d
+*** Element info: {Using=xpath, value=//*[text()='确定']}
+at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at sun.baoxian.actions.changqingbaoAction.changqingbao_001(changqingbaoAction.java:45)
+at sun.baoxian.changqingbaoTest.changqingbao(changqingbaoTest.java:11)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changqingbao -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:sun.baoxian.changqingbaoTest@c03cf28]" name="tearDown" is-config="true" duration-ms="93" started-at="2020-03-16T02:58:51Z" finished-at="2020-03-16T02:58:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- sun.baoxian.changqingbaoTest -->
+      <class name="sun.baoxian.jinglingbaoTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:sun.baoxian.jinglingbaoTest@1329eff]" name="setup" is-config="true" duration-ms="648" started-at="2020-03-16T02:58:51Z" finished-at="2020-03-16T02:58:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="jingling()[pri:0, instance:sun.baoxian.jinglingbaoTest@1329eff]" name="jingling" duration-ms="14652" started-at="2020-03-16T02:58:52Z" finished-at="2020-03-16T02:59:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[投保人信息：手机号：15500138339      身份证号：520111199312105010]]>
+            </line>
+            <line>
+              <![CDATA[http://test.bxm.ncfimg.com/#/pay_accident?btoken=72ad79080ce5c89809965ae40f0f735c&__a=]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- jingling -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:sun.baoxian.jinglingbaoTest@1329eff]" name="tearDown" is-config="true" duration-ms="84" started-at="2020-03-16T02:59:07Z" finished-at="2020-03-16T02:59:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- sun.baoxian.jinglingbaoTest -->
+      <class name="sun.baoxian.mamibaobeiTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:sun.baoxian.mamibaobeiTest@6497b078]" name="setup" is-config="true" duration-ms="551" started-at="2020-03-16T02:59:07Z" finished-at="2020-03-16T02:59:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="mamibaobei()[pri:0, instance:sun.baoxian.mamibaobeiTest@6497b078]" name="mamibaobei" duration-ms="57146" started-at="2020-03-16T02:59:07Z" finished-at="2020-03-16T03:00:04Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+at sun.baoxian.base.WebElementBase.DisplayElement(WebElementBase.java:540)
+at sun.baoxian.actions.mamibaobeiAction.mamibaobei_test(mamibaobeiAction.java:102)
+at sun.baoxian.mamibaobeiTest.mamibaobei(mamibaobeiTest.java:12)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href=snapshot/2020-03-16 110004447.jpg target=_blank><img src=snapshot//2020-03-16 110004447.jpg style=width:30px;height:30px img/>失败截图</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- mamibaobei -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:sun.baoxian.mamibaobeiTest@6497b078]" name="tearDown" is-config="true" duration-ms="87" started-at="2020-03-16T03:00:04Z" finished-at="2020-03-16T03:00:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- sun.baoxian.mamibaobeiTest -->
+    </test> <!-- 短险自动化测试 -->
+  </suite> <!-- Suite -->
+</testng-results>

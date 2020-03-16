@@ -1,0 +1,991 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="295.374" tests="17" errors="0" skipped="0" failures="7">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/target/test-classes:/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/target/classes:/Users/xueping.sun/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/xueping.sun/.m2/repository/org/jodd/jodd-http/3.7.1/jodd-http-3.7.1.jar:/Users/xueping.sun/.m2/repository/org/jodd/jodd-core/3.7.1/jodd-core-3.7.1.jar:/Users/xueping.sun/.m2/repository/org/jodd/jodd-upload/3.7.1/jodd-upload-3.7.1.jar:/Users/xueping.sun/.m2/repository/com/relevantcodes/extentreports/2.40.2/extentreports-2.40.2.jar:/Users/xueping.sun/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/xueping.sun/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/xueping.sun/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar:/Users/xueping.sun/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/xueping.sun/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/xueping.sun/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/xueping.sun/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/Users/xueping.sun/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/Users/xueping.sun/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/xueping.sun/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacv/1.4.3/javacv-1.4.3.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/ffmpeg/4.0.2-1.4.3/ffmpeg-4.0.2-1.4.3.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/flycapture/2.11.3.121-1.4.3/flycapture-2.11.3.121-1.4.3.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/libdc1394/2.2.5-1.4.3/libdc1394-2.2.5-1.4.3.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/libfreenect/0.5.3-1.4.3/libfreenect-0.5.3-1.4.3.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/libfreenect2/0.2.0-1.4.3/libfreenect2-0.2.0-1.4.3.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/librealsense/1.12.1-1.4.3/librealsense-1.12.1-1.4.3.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/videoinput/0.200-1.4.3/videoinput-0.200-1.4.3.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/artoolkitplus/2.3.1-1.4.3/artoolkitplus-2.3.1-1.4.3.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/flandmark/1.07-1.4.3/flandmark-1.07-1.4.3.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.76.0-1.4.3/leptonica-1.76.0-1.4.3.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/tesseract/4.0.0-rc2-1.4.3/tesseract-4.0.0-rc2-1.4.3.jar:/Users/xueping.sun/.m2/repository/org/apache/poi/poi/3.12/poi-3.12.jar:/Users/xueping.sun/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/xueping.sun/.m2/repository/org/apache/poi/poi-ooxml/3.12/poi-ooxml-3.12.jar:/Users/xueping.sun/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.12/poi-ooxml-schemas-3.12.jar:/Users/xueping.sun/.m2/repository/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar:/Users/xueping.sun/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/xueping.sun/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp/1.4.3/javacpp-1.4.3.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.4.3-1.4.3/opencv-3.4.3-1.4.3.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/opencv-platform/3.4.3-1.4.3/opencv-platform-3.4.3-1.4.3.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.4.3-1.4.3/opencv-3.4.3-1.4.3-android-arm.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.4.3-1.4.3/opencv-3.4.3-1.4.3-android-arm64.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.4.3-1.4.3/opencv-3.4.3-1.4.3-android-x86.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.4.3-1.4.3/opencv-3.4.3-1.4.3-android-x86_64.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.4.3-1.4.3/opencv-3.4.3-1.4.3-ios-arm64.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.4.3-1.4.3/opencv-3.4.3-1.4.3-ios-x86_64.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.4.3-1.4.3/opencv-3.4.3-1.4.3-linux-x86.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.4.3-1.4.3/opencv-3.4.3-1.4.3-linux-x86_64.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.4.3-1.4.3/opencv-3.4.3-1.4.3-linux-armhf.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.4.3-1.4.3/opencv-3.4.3-1.4.3-linux-ppc64le.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.4.3-1.4.3/opencv-3.4.3-1.4.3-macosx-x86_64.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.4.3-1.4.3/opencv-3.4.3-1.4.3-windows-x86.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.4.3-1.4.3/opencv-3.4.3-1.4.3-windows-x86_64.jar:/Users/xueping.sun/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/xueping.sun/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/xueping.sun/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/xueping.sun/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/xueping.sun/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/xueping.sun/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/xueping.sun/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/xueping.sun/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/xueping.sun/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/xueping.sun/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/xueping.sun/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/xueping.sun/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/xueping.sun/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/xueping.sun/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/xueping.sun/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/xueping.sun/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/xueping.sun/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/xueping.sun/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/xueping.sun/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/xueping.sun/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/xueping.sun/.m2/repository/org/testng/testng/6.14.2/testng-6.14.2.jar:/Users/xueping.sun/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/xueping.sun/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/xueping.sun/.m2/repository/io/qameta/allure/allure-testng/2.13.0/allure-testng-2.13.0.jar:/Users/xueping.sun/.m2/repository/io/qameta/allure/allure-java-commons/2.13.0/allure-java-commons-2.13.0.jar:/Users/xueping.sun/.m2/repository/io/qameta/allure/allure-model/2.13.0/allure-model-2.13.0.jar:/Users/xueping.sun/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/xueping.sun/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar:/Users/xueping.sun/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/Users/xueping.sun/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar:/Users/xueping.sun/.m2/repository/org/apache/tika/tika-core/1.20/tika-core-1.20.jar:/Users/xueping.sun/.m2/repository/org/jooq/joor-java-8/0.9.10/joor-java-8-0.9.10.jar:/Users/xueping.sun/.m2/repository/org/uncommons/reportng/1.1.4/reportng-1.1.4.jar:/Users/xueping.sun/.m2/repository/velocity/velocity/1.4/velocity-1.4.jar:/Users/xueping.sun/.m2/repository/velocity/velocity-dep/1.4/velocity-dep-1.4.jar:/Users/xueping.sun/.m2/repository/com/google/inject/guice/3.0/guice-3.0.jar:/Users/xueping.sun/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/xueping.sun/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/xueping.sun/.m2/repository/org/json/json/20160810/json-20160810.jar:/Users/xueping.sun/.m2/repository/javax/mail/mail/1.5.0-b01/mail-1.5.0-b01.jar:/Users/xueping.sun/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/xueping.sun/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/xueping.sun/.m2/repository/net/sourceforge/jexcelapi/jxl/2.6.12/jxl-2.6.12.jar:/Users/xueping.sun/.m2/repository/mysql/mysql-connector-java/5.1.47/mysql-connector-java-5.1.47.jar:/Users/xueping.sun/.m2/repository/com/github/sanjusoftware/yamlbeans/1.11/yamlbeans-1.11.jar:/Users/xueping.sun/.m2/repository/com/alibaba/fastjson/1.2.54/fastjson-1.2.54.jar:/Users/xueping.sun/.m2/repository/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar:"/>
+    <property name="org.uncommons.reportng.escape-output" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/target/surefire/surefirebooter6021193915636815124.jar /Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/target/surefire 2020-03-16T10-55-30_126-jvmRun1 surefire8558553373144430492tmp surefire_03181521234068283218tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/target/test-classes:/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/target/classes:/Users/xueping.sun/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/xueping.sun/.m2/repository/org/jodd/jodd-http/3.7.1/jodd-http-3.7.1.jar:/Users/xueping.sun/.m2/repository/org/jodd/jodd-core/3.7.1/jodd-core-3.7.1.jar:/Users/xueping.sun/.m2/repository/org/jodd/jodd-upload/3.7.1/jodd-upload-3.7.1.jar:/Users/xueping.sun/.m2/repository/com/relevantcodes/extentreports/2.40.2/extentreports-2.40.2.jar:/Users/xueping.sun/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/xueping.sun/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/xueping.sun/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar:/Users/xueping.sun/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/xueping.sun/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/xueping.sun/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/xueping.sun/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/Users/xueping.sun/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/Users/xueping.sun/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/xueping.sun/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacv/1.4.3/javacv-1.4.3.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/ffmpeg/4.0.2-1.4.3/ffmpeg-4.0.2-1.4.3.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/flycapture/2.11.3.121-1.4.3/flycapture-2.11.3.121-1.4.3.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/libdc1394/2.2.5-1.4.3/libdc1394-2.2.5-1.4.3.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/libfreenect/0.5.3-1.4.3/libfreenect-0.5.3-1.4.3.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/libfreenect2/0.2.0-1.4.3/libfreenect2-0.2.0-1.4.3.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/librealsense/1.12.1-1.4.3/librealsense-1.12.1-1.4.3.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/videoinput/0.200-1.4.3/videoinput-0.200-1.4.3.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/artoolkitplus/2.3.1-1.4.3/artoolkitplus-2.3.1-1.4.3.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/flandmark/1.07-1.4.3/flandmark-1.07-1.4.3.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/leptonica/1.76.0-1.4.3/leptonica-1.76.0-1.4.3.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/tesseract/4.0.0-rc2-1.4.3/tesseract-4.0.0-rc2-1.4.3.jar:/Users/xueping.sun/.m2/repository/org/apache/poi/poi/3.12/poi-3.12.jar:/Users/xueping.sun/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/xueping.sun/.m2/repository/org/apache/poi/poi-ooxml/3.12/poi-ooxml-3.12.jar:/Users/xueping.sun/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.12/poi-ooxml-schemas-3.12.jar:/Users/xueping.sun/.m2/repository/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar:/Users/xueping.sun/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/xueping.sun/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp/1.4.3/javacpp-1.4.3.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.4.3-1.4.3/opencv-3.4.3-1.4.3.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/opencv-platform/3.4.3-1.4.3/opencv-platform-3.4.3-1.4.3.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.4.3-1.4.3/opencv-3.4.3-1.4.3-android-arm.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.4.3-1.4.3/opencv-3.4.3-1.4.3-android-arm64.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.4.3-1.4.3/opencv-3.4.3-1.4.3-android-x86.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.4.3-1.4.3/opencv-3.4.3-1.4.3-android-x86_64.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.4.3-1.4.3/opencv-3.4.3-1.4.3-ios-arm64.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.4.3-1.4.3/opencv-3.4.3-1.4.3-ios-x86_64.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.4.3-1.4.3/opencv-3.4.3-1.4.3-linux-x86.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.4.3-1.4.3/opencv-3.4.3-1.4.3-linux-x86_64.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.4.3-1.4.3/opencv-3.4.3-1.4.3-linux-armhf.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.4.3-1.4.3/opencv-3.4.3-1.4.3-linux-ppc64le.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.4.3-1.4.3/opencv-3.4.3-1.4.3-macosx-x86_64.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.4.3-1.4.3/opencv-3.4.3-1.4.3-windows-x86.jar:/Users/xueping.sun/.m2/repository/org/bytedeco/javacpp-presets/opencv/3.4.3-1.4.3/opencv-3.4.3-1.4.3-windows-x86_64.jar:/Users/xueping.sun/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/xueping.sun/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/xueping.sun/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/xueping.sun/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/xueping.sun/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/xueping.sun/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/xueping.sun/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/xueping.sun/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/xueping.sun/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/xueping.sun/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/xueping.sun/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/xueping.sun/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/xueping.sun/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/xueping.sun/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/xueping.sun/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/xueping.sun/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/xueping.sun/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/xueping.sun/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/xueping.sun/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/xueping.sun/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/xueping.sun/.m2/repository/org/testng/testng/6.14.2/testng-6.14.2.jar:/Users/xueping.sun/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/xueping.sun/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/xueping.sun/.m2/repository/io/qameta/allure/allure-testng/2.13.0/allure-testng-2.13.0.jar:/Users/xueping.sun/.m2/repository/io/qameta/allure/allure-java-commons/2.13.0/allure-java-commons-2.13.0.jar:/Users/xueping.sun/.m2/repository/io/qameta/allure/allure-model/2.13.0/allure-model-2.13.0.jar:/Users/xueping.sun/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/xueping.sun/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar:/Users/xueping.sun/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/Users/xueping.sun/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar:/Users/xueping.sun/.m2/repository/org/apache/tika/tika-core/1.20/tika-core-1.20.jar:/Users/xueping.sun/.m2/repository/org/jooq/joor-java-8/0.9.10/joor-java-8-0.9.10.jar:/Users/xueping.sun/.m2/repository/org/uncommons/reportng/1.1.4/reportng-1.1.4.jar:/Users/xueping.sun/.m2/repository/velocity/velocity/1.4/velocity-1.4.jar:/Users/xueping.sun/.m2/repository/velocity/velocity-dep/1.4/velocity-dep-1.4.jar:/Users/xueping.sun/.m2/repository/com/google/inject/guice/3.0/guice-3.0.jar:/Users/xueping.sun/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/xueping.sun/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/xueping.sun/.m2/repository/org/json/json/20160810/json-20160810.jar:/Users/xueping.sun/.m2/repository/javax/mail/mail/1.5.0-b01/mail-1.5.0-b01.jar:/Users/xueping.sun/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/xueping.sun/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/xueping.sun/.m2/repository/net/sourceforge/jexcelapi/jxl/2.6.12/jxl-2.6.12.jar:/Users/xueping.sun/.m2/repository/mysql/mysql-connector-java/5.1.47/mysql-connector-java-5.1.47.jar:/Users/xueping.sun/.m2/repository/com/github/sanjusoftware/yamlbeans/1.11/yamlbeans-1.11.jar:/Users/xueping.sun/.m2/repository/com/alibaba/fastjson/1.2.54/fastjson-1.2.54.jar:/Users/xueping.sun/.m2/repository/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/xueping.sun"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/target/surefire/surefirebooter6021193915636815124.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="user.name" value="xueping.sun"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.14.6"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/xueping.sun/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/gq/rj3hd6rn3tn7b2qh664s51p40000gn/T/"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="user.dir" value="/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="idea.version2019.1" value="true"/>
+    <property name="java.library.path" value="/Users/xueping.sun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.ext.dirs" value="/Users/xueping.sun/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="jiangxin_test" classname="sun.baoxian.fangaiTest" time="17.393"/>
+  <testcase name="yangguang_BW_001" classname="sun.baoxian.yanguangTest" time="28.518">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at sun.baoxian.yanguangTest.yangguang_BW_001(yanguangTest.java:12)
+</failure>
+    <system-out><![CDATA[[INFO ] 2020-03-16 10:56:04,501 method: sun.baoxian.base.WebCaseBase.tearDown(WebCaseBase.java:71)
+关闭浏览器
+[INFO ] 2020-03-16 10:56:04,505 method: sun.baoxian.base.WebCaseBase.setup(WebCaseBase.java:27)
+------------------开始执行测试---------------
+[INFO ] 2020-03-16 10:56:04,506 method: sun.baoxian.base.WebCaseBase.setup(WebCaseBase.java:29)
+启动浏览器
+[INFO ] 2020-03-16 10:56:05,014 method: sun.baoxian.base.WebCaseBase.setup(WebCaseBase.java:43)
+启动Chrome浏览器
+[INFO ] 2020-03-16 10:56:21,786 method: sun.baoxian.base.WebActionBase.getPage(WebActionBase.java:151)
+打开页面
+5
+[INFO ] 2020-03-16 10:56:21,788 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：name方式[By.cssSelector:input[data-type='name']]
+[INFO ] 2020-03-16 10:56:22,479 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：name方式[By.cssSelector:input[data-type='name']]
+[INFO ] 2020-03-16 10:56:22,683 method: sun.baoxian.base.WebElementBase.type(WebElementBase.java:58)
+input输入：name[By.cssSelector:input[data-type='name']  value:*******]
+5
+[INFO ] 2020-03-16 10:56:22,684 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：idcard方式[By.cssSelector:input[data-type='identity']]
+[INFO ] 2020-03-16 10:56:23,104 method: sun.baoxian.base.WebElementBase.type(WebElementBase.java:58)
+input输入：idcard[By.cssSelector:input[data-type='identity']  value:*******]
+[INFO ] 2020-03-16 10:56:23,104 method: sun.baoxian.base.WebElementBase.sleep(WebElementBase.java:459)
+等待4秒
+5
+[INFO ] 2020-03-16 10:56:27,105 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：mobile方式[By.cssSelector:input[data-type='mobile']]
+[INFO ] 2020-03-16 10:56:27,248 method: sun.baoxian.base.WebElementBase.type(WebElementBase.java:58)
+input输入：mobile[By.cssSelector:input[data-type='mobile']  value:*******]
+5
+[INFO ] 2020-03-16 10:56:27,248 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：sms_code方式[By.cssSelector:input[data-type='sms_code']]
+[INFO ] 2020-03-16 10:56:27,340 method: sun.baoxian.base.WebElementBase.type(WebElementBase.java:58)
+input输入：sms_code[By.cssSelector:input[data-type='sms_code']  value:*******]
+执行JS脚本：window.scrollBy(0,400);
+5
+[INFO ] 2020-03-16 10:56:27,351 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：order方式[By.xpath://*[text()='立即投保']]
+5
+[INFO ] 2020-03-16 10:56:27,481 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：confrim方式[By.xpath://*[text()='好的 继续']]
+[INFO ] 2020-03-16 10:56:27,566 method: sun.baoxian.base.WebElementBase.click(WebElementBase.java:123)
+click元素：confrim[By.xpath://*[text()='好的 继续']]成功！
+5
+[INFO ] 2020-03-16 10:56:27,566 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：rconfrim方式[By.xpath://*[text()='职业符合']]
+[INFO ] 2020-03-16 10:56:27,905 method: sun.baoxian.base.WebElementBase.click(WebElementBase.java:123)
+click元素：rconfrim[By.xpath://*[text()='职业符合']]成功！
+5
+[INFO ] 2020-03-16 10:56:27,906 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：pay方式[By.className:hz-button-text]
+[INFO ] 2020-03-16 10:56:28,422 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：pay方式[By.className:hz-button-text]
+[INFO ] 2020-03-16 10:56:28,935 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：pay方式[By.className:hz-button-text]
+[INFO ] 2020-03-16 10:56:29,452 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：pay方式[By.className:hz-button-text]
+[INFO ] 2020-03-16 10:56:29,969 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：pay方式[By.className:hz-button-text]
+[INFO ] 2020-03-16 10:56:30,483 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：pay方式[By.className:hz-button-text]
+[INFO ] 2020-03-16 10:56:30,998 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：pay方式[By.className:hz-button-text]
+[INFO ] 2020-03-16 10:56:31,508 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：pay方式[By.className:hz-button-text]
+[INFO ] 2020-03-16 10:56:32,040 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：pay方式[By.className:hz-button-text]
+[INFO ] 2020-03-16 10:56:32,566 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：pay方式[By.className:hz-button-text]
+[INFO ] 2020-03-16 10:56:33,083 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：pay方式[By.className:hz-button-text]
+[INFO ] 2020-03-16 10:56:33,094 method: sun.baoxian.base.WebElementBase.findElement(WebElementBase.java:656)
+超时无法定位页面元素
+[ERROR] 2020-03-16 10:56:33,515 method: sun.baoxian.utils.ScreenShotUtil.takeScreenshot(ScreenShotUtil.java:39)
+错误截图：/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/report/snapshot/2020-03-16 105633109.jpg
+<a href=snapshot/2020-03-16 105633109.jpg target=_blank><img src=snapshot//2020-03-16 105633109.jpg style=width:30px;height:30px img/>失败截图</a>
+[INFO ] 2020-03-16 10:56:33,516 method: sun.baoxian.base.WebElementBase.findElement(WebElementBase.java:666)
+2020-03-16 105633109
+]]></system-out>
+    <system-err><![CDATA[三月 16, 2020 10:56:04 上午 org.openqa.selenium.remote.DesiredCapabilities chrome
+信息: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f) on port 7054
+Only local connections are allowed.
+三月 16, 2020 10:56:05 上午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: OSS
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for sun.baoxian.base.WebElementBase$3@77b325b3 (tried for 5 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at sun.baoxian.base.WebElementBase.findElement(WebElementBase.java:628)
+	at sun.baoxian.base.WebElementBase.DisplayElement(WebElementBase.java:540)
+	at sun.baoxian.actions.yangguangAction.yangguangBW(yangguangAction.java:35)
+	at sun.baoxian.yanguangTest.yangguang_BW_001(yanguangTest.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"class name","selector":"hz-button-text"}
+  (Session info: headless chrome=80.0.3987.132)
+  (Driver info: chromedriver=70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'xuepingsundeMacBook-Pro.local', ip: 'fe80:0:0:0:c98:507b:278f:dbbb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.67 (9ab0cfab84ded..., userDataDir: /var/folders/gq/rj3hd6rn3tn...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60336}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.132, webStorageEnabled: true}
+Session ID: 6c43be4bb43b3a81f6a5b5857811b05d
+*** Element info: {Using=class name, value=hz-button-text}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:715)
+	at sun.baoxian.base.WebElementBase$3.apply(WebElementBase.java:635)
+	at sun.baoxian.base.WebElementBase$3.apply(WebElementBase.java:629)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 33 more
+]]></system-err>
+  </testcase>
+  <testcase name="yanguang_ZH_001" classname="sun.baoxian.yanguangTest" time="15.155">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at sun.baoxian.yanguangTest.yanguang_ZH_001(yanguangTest.java:17)
+</failure>
+    <system-out><![CDATA[[INFO ] 2020-03-16 10:56:33,618 method: sun.baoxian.base.WebCaseBase.tearDown(WebCaseBase.java:71)
+关闭浏览器
+[INFO ] 2020-03-16 10:56:33,620 method: sun.baoxian.base.WebCaseBase.setup(WebCaseBase.java:27)
+------------------开始执行测试---------------
+[INFO ] 2020-03-16 10:56:33,620 method: sun.baoxian.base.WebCaseBase.setup(WebCaseBase.java:29)
+启动浏览器
+[INFO ] 2020-03-16 10:56:34,135 method: sun.baoxian.base.WebCaseBase.setup(WebCaseBase.java:43)
+启动Chrome浏览器
+[INFO ] 2020-03-16 10:56:37,817 method: sun.baoxian.base.WebActionBase.getPage(WebActionBase.java:151)
+打开页面
+5
+[INFO ] 2020-03-16 10:56:37,819 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：name方式[By.cssSelector:input[data-type='name']]
+[INFO ] 2020-03-16 10:56:38,350 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：name方式[By.cssSelector:input[data-type='name']]
+[INFO ] 2020-03-16 10:56:38,872 method: sun.baoxian.base.WebElementBase.type(WebElementBase.java:58)
+input输入：name[By.cssSelector:input[data-type='name']  value:*******]
+5
+[INFO ] 2020-03-16 10:56:38,872 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：idcard方式[By.cssSelector:input[data-type='identity']]
+[INFO ] 2020-03-16 10:56:39,152 method: sun.baoxian.base.WebElementBase.type(WebElementBase.java:58)
+input输入：idcard[By.cssSelector:input[data-type='identity']  value:*******]
+[INFO ] 2020-03-16 10:56:39,152 method: sun.baoxian.base.WebElementBase.sleep(WebElementBase.java:459)
+等待4秒
+5
+[INFO ] 2020-03-16 10:56:43,157 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：mobile方式[By.cssSelector:input[data-type='mobile']]
+[INFO ] 2020-03-16 10:56:43,275 method: sun.baoxian.base.WebElementBase.type(WebElementBase.java:58)
+input输入：mobile[By.cssSelector:input[data-type='mobile']  value:*******]
+5
+[INFO ] 2020-03-16 10:56:43,275 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：sms_code方式[By.cssSelector:input[data-type='sms_code']]
+[INFO ] 2020-03-16 10:56:43,347 method: sun.baoxian.base.WebElementBase.type(WebElementBase.java:58)
+input输入：sms_code[By.cssSelector:input[data-type='sms_code']  value:*******]
+执行JS脚本：window.scrollBy(0,400);
+5
+[INFO ] 2020-03-16 10:56:43,355 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：order方式[By.xpath://*[text()='立即投保']]
+5
+[INFO ] 2020-03-16 10:56:43,442 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：confrim方式[By.xpath://*[text()='好的 继续']]
+[INFO ] 2020-03-16 10:56:43,598 method: sun.baoxian.base.WebElementBase.click(WebElementBase.java:123)
+click元素：confrim[By.xpath://*[text()='好的 继续']]成功！
+5
+[INFO ] 2020-03-16 10:56:43,599 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：rconfrim方式[By.xpath://*[text()='职业符合']]
+[INFO ] 2020-03-16 10:56:43,726 method: sun.baoxian.base.WebElementBase.click(WebElementBase.java:123)
+click元素：rconfrim[By.xpath://*[text()='职业符合']]成功！
+5
+[INFO ] 2020-03-16 10:56:43,727 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：pay方式[By.className:hz-button-text]
+[INFO ] 2020-03-16 10:56:44,266 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：pay方式[By.className:hz-button-text]
+[INFO ] 2020-03-16 10:56:44,779 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：pay方式[By.className:hz-button-text]
+[INFO ] 2020-03-16 10:56:45,289 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：pay方式[By.className:hz-button-text]
+[INFO ] 2020-03-16 10:56:45,800 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：pay方式[By.className:hz-button-text]
+[INFO ] 2020-03-16 10:56:46,310 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：pay方式[By.className:hz-button-text]
+[INFO ] 2020-03-16 10:56:46,823 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：pay方式[By.className:hz-button-text]
+[INFO ] 2020-03-16 10:56:47,338 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：pay方式[By.className:hz-button-text]
+[INFO ] 2020-03-16 10:56:47,852 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：pay方式[By.className:hz-button-text]
+[INFO ] 2020-03-16 10:56:48,364 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：pay方式[By.className:hz-button-text]
+[INFO ] 2020-03-16 10:56:48,877 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：pay方式[By.className:hz-button-text]
+[INFO ] 2020-03-16 10:56:48,887 method: sun.baoxian.base.WebElementBase.findElement(WebElementBase.java:656)
+超时无法定位页面元素
+[ERROR] 2020-03-16 10:56:49,289 method: sun.baoxian.utils.ScreenShotUtil.takeScreenshot(ScreenShotUtil.java:39)
+错误截图：/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/report/snapshot/2020-03-16 105648888.jpg
+<a href=snapshot/2020-03-16 105648888.jpg target=_blank><img src=snapshot//2020-03-16 105648888.jpg style=width:30px;height:30px img/>失败截图</a>
+[INFO ] 2020-03-16 10:56:49,291 method: sun.baoxian.base.WebElementBase.findElement(WebElementBase.java:666)
+2020-03-16 105648888
+]]></system-out>
+    <system-err><![CDATA[三月 16, 2020 10:56:33 上午 org.openqa.selenium.remote.DesiredCapabilities chrome
+信息: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f) on port 45348
+Only local connections are allowed.
+三月 16, 2020 10:56:34 上午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: OSS
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for sun.baoxian.base.WebElementBase$3@3e6f3bae (tried for 5 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at sun.baoxian.base.WebElementBase.findElement(WebElementBase.java:628)
+	at sun.baoxian.base.WebElementBase.DisplayElement(WebElementBase.java:540)
+	at sun.baoxian.actions.yangguangAction.yangguangZH(yangguangAction.java:61)
+	at sun.baoxian.yanguangTest.yanguang_ZH_001(yanguangTest.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"class name","selector":"hz-button-text"}
+  (Session info: headless chrome=80.0.3987.132)
+  (Driver info: chromedriver=70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'xuepingsundeMacBook-Pro.local', ip: 'fe80:0:0:0:c98:507b:278f:dbbb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.67 (9ab0cfab84ded..., userDataDir: /var/folders/gq/rj3hd6rn3tn...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60376}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.132, webStorageEnabled: true}
+Session ID: 1cf77389e06a7647b7fba01588b3de87
+*** Element info: {Using=class name, value=hz-button-text}
+	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:715)
+	at sun.baoxian.base.WebElementBase$3.apply(WebElementBase.java:635)
+	at sun.baoxian.base.WebElementBase$3.apply(WebElementBase.java:629)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 33 more
+]]></system-err>
+  </testcase>
+  <testcase name="taikang2020_PH_001" classname="sun.baoxian.shortInsuranceTest" time="10.755"/>
+  <testcase name="taikang2020_SC_001" classname="sun.baoxian.shortInsuranceTest" time="15.885"/>
+  <testcase name="taikang2020_SC_002" classname="sun.baoxian.shortInsuranceTest" time="10.175"/>
+  <testcase name="taikang2020_SC_003" classname="sun.baoxian.shortInsuranceTest" time="10.668"/>
+  <testcase name="yangguang_001" classname="sun.baoxian.shortInsuranceTest" time="1.352">
+    <failure message="unknown error: Element &lt;div class=&quot;b-amount&quot;&gt;...&lt;/div&gt; is not clickable at point (388, 558). Other element would receive the click: &lt;div class=&quot;flex-start flex-direction-column ml40 fee-wrap&quot;&gt;...&lt;/div&gt;&#10;  (Session info: headless chrome=80.0.3987.132)&#10;  (Driver info: chromedriver=70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;xuepingsundeMacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:c98:507b:278f:dbbb%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.67 (9ab0cfab84ded..., userDataDir: /var/folders/gq/rj3hd6rn3tn...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60619}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.132, webStorageEnabled: true}&#10;Session ID: ec6adb6ca0ab8d1df860d6c354da7b58" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+unknown error: Element <div class="b-amount">...</div> is not clickable at point (388, 558). Other element would receive the click: <div class="flex-start flex-direction-column ml40 fee-wrap">...</div>
+  (Session info: headless chrome=80.0.3987.132)
+  (Driver info: chromedriver=70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'xuepingsundeMacBook-Pro.local', ip: 'fe80:0:0:0:c98:507b:278f:dbbb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.67 (9ab0cfab84ded..., userDataDir: /var/folders/gq/rj3hd6rn3tn...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60619}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.132, webStorageEnabled: true}
+Session ID: ec6adb6ca0ab8d1df860d6c354da7b58
+	at sun.baoxian.shortInsuranceTest.yangguang_001(shortInsuranceTest.java:47)
+]]></failure>
+    <system-out><![CDATA[[INFO ] 2020-03-16 10:57:39,959 method: sun.baoxian.base.WebCaseBase.tearDown(WebCaseBase.java:71)
+关闭浏览器
+[INFO ] 2020-03-16 10:57:39,962 method: sun.baoxian.base.WebCaseBase.setup(WebCaseBase.java:27)
+------------------开始执行测试---------------
+[INFO ] 2020-03-16 10:57:39,962 method: sun.baoxian.base.WebCaseBase.setup(WebCaseBase.java:29)
+启动浏览器
+[INFO ] 2020-03-16 10:57:40,409 method: sun.baoxian.base.WebCaseBase.setup(WebCaseBase.java:43)
+启动Chrome浏览器
+[INFO ] 2020-03-16 10:57:41,181 method: sun.baoxian.base.WebActionBase.getPage(WebActionBase.java:151)
+打开页面
+5
+[INFO ] 2020-03-16 10:57:41,190 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：yg20w方式[By.xpath://*[@class='amount-box-wrap']/*[position()=2]]
+[INFO ] 2020-03-16 10:57:41,710 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：yg20w方式[By.xpath://*[@class='amount-box-wrap']/*[position()=2]]
+]]></system-out>
+    <system-err><![CDATA[三月 16, 2020 10:57:39 上午 org.openqa.selenium.remote.DesiredCapabilities chrome
+信息: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f) on port 49066
+Only local connections are allowed.
+三月 16, 2020 10:57:40 上午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="yangguang_002" classname="sun.baoxian.shortInsuranceTest" time="12.169">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at sun.baoxian.shortInsuranceTest.yangguang_002(shortInsuranceTest.java:52)
+</failure>
+    <system-out><![CDATA[[INFO ] 2020-03-16 10:57:41,839 method: sun.baoxian.base.WebCaseBase.tearDown(WebCaseBase.java:71)
+关闭浏览器
+[INFO ] 2020-03-16 10:57:41,842 method: sun.baoxian.base.WebCaseBase.setup(WebCaseBase.java:27)
+------------------开始执行测试---------------
+[INFO ] 2020-03-16 10:57:41,842 method: sun.baoxian.base.WebCaseBase.setup(WebCaseBase.java:29)
+启动浏览器
+[INFO ] 2020-03-16 10:57:42,263 method: sun.baoxian.base.WebCaseBase.setup(WebCaseBase.java:43)
+启动Chrome浏览器
+[INFO ] 2020-03-16 10:57:42,938 method: sun.baoxian.base.WebActionBase.getPage(WebActionBase.java:151)
+打开页面
+5
+[INFO ] 2020-03-16 10:57:42,956 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：order方式[By.xpath://*[text()='立即投保']]
+[INFO ] 2020-03-16 10:57:43,475 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：order方式[By.xpath://*[text()='立即投保']]
+[INFO ] 2020-03-16 10:57:43,531 method: sun.baoxian.base.WebElementBase.click(WebElementBase.java:123)
+click元素：order[By.xpath://*[text()='立即投保']]成功！
+5
+[INFO ] 2020-03-16 10:57:43,531 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：name方式[By.cssSelector:input[placeholder='请输入真实姓名']]
+[INFO ] 2020-03-16 10:57:43,748 method: sun.baoxian.base.WebElementBase.type(WebElementBase.java:58)
+input输入：name[By.cssSelector:input[placeholder='请输入真实姓名']  value:*******]
+5
+[INFO ] 2020-03-16 10:57:43,748 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：idcard方式[By.name:identity]
+[INFO ] 2020-03-16 10:57:44,148 method: sun.baoxian.base.WebElementBase.type(WebElementBase.java:58)
+input输入：idcard[By.name:identity  value:*******]
+5
+[INFO ] 2020-03-16 10:57:44,148 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：mobile方式[By.name:mobile]
+[INFO ] 2020-03-16 10:57:44,385 method: sun.baoxian.base.WebElementBase.type(WebElementBase.java:58)
+input输入：mobile[By.name:mobile  value:*******]
+5
+[INFO ] 2020-03-16 10:57:44,385 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：sms_code方式[By.name:sms_code]
+[INFO ] 2020-03-16 10:57:44,562 method: sun.baoxian.base.WebElementBase.type(WebElementBase.java:58)
+input输入：sms_code[By.name:sms_code  value:*******]
+[INFO ] 2020-03-16 10:57:44,562 method: sun.baoxian.base.WebElementBase.sleep(WebElementBase.java:459)
+等待2秒
+执行JS脚本：window.scrollBy(0,400);
+5
+[INFO ] 2020-03-16 10:57:46,581 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：order方式[By.xpath://*[text()='立即投保']]
+[INFO ] 2020-03-16 10:57:46,691 method: sun.baoxian.base.WebElementBase.click(WebElementBase.java:123)
+click元素：order[By.xpath://*[text()='立即投保']]成功！
+[INFO ] 2020-03-16 10:57:46,692 method: sun.baoxian.base.WebElementBase.sleep(WebElementBase.java:459)
+等待2秒
+5
+[INFO ] 2020-03-16 10:57:48,699 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：confrim方式[By.xpath://div[@class='protocol-btm-btn']]
+[INFO ] 2020-03-16 10:57:48,782 method: sun.baoxian.base.WebElementBase.click(WebElementBase.java:123)
+click元素：confrim[By.xpath://div[@class='protocol-btm-btn']]成功！
+5
+[INFO ] 2020-03-16 10:57:48,782 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：pay方式[By.className:hz-button-text]
+[INFO ] 2020-03-16 10:57:49,342 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：pay方式[By.className:hz-button-text]
+[INFO ] 2020-03-16 10:57:49,862 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：pay方式[By.className:hz-button-text]
+[INFO ] 2020-03-16 10:57:50,392 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：pay方式[By.className:hz-button-text]
+[INFO ] 2020-03-16 10:57:50,933 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：pay方式[By.className:hz-button-text]
+[INFO ] 2020-03-16 10:57:51,445 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：pay方式[By.className:hz-button-text]
+[INFO ] 2020-03-16 10:57:51,975 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：pay方式[By.className:hz-button-text]
+[INFO ] 2020-03-16 10:57:52,484 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：pay方式[By.className:hz-button-text]
+[INFO ] 2020-03-16 10:57:52,996 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：pay方式[By.className:hz-button-text]
+[INFO ] 2020-03-16 10:57:53,508 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：pay方式[By.className:hz-button-text]
+[INFO ] 2020-03-16 10:57:54,030 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：pay方式[By.className:hz-button-text]
+[INFO ] 2020-03-16 10:57:54,065 method: sun.baoxian.base.WebElementBase.findElement(WebElementBase.java:656)
+超时无法定位页面元素
+[ERROR] 2020-03-16 10:57:54,421 method: sun.baoxian.utils.ScreenShotUtil.takeScreenshot(ScreenShotUtil.java:39)
+错误截图：/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/report/snapshot/2020-03-16 105754067.jpg
+<a href=snapshot/2020-03-16 105754067.jpg target=_blank><img src=snapshot//2020-03-16 105754067.jpg style=width:30px;height:30px img/>失败截图</a>
+[INFO ] 2020-03-16 10:57:54,427 method: sun.baoxian.base.WebElementBase.findElement(WebElementBase.java:666)
+2020-03-16 105754067
+]]></system-out>
+    <system-err><![CDATA[三月 16, 2020 10:57:41 上午 org.openqa.selenium.remote.DesiredCapabilities chrome
+信息: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f) on port 28393
+Only local connections are allowed.
+三月 16, 2020 10:57:42 上午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: OSS
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for sun.baoxian.base.WebElementBase$3@3f1ed068 (tried for 5 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at sun.baoxian.base.WebElementBase.findElement(WebElementBase.java:628)
+	at sun.baoxian.base.WebElementBase.DisplayElement(WebElementBase.java:540)
+	at sun.baoxian.actions.shortInsurance19Action.YG_BW_Plus(shortInsurance19Action.java:238)
+	at sun.baoxian.shortInsuranceTest.yangguang_002(shortInsuranceTest.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"class name","selector":"hz-button-text"}
+  (Session info: headless chrome=80.0.3987.132)
+  (Driver info: chromedriver=70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'xuepingsundeMacBook-Pro.local', ip: 'fe80:0:0:0:c98:507b:278f:dbbb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.67 (9ab0cfab84ded..., userDataDir: /var/folders/gq/rj3hd6rn3tn...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60645}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.132, webStorageEnabled: true}
+Session ID: f0062e43afe787f9fc0cd0db09e05527
+*** Element info: {Using=class name, value=hz-button-text}
+	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:715)
+	at sun.baoxian.base.WebElementBase$3.apply(WebElementBase.java:635)
+	at sun.baoxian.base.WebElementBase$3.apply(WebElementBase.java:629)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 33 more
+]]></system-err>
+  </testcase>
+  <testcase name="zhonghui_001" classname="sun.baoxian.shortInsuranceTest" time="13.368"/>
+  <testcase name="zhonghui_002" classname="sun.baoxian.shortInsuranceTest" time="10.437"/>
+  <testcase name="zhonghui_003" classname="sun.baoxian.shortInsuranceTest" time="17.122"/>
+  <testcase name="changqingbao" classname="sun.baoxian.changqingbaoTest" time="13.811">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[text()=&apos;确定&apos;]&quot;}&#10;  (Session info: headless chrome=80.0.3987.132)&#10;  (Driver info: chromedriver=70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;xuepingsundeMacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:c98:507b:278f:dbbb%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.67 (9ab0cfab84ded..., userDataDir: /var/folders/gq/rj3hd6rn3tn...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60797}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.132, webStorageEnabled: true}&#10;Session ID: 8d91e75ce601e4a68530afa836d39a3d&#10;*** Element info: {Using=xpath, value=//*[text()=&apos;确定&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='确定']"}
+  (Session info: headless chrome=80.0.3987.132)
+  (Driver info: chromedriver=70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'xuepingsundeMacBook-Pro.local', ip: 'fe80:0:0:0:c98:507b:278f:dbbb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.67 (9ab0cfab84ded..., userDataDir: /var/folders/gq/rj3hd6rn3tn...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60797}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.132, webStorageEnabled: true}
+Session ID: 8d91e75ce601e4a68530afa836d39a3d
+*** Element info: {Using=xpath, value=//*[text()='确定']}
+	at sun.baoxian.changqingbaoTest.changqingbao(changqingbaoTest.java:11)
+</failure>
+    <system-out><![CDATA[[INFO ] 2020-03-16 10:58:37,428 method: sun.baoxian.base.WebCaseBase.tearDown(WebCaseBase.java:71)
+关闭浏览器
+[INFO ] 2020-03-16 10:58:37,431 method: sun.baoxian.base.WebCaseBase.setup(WebCaseBase.java:27)
+------------------开始执行测试---------------
+[INFO ] 2020-03-16 10:58:37,431 method: sun.baoxian.base.WebCaseBase.setup(WebCaseBase.java:29)
+启动浏览器
+[INFO ] 2020-03-16 10:58:37,860 method: sun.baoxian.base.WebCaseBase.setup(WebCaseBase.java:43)
+启动Chrome浏览器
+[INFO ] 2020-03-16 10:58:42,650 method: sun.baoxian.base.WebActionBase.getPage(WebActionBase.java:151)
+打开页面
+5
+[INFO ] 2020-03-16 10:58:42,704 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：submit方式[By.className:maba-button]
+[INFO ] 2020-03-16 10:58:42,779 method: sun.baoxian.base.WebElementBase.click(WebElementBase.java:123)
+click元素：submit[By.className:maba-button]成功！
+[INFO ] 2020-03-16 10:58:42,779 method: sun.baoxian.base.WebElementBase.sleep(WebElementBase.java:459)
+等待5秒
+5
+[INFO ] 2020-03-16 10:58:47,783 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：jiangao方式[By.xpath://*[text()='以上情况全无']]
+[INFO ] 2020-03-16 10:58:47,853 method: sun.baoxian.base.WebElementBase.click(WebElementBase.java:123)
+click元素：jiangao[By.xpath://*[text()='以上情况全无']]成功！
+5
+[INFO ] 2020-03-16 10:58:47,853 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：ins_name方式[By.cssSelector:input[placeholder='请输入投保人姓名']]
+[INFO ] 2020-03-16 10:58:48,372 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：ins_name方式[By.cssSelector:input[placeholder='请输入投保人姓名']]
+[INFO ] 2020-03-16 10:58:48,554 method: sun.baoxian.base.WebElementBase.type(WebElementBase.java:58)
+input输入：ins_name[By.cssSelector:input[placeholder='请输入投保人姓名']  value:*******]
+5
+[INFO ] 2020-03-16 10:58:48,555 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：ins_idcard方式[By.cssSelector:input[placeholder='请输入投保人证件号码']]
+[INFO ] 2020-03-16 10:58:48,796 method: sun.baoxian.base.WebElementBase.type(WebElementBase.java:58)
+input输入：ins_idcard[By.cssSelector:input[placeholder='请输入投保人证件号码']  value:*******]
+5
+[INFO ] 2020-03-16 10:58:48,886 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：mobile方式[By.cssSelector:input[placeholder='请输入投保人手机号']]
+[INFO ] 2020-03-16 10:58:49,109 method: sun.baoxian.base.WebElementBase.type(WebElementBase.java:58)
+input输入：mobile[By.cssSelector:input[placeholder='请输入投保人手机号']  value:*******]
+5
+[INFO ] 2020-03-16 10:58:49,109 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：sms_code方式[By.name:sms_code]
+[INFO ] 2020-03-16 10:58:49,237 method: sun.baoxian.base.WebElementBase.type(WebElementBase.java:58)
+input输入：sms_code[By.name:sms_code  value:*******]
+5
+[INFO ] 2020-03-16 10:58:49,238 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：email方式[By.name:email]
+[INFO ] 2020-03-16 10:58:49,553 method: sun.baoxian.base.WebElementBase.type(WebElementBase.java:58)
+input输入：email[By.name:email  value:*******]
+执行JS脚本：window.scrollBy(0,400);
+[INFO ] 2020-03-16 10:58:49,653 method: sun.baoxian.base.WebElementBase.sleep(WebElementBase.java:459)
+等待2秒
+]]></system-out>
+    <system-err><![CDATA[三月 16, 2020 10:58:37 上午 org.openqa.selenium.remote.DesiredCapabilities chrome
+信息: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f) on port 23529
+Only local connections are allowed.
+三月 16, 2020 10:58:37 上午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="jingling" classname="sun.baoxian.jinglingbaoTest" time="14.65"/>
+  <testcase name="mamibaobei" classname="sun.baoxian.mamibaobeiTest" time="57.146">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at sun.baoxian.mamibaobeiTest.mamibaobei(mamibaobeiTest.java:12)
+</failure>
+    <system-out><![CDATA[[INFO ] 2020-03-16 10:59:07,155 method: sun.baoxian.base.WebCaseBase.tearDown(WebCaseBase.java:71)
+关闭浏览器
+[INFO ] 2020-03-16 10:59:07,157 method: sun.baoxian.base.WebCaseBase.setup(WebCaseBase.java:27)
+------------------开始执行测试---------------
+[INFO ] 2020-03-16 10:59:07,157 method: sun.baoxian.base.WebCaseBase.setup(WebCaseBase.java:29)
+启动浏览器
+[INFO ] 2020-03-16 10:59:07,707 method: sun.baoxian.base.WebCaseBase.setup(WebCaseBase.java:43)
+启动Chrome浏览器
+[INFO ] 2020-03-16 10:59:25,049 method: sun.baoxian.base.WebActionBase.getPage(WebActionBase.java:151)
+打开页面
+5
+[INFO ] 2020-03-16 10:59:25,087 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：submit方式[By.xpath://*[text()='立即投保']]
+[INFO ] 2020-03-16 10:59:25,205 method: sun.baoxian.base.WebElementBase.click(WebElementBase.java:123)
+click元素：submit[By.xpath://*[text()='立即投保']]成功！
+[INFO ] 2020-03-16 10:59:25,205 method: sun.baoxian.base.WebElementBase.sleep(WebElementBase.java:459)
+等待5秒
+[INFO ] 2020-03-16 10:59:30,384 method: sun.baoxian.base.WebElementBase.sleep(WebElementBase.java:459)
+等待2秒
+[INFO ] 2020-03-16 10:59:32,637 method: sun.baoxian.base.WebElementBase.sleep(WebElementBase.java:459)
+等待2秒
+5
+[INFO ] 2020-03-16 10:59:34,737 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：baoe20方式[By.xpath://*[text()='20万']]
+[INFO ] 2020-03-16 10:59:34,785 method: sun.baoxian.base.WebElementBase.click(WebElementBase.java:123)
+click元素：baoe20[By.xpath://*[text()='20万']]成功！
+5
+[INFO ] 2020-03-16 10:59:34,786 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：period20方式[By.xpath://div[@class='mb-trial-item-left period']/following-sibling::div[1]/div/div[1]/div[text()='20年']]
+[INFO ] 2020-03-16 10:59:34,852 method: sun.baoxian.base.WebElementBase.click(WebElementBase.java:123)
+click元素：period20[By.xpath://div[@class='mb-trial-item-left period']/following-sibling::div[1]/div/div[1]/div[text()='20年']]成功！
+5
+[INFO ] 2020-03-16 10:59:34,852 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：pay10方式[By.xpath://div[@class='mb-trial-item-left pay_peroids']/following-sibling::div[1]/div/div[1]/div[text()='10年']]
+[INFO ] 2020-03-16 10:59:34,952 method: sun.baoxian.base.WebElementBase.click(WebElementBase.java:123)
+click元素：pay10[By.xpath://div[@class='mb-trial-item-left pay_peroids']/following-sibling::div[1]/div/div[1]/div[text()='10年']]成功！
+5
+[INFO ] 2020-03-16 10:59:34,953 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：ercizhongji方式[By.xpath://div[text()='二次重疾']/following-sibling::div[1]/div[1]/div[1]/div[2]]
+[INFO ] 2020-03-16 10:59:35,066 method: sun.baoxian.base.WebElementBase.click(WebElementBase.java:123)
+click元素：ercizhongji[By.xpath://div[text()='二次重疾']/following-sibling::div[1]/div[1]/div[1]/div[2]]成功！
+5
+[INFO ] 2020-03-16 10:59:35,066 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：tejihanjianbing方式[By.xpath://div[text()='特疾和罕见病']/following-sibling::div[1]/div[1]/div[1]/div[2]]
+[INFO ] 2020-03-16 10:59:35,139 method: sun.baoxian.base.WebElementBase.click(WebElementBase.java:123)
+click元素：tejihanjianbing[By.xpath://div[text()='特疾和罕见病']/following-sibling::div[1]/div[1]/div[1]/div[2]]成功！
+5
+[INFO ] 2020-03-16 10:59:35,139 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：toubaorenhuomian方式[By.xpath://div[text()='投保人豁免']/following-sibling::div[1]/div[1]/div[1]/div[1]]
+[INFO ] 2020-03-16 10:59:35,255 method: sun.baoxian.base.WebElementBase.click(WebElementBase.java:123)
+click元素：toubaorenhuomian[By.xpath://div[text()='投保人豁免']/following-sibling::div[1]/div[1]/div[1]/div[1]]成功！
+5
+[INFO ] 2020-03-16 10:59:35,256 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：submit方式[By.xpath://*[text()='立即投保']]
+[INFO ] 2020-03-16 10:59:35,354 method: sun.baoxian.base.WebElementBase.click(WebElementBase.java:123)
+click元素：submit[By.xpath://*[text()='立即投保']]成功！
+[INFO ] 2020-03-16 10:59:35,354 method: sun.baoxian.base.WebElementBase.sleep(WebElementBase.java:459)
+等待5秒
+5
+[INFO ] 2020-03-16 10:59:40,358 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：jiangao方式[By.xpath://*[text()='以上情况全无']]
+[INFO ] 2020-03-16 10:59:40,417 method: sun.baoxian.base.WebElementBase.click(WebElementBase.java:123)
+click元素：jiangao[By.xpath://*[text()='以上情况全无']]成功！
+5
+[INFO ] 2020-03-16 10:59:40,418 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：ins_name方式[By.cssSelector:input[placeholder='请输入投保人姓名']]
+[INFO ] 2020-03-16 10:59:40,935 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：ins_name方式[By.cssSelector:input[placeholder='请输入投保人姓名']]
+[INFO ] 2020-03-16 10:59:41,168 method: sun.baoxian.base.WebElementBase.type(WebElementBase.java:58)
+input输入：ins_name[By.cssSelector:input[placeholder='请输入投保人姓名']  value:*******]
+5
+[INFO ] 2020-03-16 10:59:41,169 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：ins_idcard方式[By.cssSelector:input[placeholder='请输入投保人证件号码']]
+[INFO ] 2020-03-16 10:59:41,890 method: sun.baoxian.base.WebElementBase.type(WebElementBase.java:58)
+input输入：ins_idcard[By.cssSelector:input[placeholder='请输入投保人证件号码']  value:*******]
+5
+[INFO ] 2020-03-16 10:59:41,891 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：changqi方式[By.xpath://*[text()='长期']]
+[INFO ] 2020-03-16 10:59:42,112 method: sun.baoxian.base.WebElementBase.click(WebElementBase.java:123)
+click元素：changqi[By.xpath://*[text()='长期']]成功！
+5
+[INFO ] 2020-03-16 10:59:42,113 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：mobile方式[By.name:mobile]
+[INFO ] 2020-03-16 10:59:42,389 method: sun.baoxian.base.WebElementBase.type(WebElementBase.java:58)
+input输入：mobile[By.name:mobile  value:*******]
+5
+[INFO ] 2020-03-16 10:59:42,390 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：sms_code方式[By.cssSelector:input[placeholder="请输入验证码"]]
+[INFO ] 2020-03-16 10:59:42,682 method: sun.baoxian.base.WebElementBase.type(WebElementBase.java:58)
+input输入：sms_code[By.cssSelector:input[placeholder="请输入验证码"]  value:*******]
+5
+[INFO ] 2020-03-16 10:59:42,682 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：email方式[By.name:email]
+[INFO ] 2020-03-16 10:59:43,310 method: sun.baoxian.base.WebElementBase.type(WebElementBase.java:58)
+input输入：email[By.name:email  value:*******]
+5
+[INFO ] 2020-03-16 10:59:43,311 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：postcode方式[By.name:postcode]
+[INFO ] 2020-03-16 10:59:43,597 method: sun.baoxian.base.WebElementBase.type(WebElementBase.java:58)
+input输入：postcode[By.name:postcode  value:*******]
+5
+[INFO ] 2020-03-16 10:59:43,597 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：address方式[By.name:address]
+[INFO ] 2020-03-16 10:59:44,077 method: sun.baoxian.base.WebElementBase.type(WebElementBase.java:58)
+input输入：address[By.name:address  value:*******]
+5
+[INFO ] 2020-03-16 10:59:44,078 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：apl_idcard方式[By.cssSelector:input[placeholder='请输入被保人证件号码']]
+[INFO ] 2020-03-16 10:59:44,747 method: sun.baoxian.base.WebElementBase.type(WebElementBase.java:58)
+input输入：apl_idcard[By.cssSelector:input[placeholder='请输入被保人证件号码']  value:*******]
+5
+[INFO ] 2020-03-16 10:59:44,747 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：apl_name方式[By.cssSelector:input[placeholder='请输入真实姓名']]
+[INFO ] 2020-03-16 10:59:44,828 method: sun.baoxian.base.WebElementBase.type(WebElementBase.java:58)
+input输入：apl_name[By.cssSelector:input[placeholder='请输入真实姓名']  value:*******]
+执行JS脚本：window.scrollBy(0,400);
+5
+[INFO ] 2020-03-16 10:59:44,838 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：shengao方式[By.xpath://*[text()='132CM']]
+[INFO ] 2020-03-16 10:59:45,001 method: sun.baoxian.base.WebElementBase.click(WebElementBase.java:123)
+click元素：shengao[By.xpath://*[text()='132CM']]成功！
+[INFO ] 2020-03-16 10:59:45,001 method: sun.baoxian.base.WebElementBase.sleep(WebElementBase.java:459)
+等待2秒
+[INFO ] 2020-03-16 10:59:47,073 method: sun.baoxian.base.WebElementBase.sleep(WebElementBase.java:459)
+等待1秒
+[INFO ] 2020-03-16 10:59:48,126 method: sun.baoxian.base.WebElementBase.sleep(WebElementBase.java:459)
+等待1秒
+5
+[INFO ] 2020-03-16 10:59:49,206 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：tizhong方式[By.xpath://*[text()='71KG']]
+[INFO ] 2020-03-16 10:59:49,283 method: sun.baoxian.base.WebElementBase.click(WebElementBase.java:123)
+click元素：tizhong[By.xpath://*[text()='71KG']]成功！
+[INFO ] 2020-03-16 10:59:49,283 method: sun.baoxian.base.WebElementBase.sleep(WebElementBase.java:459)
+等待2秒
+[INFO ] 2020-03-16 10:59:51,347 method: sun.baoxian.base.WebElementBase.sleep(WebElementBase.java:459)
+等待1秒
+[INFO ] 2020-03-16 10:59:52,379 method: sun.baoxian.base.WebElementBase.sleep(WebElementBase.java:459)
+等待1秒
+[INFO ] 2020-03-16 10:59:53,417 method: sun.baoxian.base.WebElementBase.sleep(WebElementBase.java:459)
+等待1秒
+[INFO ] 2020-03-16 10:59:54,465 method: sun.baoxian.base.WebElementBase.sleep(WebElementBase.java:459)
+等待1秒
+5
+[INFO ] 2020-03-16 10:59:55,577 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：bank_card方式[By.cssSelector:input[placeholder='请输入银行卡号']]
+[INFO ] 2020-03-16 10:59:55,935 method: sun.baoxian.base.WebElementBase.type(WebElementBase.java:58)
+input输入：bank_card[By.cssSelector:input[placeholder='请输入银行卡号']  value:*******]
+5
+[INFO ] 2020-03-16 10:59:55,936 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：bank_mobile方式[By.cssSelector:input[placeholder='请输入预留手机号']]
+[INFO ] 2020-03-16 10:59:56,135 method: sun.baoxian.base.WebElementBase.type(WebElementBase.java:58)
+input输入：bank_mobile[By.cssSelector:input[placeholder='请输入预留手机号']  value:*******]
+执行JS脚本：window.scrollBy(0,800);
+[INFO ] 2020-03-16 10:59:56,210 method: sun.baoxian.base.WebElementBase.sleep(WebElementBase.java:459)
+等待3秒
+5
+[INFO ] 2020-03-16 10:59:59,211 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：submit方式[By.xpath://*[text()='立即投保']]
+[INFO ] 2020-03-16 10:59:59,264 method: sun.baoxian.base.WebElementBase.click(WebElementBase.java:123)
+click元素：submit[By.xpath://*[text()='立即投保']]成功！
+5
+[INFO ] 2020-03-16 10:59:59,264 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
+[INFO ] 2020-03-16 10:59:59,786 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
+[INFO ] 2020-03-16 11:00:00,301 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
+[INFO ] 2020-03-16 11:00:00,816 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
+[INFO ] 2020-03-16 11:00:01,329 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
+[INFO ] 2020-03-16 11:00:01,840 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
+[INFO ] 2020-03-16 11:00:02,356 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
+[INFO ] 2020-03-16 11:00:02,867 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
+[INFO ] 2020-03-16 11:00:03,381 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
+[INFO ] 2020-03-16 11:00:03,902 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
+[INFO ] 2020-03-16 11:00:04,419 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
+[INFO ] 2020-03-16 11:00:04,445 method: sun.baoxian.base.WebElementBase.findElement(WebElementBase.java:656)
+超时无法定位页面元素
+[ERROR] 2020-03-16 11:00:04,846 method: sun.baoxian.utils.ScreenShotUtil.takeScreenshot(ScreenShotUtil.java:39)
+错误截图：/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/report/snapshot/2020-03-16 110004447.jpg
+<a href=snapshot/2020-03-16 110004447.jpg target=_blank><img src=snapshot//2020-03-16 110004447.jpg style=width:30px;height:30px img/>失败截图</a>
+[INFO ] 2020-03-16 11:00:04,854 method: sun.baoxian.base.WebElementBase.findElement(WebElementBase.java:666)
+2020-03-16 110004447
+]]></system-out>
+    <system-err><![CDATA[三月 16, 2020 10:59:07 上午 org.openqa.selenium.remote.DesiredCapabilities chrome
+信息: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f) on port 2351
+Only local connections are allowed.
+三月 16, 2020 10:59:07 上午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: OSS
+三月 16, 2020 10:59:30 上午 org.openqa.selenium.interactions.Actions moveToElement
+信息: When using the W3C Action commands, offsets are from the center of element
+三月 16, 2020 10:59:32 上午 org.openqa.selenium.interactions.Actions moveToElement
+信息: When using the W3C Action commands, offsets are from the center of element
+三月 16, 2020 10:59:47 上午 org.openqa.selenium.interactions.Actions moveToElement
+信息: When using the W3C Action commands, offsets are from the center of element
+三月 16, 2020 10:59:48 上午 org.openqa.selenium.interactions.Actions moveToElement
+信息: When using the W3C Action commands, offsets are from the center of element
+三月 16, 2020 10:59:51 上午 org.openqa.selenium.interactions.Actions moveToElement
+信息: When using the W3C Action commands, offsets are from the center of element
+三月 16, 2020 10:59:52 上午 org.openqa.selenium.interactions.Actions moveToElement
+信息: When using the W3C Action commands, offsets are from the center of element
+三月 16, 2020 10:59:53 上午 org.openqa.selenium.interactions.Actions moveToElement
+信息: When using the W3C Action commands, offsets are from the center of element
+三月 16, 2020 10:59:54 上午 org.openqa.selenium.interactions.Actions moveToElement
+信息: When using the W3C Action commands, offsets are from the center of element
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for sun.baoxian.base.WebElementBase$3@6ed18d80 (tried for 5 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at sun.baoxian.base.WebElementBase.findElement(WebElementBase.java:628)
+	at sun.baoxian.base.WebElementBase.DisplayElement(WebElementBase.java:540)
+	at sun.baoxian.actions.mamibaobeiAction.mamibaobei_test(mamibaobeiAction.java:102)
+	at sun.baoxian.mamibaobeiTest.mamibaobei(mamibaobeiTest.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='请在 23:50 前完成支付，逾期订单将自动取消']"}
+  (Session info: headless chrome=80.0.3987.132)
+  (Driver info: chromedriver=70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'xuepingsundeMacBook-Pro.local', ip: 'fe80:0:0:0:c98:507b:278f:dbbb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.67 (9ab0cfab84ded..., userDataDir: /var/folders/gq/rj3hd6rn3tn...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60871}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.132, webStorageEnabled: true}
+Session ID: 62d3094913886492aefd4c926e92da07
+*** Element info: {Using=xpath, value=//*[text()='请在 23:50 前完成支付，逾期订单将自动取消']}
+	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:703)
+	at sun.baoxian.base.WebElementBase$3.apply(WebElementBase.java:635)
+	at sun.baoxian.base.WebElementBase$3.apply(WebElementBase.java:629)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 33 more
+]]></system-err>
+  </testcase>
+  <testcase name="taikang2019_001" classname="sun.baoxian.taikangActionTest" time="12.552"/>
+  <testcase name="kaixinbaobei_001" classname="sun.baoxian.kaixinbaobeiTest" time="5.673">
+    <failure message="unknown error: Element &lt;span class=&quot;b-amount&quot;&gt;...&lt;/span&gt; is not clickable at point (318, 501). Other element would receive the click: &lt;div class=&quot;flex-center pt25 mr40 mb40&quot;&gt;...&lt;/div&gt;&#10;  (Session info: headless chrome=80.0.3987.132)&#10;  (Driver info: chromedriver=70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;xuepingsundeMacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:c98:507b:278f:dbbb%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.67 (9ab0cfab84ded..., userDataDir: /var/folders/gq/rj3hd6rn3tn...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60972}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.132, webStorageEnabled: true}&#10;Session ID: fe6a0bd2c85246caf9a0b16e7d1c5ce6" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+unknown error: Element <span class="b-amount">...</span> is not clickable at point (318, 501). Other element would receive the click: <div class="flex-center pt25 mr40 mb40">...</div>
+  (Session info: headless chrome=80.0.3987.132)
+  (Driver info: chromedriver=70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'xuepingsundeMacBook-Pro.local', ip: 'fe80:0:0:0:c98:507b:278f:dbbb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.67 (9ab0cfab84ded..., userDataDir: /var/folders/gq/rj3hd6rn3tn...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60972}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.132, webStorageEnabled: true}
+Session ID: fe6a0bd2c85246caf9a0b16e7d1c5ce6
+	at sun.baoxian.kaixinbaobeiTest.kaixinbaobei_001(kaixinbaobeiTest.java:11)
+]]></failure>
+    <system-out><![CDATA[[INFO ] 2020-03-16 11:00:18,662 method: sun.baoxian.base.WebCaseBase.tearDown(WebCaseBase.java:71)
+关闭浏览器
+[INFO ] 2020-03-16 11:00:18,665 method: sun.baoxian.base.WebCaseBase.setup(WebCaseBase.java:27)
+------------------开始执行测试---------------
+[INFO ] 2020-03-16 11:00:18,666 method: sun.baoxian.base.WebCaseBase.setup(WebCaseBase.java:29)
+启动浏览器
+[INFO ] 2020-03-16 11:00:19,594 method: sun.baoxian.base.WebCaseBase.setup(WebCaseBase.java:43)
+启动Chrome浏览器
+[INFO ] 2020-03-16 11:00:24,696 method: sun.baoxian.base.WebActionBase.getPage(WebActionBase.java:151)
+打开页面
+5
+[INFO ] 2020-03-16 11:00:24,705 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：baoe30w方式[By.xpath://*[text()='30万元']]
+[INFO ] 2020-03-16 11:00:25,220 method: sun.baoxian.base.WebElementBase.getElement(WebElementBase.java:699)
+查找元素：baoe30w方式[By.xpath://*[text()='30万元']]
+]]></system-out>
+    <system-err><![CDATA[三月 16, 2020 11:00:18 上午 org.openqa.selenium.remote.DesiredCapabilities chrome
+信息: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f) on port 20690
+Only local connections are allowed.
+三月 16, 2020 11:00:19 上午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+</testsuite>

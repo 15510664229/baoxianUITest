@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="sun.baoxian.utils.ExtentIReporterListenerUtil"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="短险自动化测试(failed)">
+    <parameter name="browerType" value="chrome"/>
+    <classes>
+      <class name="sun.baoxian.shortInsuranceTest">
+        <methods>
+          <include name="yangguang_002"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="yangguang_001"/>
+        </methods>
+      </class> <!-- sun.baoxian.shortInsuranceTest -->
+      <class name="sun.baoxian.kaixinbaobeiTest">
+        <methods>
+          <include name="setup"/>
+          <include name="kaixinbaobei_001"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- sun.baoxian.kaixinbaobeiTest -->
+      <class name="sun.baoxian.changqingbaoTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="changqingbao"/>
+        </methods>
+      </class> <!-- sun.baoxian.changqingbaoTest -->
+      <class name="sun.baoxian.yanguangTest">
+        <methods>
+          <include name="setup"/>
+          <include name="yangguang_BW_001"/>
+          <include name="yanguang_ZH_001"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- sun.baoxian.yanguangTest -->
+      <class name="sun.baoxian.mamibaobeiTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="mamibaobei"/>
+        </methods>
+      </class> <!-- sun.baoxian.mamibaobeiTest -->
+    </classes>
+  </test> <!-- 短险自动化测试(failed) -->
+</suite> <!-- Failed suite [Suite] -->

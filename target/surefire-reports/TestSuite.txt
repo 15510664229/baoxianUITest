@@ -1,0 +1,61 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 295.374 s <<< FAILURE! - in TestSuite
+yangguang_BW_001(sun.baoxian.yanguangTest)  Time elapsed: 28.518 s  <<< FAILURE!
+java.lang.NullPointerException
+	at sun.baoxian.yanguangTest.yangguang_BW_001(yanguangTest.java:12)
+
+yanguang_ZH_001(sun.baoxian.yanguangTest)  Time elapsed: 15.155 s  <<< FAILURE!
+java.lang.NullPointerException
+	at sun.baoxian.yanguangTest.yanguang_ZH_001(yanguangTest.java:17)
+
+yangguang_001(sun.baoxian.shortInsuranceTest)  Time elapsed: 1.352 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: Element <div class="b-amount">...</div> is not clickable at point (388, 558). Other element would receive the click: <div class="flex-start flex-direction-column ml40 fee-wrap">...</div>
+  (Session info: headless chrome=80.0.3987.132)
+  (Driver info: chromedriver=70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'xuepingsundeMacBook-Pro.local', ip: 'fe80:0:0:0:c98:507b:278f:dbbb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.67 (9ab0cfab84ded..., userDataDir: /var/folders/gq/rj3hd6rn3tn...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60619}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.132, webStorageEnabled: true}
+Session ID: ec6adb6ca0ab8d1df860d6c354da7b58
+	at sun.baoxian.shortInsuranceTest.yangguang_001(shortInsuranceTest.java:47)
+
+yangguang_002(sun.baoxian.shortInsuranceTest)  Time elapsed: 12.169 s  <<< FAILURE!
+java.lang.NullPointerException
+	at sun.baoxian.shortInsuranceTest.yangguang_002(shortInsuranceTest.java:52)
+
+changqingbao(sun.baoxian.changqingbaoTest)  Time elapsed: 13.811 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='确定']"}
+  (Session info: headless chrome=80.0.3987.132)
+  (Driver info: chromedriver=70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'xuepingsundeMacBook-Pro.local', ip: 'fe80:0:0:0:c98:507b:278f:dbbb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.67 (9ab0cfab84ded..., userDataDir: /var/folders/gq/rj3hd6rn3tn...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60797}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.132, webStorageEnabled: true}
+Session ID: 8d91e75ce601e4a68530afa836d39a3d
+*** Element info: {Using=xpath, value=//*[text()='确定']}
+	at sun.baoxian.changqingbaoTest.changqingbao(changqingbaoTest.java:11)
+
+mamibaobei(sun.baoxian.mamibaobeiTest)  Time elapsed: 57.146 s  <<< FAILURE!
+java.lang.NullPointerException
+	at sun.baoxian.mamibaobeiTest.mamibaobei(mamibaobeiTest.java:12)
+
+kaixinbaobei_001(sun.baoxian.kaixinbaobeiTest)  Time elapsed: 5.673 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: Element <span class="b-amount">...</span> is not clickable at point (318, 501). Other element would receive the click: <div class="flex-center pt25 mr40 mb40">...</div>
+  (Session info: headless chrome=80.0.3987.132)
+  (Driver info: chromedriver=70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'xuepingsundeMacBook-Pro.local', ip: 'fe80:0:0:0:c98:507b:278f:dbbb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.67 (9ab0cfab84ded..., userDataDir: /var/folders/gq/rj3hd6rn3tn...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60972}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.132, webStorageEnabled: true}
+Session ID: fe6a0bd2c85246caf9a0b16e7d1c5ce6
+	at sun.baoxian.kaixinbaobeiTest.kaixinbaobei_001(kaixinbaobeiTest.java:11)
+
