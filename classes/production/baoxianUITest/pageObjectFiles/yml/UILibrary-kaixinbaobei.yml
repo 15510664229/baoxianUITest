@@ -1,0 +1,39 @@
+pages:
+  - page:
+      pageName: sun.baoxian.pageObject.kaixinbaobeipage
+      value: "http://test.bxm.ncfimg.com/#/detail_serious_illness?product_code=701909S0033"
+      desc: "华瑞-开心宝贝"
+      locators:
+        - {type: "xpath",timeout: "5",value: "//*[text()='60万元']",desc: "baoe60w",name: "baoe60w"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='40万元']",desc: "baoe40w",name: "baoe40w"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='30万元']",desc: "baoe30w",name: "baoe30w"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='20万元']",desc: "baoe20w",name: "baoe20w"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='10万元']",desc: "baoe10w",name: "baoe10w"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='50万元']",desc: "baoe50w",name: "baoe50w"}
+        - {type: "classname",timeout: "5",value: "hz-button-text",desc: "submit",name: "submit"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='符合投保条件']",desc: "fuhe",name: "fuhe"}
+        - {type: "cssSelector",timeout: "5",value: "input[data-type='mobile']",desc: "mobile",name: "mobile"}
+        - {type: "cssSelector",timeout: "5",value: "input[data-type='sms_code']",desc: "sms_code",name: "sms_code"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='请选择']",desc: "city",name: "city"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='确定']",desc: "sure",name: "sure"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='30年']",desc: "period30",name: "peroid30"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='至60周岁']",desc: "period60",name: "peroid60"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='至70周岁']",desc: "period70",name: "peroid70"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='年缴']",desc: "pay_type",name: "pay_type"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='有']",desc: "shengji",name: "shengji"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='去支付']",desc: "quzhifu",name: "quzhifu"}
+        - {type: "classname",timeout: "5",value: "am-modal-button",desc: "confrim",name: "confrim"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='新增银行卡']",desc: "addbankcard",name: "addbankcard"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='请选择']",desc: "code",name: "code"}
+        - {type: "cssSelector",timeout: "5",value: "input[data-type='bankCard']",desc: "bankcard",name: "bankcard"}
+        - {type: "cssSelector",timeout: "5",value: "input[data-type='mobile']",desc: "mobile1",name: "mobile1"}
+        - {type: "cssSelector",timeout: "5",value: "input[data-type='sms']",desc: "sms",name: "sms"}
+        - {type: "classname",timeout: "5",value: "hz-button-text",desc: "queren",name: "queren"}
+        - {type: "xpath",timeout: "5",value: "//*[@class='icon-sel']/*[name()='svg']/*",desc: "tongyixieyi",name: "tongyixieyi"}
+        - {type: "classname",timeout: "5",value: "hz-button-text",desc: "bangka",name: "bangka"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='恭喜您，投保成功']",desc: "success",name: "success"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='请在 23:50 前完成支付，逾期订单将自动取消']",desc: "deadline",name: "deadline"}
+
+
+
+

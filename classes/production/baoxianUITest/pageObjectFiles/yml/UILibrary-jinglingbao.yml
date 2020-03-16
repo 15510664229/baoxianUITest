@@ -1,0 +1,21 @@
+pages:
+  - page:
+      pageName: sun.baoxian.pageObject.jinglingpage
+      value: "http://test.bxm.ncfimg.com/web1/#/taikang_accident/detail?product_code=301912S0047&tid=19"
+      desc: "人保航意-精灵保"
+      locators:
+        - {type: "xpath",timeout: "5",value: "//*[text()='保障计划']",desc: "plan",name: "plan"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='500万']",desc: "plan500",name: "plan500"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='1000万']",desc: "plan1000",name: "plan1000"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='2000万']",desc: "plan2000",name: "plan2000"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='3000万']",desc: "plan3000",name: "plan3000"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='立即投保']",desc: "submit",name: "submit"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='我要投保']",desc: "woyaotoubao",name: "woyaotoubao"}
+        - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入验证码']",desc: "sms_code",name: "sms_code"}
+        - {type: "xpath",timeout: "5",value: "//*[@class='baoxian-button-base m-auto']",desc: "confirm",name: "confirm"}
+        - {type: "classname",timeout: "5",value: "hz-button-text",desc: "pay",name: "pay"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='请在 23:50 前完成支付，逾期订单将自动取消']",desc: "deadline",name: "deadline"}
+
+
+
+

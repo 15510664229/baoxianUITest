@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>test</groupId>
-    <artifactId>selenium</artifactId>
+    <artifactId>baoxianUITest</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
