@@ -126,6 +126,7 @@ public class ExtentIReporterListenerUtil implements IReporter {
 
     private void init() {
         //文件夹不存在的话进行创建
+
         File reportDir= new File(OUTPUT_FOLDER);
         if(!reportDir.exists()&& !reportDir .isDirectory()){
             reportDir.mkdir();
