@@ -153,6 +153,7 @@ public class jiankangbao2vAction extends WebCaseBase {
 
         action.sleep(4);
         action.DisplayElement(page1.success());
+        action.successend();
         // action.SnapshotForElement("res/images/", "mamibaobei.png", page1.deadline());
         Reporter.log("投保人信息：手机号："+mobile_ins+"      "+"身份证号："+idcard_ins);
         Reporter.log("被保人信息：姓名："+name2+"      "+"身份证号："+idcard_apl);

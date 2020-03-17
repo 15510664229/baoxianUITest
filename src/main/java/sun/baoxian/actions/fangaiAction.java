@@ -18,7 +18,7 @@ public class fangaiAction extends WebCaseBase {
     WebElementBase action = new WebElementBase();
     IdCardGenerator idCardGenerator = new IdCardGenerator();
     Mobile mobile=new Mobile();
-    ScreenShotUtil s=new ScreenShotUtil(driver);
+
     public void fangai_001() throws Exception{
         fangaipage page1=new fangaipage();
         page1.getPage("http://test.bxm.ncfimg.com/web1/#/zhonghui_toufang/detail?product_code=101912S0022&tid=28");
@@ -49,7 +49,7 @@ public class fangaiAction extends WebCaseBase {
         action.SnapshotForElement("res/images/", "fangai.png", page1.deadline());
         //action.Snapshot("report/snapshot/","fangai.png");
         //WebAssertionBase.printpayURL(action.getUrl());
-        s.takeScreenshot1();
+        action.successend();
         Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
     }

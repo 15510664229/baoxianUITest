@@ -76,9 +76,8 @@ public class kaixinbaobeiAction extends WebCaseBase {
         action.sleep(3);
         action.click(page1.bangka());
         action.DisplayElement(page1.success());
-        action.Snapshot("res/images/", "kaixinbaobei.png");
-        ScreenShotUtil s=new ScreenShotUtil(driver);
-        s.takeScreenshot1();
+        //action.Snapshot("res/images/", "kaixinbaobei.png");
+        action.successend();
         Reporter.log("投保人信息：姓名："+name1+"    手机号："+m1+"      "+"身份证号："+i1);
         Reporter.log("被保人信息：姓名："+name2+"      "+"身份证号："+i2);
 

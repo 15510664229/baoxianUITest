@@ -79,18 +79,17 @@
       <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 205038078.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 205344231.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-14 114208036.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/res/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/changqingbaoAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/changqingbaoAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/fangaiAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/fangaiAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/jiangxinAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/jiangxinAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/jiankangbao2vAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/jiankangbao2vAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/jinglingbaoAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/jinglingbaoAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/kaixinbaobeiAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/kaixinbaobeiAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/mamibaobeiAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/mamibaobeiAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/shortInsurance19Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/shortInsurance19Action.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/taikangAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/taikangAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/yangguangAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/yangguangAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/utils/ScreenShotUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/utils/ScreenShotUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/sun/baoxian/fangaiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sun/baoxian/fangaiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/base/WebElementBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/base/WebElementBase.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -179,7 +178,7 @@
       <workItem from="1584370048378" duration="714000" />
       <workItem from="1584374698134" duration="1849000" />
       <workItem from="1584425474985" duration="4021000" />
-      <workItem from="1584439095621" duration="6301000" />
+      <workItem from="1584439095621" duration="7847000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1584375025489</created>
@@ -202,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584441622588</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="4">
+      <created>1584445480164</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584445480164</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

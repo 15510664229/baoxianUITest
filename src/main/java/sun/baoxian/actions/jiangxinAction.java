@@ -12,7 +12,6 @@ public class jiangxinAction extends WebCaseBase {
     WebElementBase action = new WebElementBase();
     IdCardGenerator idCardGenerator = new IdCardGenerator();
     Mobile mobile=new Mobile();
-    ScreenShotUtil s=new ScreenShotUtil(driver);
     public void jiangxin_001() throws Exception {
         jiangxinpage page1=new jiangxinpage();
         page1.getPage("http://test.bxm.ncfimg.com/#/long_insurancev2/detail?product_code=301912S0049&tid=25");
@@ -44,7 +43,7 @@ public class jiangxinAction extends WebCaseBase {
         action.click(page1.confirm());
         action.DisplayElement(page1.deadline());
         //action.SnapshotForElement("res/images/", "jiangxin.png", page1.deadline());
-        s.takeScreenshot1();
+       action.successend();
         Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
     }

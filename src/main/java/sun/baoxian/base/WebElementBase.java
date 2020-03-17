@@ -613,6 +613,7 @@ public class WebElementBase extends  WebCaseBase {
             return webElements;
         }
 
+
     }
 
 
@@ -784,6 +785,16 @@ public class WebElementBase extends  WebCaseBase {
     private String formatDate(Date date) {
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HHmmssSSS");
         return formatter.format(date).toString();
+    }
+    /**
+     * @author sunxueping-jk
+     */
+    public void successend(){
+        ScreenShotUtil screenShot = new ScreenShotUtil(driver);
+        //设置截图名字
+        Date nowDate = new Date();
+        screenShot.setscreenName(this.formatDate(nowDate));
+        screenShot.takeScreenshot1();
     }
 
     /**
