@@ -7,6 +7,7 @@ import org.testng.Reporter;
 import sun.baoxian.base.WebCaseBase;
 import sun.baoxian.base.WebElementBase;
 import sun.baoxian.pageObject.changqingbaopage;
+import sun.baoxian.utils.ScreenShotUtil;
 import sun.data.IdCardGenerator;
 import sun.data.Mobile;
 
@@ -17,7 +18,7 @@ public class changqingbaoAction extends WebCaseBase {
     WebElementBase action = new WebElementBase();
     IdCardGenerator idCardGenerator = new IdCardGenerator();
     Mobile mobile=new Mobile();
-
+    ScreenShotUtil s=new ScreenShotUtil(driver);
     public void changqingbao_001() throws Exception {
         changqingbaopage page1=new changqingbaopage();
         page1.getPage("http://test.bxm.ncfimg.com/#/long_insurancev2/detail?product_code=101912S0048");
@@ -68,6 +69,7 @@ public class changqingbaoAction extends WebCaseBase {
         action.click(page1.submitF());
         action.DisplayElement(page1.deadline());
         //action.SnapshotForElement("res/images/", "changqingbao.png", page1.deadline());
+        s.takeScreenshot1();
         Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
     }

@@ -4,13 +4,14 @@ import sun.baoxian.base.WebAssertionBase;
 import sun.baoxian.base.WebCaseBase;
 import sun.baoxian.base.WebElementBase;
 import sun.baoxian.pageObject.taikangpage;
+import sun.baoxian.utils.ScreenShotUtil;
 import sun.data.IdCardGenerator;
 import sun.data.Mobile;
 
 public class taikangAction extends WebCaseBase {
     WebElementBase action = new WebElementBase();
     WebAssertionBase assertionBase=new WebAssertionBase();
-
+    ScreenShotUtil s=new ScreenShotUtil(driver);
     public void order()throws Exception{
         IdCardGenerator idCardGenerator=new IdCardGenerator();
         taikangpage page1=new taikangpage();
@@ -34,11 +35,9 @@ public class taikangAction extends WebCaseBase {
         action.click(page1.confrim());
         action.DisplayElement(page1.pay());
 //        action.sreenShot("report");
-        assertionBase.VerityTitle("支付中心");
-
+        s.takeScreenshot1();
         Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
-
 
     }
 

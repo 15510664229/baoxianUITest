@@ -4,13 +4,14 @@ import org.testng.Reporter;
 import sun.baoxian.base.WebCaseBase;
 import sun.baoxian.base.WebElementBase;
 import sun.baoxian.pageObject.yangguangpage;
+import sun.baoxian.utils.ScreenShotUtil;
 import sun.data.IdCardGenerator;
 import sun.data.Mobile;
 
 public class yangguangAction extends WebCaseBase {
 
     WebElementBase action = new WebElementBase();
-
+    ScreenShotUtil s=new ScreenShotUtil(driver);
     public void yangguangBW() throws Exception {
         yangguangpage page1 = new yangguangpage();
         IdCardGenerator idCardGenerator=new IdCardGenerator();
@@ -33,6 +34,7 @@ public class yangguangAction extends WebCaseBase {
         action.click(page1.confrim());
         action.click(page1.rconfrim());
         action.DisplayElement(page1.pay());
+        s.takeScreenshot1();
         Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
 
@@ -60,6 +62,7 @@ public class yangguangAction extends WebCaseBase {
         action.click(page2.rconfrim());
         action.DisplayElement(page2.pay());
         action.getUrl();
+        s.takeScreenshot1();
         Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
 

@@ -56,6 +56,16 @@ public class ScreenShotUtil {
         String screenPath = dir.getAbsolutePath() + "/" + screenName;
         this.takeScreenshot(screenPath);
     }
+    public void takeScreenshot1() {
+        String screenName = this.screenName + ".jpg";
+        File dir = new File("report/snapshot/");
+        if (!dir.exists()) {
+            dir.mkdirs();
+        }
+        String screenPath = dir.getAbsolutePath() + "/" + screenName;
+        this.sreenShot(screenPath);
+    }
+
     /**
      * 截图写到日志里，截图全屏幕
      * @author xueping.sun

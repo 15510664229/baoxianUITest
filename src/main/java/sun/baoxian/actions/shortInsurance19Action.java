@@ -4,6 +4,7 @@ import org.testng.Reporter;
 import sun.baoxian.base.WebCaseBase;
 import sun.baoxian.base.WebElementBase;
 import sun.baoxian.pageObject.shortTmp;
+import sun.baoxian.utils.ScreenShotUtil;
 import sun.data.IdCardGenerator;
 import sun.data.Mobile;
 
@@ -13,6 +14,8 @@ public class shortInsurance19Action extends WebCaseBase {
     Mobile mobile=new Mobile();
     String i1=idCardGenerator.generate("19921210", "0");
     String m1=mobile.getTel();
+    ScreenShotUtil s=new ScreenShotUtil(driver);
+
     public void yiyuanZH() throws Exception {
         shortTmp page1 = new shortTmp();
         page1.getPage("http://test.bxm.ncfimg.com/biz/page/info?page_id=62&is_gray=1&goods_code=G2823849253");
@@ -34,6 +37,7 @@ public class shortInsurance19Action extends WebCaseBase {
         action.DisplayElement(page1.pay());
         action.getUrl();
         //action.SnapshotForElement("res/images/", "taikang.png", page1.pay());
+        s.takeScreenshot1();
         Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
     }
@@ -59,6 +63,7 @@ public class shortInsurance19Action extends WebCaseBase {
         action.DisplayElement(page1.pay());
         action.getUrl();
         //action.SnapshotForElement("res/images","taikang.png",page1.pay());
+        s.takeScreenshot1();
         Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
 
@@ -82,6 +87,7 @@ public class shortInsurance19Action extends WebCaseBase {
         action.sleep(2);
         action.click(page1.confrim());
         action.DisplayElement(page1.pay());
+        s.takeScreenshot1();
         //action.SnapshotForElement("res/images","taikang.png",page1.pay());
     }
 
@@ -105,6 +111,7 @@ public class shortInsurance19Action extends WebCaseBase {
         action.click(page1.confrim());
         action.DisplayElement(page1.pay());
         action.getUrl();
+        s.takeScreenshot1();
         //action.SnapshotForElement("res/images","taikang.png",page1.pay());
         Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
@@ -135,6 +142,7 @@ public class shortInsurance19Action extends WebCaseBase {
         action.click(page1.confrim());
         action.DisplayElement(page1.pay());
         action.getUrl();
+        s.takeScreenshot1();
         Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
     }
@@ -159,6 +167,7 @@ public class shortInsurance19Action extends WebCaseBase {
         action.click(page1.confrim());
         action.DisplayElement(page1.pay());
         action.getUrl();
+        s.takeScreenshot1();
         Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
     }
@@ -183,6 +192,7 @@ public class shortInsurance19Action extends WebCaseBase {
         action.click(page1.confrim());
         action.DisplayElement(page1.pay());
         action.getUrl();
+        s.takeScreenshot1();
         Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
     }
@@ -212,6 +222,7 @@ public class shortInsurance19Action extends WebCaseBase {
         action.click(page1.confrim());
         action.DisplayElement(page1.pay());
         action.getUrl();
+        s.takeScreenshot1();
         Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
     }
@@ -238,6 +249,8 @@ public class shortInsurance19Action extends WebCaseBase {
         action.DisplayElement(page1.pay());
         action.getUrl();
         //action.SnapshotForElement("res/images","taikang.png",page1.pay());
+        s.takeScreenshot1();
+
         Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
         Reporter.log("支付链接： "+action.getUrl());
     }

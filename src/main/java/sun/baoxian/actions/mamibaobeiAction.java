@@ -7,6 +7,7 @@ import org.testng.Reporter;
 import sun.baoxian.base.WebCaseBase;
 import sun.baoxian.base.WebElementBase;
 import sun.baoxian.pageObject.mamibaobeipage;
+import sun.baoxian.utils.ScreenShotUtil;
 import sun.baoxian.utils.SwipeScreenOrElement;
 import sun.data.IdCardGenerator;
 import sun.data.Mobile;
@@ -101,6 +102,8 @@ public class mamibaobeiAction extends WebCaseBase {
         action.click(page1.submit());
         action.DisplayElement(page1.deadline());
        // action.SnapshotForElement("res/images/", "mamibaobei.png", page1.deadline());
+        ScreenShotUtil s=new ScreenShotUtil(driver);
+        s.takeScreenshot1();
         Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
         Reporter.log("被保人信息：姓名："+n1+"      "+"身份证号："+i2);
         Reporter.log("支付链接： "+action.getUrl());

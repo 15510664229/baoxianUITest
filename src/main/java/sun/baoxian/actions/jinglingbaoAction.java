@@ -6,6 +6,7 @@ import org.testng.Reporter;
 import sun.baoxian.base.WebCaseBase;
 import sun.baoxian.base.WebElementBase;
 import sun.baoxian.pageObject.jinglingpage;
+import sun.baoxian.utils.ScreenShotUtil;
 import sun.data.IdCardGenerator;
 import sun.data.Mobile;
 
@@ -40,8 +41,11 @@ public class jinglingbaoAction extends WebCaseBase {
         action.click(page1.confirm());
         action.DisplayElement(page1.deadline());
         //action.SnapshotForElement("res/images/", "jingling.png", page1.deadline());
+        ScreenShotUtil s=new ScreenShotUtil(driver);
+        s.takeScreenshot1();
         Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
+
     }
 
 

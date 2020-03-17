@@ -8,6 +8,7 @@ import org.testng.Reporter;
 import sun.baoxian.base.WebCaseBase;
 import sun.baoxian.base.WebElementBase;
 import sun.baoxian.pageObject.kaixinbaobeipage;
+import sun.baoxian.utils.ScreenShotUtil;
 import sun.data.IdCardGenerator;
 import sun.data.Mobile;
 
@@ -76,6 +77,8 @@ public class kaixinbaobeiAction extends WebCaseBase {
         action.click(page1.bangka());
         action.DisplayElement(page1.success());
         action.Snapshot("res/images/", "kaixinbaobei.png");
+        ScreenShotUtil s=new ScreenShotUtil(driver);
+        s.takeScreenshot1();
         Reporter.log("投保人信息：姓名："+name1+"    手机号："+m1+"      "+"身份证号："+i1);
         Reporter.log("被保人信息：姓名："+name2+"      "+"身份证号："+i2);
 
