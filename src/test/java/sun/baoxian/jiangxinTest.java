@@ -6,7 +6,7 @@ import sun.baoxian.base.WebCaseBase;
 
 public class jiangxinTest  extends WebCaseBase {
     @Test
-    public void jiangxin_test() throws Exception{
+    public void jiangxin() throws Exception{
         jiangxinAction  action=new jiangxinAction();
         action.jiangxin_001();
     }

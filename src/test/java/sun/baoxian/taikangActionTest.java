@@ -6,7 +6,7 @@ import sun.baoxian.base.WebCaseBase;
 
 public class taikangActionTest extends WebCaseBase {
     @Test
-    public void taikang2019_001() throws Exception{
+    public void taikang2019() throws Exception{
         taikangAction action=new taikangAction();
         action.order();
 
