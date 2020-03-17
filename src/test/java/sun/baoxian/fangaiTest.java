@@ -7,7 +7,7 @@ import sun.baoxian.base.WebCaseBase;
 
 public class fangaiTest extends WebCaseBase {
     @Test
-    public void fangai() throws Exception{
+    public void fangaiTest1() throws Exception{
         fangaiAction action=new fangaiAction();
         action.fangai_001();
     }

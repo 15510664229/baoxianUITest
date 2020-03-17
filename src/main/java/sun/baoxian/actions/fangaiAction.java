@@ -46,7 +46,7 @@ public class fangaiAction extends WebCaseBase {
         action.sleep(1);
         action.click(page1.confrim());
         action.DisplayElement(page1.deadline());
-        action.SnapshotForElement("res/images/", "fangai.png", page1.deadline());
+      //  action.SnapshotForElement("res/images/", "fangai.png", page1.deadline());
         //action.Snapshot("report/snapshot/","fangai.png");
         //WebAssertionBase.printpayURL(action.getUrl());
         action.successend();
