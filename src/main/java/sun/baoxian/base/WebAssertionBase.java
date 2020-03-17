@@ -32,13 +32,21 @@ public class WebAssertionBase extends WebCaseBase {
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd-HHmmssSSS");
         return formatter.format(date).toString();
     }
+    public static String DateToStr(Date date) {
+
+        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        String str = format.format(date);
+        return str;
+    }
+
+
 
     private static void snapshotInfo() {
         WebDriver driver = WebCaseBase.driver;
         ScreenShotUtil screenShot = new ScreenShotUtil(driver);
         // 设置截图名字
         Date nowDate = new Date();
-        String name="123";
+        String name=formatDate(nowDate);
         screenShot.setscreenName(name);
         screenShot.takeScreenshot();
     }
@@ -1040,6 +1048,7 @@ public class WebAssertionBase extends WebCaseBase {
     }
 
     public static void main(String[] args) {
+        System.out.println(formatDate(new Date()));
 
         String str1 = "刘兰39", str2 = "http://";
 

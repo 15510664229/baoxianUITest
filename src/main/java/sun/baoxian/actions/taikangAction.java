@@ -1,5 +1,6 @@
 package sun.baoxian.actions;
 import org.testng.Reporter;
+import sun.baoxian.base.WebAssertionBase;
 import sun.baoxian.base.WebCaseBase;
 import sun.baoxian.base.WebElementBase;
 import sun.baoxian.pageObject.taikangpage;
@@ -8,6 +9,7 @@ import sun.data.Mobile;
 
 public class taikangAction extends WebCaseBase {
     WebElementBase action = new WebElementBase();
+    WebAssertionBase assertionBase=new WebAssertionBase();
 
     public void order()throws Exception{
         IdCardGenerator idCardGenerator=new IdCardGenerator();
@@ -31,8 +33,12 @@ public class taikangAction extends WebCaseBase {
         Thread.sleep(3);
         action.click(page1.confrim());
         action.DisplayElement(page1.pay());
+//        action.sreenShot("report");
+        assertionBase.VerityTitle("支付中心");
+
         Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
+
 
     }
 

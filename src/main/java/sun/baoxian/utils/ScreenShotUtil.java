@@ -61,15 +61,19 @@ public class ScreenShotUtil {
      * @author xueping.sun
      *
      */
-    public  void sreenShot(){
-        ScreenShotUtil screenShot = new ScreenShotUtil(driver);
-        //设置截图名字
-        Date nowDate = new Date();
-        screenShot.setscreenName(nowDate.toString());
-        screenShot.takeScreenshot();
-        log.info((nowDate).toString());
-        Reporter.log("<a href=snapshot/" + screenShot.getscreenName() +".jpg"+ " target=_blank><img src=snapshot/" + screenShot.getscreenName()+".jpg"
-                + " style=width:30px;height:30px img/>收银台截图</a>", true);
+    public  void sreenShot(String screenPath){
+
+        File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+        try {
+            Files.copy(scrFile, new File(screenPath));
+            log.error("收银台截图：" + screenPath);
+            String imgaename = screenPath.split("snapshot")[1];
+            Reporter.log("<a href=snapshot/" + imgaename +".jpg"+ " target=_blank><img src=snapshot/" +imgaename+".jpg"
+                    + " style=width:30px;height:30px img/>收银台截图</a>", true);
+        } catch (Exception e) {
+            // TODO: handle exception
+            e.printStackTrace();
+        }
 
     }
 }

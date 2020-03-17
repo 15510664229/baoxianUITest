@@ -2,25 +2,148 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec0d697c-af63-4738-9381-99a0acc596eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vimalselvam_cucumber_extentsreport_3_0_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/baoxianUITest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/baoxianUITest.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/baoxianUITest/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/baoxianUITest/pageObjectFiles/yml/UILibrary-SIT19.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/baoxianUITest/pageObjectFiles/yml/UILibrary-changqingbao.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/baoxianUITest/pageObjectFiles/yml/UILibrary-fangai.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/baoxianUITest/pageObjectFiles/yml/UILibrary-jiangxin.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/baoxianUITest/pageObjectFiles/yml/UILibrary-jiankangbao2V.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/baoxianUITest/pageObjectFiles/yml/UILibrary-jinglingbao.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/baoxianUITest/pageObjectFiles/yml/UILibrary-kaixinbaobei.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/baoxianUITest/pageObjectFiles/yml/UILibrary-mamibaobei.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/baoxianUITest/pageObjectFiles/yml/UILibrary-taikang.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/baoxianUITest/pageObjectFiles/yml/UILibrary-yangguang.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/baoxianUITest/pageObjectFiles/yml/UILibrary.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/123.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-11 184258689.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-11 184634453.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-11 193355091.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-11 202527797.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-11 204332623.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-11 204810163.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-11 204829333.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 124856365.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 124917061.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 125442230.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 125504093.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 140856019.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 140928742.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 150942418.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 155137746.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 155150400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 160424718.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 160441018.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 160459134.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 160515500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 160531661.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 161135621.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 161203602.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 161220266.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 161644158.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 171914160.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 172601576.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 173601340.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 193413525.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 193820024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 194359747.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 194548330.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 194802468.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 194927622.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 195118599.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 203851347.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 204629706.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 220406320.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 224601718.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 225226490.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 225834322.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 231256752.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 134153260.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 152508379.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 152834258.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 153319210.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 153751326.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 155234483.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 160948192.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 161324489.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 163404187.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 165203409.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 165916575.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 170124257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 170632383.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 170858402.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 171046317.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 171313318.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 171514025.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 171831035.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 172220231.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 172445209.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 173549882.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 173732476.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 173855679.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 174157203.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 191556695.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 191902831.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 192336597.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 192603799.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 201600389.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 204039141.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 204352473.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 205038078.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 205344231.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-14 114208036.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-14 130711355.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-14 133649940.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-14 212117307.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-14 212547463.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-14 212615853.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-14 212640585.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-14 235949742.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-15 000013125.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-15 000036006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-15 000253363.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-15 000455881.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-15 000726160.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-15 093020312.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-15 093154656.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-15 094606778.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-15 094817525.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-15 101143767.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-15 101632933.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-15 102002838.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-15 103014854.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-15 103950894.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-15 104428958.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-15 110721109.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-15 111930077.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-15 112618387.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-15 124951742.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-15 125439531.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-15 125847886.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-15 130028308.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-15 131008277.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-15 150858821.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-15 155507915.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-15 160527156.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-15 163018802.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-15 163247559.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-15 164709829.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-15 200119391.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-15 201040619.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-15 201126983.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-15 201214220.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-15 224915927.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-15 225024881.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-16 091955879.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-16 092059728.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-16 092211440.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-16 094028129.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-16 103942848.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-16 105633109.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-16 105648888.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-16 105754067.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-16 110004447.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/images/changqingbao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/images/fangai.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/images/jingling.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/images/kaixinbaobei.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/images/mamibaobei.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/images/taikang.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/res/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/res/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/utils/ExtentIReporterListenerUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/utils/ExtentIReporterListenerUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/base/WebCaseBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/base/WebCaseBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/taikangAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/taikangAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/base/WebAssertionBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/base/WebAssertionBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/utils/ScreenShotUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/utils/ScreenShotUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/utils/ExtentIReporterListenerUtil$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/utils/ExtentIReporterListenerUtil$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/utils/ExtentIReporterListenerUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/utils/ExtentIReporterListenerUtil.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +187,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG./Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/res/testng.xml">
+    <configuration name="WebAssertionBase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sun.baoxian.base.WebAssertionBase" />
+      <module name="baoxianUITest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sun.baoxian.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/res/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="baoxianUITest" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/res/testng.xml" />
@@ -78,6 +214,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG./Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/res/testng.xml" />
+        <item itemvalue="Application.WebAssertionBase" />
       </list>
     </recent_temporary>
   </component>
@@ -95,6 +232,7 @@
       <workItem from="1584370048378" duration="714000" />
       <workItem from="1584374698134" duration="1849000" />
       <workItem from="1584425474985" duration="4021000" />
+      <workItem from="1584439095621" duration="1798000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1584375025489</created>
@@ -122,7 +260,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
