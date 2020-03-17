@@ -2,139 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec0d697c-af63-4738-9381-99a0acc596eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/allure-results/04bc035e-834e-45ac-a927-b768323f6e3c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/0893dbc5-5db3-470e-83d2-6c2382b8ff33-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/0906ef0c-e792-4e63-8dbf-bd31b9c66b60-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/0c629848-e1ef-4348-a32e-b0fa705523c9-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/11bda8e1-d10e-4176-9b9b-8d2a44bab303-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/15b4b4b8-266d-47bb-8dae-ccd3462f36bf-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/1b14a133-1479-4012-b39a-33951bc61986-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/1c733553-e277-42a4-9698-8f400938c397-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/20f2f5d1-8466-4547-9bdf-c094cede95c5-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/243d34d9-9357-48f5-b7b6-7812f57118a6-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/28940a90-1646-4103-8c7a-d2f169ae4bc0-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/2d207fc6-a8ee-41c5-9ca4-b9dd8f8a27cc-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/36c466fc-e905-4372-b16a-15e7970d4b67-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/37d3191c-2df5-445f-aff5-656cb7b59825-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/414413b7-00dd-478e-9192-075fc1321d7a-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/49696f2b-31cf-49e4-8c10-9961f9571b4d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/4e520e85-c136-4a41-9c1e-c021499f4fba-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/4f9cbd46-aa48-4cd2-a8ee-d3c3d8870a12-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/52b9b83b-d1dc-479b-80fa-1cf3caa12b56-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/554b18f8-2b5f-4099-95e8-933650b2bede-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/5833251c-33c8-480c-b411-ee55b0363f40-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/599352ef-541f-4b35-8722-2852b5dda074-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/5af54805-bdf9-44c8-90a2-a1e7de84075d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/5b7a128d-ff09-4e9f-8d13-08d5ec9f64fa-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/5d5639ed-d9be-4373-a87c-49836913f624-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/61ceb650-46e5-4107-b9ad-1a0246ba2737-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/636ca09b-0561-4293-8140-31e58aa3c03b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/6a1274d6-a289-4d44-9465-2858cacaca7b-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/6bcbd404-bd05-4d63-be93-65fdd5f92e8a-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/6e42d945-7f70-4f5f-9007-4efdf0869628-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/6e9dc8ff-6407-4a8e-af1c-fa548f055664-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/6f6dc5f5-a42f-4edc-84e7-236792a6cae2-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/73eddb46-4935-482e-873c-3b3357a310d9-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/756f02df-2121-4c83-8cc3-1c21da449f01-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/758e84e4-1e7c-4b1f-930b-0e779f3de81d-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/765df381-4f08-45fa-a4ce-6adba348ad57-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/76e76541-0aad-4371-b78e-8558eb8b2a80-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/7acface3-fd03-477f-bc07-90e8c51d6f88-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/7cecc23f-f30f-4961-aab8-dafe6711c1ad-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/805d7dce-333a-467b-ae28-9e522a040afe-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/84378608-d549-49a2-8ffe-f259065d808e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/8609fecc-9f0b-4dc6-984e-e0257b98f4cc-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/879bdfc9-b580-40dd-9e26-fb940c29effa-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/8b111875-94da-4600-91e1-013f45b1e527-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/9b8ea07b-2894-4e4b-8f7c-5918656b7743-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/a00e6aef-a608-4c4b-9515-8120cfd89e3d-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/a3cfed4e-88de-4714-9ad5-56c88c05d82b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/ae17c09e-86e7-4e6f-93e9-dffe77b567b2-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/af40ba18-32d0-4445-80c4-b783f2bdd469-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/b14d678f-35e1-459a-9e7d-c38fdc0a66e9-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/b3213be9-1016-418b-9a42-45242068f186-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/b504822b-8e84-48b3-ac23-7335ce957267-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/b96776f3-5427-4327-93cf-35d81720df8c-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/c3185fe8-3eee-4368-8bc6-79a62ddc72a1-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/c6fe74da-7dde-4fc7-adf2-f79011195f2e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/c9346a21-2380-4657-9991-9c4610f4f30c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/ca6ba60e-3136-4190-81cd-bfd5c74b3871-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/cfc54ce6-d396-4e44-86e0-dd91f7287697-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/d4f9c189-209c-43c0-9d9e-9c06bac6bf0f-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/d536376c-a131-498f-a86d-cb6e732eeeb6-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/e312786a-23e2-441c-a9b4-c6b25c4afc6b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/e6bfec51-073d-4f01-9dde-56297a483e06-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/f3238fa5-394b-4a33-a3d5-51f17fcba11a-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/f34b1b5e-7677-4e5d-8c16-c623cc30f4fa-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/f8bdc472-6460-4e96-903b-291af30dee80-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/f8eb43e7-8ce2-4c13-bff3-035bf97f7a34-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/f9f55ced-4c27-4630-bea4-17633b379ee6-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/snapshot/2020-03-16 103942848.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/snapshot/2020-03-16 105633109.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/snapshot/2020-03-16 105648888.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/snapshot/2020-03-16 105754067.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/snapshot/2020-03-16 110004447.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/baoxianUITest-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2020-03-16T10-55-30_126-jvmRun1.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/Suite/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/Suite/短险自动化测试.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/Suite/短险自动化测试.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/failed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/html/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/html/output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/html/overview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/html/reportng.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/html/reportng.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/html/sorttable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test1_results.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/html/suites.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-sun.baoxian.changqingbaoTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-sun.baoxian.fangaiTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-sun.baoxian.jiankangbao2vTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-sun.baoxian.jinglingbaoTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-sun.baoxian.kaixinbaobeiTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-sun.baoxian.mamibaobeiTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-sun.baoxian.shortInsuranceTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-sun.baoxian.taikangActionTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-sun.baoxian.yanguangTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/groups.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods-alphabetical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods-not-run.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/reporter-output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/testng.xml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/toc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/短险自动化测试.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/passed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/skipped.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/report/index_new.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/index_new.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/images/fangai.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/images/fangai.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/res/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/res/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/base/WebCaseBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/base/WebCaseBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/output.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/overview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/suite1_test1_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite1_test1_results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/suites.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suites.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -150,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/res/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+            <state relative-caret-position="274">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -162,17 +40,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sun/baoxian/base/WebCaseBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="106">
+              <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/report/index_new.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-426">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="197" column="29" lean-forward="true" selection-start-line="197" selection-start-column="29" selection-end-line="197" selection-end-column="29" />
+            <state relative-caret-position="253">
+              <caret line="194" column="62" selection-start-line="194" selection-start-column="62" selection-end-line="194" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -185,8 +72,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/res/testng.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/sun/baoxian/base/WebCaseBase.java" />
+        <option value="$PROJECT_DIR$/res/testng.xml" />
       </list>
     </option>
   </component>
@@ -217,12 +105,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
               <item name="baoxianUITest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="baoxianUITest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="baoxianUITest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="baoxianUITest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="report" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="baoxianUITest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -277,14 +172,21 @@
             <path>
               <item name="baoxianUITest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="baoxianUITest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sun" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="data" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="baoxianUITest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="baoxianUITest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="target" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -337,35 +239,48 @@
       <updated>1584323520094</updated>
       <workItem from="1584323521471" duration="4084000" />
       <workItem from="1584370048378" duration="714000" />
+      <workItem from="1584374698134" duration="1849000" />
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1584375025489</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584375025489</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="_Users_xueping_sun_IdeaProjects_baoxianUITest_baoxianUITest_res_testng_xml - 2020.03.16 at 10h 04m 54s.xml">
       <configuration name="/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/res/testng.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_Users_xueping_sun_IdeaProjects_baoxianUITest_baoxianUITest_res_testng_xml - 2020.03.17 at 01h 07m 54s.xml">
+      <configuration name="/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/res/testng.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5155000" />
+    <option name="totallyTimeSpent" value="7004000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="805" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28962535" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29466859" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3299712" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3299712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3299712" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3299712" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3299712" />
@@ -381,6 +296,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/baoxianUITest.iml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -392,24 +311,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/testng.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        <state relative-caret-position="253">
+          <caret line="194" column="62" selection-start-line="194" selection-start-column="62" selection-end-line="194" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sun/baoxian/base/WebCaseBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="106">
+          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/report/index_new.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="197" column="29" lean-forward="true" selection-start-line="197" selection-start-column="29" selection-end-line="197" selection-end-column="29" />
+        <state relative-caret-position="-426">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>

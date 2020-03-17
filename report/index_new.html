@@ -32,7 +32,7 @@
     <span class="report-headline"></span> 
     <!-- nav-right --> 
     <ul id="nav-mobile" class="right hide-on-med-and-down nav-right"> 
-     <a href="#!"> <span class="label suite-start-time">Mar 16, 2020 10:55:47 AM</span> </a> 
+     <a href="#!"> <span class="label suite-start-time">Mar 17, 2020 12:54:40 AM</span> </a> 
      <a href="#!"> <span class="label">v3.0.3</span> </a> 
     </ul> 
    </div> 
@@ -86,10 +86,10 @@
          <canvas id="parent-analysis" width="100" height="80"></canvas> 
         </div> 
         <div class="block text-small"> 
-         <span><span class="strong">10</span> test(s) passed</span> 
+         <span><span class="strong">14</span> test(s) passed</span> 
         </div> 
         <div class="block text-small"> 
-         <span class="strong">7</span> test(s) failed, 
+         <span class="strong">3</span> test(s) failed, 
          <span class="strong">0</span> others 
         </div> 
        </div> 
@@ -103,10 +103,10 @@
          <canvas id="child-analysis" width="100" height="80"></canvas> 
         </div> 
         <div class="block text-small"> 
-         <span><span class="strong">10</span> step(s) passed</span> 
+         <span><span class="strong">14</span> step(s) passed</span> 
         </div> 
         <div class="block text-small"> 
-         <span class="strong">7</span> step(s) failed, 
+         <span class="strong">3</span> step(s) failed, 
          <span class="strong">0</span> others 
         </div> 
        </div> 
@@ -119,163 +119,15 @@
       <ul id="test-collection" class="test-collection"> 
        <li class="test displayed active  fail" status="fail" bdd="false" test-id="1"> 
         <div class="test-heading"> 
-         <span class="test-name">yangguang_BW_001</span> 
-         <span class="test-time">Mar 16, 2020 10:56:05 AM</span> 
-         <span class="test-status right fail">fail</span> 
-        </div> 
-        <div class="test-content hide"> 
-         <div class="test-time-info"> 
-          <span class="label start-time">Mar 16, 2020 10:56:05 AM</span> 
-          <span class="label end-time">Mar 16, 2020 10:56:33 AM</span> 
-          <span class="label time-taken grey lighten-1 white-text">0h 0m 28s+502ms</span> 
-         </div> 
-         <div class="test-steps"> 
-          <table class="bordered table-results"> 
-           <thead> 
-            <tr> 
-             <th>Status</th> 
-             <th>Timestamp</th> 
-             <th>Details</th> 
-            </tr> 
-           </thead> 
-           <tbody> 
-            <tr class="log" status="debug"> 
-             <td class="status debug" title="debug" alt="debug"><i class="material-icons">low_priority</i></td> 
-             <td class="timestamp">11:00:25 AM</td> 
-             <td class="step-details"><a href="snapshot/2020-03-16" 105633109.jpg target="_blank"><img src="snapshot//2020-03-16" 105633109.jpg style="width:30px;height:30px" img>失败截图</a></td> 
-            </tr> 
-            <tr class="log" status="fail"> 
-             <td class="status fail" title="fail" alt="fail"><i class="material-icons">cancel</i></td> 
-             <td class="timestamp">11:00:25 AM</td> 
-             <td class="step-details"><pre>java.lang.NullPointerException
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	at sun.baoxian.base.WebElementBase.DisplayElement(WebElementBase.java:540)
-	at sun.baoxian.actions.yangguangAction.yangguangBW(yangguangAction.java:35)
-	at sun.baoxian.yanguangTest.yangguang_BW_001(yanguangTest.java:12)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-</pre></td> 
-            </tr> 
-           </tbody> 
-          </table> 
-         </div> 
-        </div> </li> 
-       <li class="test displayed active  fail" status="fail" bdd="false" test-id="2"> 
-        <div class="test-heading"> 
-         <span class="test-name">yanguang_ZH_001</span> 
-         <span class="test-time">Mar 16, 2020 10:56:34 AM</span> 
-         <span class="test-status right fail">fail</span> 
-        </div> 
-        <div class="test-content hide"> 
-         <div class="test-time-info"> 
-          <span class="label start-time">Mar 16, 2020 10:56:34 AM</span> 
-          <span class="label end-time">Mar 16, 2020 10:56:49 AM</span> 
-          <span class="label time-taken grey lighten-1 white-text">0h 0m 15s+155ms</span> 
-         </div> 
-         <div class="test-steps"> 
-          <table class="bordered table-results"> 
-           <thead> 
-            <tr> 
-             <th>Status</th> 
-             <th>Timestamp</th> 
-             <th>Details</th> 
-            </tr> 
-           </thead> 
-           <tbody> 
-            <tr class="log" status="debug"> 
-             <td class="status debug" title="debug" alt="debug"><i class="material-icons">low_priority</i></td> 
-             <td class="timestamp">11:00:25 AM</td> 
-             <td class="step-details"><a href="snapshot/2020-03-16" 105648888.jpg target="_blank"><img src="snapshot//2020-03-16" 105648888.jpg style="width:30px;height:30px" img>失败截图</a></td> 
-            </tr> 
-            <tr class="log" status="fail"> 
-             <td class="status fail" title="fail" alt="fail"><i class="material-icons">cancel</i></td> 
-             <td class="timestamp">11:00:25 AM</td> 
-             <td class="step-details"><pre>java.lang.NullPointerException
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	at sun.baoxian.base.WebElementBase.DisplayElement(WebElementBase.java:540)
-	at sun.baoxian.actions.yangguangAction.yangguangZH(yangguangAction.java:61)
-	at sun.baoxian.yanguangTest.yanguang_ZH_001(yanguangTest.java:17)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-</pre></td> 
-            </tr> 
-           </tbody> 
-          </table> 
-         </div> 
-        </div> </li> 
-       <li class="test displayed active  fail" status="fail" bdd="false" test-id="3"> 
-        <div class="test-heading"> 
          <span class="test-name">yangguang_001</span> 
-         <span class="test-time">Mar 16, 2020 10:57:40 AM</span> 
+         <span class="test-time">Mar 17, 2020 12:57:23 AM</span> 
          <span class="test-status right fail">fail</span> 
         </div> 
         <div class="test-content hide"> 
          <div class="test-time-info"> 
-          <span class="label start-time">Mar 16, 2020 10:57:40 AM</span> 
-          <span class="label end-time">Mar 16, 2020 10:57:41 AM</span> 
-          <span class="label time-taken grey lighten-1 white-text">0h 0m 1s+351ms</span> 
+          <span class="label start-time">Mar 17, 2020 12:57:23 AM</span> 
+          <span class="label end-time">Mar 17, 2020 12:57:30 AM</span> 
+          <span class="label time-taken grey lighten-1 white-text">0h 0m 6s+328ms</span> 
          </div> 
          <div class="test-steps"> 
           <table class="bordered table-results"> 
@@ -289,16 +141,16 @@
            <tbody> 
             <tr class="log" status="fail"> 
              <td class="status fail" title="fail" alt="fail"><i class="material-icons">cancel</i></td> 
-             <td class="timestamp">11:00:25 AM</td> 
-             <td class="step-details"><textarea>org.openqa.selenium.WebDriverException: unknown error: Element &lt;div class="b-amount"&gt;...&lt;/div&gt; is not clickable at point (388, 558). Other element would receive the click: &lt;div class="flex-start flex-direction-column ml40 fee-wrap"&gt;...&lt;/div&gt;
-  (Session info: headless chrome=80.0.3987.132)
+             <td class="timestamp">1:07:53 AM</td> 
+             <td class="step-details"><textarea>org.openqa.selenium.WebDriverException: unknown error: Element &lt;div class="b-amount"&gt;...&lt;/div&gt; is not clickable at point (388, 596). Other element would receive the click: &lt;div class="flex-start flex-direction-column ml40 fee-wrap"&gt;...&lt;/div&gt;
+  (Session info: chrome=80.0.3987.132)
   (Driver info: chromedriver=70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'xuepingsundeMacBook-Pro.local', ip: 'fe80:0:0:0:c98:507b:278f:dbbb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'
+System info: host: 'xuepingsundeMacBook-Pro.local', ip: 'fe80:0:0:0:1048:74af:6fbb:ba62%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.67 (9ab0cfab84ded..., userDataDir: /var/folders/gq/rj3hd6rn3tn...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60619}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.132, webStorageEnabled: true}
-Session ID: ec6adb6ca0ab8d1df860d6c354da7b58
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.67 (9ab0cfab84ded..., userDataDir: /var/folders/gq/rj3hd6rn3tn...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51378}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.132, webStorageEnabled: true}
+Session ID: 433fa0a38c56c41707cf7bf280bea1f5
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -338,192 +190,25 @@ Session ID: ec6adb6ca0ab8d1df860d6c354da7b58
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 	at org.testng.TestNG.runSuites(TestNG.java:1049)
 	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
 </textarea></td> 
             </tr> 
            </tbody> 
           </table> 
          </div> 
         </div> </li> 
-       <li class="test displayed active  fail" status="fail" bdd="false" test-id="4"> 
-        <div class="test-heading"> 
-         <span class="test-name">yangguang_002</span> 
-         <span class="test-time">Mar 16, 2020 10:57:42 AM</span> 
-         <span class="test-status right fail">fail</span> 
-        </div> 
-        <div class="test-content hide"> 
-         <div class="test-time-info"> 
-          <span class="label start-time">Mar 16, 2020 10:57:42 AM</span> 
-          <span class="label end-time">Mar 16, 2020 10:57:54 AM</span> 
-          <span class="label time-taken grey lighten-1 white-text">0h 0m 12s+162ms</span> 
-         </div> 
-         <div class="test-steps"> 
-          <table class="bordered table-results"> 
-           <thead> 
-            <tr> 
-             <th>Status</th> 
-             <th>Timestamp</th> 
-             <th>Details</th> 
-            </tr> 
-           </thead> 
-           <tbody> 
-            <tr class="log" status="debug"> 
-             <td class="status debug" title="debug" alt="debug"><i class="material-icons">low_priority</i></td> 
-             <td class="timestamp">11:00:25 AM</td> 
-             <td class="step-details"><a href="snapshot/2020-03-16" 105754067.jpg target="_blank"><img src="snapshot//2020-03-16" 105754067.jpg style="width:30px;height:30px" img>失败截图</a></td> 
-            </tr> 
-            <tr class="log" status="fail"> 
-             <td class="status fail" title="fail" alt="fail"><i class="material-icons">cancel</i></td> 
-             <td class="timestamp">11:00:25 AM</td> 
-             <td class="step-details"><pre>java.lang.NullPointerException
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	at sun.baoxian.base.WebElementBase.DisplayElement(WebElementBase.java:540)
-	at sun.baoxian.actions.shortInsurance19Action.YG_BW_Plus(shortInsurance19Action.java:238)
-	at sun.baoxian.shortInsuranceTest.yangguang_002(shortInsuranceTest.java:52)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-</pre></td> 
-            </tr> 
-           </tbody> 
-          </table> 
-         </div> 
-        </div> </li> 
-       <li class="test displayed active  fail" status="fail" bdd="false" test-id="5"> 
-        <div class="test-heading"> 
-         <span class="test-name">changqingbao</span> 
-         <span class="test-time">Mar 16, 2020 10:58:37 AM</span> 
-         <span class="test-status right fail">fail</span> 
-        </div> 
-        <div class="test-content hide"> 
-         <div class="test-time-info"> 
-          <span class="label start-time">Mar 16, 2020 10:58:37 AM</span> 
-          <span class="label end-time">Mar 16, 2020 10:58:51 AM</span> 
-          <span class="label time-taken grey lighten-1 white-text">0h 0m 13s+811ms</span> 
-         </div> 
-         <div class="test-steps"> 
-          <table class="bordered table-results"> 
-           <thead> 
-            <tr> 
-             <th>Status</th> 
-             <th>Timestamp</th> 
-             <th>Details</th> 
-            </tr> 
-           </thead> 
-           <tbody> 
-            <tr class="log" status="fail"> 
-             <td class="status fail" title="fail" alt="fail"><i class="material-icons">cancel</i></td> 
-             <td class="timestamp">11:00:25 AM</td> 
-             <td class="step-details"><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='确定']"}
-  (Session info: headless chrome=80.0.3987.132)
-  (Driver info: chromedriver=70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'xuepingsundeMacBook-Pro.local', ip: 'fe80:0:0:0:c98:507b:278f:dbbb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.67 (9ab0cfab84ded..., userDataDir: /var/folders/gq/rj3hd6rn3tn...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60797}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.132, webStorageEnabled: true}
-Session ID: 8d91e75ce601e4a68530afa836d39a3d
-*** Element info: {Using=xpath, value=//*[text()='确定']}
-	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at sun.baoxian.actions.changqingbaoAction.changqingbao_001(changqingbaoAction.java:45)
-	at sun.baoxian.changqingbaoTest.changqingbao(changqingbaoTest.java:11)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-</pre></td> 
-            </tr> 
-           </tbody> 
-          </table> 
-         </div> 
-        </div> </li> 
-       <li class="test displayed active  fail" status="fail" bdd="false" test-id="6"> 
+       <li class="test displayed active  fail" status="fail" bdd="false" test-id="2"> 
         <div class="test-heading"> 
          <span class="test-name">mamibaobei</span> 
-         <span class="test-time">Mar 16, 2020 10:59:07 AM</span> 
+         <span class="test-time">Mar 17, 2020 1:04:05 AM</span> 
          <span class="test-status right fail">fail</span> 
         </div> 
         <div class="test-content hide"> 
          <div class="test-time-info"> 
-          <span class="label start-time">Mar 16, 2020 10:59:07 AM</span> 
-          <span class="label end-time">Mar 16, 2020 11:00:04 AM</span> 
-          <span class="label time-taken grey lighten-1 white-text">0h 0m 57s+146ms</span> 
+          <span class="label start-time">Mar 17, 2020 1:04:05 AM</span> 
+          <span class="label end-time">Mar 17, 2020 1:04:51 AM</span> 
+          <span class="label time-taken grey lighten-1 white-text">0h 0m 45s+174ms</span> 
          </div> 
          <div class="test-steps"> 
           <table class="bordered table-results"> 
@@ -537,12 +222,12 @@ Session ID: 8d91e75ce601e4a68530afa836d39a3d
            <tbody> 
             <tr class="log" status="debug"> 
              <td class="status debug" title="debug" alt="debug"><i class="material-icons">low_priority</i></td> 
-             <td class="timestamp">11:00:25 AM</td> 
-             <td class="step-details"><a href="snapshot/2020-03-16" 110004447.jpg target="_blank"><img src="snapshot//2020-03-16" 110004447.jpg style="width:30px;height:30px" img>失败截图</a></td> 
+             <td class="timestamp">1:07:53 AM</td> 
+             <td class="step-details"><a href="snapshot/2020-03-17" 010450647.jpg target="_blank"><img src="snapshot//2020-03-17" 010450647.jpg style="width:30px;height:30px" img>失败截图</a></td> 
             </tr> 
             <tr class="log" status="fail"> 
              <td class="status fail" title="fail" alt="fail"><i class="material-icons">cancel</i></td> 
-             <td class="timestamp">11:00:25 AM</td> 
+             <td class="timestamp">1:07:53 AM</td> 
              <td class="step-details"><pre>java.lang.NullPointerException
 	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
 	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
@@ -574,30 +259,25 @@ Session ID: 8d91e75ce601e4a68530afa836d39a3d
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 	at org.testng.TestNG.runSuites(TestNG.java:1049)
 	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
 </pre></td> 
             </tr> 
            </tbody> 
           </table> 
          </div> 
         </div> </li> 
-       <li class="test displayed active  fail" status="fail" bdd="false" test-id="7"> 
+       <li class="test displayed active  fail" status="fail" bdd="false" test-id="3"> 
         <div class="test-heading"> 
          <span class="test-name">kaixinbaobei_001</span> 
-         <span class="test-time">Mar 16, 2020 11:00:19 AM</span> 
+         <span class="test-time">Mar 17, 2020 1:05:13 AM</span> 
          <span class="test-status right fail">fail</span> 
         </div> 
         <div class="test-content hide"> 
          <div class="test-time-info"> 
-          <span class="label start-time">Mar 16, 2020 11:00:19 AM</span> 
-          <span class="label end-time">Mar 16, 2020 11:00:25 AM</span> 
-          <span class="label time-taken grey lighten-1 white-text">0h 0m 5s+669ms</span> 
+          <span class="label start-time">Mar 17, 2020 1:05:13 AM</span> 
+          <span class="label end-time">Mar 17, 2020 1:07:47 AM</span> 
+          <span class="label time-taken grey lighten-1 white-text">0h 2m 34s+551ms</span> 
          </div> 
          <div class="test-steps"> 
           <table class="bordered table-results"> 
@@ -611,16 +291,16 @@ Session ID: 8d91e75ce601e4a68530afa836d39a3d
            <tbody> 
             <tr class="log" status="fail"> 
              <td class="status fail" title="fail" alt="fail"><i class="material-icons">cancel</i></td> 
-             <td class="timestamp">11:00:25 AM</td> 
-             <td class="step-details"><textarea>org.openqa.selenium.WebDriverException: unknown error: Element &lt;span class="b-amount"&gt;...&lt;/span&gt; is not clickable at point (318, 501). Other element would receive the click: &lt;div class="flex-center pt25 mr40 mb40"&gt;...&lt;/div&gt;
-  (Session info: headless chrome=80.0.3987.132)
+             <td class="timestamp">1:07:53 AM</td> 
+             <td class="step-details"><textarea>org.openqa.selenium.WebDriverException: unknown error: Element &lt;span class="tab-radius-gray"&gt;...&lt;/span&gt; is not clickable at point (316, 181). Other element would receive the click: &lt;div class="am-picker-popup-wrap " role="dialog"&gt;...&lt;/div&gt;
+  (Session info: chrome=80.0.3987.132)
   (Driver info: chromedriver=70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'xuepingsundeMacBook-Pro.local', ip: 'fe80:0:0:0:c98:507b:278f:dbbb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'
+System info: host: 'xuepingsundeMacBook-Pro.local', ip: 'fe80:0:0:0:1048:74af:6fbb:ba62%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.67 (9ab0cfab84ded..., userDataDir: /var/folders/gq/rj3hd6rn3tn...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60972}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.132, webStorageEnabled: true}
-Session ID: fe6a0bd2c85246caf9a0b16e7d1c5ce6
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.67 (9ab0cfab84ded..., userDataDir: /var/folders/gq/rj3hd6rn3tn...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51835}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.132, webStorageEnabled: true}
+Session ID: d8ec5b0d768d533731ff0c4c66802053
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -636,7 +316,7 @@ Session ID: fe6a0bd2c85246caf9a0b16e7d1c5ce6
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
 	at sun.baoxian.base.WebElementBase.click(WebElementBase.java:122)
-	at sun.baoxian.actions.kaixinbaobeiAction.kaixinbaobei(kaixinbaobeiAction.java:26)
+	at sun.baoxian.actions.kaixinbaobeiAction.kaixinbaobei(kaixinbaobeiAction.java:51)
 	at sun.baoxian.kaixinbaobeiTest.kaixinbaobei_001(kaixinbaobeiTest.java:11)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -660,30 +340,25 @@ Session ID: fe6a0bd2c85246caf9a0b16e7d1c5ce6
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 	at org.testng.TestNG.runSuites(TestNG.java:1049)
 	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
 </textarea></td> 
             </tr> 
            </tbody> 
           </table> 
          </div> 
         </div> </li> 
-       <li class="test displayed active  pass" status="pass" bdd="false" test-id="8"> 
+       <li class="test displayed active  pass" status="pass" bdd="false" test-id="4"> 
         <div class="test-heading"> 
          <span class="test-name">jiangxin_test</span> 
-         <span class="test-time">Mar 16, 2020 10:55:47 AM</span> 
+         <span class="test-time">Mar 17, 2020 12:54:40 AM</span> 
          <span class="test-status right pass">pass</span> 
         </div> 
         <div class="test-content hide"> 
          <div class="test-time-info"> 
-          <span class="label start-time">Mar 16, 2020 10:55:47 AM</span> 
-          <span class="label end-time">Mar 16, 2020 10:56:04 AM</span> 
-          <span class="label time-taken grey lighten-1 white-text">0h 0m 17s+384ms</span> 
+          <span class="label start-time">Mar 17, 2020 12:54:40 AM</span> 
+          <span class="label end-time">Mar 17, 2020 12:55:02 AM</span> 
+          <span class="label time-taken grey lighten-1 white-text">0h 0m 21s+923ms</span> 
          </div> 
          <div class="test-steps"> 
           <table class="bordered table-results"> 
@@ -697,17 +372,181 @@ Session ID: fe6a0bd2c85246caf9a0b16e7d1c5ce6
            <tbody> 
             <tr class="log" status="debug"> 
              <td class="status debug" title="debug" alt="debug"><i class="material-icons">low_priority</i></td> 
-             <td class="timestamp">11:00:25 AM</td> 
-             <td class="step-details">投保人信息：手机号：13607793518 身份证号：632123198811019916</td> 
+             <td class="timestamp">1:07:53 AM</td> 
+             <td class="step-details">投保人信息：手机号：15308607225 身份证号：533102198811013413</td> 
             </tr> 
             <tr class="log" status="debug"> 
              <td class="status debug" title="debug" alt="debug"><i class="material-icons">low_priority</i></td> 
-             <td class="timestamp">11:00:25 AM</td> 
-             <td class="step-details">http://test.bxm.ncfimg.com/#/pay_accident?btoken=32b8d244fa34bbc7cd088fc7c7c7e3d1&amp;__a=</td> 
+             <td class="timestamp">1:07:53 AM</td> 
+             <td class="step-details">http://test.bxm.ncfimg.com/#/pay_accident?btoken=2b7f975d0eb580485854ae2f817a7ddc&amp;__a=</td> 
             </tr> 
             <tr class="log" status="pass"> 
              <td class="status pass" title="pass" alt="pass"><i class="material-icons">check_circle</i></td> 
-             <td class="timestamp">11:00:25 AM</td> 
+             <td class="timestamp">1:07:53 AM</td> 
+             <td class="step-details">Test passed</td> 
+            </tr> 
+           </tbody> 
+          </table> 
+         </div> 
+        </div> </li> 
+       <li class="test displayed active  pass" status="pass" bdd="false" test-id="5"> 
+        <div class="test-heading"> 
+         <span class="test-name">yangguang_BW_001</span> 
+         <span class="test-time">Mar 17, 2020 12:55:04 AM</span> 
+         <span class="test-status right pass">pass</span> 
+        </div> 
+        <div class="test-content hide"> 
+         <div class="test-time-info"> 
+          <span class="label start-time">Mar 17, 2020 12:55:04 AM</span> 
+          <span class="label end-time">Mar 17, 2020 12:55:20 AM</span> 
+          <span class="label time-taken grey lighten-1 white-text">0h 0m 15s+563ms</span> 
+         </div> 
+         <div class="test-steps"> 
+          <table class="bordered table-results"> 
+           <thead> 
+            <tr> 
+             <th>Status</th> 
+             <th>Timestamp</th> 
+             <th>Details</th> 
+            </tr> 
+           </thead> 
+           <tbody> 
+            <tr class="log" status="debug"> 
+             <td class="status debug" title="debug" alt="debug"><i class="material-icons">low_priority</i></td> 
+             <td class="timestamp">1:07:53 AM</td> 
+             <td class="step-details">投保人信息：手机号：13600974987 身份证号：42100319811210140X</td> 
+            </tr> 
+            <tr class="log" status="debug"> 
+             <td class="status debug" title="debug" alt="debug"><i class="material-icons">low_priority</i></td> 
+             <td class="timestamp">1:07:53 AM</td> 
+             <td class="step-details">http://test.bxm.ncfimg.com/#/pay_accident?btoken=2ca8d98fc2724f8a73aeaec0fa42994a</td> 
+            </tr> 
+            <tr class="log" status="pass"> 
+             <td class="status pass" title="pass" alt="pass"><i class="material-icons">check_circle</i></td> 
+             <td class="timestamp">1:07:53 AM</td> 
+             <td class="step-details">Test passed</td> 
+            </tr> 
+           </tbody> 
+          </table> 
+         </div> 
+        </div> </li> 
+       <li class="test displayed active  pass" status="pass" bdd="false" test-id="6"> 
+        <div class="test-heading"> 
+         <span class="test-name">yanguang_ZH_001</span> 
+         <span class="test-time">Mar 17, 2020 12:55:22 AM</span> 
+         <span class="test-status right pass">pass</span> 
+        </div> 
+        <div class="test-content hide"> 
+         <div class="test-time-info"> 
+          <span class="label start-time">Mar 17, 2020 12:55:22 AM</span> 
+          <span class="label end-time">Mar 17, 2020 12:55:36 AM</span> 
+          <span class="label time-taken grey lighten-1 white-text">0h 0m 14s+891ms</span> 
+         </div> 
+         <div class="test-steps"> 
+          <table class="bordered table-results"> 
+           <thead> 
+            <tr> 
+             <th>Status</th> 
+             <th>Timestamp</th> 
+             <th>Details</th> 
+            </tr> 
+           </thead> 
+           <tbody> 
+            <tr class="log" status="debug"> 
+             <td class="status debug" title="debug" alt="debug"><i class="material-icons">low_priority</i></td> 
+             <td class="timestamp">1:07:53 AM</td> 
+             <td class="step-details">投保人信息：手机号：13802168518 身份证号：350926199012109403</td> 
+            </tr> 
+            <tr class="log" status="debug"> 
+             <td class="status debug" title="debug" alt="debug"><i class="material-icons">low_priority</i></td> 
+             <td class="timestamp">1:07:53 AM</td> 
+             <td class="step-details">http://test.bxm.ncfimg.com/#/pay_accident?btoken=3af0f52f57f716e31cfa6edc885d2196</td> 
+            </tr> 
+            <tr class="log" status="pass"> 
+             <td class="status pass" title="pass" alt="pass"><i class="material-icons">check_circle</i></td> 
+             <td class="timestamp">1:07:53 AM</td> 
+             <td class="step-details">Test passed</td> 
+            </tr> 
+           </tbody> 
+          </table> 
+         </div> 
+        </div> </li> 
+       <li class="test displayed active  pass" status="pass" bdd="false" test-id="7"> 
+        <div class="test-heading"> 
+         <span class="test-name">taikang2020_PH_001</span> 
+         <span class="test-time">Mar 17, 2020 12:55:38 AM</span> 
+         <span class="test-status right pass">pass</span> 
+        </div> 
+        <div class="test-content hide"> 
+         <div class="test-time-info"> 
+          <span class="label start-time">Mar 17, 2020 12:55:38 AM</span> 
+          <span class="label end-time">Mar 17, 2020 12:56:21 AM</span> 
+          <span class="label time-taken grey lighten-1 white-text">0h 0m 43s+40ms</span> 
+         </div> 
+         <div class="test-steps"> 
+          <table class="bordered table-results"> 
+           <thead> 
+            <tr> 
+             <th>Status</th> 
+             <th>Timestamp</th> 
+             <th>Details</th> 
+            </tr> 
+           </thead> 
+           <tbody> 
+            <tr class="log" status="debug"> 
+             <td class="status debug" title="debug" alt="debug"><i class="material-icons">low_priority</i></td> 
+             <td class="timestamp">1:07:53 AM</td> 
+             <td class="step-details">投保人信息：手机号：13805755918 身份证号：621126199212100203</td> 
+            </tr> 
+            <tr class="log" status="debug"> 
+             <td class="status debug" title="debug" alt="debug"><i class="material-icons">low_priority</i></td> 
+             <td class="timestamp">1:07:53 AM</td> 
+             <td class="step-details">http://test.bxm.ncfimg.com/#/pay_accident?btoken=25d6993a741aeb0feabe88d3a0d42973&amp;__a=</td> 
+            </tr> 
+            <tr class="log" status="pass"> 
+             <td class="status pass" title="pass" alt="pass"><i class="material-icons">check_circle</i></td> 
+             <td class="timestamp">1:07:53 AM</td> 
+             <td class="step-details">Test passed</td> 
+            </tr> 
+           </tbody> 
+          </table> 
+         </div> 
+        </div> </li> 
+       <li class="test displayed active  pass" status="pass" bdd="false" test-id="8"> 
+        <div class="test-heading"> 
+         <span class="test-name">taikang2020_SC_001</span> 
+         <span class="test-time">Mar 17, 2020 12:56:23 AM</span> 
+         <span class="test-status right pass">pass</span> 
+        </div> 
+        <div class="test-content hide"> 
+         <div class="test-time-info"> 
+          <span class="label start-time">Mar 17, 2020 12:56:23 AM</span> 
+          <span class="label end-time">Mar 17, 2020 12:56:40 AM</span> 
+          <span class="label time-taken grey lighten-1 white-text">0h 0m 17s+198ms</span> 
+         </div> 
+         <div class="test-steps"> 
+          <table class="bordered table-results"> 
+           <thead> 
+            <tr> 
+             <th>Status</th> 
+             <th>Timestamp</th> 
+             <th>Details</th> 
+            </tr> 
+           </thead> 
+           <tbody> 
+            <tr class="log" status="debug"> 
+             <td class="status debug" title="debug" alt="debug"><i class="material-icons">low_priority</i></td> 
+             <td class="timestamp">1:07:53 AM</td> 
+             <td class="step-details">投保人信息：手机号：15803423433 身份证号：410725199212104403</td> 
+            </tr> 
+            <tr class="log" status="debug"> 
+             <td class="status debug" title="debug" alt="debug"><i class="material-icons">low_priority</i></td> 
+             <td class="timestamp">1:07:53 AM</td> 
+             <td class="step-details">http://test.bxm.ncfimg.com/#/pay_accident?btoken=ebd412d8cbf8a8b4174b1c025fc34938&amp;__a=</td> 
+            </tr> 
+            <tr class="log" status="pass"> 
+             <td class="status pass" title="pass" alt="pass"><i class="material-icons">check_circle</i></td> 
+             <td class="timestamp">1:07:53 AM</td> 
              <td class="step-details">Test passed</td> 
             </tr> 
            </tbody> 
@@ -716,15 +555,15 @@ Session ID: fe6a0bd2c85246caf9a0b16e7d1c5ce6
         </div> </li> 
        <li class="test displayed active  pass" status="pass" bdd="false" test-id="9"> 
         <div class="test-heading"> 
-         <span class="test-name">taikang2020_PH_001</span> 
-         <span class="test-time">Mar 16, 2020 10:56:50 AM</span> 
+         <span class="test-name">taikang2020_SC_002</span> 
+         <span class="test-time">Mar 17, 2020 12:56:42 AM</span> 
          <span class="test-status right pass">pass</span> 
         </div> 
         <div class="test-content hide"> 
          <div class="test-time-info"> 
-          <span class="label start-time">Mar 16, 2020 10:56:50 AM</span> 
-          <span class="label end-time">Mar 16, 2020 10:57:00 AM</span> 
-          <span class="label time-taken grey lighten-1 white-text">0h 0m 10s+755ms</span> 
+          <span class="label start-time">Mar 17, 2020 12:56:42 AM</span> 
+          <span class="label end-time">Mar 17, 2020 12:56:58 AM</span> 
+          <span class="label time-taken grey lighten-1 white-text">0h 0m 16s+864ms</span> 
          </div> 
          <div class="test-steps"> 
           <table class="bordered table-results"> 
@@ -736,19 +575,9 @@ Session ID: fe6a0bd2c85246caf9a0b16e7d1c5ce6
             </tr> 
            </thead> 
            <tbody> 
-            <tr class="log" status="debug"> 
-             <td class="status debug" title="debug" alt="debug"><i class="material-icons">low_priority</i></td> 
-             <td class="timestamp">11:00:25 AM</td> 
-             <td class="step-details">投保人信息：手机号：13002564411 身份证号：513232199212102005</td> 
-            </tr> 
-            <tr class="log" status="debug"> 
-             <td class="status debug" title="debug" alt="debug"><i class="material-icons">low_priority</i></td> 
-             <td class="timestamp">11:00:25 AM</td> 
-             <td class="step-details">http://test.bxm.ncfimg.com/#/pay_accident?btoken=9627de7d8e7608f02d2b4ec72ca07a47&amp;__a=</td> 
-            </tr> 
             <tr class="log" status="pass"> 
              <td class="status pass" title="pass" alt="pass"><i class="material-icons">check_circle</i></td> 
-             <td class="timestamp">11:00:25 AM</td> 
+             <td class="timestamp">1:07:53 AM</td> 
              <td class="step-details">Test passed</td> 
             </tr> 
            </tbody> 
@@ -757,15 +586,15 @@ Session ID: fe6a0bd2c85246caf9a0b16e7d1c5ce6
         </div> </li> 
        <li class="test displayed active  pass" status="pass" bdd="false" test-id="10"> 
         <div class="test-heading"> 
-         <span class="test-name">taikang2020_SC_001</span> 
-         <span class="test-time">Mar 16, 2020 10:57:01 AM</span> 
+         <span class="test-name">taikang2020_SC_003</span> 
+         <span class="test-time">Mar 17, 2020 12:57:00 AM</span> 
          <span class="test-status right pass">pass</span> 
         </div> 
         <div class="test-content hide"> 
          <div class="test-time-info"> 
-          <span class="label start-time">Mar 16, 2020 10:57:01 AM</span> 
-          <span class="label end-time">Mar 16, 2020 10:57:17 AM</span> 
-          <span class="label time-taken grey lighten-1 white-text">0h 0m 15s+887ms</span> 
+          <span class="label start-time">Mar 17, 2020 12:57:00 AM</span> 
+          <span class="label end-time">Mar 17, 2020 12:57:21 AM</span> 
+          <span class="label time-taken grey lighten-1 white-text">0h 0m 21s+103ms</span> 
          </div> 
          <div class="test-steps"> 
           <table class="bordered table-results"> 
@@ -779,17 +608,17 @@ Session ID: fe6a0bd2c85246caf9a0b16e7d1c5ce6
            <tbody> 
             <tr class="log" status="debug"> 
              <td class="status debug" title="debug" alt="debug"><i class="material-icons">low_priority</i></td> 
-             <td class="timestamp">11:00:25 AM</td> 
-             <td class="step-details">投保人信息：手机号：15001836548 身份证号：210903199212104003</td> 
+             <td class="timestamp">1:07:53 AM</td> 
+             <td class="step-details">投保人信息：手机号：13102534322 身份证号：411425199212103608</td> 
             </tr> 
             <tr class="log" status="debug"> 
              <td class="status debug" title="debug" alt="debug"><i class="material-icons">low_priority</i></td> 
-             <td class="timestamp">11:00:25 AM</td> 
-             <td class="step-details">http://test.bxm.ncfimg.com/#/pay_accident?btoken=e16c1125d97ac3a9e41b6d961d83f841&amp;__a=</td> 
+             <td class="timestamp">1:07:53 AM</td> 
+             <td class="step-details">http://test.bxm.ncfimg.com/#/pay_accident?btoken=574c644fccdf877518e242b6df694098&amp;__a=</td> 
             </tr> 
             <tr class="log" status="pass"> 
              <td class="status pass" title="pass" alt="pass"><i class="material-icons">check_circle</i></td> 
-             <td class="timestamp">11:00:25 AM</td> 
+             <td class="timestamp">1:07:53 AM</td> 
              <td class="step-details">Test passed</td> 
             </tr> 
            </tbody> 
@@ -798,15 +627,15 @@ Session ID: fe6a0bd2c85246caf9a0b16e7d1c5ce6
         </div> </li> 
        <li class="test displayed active  pass" status="pass" bdd="false" test-id="11"> 
         <div class="test-heading"> 
-         <span class="test-name">taikang2020_SC_002</span> 
-         <span class="test-time">Mar 16, 2020 10:57:18 AM</span> 
+         <span class="test-name">yangguang_002</span> 
+         <span class="test-time">Mar 17, 2020 12:57:31 AM</span> 
          <span class="test-status right pass">pass</span> 
         </div> 
         <div class="test-content hide"> 
          <div class="test-time-info"> 
-          <span class="label start-time">Mar 16, 2020 10:57:18 AM</span> 
-          <span class="label end-time">Mar 16, 2020 10:57:28 AM</span> 
-          <span class="label time-taken grey lighten-1 white-text">0h 0m 10s+174ms</span> 
+          <span class="label start-time">Mar 17, 2020 12:57:31 AM</span> 
+          <span class="label end-time">Mar 17, 2020 12:58:02 AM</span> 
+          <span class="label time-taken grey lighten-1 white-text">0h 0m 30s+986ms</span> 
          </div> 
          <div class="test-steps"> 
           <table class="bordered table-results"> 
@@ -818,9 +647,19 @@ Session ID: fe6a0bd2c85246caf9a0b16e7d1c5ce6
             </tr> 
            </thead> 
            <tbody> 
+            <tr class="log" status="debug"> 
+             <td class="status debug" title="debug" alt="debug"><i class="material-icons">low_priority</i></td> 
+             <td class="timestamp">1:07:53 AM</td> 
+             <td class="step-details">投保人信息：手机号：13504193982 身份证号：110104199212109903</td> 
+            </tr> 
+            <tr class="log" status="debug"> 
+             <td class="status debug" title="debug" alt="debug"><i class="material-icons">low_priority</i></td> 
+             <td class="timestamp">1:07:53 AM</td> 
+             <td class="step-details">支付链接： http://test.bxm.ncfimg.com/#/pay_accident?btoken=784e71875616c302578e1249b651f595&amp;__a=</td> 
+            </tr> 
             <tr class="log" status="pass"> 
              <td class="status pass" title="pass" alt="pass"><i class="material-icons">check_circle</i></td> 
-             <td class="timestamp">11:00:25 AM</td> 
+             <td class="timestamp">1:07:53 AM</td> 
              <td class="step-details">Test passed</td> 
             </tr> 
            </tbody> 
@@ -829,15 +668,15 @@ Session ID: fe6a0bd2c85246caf9a0b16e7d1c5ce6
         </div> </li> 
        <li class="test displayed active  pass" status="pass" bdd="false" test-id="12"> 
         <div class="test-heading"> 
-         <span class="test-name">taikang2020_SC_003</span> 
-         <span class="test-time">Mar 16, 2020 10:57:29 AM</span> 
+         <span class="test-name">zhonghui_001</span> 
+         <span class="test-time">Mar 17, 2020 12:58:04 AM</span> 
          <span class="test-status right pass">pass</span> 
         </div> 
         <div class="test-content hide"> 
          <div class="test-time-info"> 
-          <span class="label start-time">Mar 16, 2020 10:57:29 AM</span> 
-          <span class="label end-time">Mar 16, 2020 10:57:39 AM</span> 
-          <span class="label time-taken grey lighten-1 white-text">0h 0m 10s+669ms</span> 
+          <span class="label start-time">Mar 17, 2020 12:58:04 AM</span> 
+          <span class="label end-time">Mar 17, 2020 12:58:21 AM</span> 
+          <span class="label time-taken grey lighten-1 white-text">0h 0m 17s+399ms</span> 
          </div> 
          <div class="test-steps"> 
           <table class="bordered table-results"> 
@@ -851,17 +690,17 @@ Session ID: fe6a0bd2c85246caf9a0b16e7d1c5ce6
            <tbody> 
             <tr class="log" status="debug"> 
              <td class="status debug" title="debug" alt="debug"><i class="material-icons">low_priority</i></td> 
-             <td class="timestamp">11:00:25 AM</td> 
-             <td class="step-details">投保人信息：手机号：15904386443 身份证号：511821199212101004</td> 
+             <td class="timestamp">1:07:53 AM</td> 
+             <td class="step-details">投保人信息：手机号：13600147589 身份证号：421222199212109606</td> 
             </tr> 
             <tr class="log" status="debug"> 
              <td class="status debug" title="debug" alt="debug"><i class="material-icons">low_priority</i></td> 
-             <td class="timestamp">11:00:25 AM</td> 
-             <td class="step-details">http://test.bxm.ncfimg.com/#/pay_accident?btoken=f7d1023009be2558a672e7ae65c888cf&amp;__a=</td> 
+             <td class="timestamp">1:07:53 AM</td> 
+             <td class="step-details">http://test.bxm.ncfimg.com/#/pay_accident?btoken=3a00cd4c23068ae6bd146deff7c3b7c4&amp;__a=</td> 
             </tr> 
             <tr class="log" status="pass"> 
              <td class="status pass" title="pass" alt="pass"><i class="material-icons">check_circle</i></td> 
-             <td class="timestamp">11:00:25 AM</td> 
+             <td class="timestamp">1:07:53 AM</td> 
              <td class="step-details">Test passed</td> 
             </tr> 
            </tbody> 
@@ -870,15 +709,15 @@ Session ID: fe6a0bd2c85246caf9a0b16e7d1c5ce6
         </div> </li> 
        <li class="test displayed active  pass" status="pass" bdd="false" test-id="13"> 
         <div class="test-heading"> 
-         <span class="test-name">zhonghui_001</span> 
-         <span class="test-time">Mar 16, 2020 10:57:55 AM</span> 
+         <span class="test-name">zhonghui_002</span> 
+         <span class="test-time">Mar 17, 2020 12:58:23 AM</span> 
          <span class="test-status right pass">pass</span> 
         </div> 
         <div class="test-content hide"> 
          <div class="test-time-info"> 
-          <span class="label start-time">Mar 16, 2020 10:57:55 AM</span> 
-          <span class="label end-time">Mar 16, 2020 10:58:08 AM</span> 
-          <span class="label time-taken grey lighten-1 white-text">0h 0m 13s+367ms</span> 
+          <span class="label start-time">Mar 17, 2020 12:58:23 AM</span> 
+          <span class="label end-time">Mar 17, 2020 12:58:44 AM</span> 
+          <span class="label time-taken grey lighten-1 white-text">0h 0m 20s+977ms</span> 
          </div> 
          <div class="test-steps"> 
           <table class="bordered table-results"> 
@@ -892,17 +731,17 @@ Session ID: fe6a0bd2c85246caf9a0b16e7d1c5ce6
            <tbody> 
             <tr class="log" status="debug"> 
              <td class="status debug" title="debug" alt="debug"><i class="material-icons">low_priority</i></td> 
-             <td class="timestamp">11:00:25 AM</td> 
-             <td class="step-details">投保人信息：手机号：15002500881 身份证号：410403199212100002</td> 
+             <td class="timestamp">1:07:53 AM</td> 
+             <td class="step-details">投保人信息：手机号：15805139050 身份证号：652824199212100408</td> 
             </tr> 
             <tr class="log" status="debug"> 
              <td class="status debug" title="debug" alt="debug"><i class="material-icons">low_priority</i></td> 
-             <td class="timestamp">11:00:25 AM</td> 
-             <td class="step-details">http://test.bxm.ncfimg.com/#/pay_accident?btoken=aae8418005de6c5804af040ad2ce0c48&amp;__a=</td> 
+             <td class="timestamp">1:07:53 AM</td> 
+             <td class="step-details">http://test.bxm.ncfimg.com/#/pay_accident?btoken=3185631887769176b8850d51e992c389&amp;__a=</td> 
             </tr> 
             <tr class="log" status="pass"> 
              <td class="status pass" title="pass" alt="pass"><i class="material-icons">check_circle</i></td> 
-             <td class="timestamp">11:00:25 AM</td> 
+             <td class="timestamp">1:07:53 AM</td> 
              <td class="step-details">Test passed</td> 
             </tr> 
            </tbody> 
@@ -911,15 +750,15 @@ Session ID: fe6a0bd2c85246caf9a0b16e7d1c5ce6
         </div> </li> 
        <li class="test displayed active  pass" status="pass" bdd="false" test-id="14"> 
         <div class="test-heading"> 
-         <span class="test-name">zhonghui_002</span> 
-         <span class="test-time">Mar 16, 2020 10:58:09 AM</span> 
+         <span class="test-name">zhonghui_003</span> 
+         <span class="test-time">Mar 17, 2020 12:58:46 AM</span> 
          <span class="test-status right pass">pass</span> 
         </div> 
         <div class="test-content hide"> 
          <div class="test-time-info"> 
-          <span class="label start-time">Mar 16, 2020 10:58:09 AM</span> 
-          <span class="label end-time">Mar 16, 2020 10:58:19 AM</span> 
-          <span class="label time-taken grey lighten-1 white-text">0h 0m 10s+437ms</span> 
+          <span class="label start-time">Mar 17, 2020 12:58:46 AM</span> 
+          <span class="label end-time">Mar 17, 2020 12:59:11 AM</span> 
+          <span class="label time-taken grey lighten-1 white-text">0h 0m 24s+879ms</span> 
          </div> 
          <div class="test-steps"> 
           <table class="bordered table-results"> 
@@ -933,17 +772,17 @@ Session ID: fe6a0bd2c85246caf9a0b16e7d1c5ce6
            <tbody> 
             <tr class="log" status="debug"> 
              <td class="status debug" title="debug" alt="debug"><i class="material-icons">low_priority</i></td> 
-             <td class="timestamp">11:00:25 AM</td> 
-             <td class="step-details">投保人信息：手机号：15507137522 身份证号：230822199212109303</td> 
+             <td class="timestamp">1:07:53 AM</td> 
+             <td class="step-details">投保人信息：手机号：13708771415 身份证号：320507199212108505</td> 
             </tr> 
             <tr class="log" status="debug"> 
              <td class="status debug" title="debug" alt="debug"><i class="material-icons">low_priority</i></td> 
-             <td class="timestamp">11:00:25 AM</td> 
-             <td class="step-details">http://test.bxm.ncfimg.com/#/pay_accident?btoken=ed5bdf60b9f22636ab3119d23de26367&amp;__a=</td> 
+             <td class="timestamp">1:07:53 AM</td> 
+             <td class="step-details">http://test.bxm.ncfimg.com/#/pay_accident?btoken=b3eca1f1929ca5bc935438c3b68a16db&amp;__a=</td> 
             </tr> 
             <tr class="log" status="pass"> 
              <td class="status pass" title="pass" alt="pass"><i class="material-icons">check_circle</i></td> 
-             <td class="timestamp">11:00:25 AM</td> 
+             <td class="timestamp">1:07:53 AM</td> 
              <td class="step-details">Test passed</td> 
             </tr> 
            </tbody> 
@@ -952,15 +791,15 @@ Session ID: fe6a0bd2c85246caf9a0b16e7d1c5ce6
         </div> </li> 
        <li class="test displayed active  pass" status="pass" bdd="false" test-id="15"> 
         <div class="test-heading"> 
-         <span class="test-name">zhonghui_003</span> 
-         <span class="test-time">Mar 16, 2020 10:58:20 AM</span> 
+         <span class="test-name">changqingbao</span> 
+         <span class="test-time">Mar 17, 2020 12:59:13 AM</span> 
          <span class="test-status right pass">pass</span> 
         </div> 
         <div class="test-content hide"> 
          <div class="test-time-info"> 
-          <span class="label start-time">Mar 16, 2020 10:58:20 AM</span> 
-          <span class="label end-time">Mar 16, 2020 10:58:37 AM</span> 
-          <span class="label time-taken grey lighten-1 white-text">0h 0m 17s+124ms</span> 
+          <span class="label start-time">Mar 17, 2020 12:59:13 AM</span> 
+          <span class="label end-time">Mar 17, 2020 1:00:11 AM</span> 
+          <span class="label time-taken grey lighten-1 white-text">0h 0m 58s+432ms</span> 
          </div> 
          <div class="test-steps"> 
           <table class="bordered table-results"> 
@@ -974,17 +813,17 @@ Session ID: fe6a0bd2c85246caf9a0b16e7d1c5ce6
            <tbody> 
             <tr class="log" status="debug"> 
              <td class="status debug" title="debug" alt="debug"><i class="material-icons">low_priority</i></td> 
-             <td class="timestamp">11:00:25 AM</td> 
-             <td class="step-details">投保人信息：手机号：15008687840 身份证号：431129199212100207</td> 
+             <td class="timestamp">1:07:53 AM</td> 
+             <td class="step-details">投保人信息：手机号：13404530726 身份证号：652325199312103103</td> 
             </tr> 
             <tr class="log" status="debug"> 
              <td class="status debug" title="debug" alt="debug"><i class="material-icons">low_priority</i></td> 
-             <td class="timestamp">11:00:25 AM</td> 
-             <td class="step-details">http://test.bxm.ncfimg.com/#/pay_accident?btoken=f9d176983755c9e1f88a191388f4f545&amp;__a=</td> 
+             <td class="timestamp">1:07:53 AM</td> 
+             <td class="step-details">http://test.bxm.ncfimg.com/#/pay_accident?btoken=f7acc93f800c11cbfd8aa72f26f47cda&amp;__a=</td> 
             </tr> 
             <tr class="log" status="pass"> 
              <td class="status pass" title="pass" alt="pass"><i class="material-icons">check_circle</i></td> 
-             <td class="timestamp">11:00:25 AM</td> 
+             <td class="timestamp">1:07:53 AM</td> 
              <td class="step-details">Test passed</td> 
             </tr> 
            </tbody> 
@@ -994,14 +833,14 @@ Session ID: fe6a0bd2c85246caf9a0b16e7d1c5ce6
        <li class="test displayed active  pass" status="pass" bdd="false" test-id="16"> 
         <div class="test-heading"> 
          <span class="test-name">jingling</span> 
-         <span class="test-time">Mar 16, 2020 10:58:52 AM</span> 
+         <span class="test-time">Mar 17, 2020 1:00:13 AM</span> 
          <span class="test-status right pass">pass</span> 
         </div> 
         <div class="test-content hide"> 
          <div class="test-time-info"> 
-          <span class="label start-time">Mar 16, 2020 10:58:52 AM</span> 
-          <span class="label end-time">Mar 16, 2020 10:59:07 AM</span> 
-          <span class="label time-taken grey lighten-1 white-text">0h 0m 14s+652ms</span> 
+          <span class="label start-time">Mar 17, 2020 1:00:13 AM</span> 
+          <span class="label end-time">Mar 17, 2020 1:04:04 AM</span> 
+          <span class="label time-taken grey lighten-1 white-text">0h 3m 51s+516ms</span> 
          </div> 
          <div class="test-steps"> 
           <table class="bordered table-results"> 
@@ -1015,17 +854,17 @@ Session ID: fe6a0bd2c85246caf9a0b16e7d1c5ce6
            <tbody> 
             <tr class="log" status="debug"> 
              <td class="status debug" title="debug" alt="debug"><i class="material-icons">low_priority</i></td> 
-             <td class="timestamp">11:00:25 AM</td> 
-             <td class="step-details">投保人信息：手机号：15500138339 身份证号：520111199312105010</td> 
+             <td class="timestamp">1:07:53 AM</td> 
+             <td class="step-details">投保人信息：手机号：15707592141 身份证号：140427199312106319</td> 
             </tr> 
             <tr class="log" status="debug"> 
              <td class="status debug" title="debug" alt="debug"><i class="material-icons">low_priority</i></td> 
-             <td class="timestamp">11:00:25 AM</td> 
-             <td class="step-details">http://test.bxm.ncfimg.com/#/pay_accident?btoken=72ad79080ce5c89809965ae40f0f735c&amp;__a=</td> 
+             <td class="timestamp">1:07:53 AM</td> 
+             <td class="step-details">http://test.bxm.ncfimg.com/#/pay_accident?btoken=cd52fdbfe39d291caad0a076328ff85e&amp;__a=</td> 
             </tr> 
             <tr class="log" status="pass"> 
              <td class="status pass" title="pass" alt="pass"><i class="material-icons">check_circle</i></td> 
-             <td class="timestamp">11:00:25 AM</td> 
+             <td class="timestamp">1:07:53 AM</td> 
              <td class="step-details">Test passed</td> 
             </tr> 
            </tbody> 
@@ -1035,14 +874,14 @@ Session ID: fe6a0bd2c85246caf9a0b16e7d1c5ce6
        <li class="test displayed active  pass" status="pass" bdd="false" test-id="17"> 
         <div class="test-heading"> 
          <span class="test-name">taikang2019_001</span> 
-         <span class="test-time">Mar 16, 2020 11:00:06 AM</span> 
+         <span class="test-time">Mar 17, 2020 1:04:52 AM</span> 
          <span class="test-status right pass">pass</span> 
         </div> 
         <div class="test-content hide"> 
          <div class="test-time-info"> 
-          <span class="label start-time">Mar 16, 2020 11:00:06 AM</span> 
-          <span class="label end-time">Mar 16, 2020 11:00:18 AM</span> 
-          <span class="label time-taken grey lighten-1 white-text">0h 0m 12s+554ms</span> 
+          <span class="label start-time">Mar 17, 2020 1:04:52 AM</span> 
+          <span class="label end-time">Mar 17, 2020 1:05:11 AM</span> 
+          <span class="label time-taken grey lighten-1 white-text">0h 0m 18s+869ms</span> 
          </div> 
          <div class="test-steps"> 
           <table class="bordered table-results"> 
@@ -1056,17 +895,17 @@ Session ID: fe6a0bd2c85246caf9a0b16e7d1c5ce6
            <tbody> 
             <tr class="log" status="debug"> 
              <td class="status debug" title="debug" alt="debug"><i class="material-icons">low_priority</i></td> 
-             <td class="timestamp">11:00:25 AM</td> 
-             <td class="step-details">投保人信息：手机号：15106498078 身份证号：410782199311112318</td> 
+             <td class="timestamp">1:07:53 AM</td> 
+             <td class="step-details">投保人信息：手机号：15707734863 身份证号：330282199311110219</td> 
             </tr> 
             <tr class="log" status="debug"> 
              <td class="status debug" title="debug" alt="debug"><i class="material-icons">low_priority</i></td> 
-             <td class="timestamp">11:00:25 AM</td> 
-             <td class="step-details">http://test.bxm.ncfimg.com/#/pay_accident?btoken=65ff478e820d52e9d3a64159d44cfa5b&amp;__a=</td> 
+             <td class="timestamp">1:07:53 AM</td> 
+             <td class="step-details">http://test.bxm.ncfimg.com/#/pay_accident?btoken=5f8a61fb38aa78fa58c8034cf0a7764d&amp;__a=</td> 
             </tr> 
             <tr class="log" status="pass"> 
              <td class="status pass" title="pass" alt="pass"><i class="material-icons">check_circle</i></td> 
-             <td class="timestamp">11:00:25 AM</td> 
+             <td class="timestamp">1:07:53 AM</td> 
              <td class="step-details">Test passed</td> 
             </tr> 
            </tbody> 
@@ -1130,17 +969,17 @@ Session ID: fe6a0bd2c85246caf9a0b16e7d1c5ce6
            </thead> 
            <tbody> 
             <tr> 
-             <td>Mar 16, 2020 11:00:19 AM</td> 
-             <td class="linked" test-id="7">kaixinbaobei_001</td> 
-             <td><pre><textarea>org.openqa.selenium.WebDriverException: unknown error: Element &lt;span class="b-amount"&gt;...&lt;/span&gt; is not clickable at point (318, 501). Other element would receive the click: &lt;div class="flex-center pt25 mr40 mb40"&gt;...&lt;/div&gt;
-  (Session info: headless chrome=80.0.3987.132)
+             <td>Mar 17, 2020 1:05:13 AM</td> 
+             <td class="linked" test-id="3">kaixinbaobei_001</td> 
+             <td><pre><textarea>org.openqa.selenium.WebDriverException: unknown error: Element &lt;span class="tab-radius-gray"&gt;...&lt;/span&gt; is not clickable at point (316, 181). Other element would receive the click: &lt;div class="am-picker-popup-wrap " role="dialog"&gt;...&lt;/div&gt;
+  (Session info: chrome=80.0.3987.132)
   (Driver info: chromedriver=70.0.3538.67 (9ab0cfab84ded083718d3a4ff830726efd38869f),platform=Mac OS X 10.14.6 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'xuepingsundeMacBook-Pro.local', ip: 'fe80:0:0:0:c98:507b:278f:dbbb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'
+System info: host: 'xuepingsundeMacBook-Pro.local', ip: 'fe80:0:0:0:1048:74af:6fbb:ba62%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_191'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.67 (9ab0cfab84ded..., userDataDir: /var/folders/gq/rj3hd6rn3tn...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60972}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.132, webStorageEnabled: true}
-Session ID: fe6a0bd2c85246caf9a0b16e7d1c5ce6
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 70.0.3538.67 (9ab0cfab84ded..., userDataDir: /var/folders/gq/rj3hd6rn3tn...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51835}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 80.0.3987.132, webStorageEnabled: true}
+Session ID: d8ec5b0d768d533731ff0c4c66802053
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -1156,7 +995,7 @@ Session ID: fe6a0bd2c85246caf9a0b16e7d1c5ce6
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
 	at sun.baoxian.base.WebElementBase.click(WebElementBase.java:122)
-	at sun.baoxian.actions.kaixinbaobeiAction.kaixinbaobei(kaixinbaobeiAction.java:26)
+	at sun.baoxian.actions.kaixinbaobeiAction.kaixinbaobei(kaixinbaobeiAction.java:51)
 	at sun.baoxian.kaixinbaobeiTest.kaixinbaobei_001(kaixinbaobeiTest.java:11)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -1180,13 +1019,8 @@ Session ID: fe6a0bd2c85246caf9a0b16e7d1c5ce6
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 	at org.testng.TestNG.runSuites(TestNG.java:1049)
 	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
 </textarea></pre></td> 
             </tr> 
            </tbody> 
@@ -1227,7 +1061,7 @@ Session ID: fe6a0bd2c85246caf9a0b16e7d1c5ce6
        <div class="card-panel r">
          Start 
         <div class="panel-lead">
-         Mar 16, 2020 10:55:47 AM
+         Mar 17, 2020 12:54:40 AM
         </div> 
        </div> 
       </div> 
@@ -1235,7 +1069,7 @@ Session ID: fe6a0bd2c85246caf9a0b16e7d1c5ce6
        <div class="card-panel r">
          End 
         <div class="panel-lead">
-         Mar 16, 2020 11:00:25 AM
+         Mar 17, 2020 1:07:53 AM
         </div> 
        </div> 
       </div> 
@@ -1243,7 +1077,7 @@ Session ID: fe6a0bd2c85246caf9a0b16e7d1c5ce6
        <div class="card-panel r">
          Time Taken 
         <div class="panel-lead">
-         278,774ms
+         792,854ms
         </div> 
        </div> 
       </div> 
@@ -1256,22 +1090,22 @@ Session ID: fe6a0bd2c85246caf9a0b16e7d1c5ce6
   <!-- container --> 
   <script>
 			var statusGroup = {
-				passParent: 10,
-				failParent: 7,
+				passParent: 14,
+				failParent: 3,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 7,
+				exceptionsParent: 3,
 				
-				passChild: 10,
-				failChild: 7,
+				passChild: 14,
+				failChild: 3,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
 				infoChild: 0,
-				exceptionsChild: 29,
+				exceptionsChild: 30,
 				
 				passGrandChild: 0,
 				failGrandChild: 0,

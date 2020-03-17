@@ -36,7 +36,7 @@ public class WebCaseBase {
 //        service.start();
                 System.setProperty("webdriver.chrome.driver", "/Users/xueping.sun/driver/chromedriver1");
                 ChromeOptions headlessOptions = new ChromeOptions();
-                headlessOptions.addArguments("--headless");
+                //headlessOptions.addArguments("--headless");
                 DesiredCapabilities capabilities = DesiredCapabilities.chrome();
                 capabilities.setCapability(ChromeOptions.CAPABILITY, headlessOptions);
                 this.driver =new ChromeDriver(capabilities);

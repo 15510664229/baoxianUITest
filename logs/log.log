@@ -1,809 +1,557 @@
-2020-03-16 10:01:41  [ main:1 ] - [ INFO ]  ------------------开始执行测试---------------
-2020-03-16 10:01:41  [ main:14 ] - [ INFO ]  启动浏览器
-2020-03-16 10:01:43  [ main:1867 ] - [ INFO ]  启动Chrome浏览器
-2020-03-16 10:02:00  [ main:18535 ] - [ INFO ]  打开页面
-2020-03-16 10:02:00  [ main:18567 ] - [ INFO ]  查找元素：submit方式[By.xpath://*[text()='立即投保']]
-2020-03-16 10:02:00  [ main:18664 ] - [ INFO ]  click元素：submit[By.xpath://*[text()='立即投保']]成功！
-2020-03-16 10:02:00  [ main:18664 ] - [ INFO ]  等待5秒
-2020-03-16 10:02:06  [ main:24166 ] - [ INFO ]  等待2秒
-2020-03-16 10:02:08  [ main:26329 ] - [ INFO ]  等待3秒
-2020-03-16 10:02:11  [ main:29451 ] - [ INFO ]  等待1秒
-2020-03-16 10:02:12  [ main:30491 ] - [ INFO ]  等待1秒
-2020-03-16 10:02:13  [ main:31495 ] - [ INFO ]  等待2秒
-2020-03-16 10:02:15  [ main:33579 ] - [ INFO ]  查找元素：periodZ方式[By.xpath://div[@class='mb-trial-item-left period']/following-sibling::div[1]/div/div[1]/div[text()='终身']]
-2020-03-16 10:02:15  [ main:33645 ] - [ INFO ]  click元素：periodZ[By.xpath://div[@class='mb-trial-item-left period']/following-sibling::div[1]/div/div[1]/div[text()='终身']]成功！
-2020-03-16 10:02:15  [ main:33645 ] - [ INFO ]  查找元素：payY方式[By.xpath://*[text()='年缴']]
-2020-03-16 10:02:15  [ main:33703 ] - [ INFO ]  click元素：payY[By.xpath://*[text()='年缴']]成功！
-2020-03-16 10:02:15  [ main:33705 ] - [ INFO ]  查找元素：period15方式[By.xpath://*[text()='15年']]
-2020-03-16 10:02:15  [ main:33754 ] - [ INFO ]  click元素：period15[By.xpath://*[text()='15年']]成功！
-2020-03-16 10:02:15  [ main:33755 ] - [ INFO ]  查找元素：exzlbxj方式[By.xpath://div[text()='恶性肿瘤保险金']/following-sibling::div[1]/div[1]/div[1]/div[2]]
-2020-03-16 10:02:15  [ main:33812 ] - [ INFO ]  click元素：exzlbxj[By.xpath://div[text()='恶性肿瘤保险金']/following-sibling::div[1]/div[1]/div[1]/div[2]]成功！
-2020-03-16 10:02:15  [ main:33812 ] - [ INFO ]  查找元素：crtdjbbxj方式[By.xpath://div[text()='成人特定疾病保险金']/following-sibling::div[1]/div[1]/div[1]/div[1]]
-2020-03-16 10:02:15  [ main:33873 ] - [ INFO ]  click元素：crtdjbbxj[By.xpath://div[text()='成人特定疾病保险金']/following-sibling::div[1]/div[1]/div[1]/div[1]]成功！
-2020-03-16 10:02:15  [ main:33873 ] - [ INFO ]  查找元素：zdjbyljt方式[By.xpath://div[text()='重大疾病医疗津贴']/following-sibling::div[1]/div[1]/div[1]/div[1]]
-2020-03-16 10:02:15  [ main:33938 ] - [ INFO ]  click元素：zdjbyljt[By.xpath://div[text()='重大疾病医疗津贴']/following-sibling::div[1]/div[1]/div[1]/div[1]]成功！
-2020-03-16 10:02:15  [ main:33938 ] - [ INFO ]  查找元素：sfqcjbzmqbxj方式[By.xpath://div[text()='身故/全残/疾病终末期保险金']/following-sibling::div[1]/div[1]/div[1]/div[1]]
-2020-03-16 10:02:15  [ main:33988 ] - [ INFO ]  click元素：sfqcjbzmqbxj[By.xpath://div[text()='身故/全残/疾病终末期保险金']/following-sibling::div[1]/div[1]/div[1]/div[1]]成功！
-2020-03-16 10:02:15  [ main:33988 ] - [ INFO ]  查找元素：submit方式[By.xpath://*[text()='立即投保']]
-2020-03-16 10:02:15  [ main:34050 ] - [ INFO ]  click元素：submit[By.xpath://*[text()='立即投保']]成功！
-2020-03-16 10:02:15  [ main:34050 ] - [ INFO ]  等待2秒
-2020-03-16 10:02:17  [ main:36054 ] - [ INFO ]  查找元素：jiangao方式[By.xpath://*[text()='以上情况全无']]
-2020-03-16 10:02:17  [ main:36118 ] - [ INFO ]  click元素：jiangao[By.xpath://*[text()='以上情况全无']]成功！
-2020-03-16 10:02:17  [ main:36119 ] - [ INFO ]  等待3秒
-2020-03-16 10:02:20  [ main:39130 ] - [ INFO ]  查找元素：ins_name方式[By.cssSelector:input[placeholder='请输入投保人姓名']]
-2020-03-16 10:02:21  [ main:39270 ] - [ INFO ]  input输入：ins_name[By.cssSelector:input[placeholder='请输入投保人姓名']  value:*******]
-2020-03-16 10:02:21  [ main:39270 ] - [ INFO ]  查找元素：ins_idcard方式[By.cssSelector:input[placeholder='请输入投保人证件号码']]
-2020-03-16 10:02:21  [ main:39480 ] - [ INFO ]  input输入：ins_idcard[By.cssSelector:input[placeholder='请输入投保人证件号码']  value:*******]
-2020-03-16 10:02:21  [ main:39549 ] - [ INFO ]  等待2秒
-2020-03-16 10:02:23  [ main:41607 ] - [ INFO ]  等待2秒
-2020-03-16 10:02:25  [ main:43612 ] - [ INFO ]  查找元素：queding方式[By.xpath://*[text()='确定']]
-2020-03-16 10:02:25  [ main:43668 ] - [ INFO ]  click元素：queding[By.xpath://*[text()='确定']]成功！
-2020-03-16 10:02:25  [ main:43669 ] - [ INFO ]  查找元素：mobile方式[By.name:mobile]
-2020-03-16 10:02:25  [ main:43807 ] - [ INFO ]  input输入：mobile[By.name:mobile  value:*******]
-2020-03-16 10:02:25  [ main:43808 ] - [ INFO ]  查找元素：sms_code方式[By.cssSelector:input[placeholder="请输入验证码"]]
-2020-03-16 10:02:25  [ main:43934 ] - [ INFO ]  input输入：sms_code[By.cssSelector:input[placeholder="请输入验证码"]  value:*******]
-2020-03-16 10:02:25  [ main:43935 ] - [ INFO ]  查找元素：email方式[By.name:email]
-2020-03-16 10:02:25  [ main:44138 ] - [ INFO ]  input输入：email[By.name:email  value:*******]
-2020-03-16 10:02:25  [ main:44138 ] - [ INFO ]  查找元素：address方式[By.name:address]
-2020-03-16 10:02:26  [ main:44303 ] - [ INFO ]  input输入：address[By.name:address  value:*******]
-2020-03-16 10:02:26  [ main:44303 ] - [ INFO ]  查找元素：postcode方式[By.name:postcode]
-2020-03-16 10:02:26  [ main:44396 ] - [ INFO ]  input输入：postcode[By.name:postcode  value:*******]
-2020-03-16 10:02:26  [ main:44403 ] - [ INFO ]  等待3秒
-2020-03-16 10:02:29  [ main:47406 ] - [ INFO ]  查找元素：apl_name方式[By.cssSelector:input[placeholder='请输入真实姓名']]
-2020-03-16 10:02:29  [ main:47485 ] - [ INFO ]  input输入：apl_name[By.cssSelector:input[placeholder='请输入真实姓名']  value:*******]
-2020-03-16 10:02:29  [ main:47485 ] - [ INFO ]  等待3秒
-2020-03-16 10:02:32  [ main:50490 ] - [ INFO ]  查找元素：apl_idcard方式[By.cssSelector:input[placeholder='请输入被保人证件号码']]
-2020-03-16 10:02:32  [ main:50661 ] - [ INFO ]  input输入：apl_idcard[By.cssSelector:input[placeholder='请输入被保人证件号码']  value:*******]
-2020-03-16 10:02:32  [ main:50727 ] - [ INFO ]  等待2秒
-2020-03-16 10:02:34  [ main:52778 ] - [ INFO ]  等待2秒
-2020-03-16 10:02:36  [ main:54782 ] - [ INFO ]  查找元素：queding方式[By.xpath://*[text()='确定']]
-2020-03-16 10:02:36  [ main:54840 ] - [ INFO ]  click元素：queding[By.xpath://*[text()='确定']]成功！
-2020-03-16 10:02:36  [ main:54847 ] - [ INFO ]  查找元素：apl_mobile方式[By.cssSelector:input[placeholder='请输入被保人手机号']]
-2020-03-16 10:02:36  [ main:54976 ] - [ INFO ]  input输入：apl_mobile[By.cssSelector:input[placeholder='请输入被保人手机号']  value:*******]
-2020-03-16 10:02:36  [ main:54976 ] - [ INFO ]  查找元素：bank_card方式[By.cssSelector:input[placeholder='请输入银行卡号']]
-2020-03-16 10:02:37  [ main:55205 ] - [ INFO ]  input输入：bank_card[By.cssSelector:input[placeholder='请输入银行卡号']  value:*******]
-2020-03-16 10:02:37  [ main:55205 ] - [ INFO ]  查找元素：bank_mobile方式[By.cssSelector:input[placeholder='请输入预留手机号']]
-2020-03-16 10:02:37  [ main:55358 ] - [ INFO ]  input输入：bank_mobile[By.cssSelector:input[placeholder='请输入预留手机号']  value:*******]
-2020-03-16 10:02:37  [ main:55359 ] - [ INFO ]  查找元素：submitF方式[By.xpath://*[text()='立即投保']]
-2020-03-16 10:02:37  [ main:55413 ] - [ INFO ]  click元素：submitF[By.xpath://*[text()='立即投保']]成功！
-2020-03-16 10:02:37  [ main:55414 ] - [ INFO ]  等待3秒
-2020-03-16 10:02:40  [ main:58418 ] - [ INFO ]  查找元素：confirm方式[By.className:protocol-btm-btn]
-2020-03-16 10:02:40  [ main:58474 ] - [ INFO ]  click元素：confirm[By.className:protocol-btm-btn]成功！
-2020-03-16 10:02:40  [ main:58475 ] - [ INFO ]  等待8秒
-2020-03-16 10:02:52  [ main:71086 ] - [ INFO ]  等待2秒
-2020-03-16 10:02:54  [ main:73102 ] - [ INFO ]  查找元素：pay方式[By.xpath://*[text()='立即支付']]
-2020-03-16 10:02:55  [ main:73152 ] - [ INFO ]  click元素：pay[By.xpath://*[text()='立即支付']]成功！
-2020-03-16 10:02:55  [ main:73152 ] - [ INFO ]  等待2秒
-2020-03-16 10:02:57  [ main:75725 ] - [ INFO ]  等待4秒
-2020-03-16 10:03:01  [ main:79730 ] - [ INFO ]  查找元素：success方式[By.xpath://*[text()='支付成功']]
-2020-03-16 10:03:02  [ main:80259 ] - [ INFO ]  查找元素：success方式[By.xpath://*[text()='支付成功']]
-2020-03-16 10:03:02  [ main:80770 ] - [ INFO ]  查找元素：success方式[By.xpath://*[text()='支付成功']]
-2020-03-16 10:03:03  [ main:81290 ] - [ INFO ]  查找元素：success方式[By.xpath://*[text()='支付成功']]
-2020-03-16 10:03:03  [ main:81810 ] - [ INFO ]  查找元素：success方式[By.xpath://*[text()='支付成功']]
-2020-03-16 10:03:04  [ main:82325 ] - [ INFO ]  查找元素：success方式[By.xpath://*[text()='支付成功']]
-2020-03-16 10:03:04  [ main:82847 ] - [ INFO ]  查找元素：success方式[By.xpath://*[text()='支付成功']]
-2020-03-16 10:03:05  [ main:83369 ] - [ INFO ]  查找元素：success方式[By.xpath://*[text()='支付成功']]
-2020-03-16 10:03:05  [ main:83546 ] - [ INFO ]  关闭浏览器
-2020-03-16 10:03:05  [ main:83848 ] - [ DEBUG ]  Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-16 10:03:05  [ main:83850 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index_en.ftl"): Not found
-2020-03-16 10:03:05  [ main:83852 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index.ftl"): Found
-2020-03-16 10:03:05  [ main:83853 ] - [ DEBUG ]  Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
-2020-03-16 10:03:06  [ main:84167 ] - [ DEBUG ]  Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-16 10:03:06  [ main:84167 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head_en.ftl"): Not found
-2020-03-16 10:03:06  [ main:84168 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head.ftl"): Found
-2020-03-16 10:03:06  [ main:84168 ] - [ DEBUG ]  Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
-2020-03-16 10:03:06  [ main:84184 ] - [ DEBUG ]  Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-16 10:03:06  [ main:84185 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
-2020-03-16 10:03:06  [ main:84185 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav.ftl"): Found
-2020-03-16 10:03:06  [ main:84185 ] - [ DEBUG ]  Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
-2020-03-16 10:03:06  [ main:84191 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-16 10:03:06  [ main:84191 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
-2020-03-16 10:03:06  [ main:84192 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
-2020-03-16 10:03:06  [ main:84192 ] - [ DEBUG ]  Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
-2020-03-16 10:03:06  [ main:84200 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-16 10:03:06  [ main:84200 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
-2020-03-16 10:03:06  [ main:84200 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
-2020-03-16 10:03:06  [ main:84200 ] - [ DEBUG ]  Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
-2020-03-16 10:03:06  [ main:84213 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-16 10:03:06  [ main:84213 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
-2020-03-16 10:03:06  [ main:84214 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
-2020-03-16 10:03:06  [ main:84214 ] - [ DEBUG ]  Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
-2020-03-16 10:03:06  [ main:84229 ] - [ DEBUG ]  Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-16 10:03:06  [ main:84229 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
-2020-03-16 10:03:06  [ main:84230 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
-2020-03-16 10:03:06  [ main:84230 ] - [ DEBUG ]  Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
-2020-03-16 10:03:06  [ main:84234 ] - [ DEBUG ]  Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-16 10:03:06  [ main:84235 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
-2020-03-16 10:03:06  [ main:84235 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
-2020-03-16 10:03:06  [ main:84235 ] - [ DEBUG ]  Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
-2020-03-16 10:03:06  [ main:84238 ] - [ DEBUG ]  Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-16 10:03:06  [ main:84238 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
-2020-03-16 10:03:06  [ main:84239 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
-2020-03-16 10:03:06  [ main:84239 ] - [ DEBUG ]  Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
-2020-03-16 10:03:06  [ main:84244 ] - [ DEBUG ]  Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-16 10:03:06  [ main:84244 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
-2020-03-16 10:03:06  [ main:84244 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
-2020-03-16 10:03:06  [ main:84244 ] - [ DEBUG ]  Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
-2020-03-16 10:38:35  [ main:0 ] - [ INFO ]  ------------------开始执行测试---------------
-2020-03-16 10:38:35  [ main:8 ] - [ INFO ]  启动浏览器
-2020-03-16 10:38:36  [ main:1513 ] - [ INFO ]  启动Chrome浏览器
-2020-03-16 10:38:40  [ main:4972 ] - [ INFO ]  打开页面
-2020-03-16 10:38:40  [ main:5000 ] - [ INFO ]  查找元素：submit方式[By.xpath://*[text()='立即投保']]
-2020-03-16 10:38:40  [ main:5089 ] - [ INFO ]  click元素：submit[By.xpath://*[text()='立即投保']]成功！
-2020-03-16 10:38:40  [ main:5090 ] - [ INFO ]  等待5秒
-2020-03-16 10:38:45  [ main:10331 ] - [ INFO ]  等待2秒
-2020-03-16 10:38:47  [ main:12522 ] - [ INFO ]  等待3秒
-2020-03-16 10:38:50  [ main:15820 ] - [ INFO ]  等待1秒
-2020-03-16 10:38:51  [ main:16916 ] - [ INFO ]  等待1秒
-2020-03-16 10:38:52  [ main:17919 ] - [ INFO ]  等待2秒
-2020-03-16 10:38:55  [ main:19994 ] - [ INFO ]  查找元素：periodZ方式[By.xpath://div[@class='mb-trial-item-left period']/following-sibling::div[1]/div/div[1]/div[text()='终身']]
-2020-03-16 10:38:55  [ main:20105 ] - [ INFO ]  click元素：periodZ[By.xpath://div[@class='mb-trial-item-left period']/following-sibling::div[1]/div/div[1]/div[text()='终身']]成功！
-2020-03-16 10:38:55  [ main:20106 ] - [ INFO ]  查找元素：payY方式[By.xpath://*[text()='年缴']]
-2020-03-16 10:38:55  [ main:20165 ] - [ INFO ]  click元素：payY[By.xpath://*[text()='年缴']]成功！
-2020-03-16 10:38:55  [ main:20167 ] - [ INFO ]  查找元素：period15方式[By.xpath://*[text()='15年']]
-2020-03-16 10:38:55  [ main:20244 ] - [ INFO ]  click元素：period15[By.xpath://*[text()='15年']]成功！
-2020-03-16 10:38:55  [ main:20245 ] - [ INFO ]  查找元素：exzlbxj方式[By.xpath://div[text()='恶性肿瘤保险金']/following-sibling::div[1]/div[1]/div[1]/div[2]]
-2020-03-16 10:38:55  [ main:20350 ] - [ INFO ]  click元素：exzlbxj[By.xpath://div[text()='恶性肿瘤保险金']/following-sibling::div[1]/div[1]/div[1]/div[2]]成功！
-2020-03-16 10:38:55  [ main:20351 ] - [ INFO ]  查找元素：crtdjbbxj方式[By.xpath://div[text()='成人特定疾病保险金']/following-sibling::div[1]/div[1]/div[1]/div[1]]
-2020-03-16 10:38:55  [ main:20433 ] - [ INFO ]  click元素：crtdjbbxj[By.xpath://div[text()='成人特定疾病保险金']/following-sibling::div[1]/div[1]/div[1]/div[1]]成功！
-2020-03-16 10:38:55  [ main:20436 ] - [ INFO ]  查找元素：zdjbyljt方式[By.xpath://div[text()='重大疾病医疗津贴']/following-sibling::div[1]/div[1]/div[1]/div[1]]
-2020-03-16 10:38:55  [ main:20583 ] - [ INFO ]  click元素：zdjbyljt[By.xpath://div[text()='重大疾病医疗津贴']/following-sibling::div[1]/div[1]/div[1]/div[1]]成功！
-2020-03-16 10:38:55  [ main:20584 ] - [ INFO ]  查找元素：sfqcjbzmqbxj方式[By.xpath://div[text()='身故/全残/疾病终末期保险金']/following-sibling::div[1]/div[1]/div[1]/div[1]]
-2020-03-16 10:38:55  [ main:20645 ] - [ INFO ]  click元素：sfqcjbzmqbxj[By.xpath://div[text()='身故/全残/疾病终末期保险金']/following-sibling::div[1]/div[1]/div[1]/div[1]]成功！
-2020-03-16 10:38:55  [ main:20647 ] - [ INFO ]  查找元素：submit方式[By.xpath://*[text()='立即投保']]
-2020-03-16 10:38:55  [ main:20702 ] - [ INFO ]  click元素：submit[By.xpath://*[text()='立即投保']]成功！
-2020-03-16 10:38:55  [ main:20702 ] - [ INFO ]  等待2秒
-2020-03-16 10:38:57  [ main:22703 ] - [ INFO ]  查找元素：jiangao方式[By.xpath://*[text()='以上情况全无']]
-2020-03-16 10:38:57  [ main:22760 ] - [ INFO ]  click元素：jiangao[By.xpath://*[text()='以上情况全无']]成功！
-2020-03-16 10:38:57  [ main:22761 ] - [ INFO ]  等待3秒
-2020-03-16 10:39:00  [ main:25768 ] - [ INFO ]  查找元素：ins_name方式[By.cssSelector:input[placeholder='请输入投保人姓名']]
-2020-03-16 10:39:01  [ main:25974 ] - [ INFO ]  input输入：ins_name[By.cssSelector:input[placeholder='请输入投保人姓名']  value:*******]
-2020-03-16 10:39:01  [ main:25975 ] - [ INFO ]  查找元素：ins_idcard方式[By.cssSelector:input[placeholder='请输入投保人证件号码']]
-2020-03-16 10:39:01  [ main:26274 ] - [ INFO ]  input输入：ins_idcard[By.cssSelector:input[placeholder='请输入投保人证件号码']  value:*******]
-2020-03-16 10:39:01  [ main:26382 ] - [ INFO ]  等待2秒
-2020-03-16 10:39:03  [ main:28460 ] - [ INFO ]  等待2秒
-2020-03-16 10:39:05  [ main:30461 ] - [ INFO ]  查找元素：queding方式[By.xpath://*[text()='确定']]
-2020-03-16 10:39:05  [ main:30558 ] - [ INFO ]  click元素：queding[By.xpath://*[text()='确定']]成功！
-2020-03-16 10:39:05  [ main:30559 ] - [ INFO ]  查找元素：mobile方式[By.name:mobile]
-2020-03-16 10:39:05  [ main:30853 ] - [ INFO ]  input输入：mobile[By.name:mobile  value:*******]
-2020-03-16 10:39:05  [ main:30853 ] - [ INFO ]  查找元素：sms_code方式[By.cssSelector:input[placeholder="请输入验证码"]]
-2020-03-16 10:39:06  [ main:31049 ] - [ INFO ]  input输入：sms_code[By.cssSelector:input[placeholder="请输入验证码"]  value:*******]
-2020-03-16 10:39:06  [ main:31050 ] - [ INFO ]  查找元素：email方式[By.name:email]
-2020-03-16 10:39:06  [ main:31321 ] - [ INFO ]  input输入：email[By.name:email  value:*******]
-2020-03-16 10:39:06  [ main:31321 ] - [ INFO ]  查找元素：address方式[By.name:address]
-2020-03-16 10:39:06  [ main:31547 ] - [ INFO ]  input输入：address[By.name:address  value:*******]
-2020-03-16 10:39:06  [ main:31548 ] - [ INFO ]  查找元素：postcode方式[By.name:postcode]
-2020-03-16 10:39:06  [ main:31711 ] - [ INFO ]  input输入：postcode[By.name:postcode  value:*******]
-2020-03-16 10:39:06  [ main:31717 ] - [ INFO ]  等待3秒
-2020-03-16 10:39:09  [ main:34723 ] - [ INFO ]  查找元素：apl_name方式[By.cssSelector:input[placeholder='请输入真实姓名']]
-2020-03-16 10:39:09  [ main:34888 ] - [ INFO ]  input输入：apl_name[By.cssSelector:input[placeholder='请输入真实姓名']  value:*******]
-2020-03-16 10:39:09  [ main:34889 ] - [ INFO ]  等待3秒
-2020-03-16 10:39:12  [ main:37891 ] - [ INFO ]  查找元素：apl_idcard方式[By.cssSelector:input[placeholder='请输入被保人证件号码']]
-2020-03-16 10:39:13  [ main:38095 ] - [ INFO ]  input输入：apl_idcard[By.cssSelector:input[placeholder='请输入被保人证件号码']  value:*******]
-2020-03-16 10:39:13  [ main:38314 ] - [ INFO ]  等待2秒
-2020-03-16 10:39:15  [ main:40431 ] - [ INFO ]  等待2秒
-2020-03-16 10:39:17  [ main:42435 ] - [ INFO ]  查找元素：queding方式[By.xpath://*[text()='确定']]
-2020-03-16 10:39:17  [ main:42502 ] - [ INFO ]  click元素：queding[By.xpath://*[text()='确定']]成功！
-2020-03-16 10:39:17  [ main:42512 ] - [ INFO ]  查找元素：apl_mobile方式[By.cssSelector:input[placeholder='请输入被保人手机号']]
-2020-03-16 10:39:17  [ main:42789 ] - [ INFO ]  input输入：apl_mobile[By.cssSelector:input[placeholder='请输入被保人手机号']  value:*******]
-2020-03-16 10:39:17  [ main:42789 ] - [ INFO ]  查找元素：bank_card方式[By.cssSelector:input[placeholder='请输入银行卡号']]
-2020-03-16 10:39:18  [ main:43147 ] - [ INFO ]  input输入：bank_card[By.cssSelector:input[placeholder='请输入银行卡号']  value:*******]
-2020-03-16 10:39:18  [ main:43147 ] - [ INFO ]  查找元素：bank_mobile方式[By.cssSelector:input[placeholder='请输入预留手机号']]
-2020-03-16 10:39:18  [ main:43347 ] - [ INFO ]  input输入：bank_mobile[By.cssSelector:input[placeholder='请输入预留手机号']  value:*******]
-2020-03-16 10:39:18  [ main:43348 ] - [ INFO ]  查找元素：submitF方式[By.xpath://*[text()='立即投保']]
-2020-03-16 10:39:18  [ main:43444 ] - [ INFO ]  click元素：submitF[By.xpath://*[text()='立即投保']]成功！
-2020-03-16 10:39:18  [ main:43444 ] - [ INFO ]  等待3秒
-2020-03-16 10:39:21  [ main:46448 ] - [ INFO ]  查找元素：confirm方式[By.className:protocol-btm-btn]
-2020-03-16 10:39:21  [ main:46587 ] - [ INFO ]  click元素：confirm[By.className:protocol-btm-btn]成功！
-2020-03-16 10:39:21  [ main:46588 ] - [ INFO ]  等待8秒
-2020-03-16 10:39:35  [ main:60421 ] - [ INFO ]  等待2秒
-2020-03-16 10:39:37  [ main:62442 ] - [ INFO ]  查找元素：pay方式[By.xpath://*[text()='立即支付']]
-2020-03-16 10:39:38  [ main:62974 ] - [ INFO ]  查找元素：pay方式[By.xpath://*[text()='立即支付']]
-2020-03-16 10:39:38  [ main:63579 ] - [ INFO ]  查找元素：pay方式[By.xpath://*[text()='立即支付']]
-2020-03-16 10:39:39  [ main:64124 ] - [ INFO ]  查找元素：pay方式[By.xpath://*[text()='立即支付']]
-2020-03-16 10:39:39  [ main:64646 ] - [ INFO ]  查找元素：pay方式[By.xpath://*[text()='立即支付']]
-2020-03-16 10:39:40  [ main:65160 ] - [ INFO ]  查找元素：pay方式[By.xpath://*[text()='立即支付']]
-2020-03-16 10:39:40  [ main:65674 ] - [ INFO ]  查找元素：pay方式[By.xpath://*[text()='立即支付']]
-2020-03-16 10:39:41  [ main:66190 ] - [ INFO ]  查找元素：pay方式[By.xpath://*[text()='立即支付']]
-2020-03-16 10:39:41  [ main:66707 ] - [ INFO ]  查找元素：pay方式[By.xpath://*[text()='立即支付']]
-2020-03-16 10:39:42  [ main:67230 ] - [ INFO ]  查找元素：pay方式[By.xpath://*[text()='立即支付']]
-2020-03-16 10:39:42  [ main:67755 ] - [ INFO ]  查找元素：pay方式[By.xpath://*[text()='立即支付']]
-2020-03-16 10:39:42  [ main:67773 ] - [ INFO ]  超时无法定位页面元素
-2020-03-16 10:39:44  [ main:69572 ] - [ ERROR ]  错误截图：/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/report/snapshot/2020-03-16 103942848.jpg
-2020-03-16 10:39:44  [ main:69582 ] - [ INFO ]  2020-03-16 103942848
-2020-03-16 10:39:44  [ main:69799 ] - [ INFO ]  关闭浏览器
-2020-03-16 10:39:45  [ main:70176 ] - [ DEBUG ]  Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-16 10:39:45  [ main:70178 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index_en.ftl"): Not found
-2020-03-16 10:39:45  [ main:70181 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index.ftl"): Found
-2020-03-16 10:39:45  [ main:70182 ] - [ DEBUG ]  Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
-2020-03-16 10:39:45  [ main:70418 ] - [ DEBUG ]  Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-16 10:39:45  [ main:70430 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head_en.ftl"): Not found
-2020-03-16 10:39:45  [ main:70430 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head.ftl"): Found
-2020-03-16 10:39:45  [ main:70431 ] - [ DEBUG ]  Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
-2020-03-16 10:39:45  [ main:70482 ] - [ DEBUG ]  Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-16 10:39:45  [ main:70483 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
-2020-03-16 10:39:45  [ main:70483 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav.ftl"): Found
-2020-03-16 10:39:45  [ main:70484 ] - [ DEBUG ]  Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
-2020-03-16 10:39:45  [ main:70493 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-16 10:39:45  [ main:70495 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
-2020-03-16 10:39:45  [ main:70495 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
-2020-03-16 10:39:45  [ main:70497 ] - [ DEBUG ]  Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
-2020-03-16 10:39:45  [ main:70509 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-16 10:39:45  [ main:70509 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
-2020-03-16 10:39:45  [ main:70510 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
-2020-03-16 10:39:45  [ main:70511 ] - [ DEBUG ]  Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
-2020-03-16 10:39:45  [ main:70525 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-16 10:39:45  [ main:70525 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
-2020-03-16 10:39:45  [ main:70526 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
-2020-03-16 10:39:45  [ main:70526 ] - [ DEBUG ]  Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
-2020-03-16 10:39:45  [ main:70544 ] - [ DEBUG ]  Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-16 10:39:45  [ main:70545 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
-2020-03-16 10:39:45  [ main:70546 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
-2020-03-16 10:39:45  [ main:70546 ] - [ DEBUG ]  Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
-2020-03-16 10:39:45  [ main:70549 ] - [ DEBUG ]  Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-16 10:39:45  [ main:70550 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
-2020-03-16 10:39:45  [ main:70550 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
-2020-03-16 10:39:45  [ main:70551 ] - [ DEBUG ]  Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
-2020-03-16 10:39:45  [ main:70556 ] - [ DEBUG ]  Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-16 10:39:45  [ main:70558 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
-2020-03-16 10:39:45  [ main:70558 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
-2020-03-16 10:39:45  [ main:70560 ] - [ DEBUG ]  Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
-2020-03-16 10:39:45  [ main:70566 ] - [ DEBUG ]  Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-16 10:39:45  [ main:70567 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
-2020-03-16 10:39:45  [ main:70567 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
-2020-03-16 10:39:45  [ main:70568 ] - [ DEBUG ]  Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
-2020-03-16 10:55:45  [ main:0 ] - [ INFO ]  ------------------开始执行测试---------------
-2020-03-16 10:55:45  [ main:17 ] - [ INFO ]  启动浏览器
-2020-03-16 10:55:46  [ main:1511 ] - [ INFO ]  启动Chrome浏览器
-2020-03-16 10:55:49  [ main:4136 ] - [ INFO ]  打开页面
-2020-03-16 10:55:49  [ main:4198 ] - [ INFO ]  查找元素：lijilingqu方式[By.xpath://*[@class='fill-btn']]
-2020-03-16 10:55:49  [ main:4251 ] - [ INFO ]  click元素：lijilingqu[By.xpath://*[@class='fill-btn']]成功！
-2020-03-16 10:55:49  [ main:4252 ] - [ INFO ]  等待2秒
-2020-03-16 10:55:52  [ main:6759 ] - [ INFO ]  查找元素：sms_code方式[By.cssSelector:input[placeholder='请输入验证码']]
-2020-03-16 10:55:52  [ main:6875 ] - [ INFO ]  input输入：sms_code[By.cssSelector:input[placeholder='请输入验证码']  value:*******]
-2020-03-16 10:55:52  [ main:6883 ] - [ INFO ]  查找元素：pay_type方式[By.xpath://*[text()='全额缴清']]
-2020-03-16 10:55:52  [ main:6941 ] - [ INFO ]  click元素：pay_type[By.xpath://*[text()='全额缴清']]成功！
-2020-03-16 10:55:52  [ main:6941 ] - [ INFO ]  等待2秒
-2020-03-16 10:55:54  [ main:8951 ] - [ INFO ]  查找元素：shebao方式[By.xpath://*[text()='无']]
-2020-03-16 10:55:54  [ main:9004 ] - [ INFO ]  click元素：shebao[By.xpath://*[text()='无']]成功！
-2020-03-16 10:55:54  [ main:9005 ] - [ INFO ]  查找元素：submit方式[By.xpath://*[text()='立即投保']]
-2020-03-16 10:55:54  [ main:9078 ] - [ INFO ]  click元素：submit[By.xpath://*[text()='立即投保']]成功！
-2020-03-16 10:55:54  [ main:9079 ] - [ INFO ]  等待1秒
-2020-03-16 10:55:55  [ main:10083 ] - [ INFO ]  查找元素：submit方式[By.xpath://*[text()='立即投保']]
-2020-03-16 10:55:55  [ main:10178 ] - [ INFO ]  click元素：submit[By.xpath://*[text()='立即投保']]成功！
-2020-03-16 10:55:55  [ main:10179 ] - [ INFO ]  等待1秒
-2020-03-16 10:55:56  [ main:11183 ] - [ INFO ]  查找元素：confrim方式[By.xpath://*[@class='baoxian-button-base m-auto']]
-2020-03-16 10:55:56  [ main:11242 ] - [ INFO ]  click元素：confrim[By.xpath://*[@class='baoxian-button-base m-auto']]成功！
-2020-03-16 10:55:56  [ main:11242 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
-2020-03-16 10:55:57  [ main:11840 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
-2020-03-16 10:55:57  [ main:12355 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
-2020-03-16 10:55:58  [ main:12871 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
-2020-03-16 10:55:58  [ main:13398 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
-2020-03-16 10:56:04  [ main:18774 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
-2020-03-16 10:56:04  [ main:19168 ] - [ INFO ]  关闭浏览器
-2020-03-16 10:56:04  [ main:19172 ] - [ INFO ]  ------------------开始执行测试---------------
-2020-03-16 10:56:04  [ main:19173 ] - [ INFO ]  启动浏览器
-2020-03-16 10:56:05  [ main:19681 ] - [ INFO ]  启动Chrome浏览器
-2020-03-16 10:56:21  [ main:36453 ] - [ INFO ]  打开页面
-2020-03-16 10:56:21  [ main:36455 ] - [ INFO ]  查找元素：name方式[By.cssSelector:input[data-type='name']]
-2020-03-16 10:56:22  [ main:37146 ] - [ INFO ]  查找元素：name方式[By.cssSelector:input[data-type='name']]
-2020-03-16 10:56:22  [ main:37350 ] - [ INFO ]  input输入：name[By.cssSelector:input[data-type='name']  value:*******]
-2020-03-16 10:56:22  [ main:37351 ] - [ INFO ]  查找元素：idcard方式[By.cssSelector:input[data-type='identity']]
-2020-03-16 10:56:23  [ main:37771 ] - [ INFO ]  input输入：idcard[By.cssSelector:input[data-type='identity']  value:*******]
-2020-03-16 10:56:23  [ main:37771 ] - [ INFO ]  等待4秒
-2020-03-16 10:56:27  [ main:41772 ] - [ INFO ]  查找元素：mobile方式[By.cssSelector:input[data-type='mobile']]
-2020-03-16 10:56:27  [ main:41915 ] - [ INFO ]  input输入：mobile[By.cssSelector:input[data-type='mobile']  value:*******]
-2020-03-16 10:56:27  [ main:41915 ] - [ INFO ]  查找元素：sms_code方式[By.cssSelector:input[data-type='sms_code']]
-2020-03-16 10:56:27  [ main:42007 ] - [ INFO ]  input输入：sms_code[By.cssSelector:input[data-type='sms_code']  value:*******]
-2020-03-16 10:56:27  [ main:42018 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
-2020-03-16 10:56:27  [ main:42148 ] - [ INFO ]  查找元素：confrim方式[By.xpath://*[text()='好的 继续']]
-2020-03-16 10:56:27  [ main:42233 ] - [ INFO ]  click元素：confrim[By.xpath://*[text()='好的 继续']]成功！
-2020-03-16 10:56:27  [ main:42233 ] - [ INFO ]  查找元素：rconfrim方式[By.xpath://*[text()='职业符合']]
-2020-03-16 10:56:27  [ main:42572 ] - [ INFO ]  click元素：rconfrim[By.xpath://*[text()='职业符合']]成功！
-2020-03-16 10:56:27  [ main:42573 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:56:28  [ main:43089 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:56:28  [ main:43602 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:56:29  [ main:44119 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:56:29  [ main:44636 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:56:30  [ main:45150 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:56:30  [ main:45665 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:56:31  [ main:46175 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:56:32  [ main:46707 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:56:32  [ main:47233 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:56:33  [ main:47750 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:56:33  [ main:47761 ] - [ INFO ]  超时无法定位页面元素
-2020-03-16 10:56:33  [ main:48182 ] - [ ERROR ]  错误截图：/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/report/snapshot/2020-03-16 105633109.jpg
-2020-03-16 10:56:33  [ main:48183 ] - [ INFO ]  2020-03-16 105633109
-2020-03-16 10:56:33  [ main:48285 ] - [ INFO ]  关闭浏览器
-2020-03-16 10:56:33  [ main:48287 ] - [ INFO ]  ------------------开始执行测试---------------
-2020-03-16 10:56:33  [ main:48287 ] - [ INFO ]  启动浏览器
-2020-03-16 10:56:34  [ main:48802 ] - [ INFO ]  启动Chrome浏览器
-2020-03-16 10:56:37  [ main:52484 ] - [ INFO ]  打开页面
-2020-03-16 10:56:37  [ main:52486 ] - [ INFO ]  查找元素：name方式[By.cssSelector:input[data-type='name']]
-2020-03-16 10:56:38  [ main:53017 ] - [ INFO ]  查找元素：name方式[By.cssSelector:input[data-type='name']]
-2020-03-16 10:56:38  [ main:53539 ] - [ INFO ]  input输入：name[By.cssSelector:input[data-type='name']  value:*******]
-2020-03-16 10:56:38  [ main:53539 ] - [ INFO ]  查找元素：idcard方式[By.cssSelector:input[data-type='identity']]
-2020-03-16 10:56:39  [ main:53819 ] - [ INFO ]  input输入：idcard[By.cssSelector:input[data-type='identity']  value:*******]
-2020-03-16 10:56:39  [ main:53819 ] - [ INFO ]  等待4秒
-2020-03-16 10:56:43  [ main:57824 ] - [ INFO ]  查找元素：mobile方式[By.cssSelector:input[data-type='mobile']]
-2020-03-16 10:56:43  [ main:57942 ] - [ INFO ]  input输入：mobile[By.cssSelector:input[data-type='mobile']  value:*******]
-2020-03-16 10:56:43  [ main:57942 ] - [ INFO ]  查找元素：sms_code方式[By.cssSelector:input[data-type='sms_code']]
-2020-03-16 10:56:43  [ main:58014 ] - [ INFO ]  input输入：sms_code[By.cssSelector:input[data-type='sms_code']  value:*******]
-2020-03-16 10:56:43  [ main:58022 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
-2020-03-16 10:56:43  [ main:58109 ] - [ INFO ]  查找元素：confrim方式[By.xpath://*[text()='好的 继续']]
-2020-03-16 10:56:43  [ main:58265 ] - [ INFO ]  click元素：confrim[By.xpath://*[text()='好的 继续']]成功！
-2020-03-16 10:56:43  [ main:58266 ] - [ INFO ]  查找元素：rconfrim方式[By.xpath://*[text()='职业符合']]
-2020-03-16 10:56:43  [ main:58393 ] - [ INFO ]  click元素：rconfrim[By.xpath://*[text()='职业符合']]成功！
-2020-03-16 10:56:43  [ main:58394 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:56:44  [ main:58933 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:56:44  [ main:59446 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:56:45  [ main:59956 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:56:45  [ main:60467 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:56:46  [ main:60977 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:56:46  [ main:61490 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:56:47  [ main:62005 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:56:47  [ main:62519 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:56:48  [ main:63031 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:56:48  [ main:63544 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:56:48  [ main:63554 ] - [ INFO ]  超时无法定位页面元素
-2020-03-16 10:56:49  [ main:63956 ] - [ ERROR ]  错误截图：/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/report/snapshot/2020-03-16 105648888.jpg
-2020-03-16 10:56:49  [ main:63958 ] - [ INFO ]  2020-03-16 105648888
-2020-03-16 10:56:49  [ main:64044 ] - [ INFO ]  关闭浏览器
-2020-03-16 10:56:49  [ main:64047 ] - [ INFO ]  ------------------开始执行测试---------------
-2020-03-16 10:56:49  [ main:64047 ] - [ INFO ]  启动浏览器
-2020-03-16 10:56:50  [ main:64871 ] - [ INFO ]  启动Chrome浏览器
-2020-03-16 10:56:51  [ main:66231 ] - [ INFO ]  打开页面
-2020-03-16 10:56:51  [ main:66239 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
-2020-03-16 10:56:52  [ main:66762 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
-2020-03-16 10:56:52  [ main:66826 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
-2020-03-16 10:56:52  [ main:66826 ] - [ INFO ]  查找元素：name方式[By.cssSelector:input[placeholder='请输入真实姓名']]
-2020-03-16 10:56:52  [ main:67126 ] - [ INFO ]  input输入：name[By.cssSelector:input[placeholder='请输入真实姓名']  value:*******]
-2020-03-16 10:56:52  [ main:67127 ] - [ INFO ]  查找元素：idcard方式[By.name:identity]
-2020-03-16 10:56:52  [ main:67480 ] - [ INFO ]  input输入：idcard[By.name:identity  value:*******]
-2020-03-16 10:56:52  [ main:67480 ] - [ INFO ]  查找元素：mobile方式[By.name:mobile]
-2020-03-16 10:56:53  [ main:67759 ] - [ INFO ]  input输入：mobile[By.name:mobile  value:*******]
-2020-03-16 10:56:53  [ main:67759 ] - [ INFO ]  查找元素：sms_code方式[By.name:sms_code]
-2020-03-16 10:56:53  [ main:67882 ] - [ INFO ]  input输入：sms_code[By.name:sms_code  value:*******]
-2020-03-16 10:56:53  [ main:67883 ] - [ INFO ]  等待2秒
-2020-03-16 10:56:55  [ main:69892 ] - [ INFO ]  查找元素：shebao方式[By.xpath://*[text()='无']]
-2020-03-16 10:56:55  [ main:69950 ] - [ INFO ]  click元素：shebao[By.xpath://*[text()='无']]成功！
-2020-03-16 10:56:55  [ main:69950 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
-2020-03-16 10:56:55  [ main:69985 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
-2020-03-16 10:56:55  [ main:69985 ] - [ INFO ]  等待2秒
-2020-03-16 10:56:57  [ main:71990 ] - [ INFO ]  查找元素：confrim方式[By.xpath://div[@class='protocol-btm-btn']]
-2020-03-16 10:56:57  [ main:72080 ] - [ INFO ]  click元素：confrim[By.xpath://div[@class='protocol-btm-btn']]成功！
-2020-03-16 10:56:57  [ main:72081 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:56:57  [ main:72602 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:56:58  [ main:73118 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:56:58  [ main:73644 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:57:01  [ main:75717 ] - [ INFO ]  关闭浏览器
-2020-03-16 10:57:01  [ main:75719 ] - [ INFO ]  ------------------开始执行测试---------------
-2020-03-16 10:57:01  [ main:75720 ] - [ INFO ]  启动浏览器
-2020-03-16 10:57:01  [ main:76381 ] - [ INFO ]  启动Chrome浏览器
-2020-03-16 10:57:02  [ main:77434 ] - [ INFO ]  打开页面
-2020-03-16 10:57:02  [ main:77442 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
-2020-03-16 10:57:03  [ main:77964 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
-2020-03-16 10:57:03  [ main:78027 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
-2020-03-16 10:57:03  [ main:78034 ] - [ INFO ]  查找元素：name方式[By.cssSelector:input[placeholder='请输入真实姓名']]
-2020-03-16 10:57:03  [ main:78324 ] - [ INFO ]  input输入：name[By.cssSelector:input[placeholder='请输入真实姓名']  value:*******]
-2020-03-16 10:57:03  [ main:78325 ] - [ INFO ]  查找元素：idcard方式[By.name:identity]
-2020-03-16 10:57:03  [ main:78634 ] - [ INFO ]  input输入：idcard[By.name:identity  value:*******]
-2020-03-16 10:57:03  [ main:78634 ] - [ INFO ]  查找元素：mobile方式[By.name:mobile]
-2020-03-16 10:57:04  [ main:78820 ] - [ INFO ]  input输入：mobile[By.name:mobile  value:*******]
-2020-03-16 10:57:04  [ main:78821 ] - [ INFO ]  查找元素：sms_code方式[By.name:sms_code]
-2020-03-16 10:57:04  [ main:79009 ] - [ INFO ]  input输入：sms_code[By.name:sms_code  value:*******]
-2020-03-16 10:57:04  [ main:79009 ] - [ INFO ]  等待3秒
-2020-03-16 10:57:07  [ main:82020 ] - [ INFO ]  查找元素：shebao方式[By.xpath://*[text()='无']]
-2020-03-16 10:57:07  [ main:82093 ] - [ INFO ]  click元素：shebao[By.xpath://*[text()='无']]成功！
-2020-03-16 10:57:07  [ main:82094 ] - [ INFO ]  查找元素：pay_type方式[By.xpath://*[text()='全额缴纳']]
-2020-03-16 10:57:07  [ main:82156 ] - [ INFO ]  click元素：pay_type[By.xpath://*[text()='全额缴纳']]成功！
-2020-03-16 10:57:07  [ main:82156 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
-2020-03-16 10:57:07  [ main:82213 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
-2020-03-16 10:57:07  [ main:82214 ] - [ INFO ]  等待2秒
-2020-03-16 10:57:09  [ main:84217 ] - [ INFO ]  查找元素：confrim方式[By.xpath://div[@class='protocol-btm-btn']]
-2020-03-16 10:57:09  [ main:84317 ] - [ INFO ]  click元素：confrim[By.xpath://div[@class='protocol-btm-btn']]成功！
-2020-03-16 10:57:09  [ main:84318 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:57:10  [ main:84875 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:57:10  [ main:85398 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:57:17  [ main:92367 ] - [ INFO ]  关闭浏览器
-2020-03-16 10:57:17  [ main:92369 ] - [ INFO ]  ------------------开始执行测试---------------
-2020-03-16 10:57:17  [ main:92369 ] - [ INFO ]  启动浏览器
-2020-03-16 10:57:18  [ main:93071 ] - [ INFO ]  启动Chrome浏览器
-2020-03-16 10:57:19  [ main:93776 ] - [ INFO ]  打开页面
-2020-03-16 10:57:19  [ main:93787 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
-2020-03-16 10:57:19  [ main:94305 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
-2020-03-16 10:57:19  [ main:94357 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
-2020-03-16 10:57:19  [ main:94358 ] - [ INFO ]  查找元素：name方式[By.cssSelector:input[placeholder='请输入真实姓名']]
-2020-03-16 10:57:19  [ main:94590 ] - [ INFO ]  input输入：name[By.cssSelector:input[placeholder='请输入真实姓名']  value:*******]
-2020-03-16 10:57:19  [ main:94590 ] - [ INFO ]  查找元素：idcard方式[By.name:identity]
-2020-03-16 10:57:20  [ main:94846 ] - [ INFO ]  input输入：idcard[By.name:identity  value:*******]
-2020-03-16 10:57:20  [ main:94847 ] - [ INFO ]  查找元素：mobile方式[By.name:mobile]
-2020-03-16 10:57:20  [ main:95014 ] - [ INFO ]  input输入：mobile[By.name:mobile  value:*******]
-2020-03-16 10:57:20  [ main:95015 ] - [ INFO ]  查找元素：sms_code方式[By.name:sms_code]
-2020-03-16 10:57:20  [ main:95115 ] - [ INFO ]  input输入：sms_code[By.name:sms_code  value:*******]
-2020-03-16 10:57:20  [ main:95115 ] - [ INFO ]  等待2秒
-2020-03-16 10:57:22  [ main:97125 ] - [ INFO ]  查找元素：shebao方式[By.xpath://*[text()='无']]
-2020-03-16 10:57:22  [ main:97184 ] - [ INFO ]  click元素：shebao[By.xpath://*[text()='无']]成功！
-2020-03-16 10:57:22  [ main:97185 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
-2020-03-16 10:57:22  [ main:97225 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
-2020-03-16 10:57:22  [ main:97226 ] - [ INFO ]  等待2秒
-2020-03-16 10:57:24  [ main:99228 ] - [ INFO ]  查找元素：confrim方式[By.xpath://div[@class='protocol-btm-btn']]
-2020-03-16 10:57:24  [ main:99316 ] - [ INFO ]  click元素：confrim[By.xpath://div[@class='protocol-btm-btn']]成功！
-2020-03-16 10:57:24  [ main:99316 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:57:25  [ main:99854 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:57:25  [ main:100367 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:57:26  [ main:100878 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:57:28  [ main:103327 ] - [ INFO ]  关闭浏览器
-2020-03-16 10:57:28  [ main:103329 ] - [ INFO ]  ------------------开始执行测试---------------
-2020-03-16 10:57:28  [ main:103329 ] - [ INFO ]  启动浏览器
-2020-03-16 10:57:29  [ main:103877 ] - [ INFO ]  启动Chrome浏览器
-2020-03-16 10:57:29  [ main:104635 ] - [ INFO ]  打开页面
-2020-03-16 10:57:29  [ main:104649 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
-2020-03-16 10:57:30  [ main:105169 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
-2020-03-16 10:57:30  [ main:105214 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
-2020-03-16 10:57:30  [ main:105214 ] - [ INFO ]  查找元素：name方式[By.cssSelector:input[placeholder='请输入真实姓名']]
-2020-03-16 10:57:30  [ main:105434 ] - [ INFO ]  input输入：name[By.cssSelector:input[placeholder='请输入真实姓名']  value:*******]
-2020-03-16 10:57:30  [ main:105435 ] - [ INFO ]  查找元素：idcard方式[By.name:identity]
-2020-03-16 10:57:31  [ main:105695 ] - [ INFO ]  input输入：idcard[By.name:identity  value:*******]
-2020-03-16 10:57:31  [ main:105695 ] - [ INFO ]  查找元素：mobile方式[By.name:mobile]
-2020-03-16 10:57:31  [ main:105886 ] - [ INFO ]  input输入：mobile[By.name:mobile  value:*******]
-2020-03-16 10:57:31  [ main:105887 ] - [ INFO ]  查找元素：sms_code方式[By.name:sms_code]
-2020-03-16 10:57:31  [ main:105996 ] - [ INFO ]  input输入：sms_code[By.name:sms_code  value:*******]
-2020-03-16 10:57:31  [ main:105997 ] - [ INFO ]  等待2秒
-2020-03-16 10:57:33  [ main:108008 ] - [ INFO ]  查找元素：shebao方式[By.xpath://*[text()='无']]
-2020-03-16 10:57:33  [ main:108082 ] - [ INFO ]  click元素：shebao[By.xpath://*[text()='无']]成功！
-2020-03-16 10:57:33  [ main:108083 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
-2020-03-16 10:57:33  [ main:108137 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
-2020-03-16 10:57:33  [ main:108137 ] - [ INFO ]  等待2秒
-2020-03-16 10:57:35  [ main:110140 ] - [ INFO ]  查找元素：confrim方式[By.xpath://div[@class='protocol-btm-btn']]
-2020-03-16 10:57:35  [ main:110214 ] - [ INFO ]  click元素：confrim[By.xpath://div[@class='protocol-btm-btn']]成功！
-2020-03-16 10:57:35  [ main:110214 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:57:36  [ main:110759 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:57:36  [ main:111268 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:57:39  [ main:114626 ] - [ INFO ]  关闭浏览器
-2020-03-16 10:57:39  [ main:114629 ] - [ INFO ]  ------------------开始执行测试---------------
-2020-03-16 10:57:39  [ main:114629 ] - [ INFO ]  启动浏览器
-2020-03-16 10:57:40  [ main:115076 ] - [ INFO ]  启动Chrome浏览器
-2020-03-16 10:57:41  [ main:115848 ] - [ INFO ]  打开页面
-2020-03-16 10:57:41  [ main:115857 ] - [ INFO ]  查找元素：yg20w方式[By.xpath://*[@class='amount-box-wrap']/*[position()=2]]
-2020-03-16 10:57:41  [ main:116377 ] - [ INFO ]  查找元素：yg20w方式[By.xpath://*[@class='amount-box-wrap']/*[position()=2]]
-2020-03-16 10:57:41  [ main:116506 ] - [ INFO ]  关闭浏览器
-2020-03-16 10:57:41  [ main:116509 ] - [ INFO ]  ------------------开始执行测试---------------
-2020-03-16 10:57:41  [ main:116509 ] - [ INFO ]  启动浏览器
-2020-03-16 10:57:42  [ main:116930 ] - [ INFO ]  启动Chrome浏览器
-2020-03-16 10:57:42  [ main:117605 ] - [ INFO ]  打开页面
-2020-03-16 10:57:42  [ main:117623 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
-2020-03-16 10:57:43  [ main:118142 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
-2020-03-16 10:57:43  [ main:118198 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
-2020-03-16 10:57:43  [ main:118198 ] - [ INFO ]  查找元素：name方式[By.cssSelector:input[placeholder='请输入真实姓名']]
-2020-03-16 10:57:43  [ main:118415 ] - [ INFO ]  input输入：name[By.cssSelector:input[placeholder='请输入真实姓名']  value:*******]
-2020-03-16 10:57:43  [ main:118415 ] - [ INFO ]  查找元素：idcard方式[By.name:identity]
-2020-03-16 10:57:44  [ main:118815 ] - [ INFO ]  input输入：idcard[By.name:identity  value:*******]
-2020-03-16 10:57:44  [ main:118815 ] - [ INFO ]  查找元素：mobile方式[By.name:mobile]
-2020-03-16 10:57:44  [ main:119052 ] - [ INFO ]  input输入：mobile[By.name:mobile  value:*******]
-2020-03-16 10:57:44  [ main:119052 ] - [ INFO ]  查找元素：sms_code方式[By.name:sms_code]
-2020-03-16 10:57:44  [ main:119229 ] - [ INFO ]  input输入：sms_code[By.name:sms_code  value:*******]
-2020-03-16 10:57:44  [ main:119229 ] - [ INFO ]  等待2秒
-2020-03-16 10:57:46  [ main:121248 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
-2020-03-16 10:57:46  [ main:121358 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
-2020-03-16 10:57:46  [ main:121359 ] - [ INFO ]  等待2秒
-2020-03-16 10:57:48  [ main:123366 ] - [ INFO ]  查找元素：confrim方式[By.xpath://div[@class='protocol-btm-btn']]
-2020-03-16 10:57:48  [ main:123449 ] - [ INFO ]  click元素：confrim[By.xpath://div[@class='protocol-btm-btn']]成功！
-2020-03-16 10:57:48  [ main:123449 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:57:49  [ main:124009 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:57:49  [ main:124529 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:57:50  [ main:125059 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:57:50  [ main:125600 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:57:51  [ main:126112 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:57:51  [ main:126642 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:57:52  [ main:127151 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:57:52  [ main:127663 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:57:53  [ main:128175 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:57:54  [ main:128697 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:57:54  [ main:128732 ] - [ INFO ]  超时无法定位页面元素
-2020-03-16 10:57:54  [ main:129088 ] - [ ERROR ]  错误截图：/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/report/snapshot/2020-03-16 105754067.jpg
-2020-03-16 10:57:54  [ main:129094 ] - [ INFO ]  2020-03-16 105754067
-2020-03-16 10:57:54  [ main:129192 ] - [ INFO ]  关闭浏览器
-2020-03-16 10:57:54  [ main:129194 ] - [ INFO ]  ------------------开始执行测试---------------
-2020-03-16 10:57:54  [ main:129195 ] - [ INFO ]  启动浏览器
-2020-03-16 10:57:55  [ main:129837 ] - [ INFO ]  启动Chrome浏览器
-2020-03-16 10:57:56  [ main:131106 ] - [ INFO ]  打开页面
-2020-03-16 10:57:56  [ main:131114 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
-2020-03-16 10:57:56  [ main:131627 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
-2020-03-16 10:57:57  [ main:131667 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
-2020-03-16 10:57:57  [ main:131667 ] - [ INFO ]  查找元素：name方式[By.cssSelector:input[placeholder='请输入真实姓名']]
-2020-03-16 10:57:57  [ main:131875 ] - [ INFO ]  input输入：name[By.cssSelector:input[placeholder='请输入真实姓名']  value:*******]
-2020-03-16 10:57:57  [ main:131875 ] - [ INFO ]  查找元素：idcard方式[By.name:identity]
-2020-03-16 10:57:57  [ main:132124 ] - [ INFO ]  input输入：idcard[By.name:identity  value:*******]
-2020-03-16 10:57:57  [ main:132124 ] - [ INFO ]  查找元素：mobile方式[By.name:mobile]
-2020-03-16 10:57:57  [ main:132268 ] - [ INFO ]  input输入：mobile[By.name:mobile  value:*******]
-2020-03-16 10:57:57  [ main:132269 ] - [ INFO ]  查找元素：sms_code方式[By.name:sms_code]
-2020-03-16 10:57:57  [ main:132367 ] - [ INFO ]  input输入：sms_code[By.name:sms_code  value:*******]
-2020-03-16 10:57:57  [ main:132368 ] - [ INFO ]  等待2秒
-2020-03-16 10:57:59  [ main:134377 ] - [ INFO ]  查找元素：shebao方式[By.xpath://*[text()='无']]
-2020-03-16 10:57:59  [ main:134454 ] - [ INFO ]  click元素：shebao[By.xpath://*[text()='无']]成功！
-2020-03-16 10:57:59  [ main:134454 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
-2020-03-16 10:57:59  [ main:134500 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
-2020-03-16 10:57:59  [ main:134501 ] - [ INFO ]  等待2秒
-2020-03-16 10:58:01  [ main:136501 ] - [ INFO ]  查找元素：confrim方式[By.xpath://div[@class='protocol-btm-btn']]
-2020-03-16 10:58:02  [ main:136705 ] - [ INFO ]  click元素：confrim[By.xpath://div[@class='protocol-btm-btn']]成功！
-2020-03-16 10:58:02  [ main:136705 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:58:02  [ main:137230 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:58:03  [ main:137742 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:58:03  [ main:138261 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:58:04  [ main:138786 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:58:04  [ main:139299 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:58:08  [ main:143287 ] - [ INFO ]  关闭浏览器
-2020-03-16 10:58:08  [ main:143289 ] - [ INFO ]  ------------------开始执行测试---------------
-2020-03-16 10:58:08  [ main:143289 ] - [ INFO ]  启动浏览器
-2020-03-16 10:58:09  [ main:143771 ] - [ INFO ]  启动Chrome浏览器
-2020-03-16 10:58:10  [ main:144802 ] - [ INFO ]  打开页面
-2020-03-16 10:58:10  [ main:144808 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
-2020-03-16 10:58:10  [ main:145324 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
-2020-03-16 10:58:10  [ main:145364 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
-2020-03-16 10:58:10  [ main:145365 ] - [ INFO ]  查找元素：name方式[By.cssSelector:input[placeholder='请输入真实姓名']]
-2020-03-16 10:58:10  [ main:145581 ] - [ INFO ]  input输入：name[By.cssSelector:input[placeholder='请输入真实姓名']  value:*******]
-2020-03-16 10:58:10  [ main:145581 ] - [ INFO ]  查找元素：idcard方式[By.name:identity]
-2020-03-16 10:58:11  [ main:145810 ] - [ INFO ]  input输入：idcard[By.name:identity  value:*******]
-2020-03-16 10:58:11  [ main:145811 ] - [ INFO ]  查找元素：mobile方式[By.name:mobile]
-2020-03-16 10:58:11  [ main:145955 ] - [ INFO ]  input输入：mobile[By.name:mobile  value:*******]
-2020-03-16 10:58:11  [ main:145956 ] - [ INFO ]  查找元素：sms_code方式[By.name:sms_code]
-2020-03-16 10:58:11  [ main:146111 ] - [ INFO ]  input输入：sms_code[By.name:sms_code  value:*******]
-2020-03-16 10:58:11  [ main:146111 ] - [ INFO ]  等待2秒
-2020-03-16 10:58:13  [ main:148125 ] - [ INFO ]  查找元素：shebao方式[By.xpath://*[text()='无']]
-2020-03-16 10:58:13  [ main:148190 ] - [ INFO ]  click元素：shebao[By.xpath://*[text()='无']]成功！
-2020-03-16 10:58:13  [ main:148191 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
-2020-03-16 10:58:13  [ main:148256 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
-2020-03-16 10:58:13  [ main:148256 ] - [ INFO ]  等待2秒
-2020-03-16 10:58:15  [ main:150261 ] - [ INFO ]  查找元素：confrim方式[By.xpath://div[@class='protocol-btm-btn']]
-2020-03-16 10:58:15  [ main:150334 ] - [ INFO ]  click元素：confrim[By.xpath://div[@class='protocol-btm-btn']]成功！
-2020-03-16 10:58:15  [ main:150334 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:58:16  [ main:150869 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:58:16  [ main:151381 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:58:17  [ main:151894 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:58:19  [ main:154293 ] - [ INFO ]  关闭浏览器
-2020-03-16 10:58:19  [ main:154294 ] - [ INFO ]  ------------------开始执行测试---------------
-2020-03-16 10:58:19  [ main:154294 ] - [ INFO ]  启动浏览器
-2020-03-16 10:58:20  [ main:154886 ] - [ INFO ]  启动Chrome浏览器
-2020-03-16 10:58:21  [ main:156178 ] - [ INFO ]  打开页面
-2020-03-16 10:58:21  [ main:156186 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
-2020-03-16 10:58:22  [ main:156720 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
-2020-03-16 10:58:22  [ main:156765 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
-2020-03-16 10:58:22  [ main:156765 ] - [ INFO ]  查找元素：name方式[By.cssSelector:input[placeholder='请输入真实姓名']]
-2020-03-16 10:58:22  [ main:156987 ] - [ INFO ]  input输入：name[By.cssSelector:input[placeholder='请输入真实姓名']  value:*******]
-2020-03-16 10:58:22  [ main:156988 ] - [ INFO ]  查找元素：idcard方式[By.name:identity]
-2020-03-16 10:58:22  [ main:157215 ] - [ INFO ]  input输入：idcard[By.name:identity  value:*******]
-2020-03-16 10:58:22  [ main:157215 ] - [ INFO ]  查找元素：mobile方式[By.name:mobile]
-2020-03-16 10:58:22  [ main:157391 ] - [ INFO ]  input输入：mobile[By.name:mobile  value:*******]
-2020-03-16 10:58:22  [ main:157391 ] - [ INFO ]  查找元素：sms_code方式[By.name:sms_code]
-2020-03-16 10:58:22  [ main:157486 ] - [ INFO ]  input输入：sms_code[By.name:sms_code  value:*******]
-2020-03-16 10:58:22  [ main:157487 ] - [ INFO ]  等待2秒
-2020-03-16 10:58:24  [ main:159500 ] - [ INFO ]  查找元素：shebao方式[By.xpath://*[text()='无']]
-2020-03-16 10:58:24  [ main:159565 ] - [ INFO ]  click元素：shebao[By.xpath://*[text()='无']]成功！
-2020-03-16 10:58:24  [ main:159565 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
-2020-03-16 10:58:24  [ main:159632 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
-2020-03-16 10:58:24  [ main:159633 ] - [ INFO ]  等待2秒
-2020-03-16 10:58:26  [ main:161638 ] - [ INFO ]  查找元素：confrim方式[By.xpath://div[@class='protocol-btm-btn']]
-2020-03-16 10:58:27  [ main:161706 ] - [ INFO ]  click元素：confrim[By.xpath://div[@class='protocol-btm-btn']]成功！
-2020-03-16 10:58:27  [ main:161707 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:58:27  [ main:162257 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:58:28  [ main:162774 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:58:28  [ main:163288 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 10:58:37  [ main:172095 ] - [ INFO ]  关闭浏览器
-2020-03-16 10:58:37  [ main:172098 ] - [ INFO ]  ------------------开始执行测试---------------
-2020-03-16 10:58:37  [ main:172098 ] - [ INFO ]  启动浏览器
-2020-03-16 10:58:37  [ main:172527 ] - [ INFO ]  启动Chrome浏览器
-2020-03-16 10:58:42  [ main:177317 ] - [ INFO ]  打开页面
-2020-03-16 10:58:42  [ main:177371 ] - [ INFO ]  查找元素：submit方式[By.className:maba-button]
-2020-03-16 10:58:42  [ main:177446 ] - [ INFO ]  click元素：submit[By.className:maba-button]成功！
-2020-03-16 10:58:42  [ main:177446 ] - [ INFO ]  等待5秒
-2020-03-16 10:58:47  [ main:182450 ] - [ INFO ]  查找元素：jiangao方式[By.xpath://*[text()='以上情况全无']]
-2020-03-16 10:58:47  [ main:182520 ] - [ INFO ]  click元素：jiangao[By.xpath://*[text()='以上情况全无']]成功！
-2020-03-16 10:58:47  [ main:182520 ] - [ INFO ]  查找元素：ins_name方式[By.cssSelector:input[placeholder='请输入投保人姓名']]
-2020-03-16 10:58:48  [ main:183039 ] - [ INFO ]  查找元素：ins_name方式[By.cssSelector:input[placeholder='请输入投保人姓名']]
-2020-03-16 10:58:48  [ main:183221 ] - [ INFO ]  input输入：ins_name[By.cssSelector:input[placeholder='请输入投保人姓名']  value:*******]
-2020-03-16 10:58:48  [ main:183222 ] - [ INFO ]  查找元素：ins_idcard方式[By.cssSelector:input[placeholder='请输入投保人证件号码']]
-2020-03-16 10:58:48  [ main:183463 ] - [ INFO ]  input输入：ins_idcard[By.cssSelector:input[placeholder='请输入投保人证件号码']  value:*******]
-2020-03-16 10:58:48  [ main:183553 ] - [ INFO ]  查找元素：mobile方式[By.cssSelector:input[placeholder='请输入投保人手机号']]
-2020-03-16 10:58:49  [ main:183776 ] - [ INFO ]  input输入：mobile[By.cssSelector:input[placeholder='请输入投保人手机号']  value:*******]
-2020-03-16 10:58:49  [ main:183776 ] - [ INFO ]  查找元素：sms_code方式[By.name:sms_code]
-2020-03-16 10:58:49  [ main:183904 ] - [ INFO ]  input输入：sms_code[By.name:sms_code  value:*******]
-2020-03-16 10:58:49  [ main:183905 ] - [ INFO ]  查找元素：email方式[By.name:email]
-2020-03-16 10:58:49  [ main:184220 ] - [ INFO ]  input输入：email[By.name:email  value:*******]
-2020-03-16 10:58:49  [ main:184320 ] - [ INFO ]  等待2秒
-2020-03-16 10:58:51  [ main:186435 ] - [ INFO ]  关闭浏览器
-2020-03-16 10:58:51  [ main:186437 ] - [ INFO ]  ------------------开始执行测试---------------
-2020-03-16 10:58:51  [ main:186437 ] - [ INFO ]  启动浏览器
-2020-03-16 10:58:52  [ main:187085 ] - [ INFO ]  启动Chrome浏览器
-2020-03-16 10:58:53  [ main:187944 ] - [ INFO ]  打开页面
-2020-03-16 10:58:53  [ main:187956 ] - [ INFO ]  查找元素：plan2000方式[By.xpath://*[text()='2000万']]
-2020-03-16 10:58:53  [ main:188552 ] - [ INFO ]  查找元素：plan2000方式[By.xpath://*[text()='2000万']]
-2020-03-16 10:58:54  [ main:188695 ] - [ INFO ]  click元素：plan2000[By.xpath://*[text()='2000万']]成功！
-2020-03-16 10:58:54  [ main:188702 ] - [ INFO ]  查找元素：woyaotoubao方式[By.xpath://*[text()='我要投保']]
-2020-03-16 10:58:54  [ main:188946 ] - [ INFO ]  click元素：woyaotoubao[By.xpath://*[text()='我要投保']]成功！
-2020-03-16 10:58:55  [ main:189712 ] - [ INFO ]  查找元素：sms_code方式[By.cssSelector:input[placeholder='请输入验证码']]
-2020-03-16 10:58:55  [ main:189815 ] - [ INFO ]  input输入：sms_code[By.cssSelector:input[placeholder='请输入验证码']  value:*******]
-2020-03-16 10:58:55  [ main:189815 ] - [ INFO ]  查找元素：submit方式[By.xpath://*[text()='立即投保']]
-2020-03-16 10:58:55  [ main:189865 ] - [ INFO ]  click元素：submit[By.xpath://*[text()='立即投保']]成功！
-2020-03-16 10:58:55  [ main:189865 ] - [ INFO ]  等待1秒
-2020-03-16 10:58:56  [ main:190868 ] - [ INFO ]  查找元素：submit方式[By.xpath://*[text()='立即投保']]
-2020-03-16 10:58:56  [ main:190903 ] - [ INFO ]  click元素：submit[By.xpath://*[text()='立即投保']]成功！
-2020-03-16 10:58:56  [ main:190903 ] - [ INFO ]  等待2秒
-2020-03-16 10:58:58  [ main:192905 ] - [ INFO ]  查找元素：confirm方式[By.xpath://*[@class='baoxian-button-base m-auto']]
-2020-03-16 10:58:58  [ main:192975 ] - [ INFO ]  click元素：confirm[By.xpath://*[@class='baoxian-button-base m-auto']]成功！
-2020-03-16 10:58:58  [ main:192975 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
-2020-03-16 10:58:58  [ main:193525 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
-2020-03-16 10:59:07  [ main:201822 ] - [ INFO ]  关闭浏览器
-2020-03-16 10:59:07  [ main:201824 ] - [ INFO ]  ------------------开始执行测试---------------
-2020-03-16 10:59:07  [ main:201824 ] - [ INFO ]  启动浏览器
-2020-03-16 10:59:07  [ main:202374 ] - [ INFO ]  启动Chrome浏览器
-2020-03-16 10:59:25  [ main:219716 ] - [ INFO ]  打开页面
-2020-03-16 10:59:25  [ main:219754 ] - [ INFO ]  查找元素：submit方式[By.xpath://*[text()='立即投保']]
-2020-03-16 10:59:25  [ main:219872 ] - [ INFO ]  click元素：submit[By.xpath://*[text()='立即投保']]成功！
-2020-03-16 10:59:25  [ main:219872 ] - [ INFO ]  等待5秒
-2020-03-16 10:59:30  [ main:225051 ] - [ INFO ]  等待2秒
-2020-03-16 10:59:32  [ main:227304 ] - [ INFO ]  等待2秒
-2020-03-16 10:59:34  [ main:229404 ] - [ INFO ]  查找元素：baoe20方式[By.xpath://*[text()='20万']]
-2020-03-16 10:59:34  [ main:229452 ] - [ INFO ]  click元素：baoe20[By.xpath://*[text()='20万']]成功！
-2020-03-16 10:59:34  [ main:229453 ] - [ INFO ]  查找元素：period20方式[By.xpath://div[@class='mb-trial-item-left period']/following-sibling::div[1]/div/div[1]/div[text()='20年']]
-2020-03-16 10:59:34  [ main:229519 ] - [ INFO ]  click元素：period20[By.xpath://div[@class='mb-trial-item-left period']/following-sibling::div[1]/div/div[1]/div[text()='20年']]成功！
-2020-03-16 10:59:34  [ main:229519 ] - [ INFO ]  查找元素：pay10方式[By.xpath://div[@class='mb-trial-item-left pay_peroids']/following-sibling::div[1]/div/div[1]/div[text()='10年']]
-2020-03-16 10:59:34  [ main:229619 ] - [ INFO ]  click元素：pay10[By.xpath://div[@class='mb-trial-item-left pay_peroids']/following-sibling::div[1]/div/div[1]/div[text()='10年']]成功！
-2020-03-16 10:59:34  [ main:229620 ] - [ INFO ]  查找元素：ercizhongji方式[By.xpath://div[text()='二次重疾']/following-sibling::div[1]/div[1]/div[1]/div[2]]
-2020-03-16 10:59:35  [ main:229733 ] - [ INFO ]  click元素：ercizhongji[By.xpath://div[text()='二次重疾']/following-sibling::div[1]/div[1]/div[1]/div[2]]成功！
-2020-03-16 10:59:35  [ main:229733 ] - [ INFO ]  查找元素：tejihanjianbing方式[By.xpath://div[text()='特疾和罕见病']/following-sibling::div[1]/div[1]/div[1]/div[2]]
-2020-03-16 10:59:35  [ main:229806 ] - [ INFO ]  click元素：tejihanjianbing[By.xpath://div[text()='特疾和罕见病']/following-sibling::div[1]/div[1]/div[1]/div[2]]成功！
-2020-03-16 10:59:35  [ main:229806 ] - [ INFO ]  查找元素：toubaorenhuomian方式[By.xpath://div[text()='投保人豁免']/following-sibling::div[1]/div[1]/div[1]/div[1]]
-2020-03-16 10:59:35  [ main:229922 ] - [ INFO ]  click元素：toubaorenhuomian[By.xpath://div[text()='投保人豁免']/following-sibling::div[1]/div[1]/div[1]/div[1]]成功！
-2020-03-16 10:59:35  [ main:229923 ] - [ INFO ]  查找元素：submit方式[By.xpath://*[text()='立即投保']]
-2020-03-16 10:59:35  [ main:230021 ] - [ INFO ]  click元素：submit[By.xpath://*[text()='立即投保']]成功！
-2020-03-16 10:59:35  [ main:230021 ] - [ INFO ]  等待5秒
-2020-03-16 10:59:40  [ main:235025 ] - [ INFO ]  查找元素：jiangao方式[By.xpath://*[text()='以上情况全无']]
-2020-03-16 10:59:40  [ main:235084 ] - [ INFO ]  click元素：jiangao[By.xpath://*[text()='以上情况全无']]成功！
-2020-03-16 10:59:40  [ main:235085 ] - [ INFO ]  查找元素：ins_name方式[By.cssSelector:input[placeholder='请输入投保人姓名']]
-2020-03-16 10:59:40  [ main:235602 ] - [ INFO ]  查找元素：ins_name方式[By.cssSelector:input[placeholder='请输入投保人姓名']]
-2020-03-16 10:59:41  [ main:235835 ] - [ INFO ]  input输入：ins_name[By.cssSelector:input[placeholder='请输入投保人姓名']  value:*******]
-2020-03-16 10:59:41  [ main:235836 ] - [ INFO ]  查找元素：ins_idcard方式[By.cssSelector:input[placeholder='请输入投保人证件号码']]
-2020-03-16 10:59:41  [ main:236557 ] - [ INFO ]  input输入：ins_idcard[By.cssSelector:input[placeholder='请输入投保人证件号码']  value:*******]
-2020-03-16 10:59:41  [ main:236558 ] - [ INFO ]  查找元素：changqi方式[By.xpath://*[text()='长期']]
-2020-03-16 10:59:42  [ main:236779 ] - [ INFO ]  click元素：changqi[By.xpath://*[text()='长期']]成功！
-2020-03-16 10:59:42  [ main:236780 ] - [ INFO ]  查找元素：mobile方式[By.name:mobile]
-2020-03-16 10:59:42  [ main:237056 ] - [ INFO ]  input输入：mobile[By.name:mobile  value:*******]
-2020-03-16 10:59:42  [ main:237057 ] - [ INFO ]  查找元素：sms_code方式[By.cssSelector:input[placeholder="请输入验证码"]]
-2020-03-16 10:59:42  [ main:237349 ] - [ INFO ]  input输入：sms_code[By.cssSelector:input[placeholder="请输入验证码"]  value:*******]
-2020-03-16 10:59:42  [ main:237349 ] - [ INFO ]  查找元素：email方式[By.name:email]
-2020-03-16 10:59:43  [ main:237977 ] - [ INFO ]  input输入：email[By.name:email  value:*******]
-2020-03-16 10:59:43  [ main:237978 ] - [ INFO ]  查找元素：postcode方式[By.name:postcode]
-2020-03-16 10:59:43  [ main:238264 ] - [ INFO ]  input输入：postcode[By.name:postcode  value:*******]
-2020-03-16 10:59:43  [ main:238264 ] - [ INFO ]  查找元素：address方式[By.name:address]
-2020-03-16 10:59:44  [ main:238744 ] - [ INFO ]  input输入：address[By.name:address  value:*******]
-2020-03-16 10:59:44  [ main:238745 ] - [ INFO ]  查找元素：apl_idcard方式[By.cssSelector:input[placeholder='请输入被保人证件号码']]
-2020-03-16 10:59:44  [ main:239414 ] - [ INFO ]  input输入：apl_idcard[By.cssSelector:input[placeholder='请输入被保人证件号码']  value:*******]
-2020-03-16 10:59:44  [ main:239414 ] - [ INFO ]  查找元素：apl_name方式[By.cssSelector:input[placeholder='请输入真实姓名']]
-2020-03-16 10:59:44  [ main:239495 ] - [ INFO ]  input输入：apl_name[By.cssSelector:input[placeholder='请输入真实姓名']  value:*******]
-2020-03-16 10:59:44  [ main:239505 ] - [ INFO ]  查找元素：shengao方式[By.xpath://*[text()='132CM']]
-2020-03-16 10:59:45  [ main:239668 ] - [ INFO ]  click元素：shengao[By.xpath://*[text()='132CM']]成功！
-2020-03-16 10:59:45  [ main:239668 ] - [ INFO ]  等待2秒
-2020-03-16 10:59:47  [ main:241740 ] - [ INFO ]  等待1秒
-2020-03-16 10:59:48  [ main:242793 ] - [ INFO ]  等待1秒
-2020-03-16 10:59:49  [ main:243873 ] - [ INFO ]  查找元素：tizhong方式[By.xpath://*[text()='71KG']]
-2020-03-16 10:59:49  [ main:243950 ] - [ INFO ]  click元素：tizhong[By.xpath://*[text()='71KG']]成功！
-2020-03-16 10:59:49  [ main:243950 ] - [ INFO ]  等待2秒
-2020-03-16 10:59:51  [ main:246014 ] - [ INFO ]  等待1秒
-2020-03-16 10:59:52  [ main:247046 ] - [ INFO ]  等待1秒
-2020-03-16 10:59:53  [ main:248084 ] - [ INFO ]  等待1秒
-2020-03-16 10:59:54  [ main:249132 ] - [ INFO ]  等待1秒
-2020-03-16 10:59:55  [ main:250244 ] - [ INFO ]  查找元素：bank_card方式[By.cssSelector:input[placeholder='请输入银行卡号']]
-2020-03-16 10:59:55  [ main:250602 ] - [ INFO ]  input输入：bank_card[By.cssSelector:input[placeholder='请输入银行卡号']  value:*******]
-2020-03-16 10:59:55  [ main:250603 ] - [ INFO ]  查找元素：bank_mobile方式[By.cssSelector:input[placeholder='请输入预留手机号']]
-2020-03-16 10:59:56  [ main:250802 ] - [ INFO ]  input输入：bank_mobile[By.cssSelector:input[placeholder='请输入预留手机号']  value:*******]
-2020-03-16 10:59:56  [ main:250877 ] - [ INFO ]  等待3秒
-2020-03-16 10:59:59  [ main:253878 ] - [ INFO ]  查找元素：submit方式[By.xpath://*[text()='立即投保']]
-2020-03-16 10:59:59  [ main:253931 ] - [ INFO ]  click元素：submit[By.xpath://*[text()='立即投保']]成功！
-2020-03-16 10:59:59  [ main:253931 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
-2020-03-16 10:59:59  [ main:254453 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
-2020-03-16 11:00:00  [ main:254968 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
-2020-03-16 11:00:00  [ main:255483 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
-2020-03-16 11:00:01  [ main:255996 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
-2020-03-16 11:00:01  [ main:256507 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
-2020-03-16 11:00:02  [ main:257023 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
-2020-03-16 11:00:02  [ main:257534 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
-2020-03-16 11:00:03  [ main:258048 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
-2020-03-16 11:00:03  [ main:258569 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
-2020-03-16 11:00:04  [ main:259086 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
-2020-03-16 11:00:04  [ main:259112 ] - [ INFO ]  超时无法定位页面元素
-2020-03-16 11:00:04  [ main:259513 ] - [ ERROR ]  错误截图：/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/report/snapshot/2020-03-16 110004447.jpg
-2020-03-16 11:00:04  [ main:259521 ] - [ INFO ]  2020-03-16 110004447
-2020-03-16 11:00:04  [ main:259612 ] - [ INFO ]  关闭浏览器
-2020-03-16 11:00:04  [ main:259615 ] - [ INFO ]  ------------------开始执行测试---------------
-2020-03-16 11:00:04  [ main:259615 ] - [ INFO ]  启动浏览器
-2020-03-16 11:00:06  [ main:260685 ] - [ INFO ]  启动Chrome浏览器
-2020-03-16 11:00:10  [ main:265443 ] - [ INFO ]  打开页面
-2020-03-16 11:00:10  [ main:265443 ] - [ INFO ]  查找元素：order方式[By.xpath://*[@id='btnbox']/div/div[3]]
-2020-03-16 11:00:10  [ main:265564 ] - [ INFO ]  click元素：order[By.xpath://*[@id='btnbox']/div/div[3]]成功！
-2020-03-16 11:00:10  [ main:265564 ] - [ INFO ]  查找元素：name方式[By.xpath:(//div[@name='本人']//input[@type='text'])[position()=1]]
-2020-03-16 11:00:11  [ main:265755 ] - [ INFO ]  input输入：name[By.xpath:(//div[@name='本人']//input[@type='text'])[position()=1]  value:*******]
-2020-03-16 11:00:11  [ main:265755 ] - [ INFO ]  查找元素：idcard方式[By.xpath:(//div[@name='本人']//input[@type='text'])[position()=2]]
-2020-03-16 11:00:11  [ main:265999 ] - [ INFO ]  input输入：idcard[By.xpath:(//div[@name='本人']//input[@type='text'])[position()=2]  value:*******]
-2020-03-16 11:00:11  [ main:265999 ] - [ INFO ]  等待4秒
-2020-03-16 11:00:15  [ main:270005 ] - [ INFO ]  查找元素：mobile方式[By.xpath:(//div[@name='本人']//input[@type='tel'])[position()=1]]
-2020-03-16 11:00:15  [ main:270205 ] - [ INFO ]  input输入：mobile[By.xpath:(//div[@name='本人']//input[@type='tel'])[position()=1]  value:*******]
-2020-03-16 11:00:15  [ main:270205 ] - [ INFO ]  查找元素：sms_code方式[By.xpath:(//div[@name='本人']//input[@type='tel'])[position()=2]]
-2020-03-16 11:00:15  [ main:270424 ] - [ INFO ]  input输入：sms_code[By.xpath:(//div[@name='本人']//input[@type='tel'])[position()=2]  value:*******]
-2020-03-16 11:00:15  [ main:270436 ] - [ INFO ]  查找元素：pay_type方式[By.xpath://*[text()='全额缴清']]
-2020-03-16 11:00:15  [ main:270566 ] - [ INFO ]  click元素：pay_type[By.xpath://*[text()='全额缴清']]成功！
-2020-03-16 11:00:15  [ main:270566 ] - [ INFO ]  查找元素：shebao方式[By.xpath://div[@name='本人']//*[text()='无']]
-2020-03-16 11:00:16  [ main:270679 ] - [ INFO ]  click元素：shebao[By.xpath://div[@name='本人']//*[text()='无']]成功！
-2020-03-16 11:00:16  [ main:270679 ] - [ INFO ]  查找元素：order方式[By.xpath://*[@id='btnbox']/div/div[3]]
-2020-03-16 11:00:16  [ main:270775 ] - [ INFO ]  click元素：order[By.xpath://*[@id='btnbox']/div/div[3]]成功！
-2020-03-16 11:00:16  [ main:270779 ] - [ INFO ]  查找元素：confrim方式[By.xpath://*[@class='baoxian-button-base baoxian-button-orange m-auto']]
-2020-03-16 11:00:16  [ main:270907 ] - [ INFO ]  click元素：confrim[By.xpath://*[@class='baoxian-button-base baoxian-button-orange m-auto']]成功！
-2020-03-16 11:00:16  [ main:270908 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 11:00:16  [ main:271488 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 11:00:17  [ main:272037 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 11:00:17  [ main:272656 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 11:00:18  [ main:273198 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
-2020-03-16 11:00:18  [ main:273329 ] - [ INFO ]  关闭浏览器
-2020-03-16 11:00:18  [ main:273332 ] - [ INFO ]  ------------------开始执行测试---------------
-2020-03-16 11:00:18  [ main:273333 ] - [ INFO ]  启动浏览器
-2020-03-16 11:00:19  [ main:274261 ] - [ INFO ]  启动Chrome浏览器
-2020-03-16 11:00:24  [ main:279363 ] - [ INFO ]  打开页面
-2020-03-16 11:00:24  [ main:279372 ] - [ INFO ]  查找元素：baoe30w方式[By.xpath://*[text()='30万元']]
-2020-03-16 11:00:25  [ main:279887 ] - [ INFO ]  查找元素：baoe30w方式[By.xpath://*[text()='30万元']]
-2020-03-16 11:00:25  [ main:280021 ] - [ INFO ]  关闭浏览器
-2020-03-16 11:00:25  [ main:280465 ] - [ DEBUG ]  Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-16 11:00:25  [ main:280466 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index_en.ftl"): Not found
-2020-03-16 11:00:25  [ main:280467 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index.ftl"): Found
-2020-03-16 11:00:25  [ main:280469 ] - [ DEBUG ]  Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
-2020-03-16 11:00:26  [ main:280688 ] - [ DEBUG ]  Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-16 11:00:26  [ main:280688 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head_en.ftl"): Not found
-2020-03-16 11:00:26  [ main:280689 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head.ftl"): Found
-2020-03-16 11:00:26  [ main:280689 ] - [ DEBUG ]  Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
-2020-03-16 11:00:26  [ main:280776 ] - [ DEBUG ]  Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-16 11:00:26  [ main:280776 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
-2020-03-16 11:00:26  [ main:280777 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav.ftl"): Found
-2020-03-16 11:00:26  [ main:280777 ] - [ DEBUG ]  Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
-2020-03-16 11:00:26  [ main:280782 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-16 11:00:26  [ main:280785 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
-2020-03-16 11:00:26  [ main:280785 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
-2020-03-16 11:00:26  [ main:280785 ] - [ DEBUG ]  Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
-2020-03-16 11:00:26  [ main:280797 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-16 11:00:26  [ main:280797 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
-2020-03-16 11:00:26  [ main:280798 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
-2020-03-16 11:00:26  [ main:280798 ] - [ DEBUG ]  Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
-2020-03-16 11:00:26  [ main:280815 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-16 11:00:26  [ main:280817 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
-2020-03-16 11:00:26  [ main:280818 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
-2020-03-16 11:00:26  [ main:280819 ] - [ DEBUG ]  Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
-2020-03-16 11:00:26  [ main:280851 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
-2020-03-16 11:00:26  [ main:280852 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
-2020-03-16 11:00:26  [ main:280853 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
-2020-03-16 11:00:26  [ main:280856 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
-2020-03-16 11:00:26  [ main:280861 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
-2020-03-16 11:00:26  [ main:280862 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
-2020-03-16 11:00:26  [ main:280865 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
-2020-03-16 11:00:26  [ main:280866 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
-2020-03-16 11:00:26  [ main:280874 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
-2020-03-16 11:00:26  [ main:280875 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
-2020-03-16 11:00:26  [ main:280876 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
-2020-03-16 11:00:26  [ main:280876 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
-2020-03-16 11:00:26  [ main:280877 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
-2020-03-16 11:00:26  [ main:280877 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
-2020-03-16 11:00:26  [ main:280878 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
-2020-03-16 11:00:26  [ main:280881 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
-2020-03-16 11:00:26  [ main:280882 ] - [ DEBUG ]  Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-16 11:00:26  [ main:280883 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
-2020-03-16 11:00:26  [ main:280883 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
-2020-03-16 11:00:26  [ main:280883 ] - [ DEBUG ]  Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
-2020-03-16 11:00:26  [ main:280900 ] - [ DEBUG ]  Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-16 11:00:26  [ main:280901 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
-2020-03-16 11:00:26  [ main:280902 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
-2020-03-16 11:00:26  [ main:280902 ] - [ DEBUG ]  Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
-2020-03-16 11:00:26  [ main:280926 ] - [ DEBUG ]  Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-16 11:00:26  [ main:280926 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
-2020-03-16 11:00:26  [ main:280927 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
-2020-03-16 11:00:26  [ main:280927 ] - [ DEBUG ]  Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
-2020-03-16 11:00:26  [ main:280932 ] - [ DEBUG ]  Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-16 11:00:26  [ main:280932 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
-2020-03-16 11:00:26  [ main:280933 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
-2020-03-16 11:00:26  [ main:280933 ] - [ DEBUG ]  Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+2020-03-17 00:54:35  [ main:0 ] - [ INFO ]  ------------------开始执行测试---------------
+2020-03-17 00:54:35  [ main:18 ] - [ INFO ]  启动浏览器
+2020-03-17 00:54:40  [ main:4521 ] - [ INFO ]  启动Chrome浏览器
+2020-03-17 00:54:52  [ main:16457 ] - [ INFO ]  打开页面
+2020-03-17 00:54:52  [ main:16501 ] - [ INFO ]  查找元素：lijilingqu方式[By.xpath://*[@class='fill-btn']]
+2020-03-17 00:54:52  [ main:16595 ] - [ INFO ]  click元素：lijilingqu[By.xpath://*[@class='fill-btn']]成功！
+2020-03-17 00:54:52  [ main:16596 ] - [ INFO ]  等待2秒
+2020-03-17 00:54:54  [ main:19091 ] - [ INFO ]  查找元素：sms_code方式[By.cssSelector:input[placeholder='请输入验证码']]
+2020-03-17 00:54:54  [ main:19199 ] - [ INFO ]  input输入：sms_code[By.cssSelector:input[placeholder='请输入验证码']  value:*******]
+2020-03-17 00:54:54  [ main:19205 ] - [ INFO ]  查找元素：pay_type方式[By.xpath://*[text()='全额缴清']]
+2020-03-17 00:54:54  [ main:19305 ] - [ INFO ]  click元素：pay_type[By.xpath://*[text()='全额缴清']]成功！
+2020-03-17 00:54:54  [ main:19306 ] - [ INFO ]  等待2秒
+2020-03-17 00:54:56  [ main:21319 ] - [ INFO ]  查找元素：shebao方式[By.xpath://*[text()='无']]
+2020-03-17 00:54:57  [ main:21382 ] - [ INFO ]  click元素：shebao[By.xpath://*[text()='无']]成功！
+2020-03-17 00:54:57  [ main:21383 ] - [ INFO ]  查找元素：submit方式[By.xpath://*[text()='立即投保']]
+2020-03-17 00:54:57  [ main:21439 ] - [ INFO ]  click元素：submit[By.xpath://*[text()='立即投保']]成功！
+2020-03-17 00:54:57  [ main:21441 ] - [ INFO ]  等待1秒
+2020-03-17 00:54:58  [ main:22444 ] - [ INFO ]  查找元素：submit方式[By.xpath://*[text()='立即投保']]
+2020-03-17 00:54:58  [ main:22498 ] - [ INFO ]  click元素：submit[By.xpath://*[text()='立即投保']]成功！
+2020-03-17 00:54:58  [ main:22498 ] - [ INFO ]  等待1秒
+2020-03-17 00:54:59  [ main:23504 ] - [ INFO ]  查找元素：confrim方式[By.xpath://*[@class='baoxian-button-base m-auto']]
+2020-03-17 00:54:59  [ main:23563 ] - [ INFO ]  click元素：confrim[By.xpath://*[@class='baoxian-button-base m-auto']]成功！
+2020-03-17 00:54:59  [ main:23563 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
+2020-03-17 00:54:59  [ main:24123 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
+2020-03-17 00:55:00  [ main:24639 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
+2020-03-17 00:55:00  [ main:25160 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
+2020-03-17 00:55:01  [ main:26265 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
+2020-03-17 00:55:02  [ main:26826 ] - [ INFO ]  关闭浏览器
+2020-03-17 00:55:02  [ main:26830 ] - [ INFO ]  ------------------开始执行测试---------------
+2020-03-17 00:55:02  [ main:26830 ] - [ INFO ]  启动浏览器
+2020-03-17 00:55:04  [ main:28849 ] - [ INFO ]  启动Chrome浏览器
+2020-03-17 00:55:14  [ main:38746 ] - [ INFO ]  打开页面
+2020-03-17 00:55:14  [ main:38747 ] - [ INFO ]  查找元素：name方式[By.cssSelector:input[data-type='name']]
+2020-03-17 00:55:14  [ main:38947 ] - [ INFO ]  input输入：name[By.cssSelector:input[data-type='name']  value:*******]
+2020-03-17 00:55:14  [ main:38948 ] - [ INFO ]  查找元素：idcard方式[By.cssSelector:input[data-type='identity']]
+2020-03-17 00:55:14  [ main:39132 ] - [ INFO ]  input输入：idcard[By.cssSelector:input[data-type='identity']  value:*******]
+2020-03-17 00:55:14  [ main:39132 ] - [ INFO ]  等待4秒
+2020-03-17 00:55:18  [ main:43136 ] - [ INFO ]  查找元素：mobile方式[By.cssSelector:input[data-type='mobile']]
+2020-03-17 00:55:18  [ main:43278 ] - [ INFO ]  input输入：mobile[By.cssSelector:input[data-type='mobile']  value:*******]
+2020-03-17 00:55:18  [ main:43280 ] - [ INFO ]  查找元素：sms_code方式[By.cssSelector:input[data-type='sms_code']]
+2020-03-17 00:55:19  [ main:43375 ] - [ INFO ]  input输入：sms_code[By.cssSelector:input[data-type='sms_code']  value:*******]
+2020-03-17 00:55:19  [ main:43387 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-03-17 00:55:19  [ main:43545 ] - [ INFO ]  查找元素：confrim方式[By.xpath://*[text()='好的 继续']]
+2020-03-17 00:55:19  [ main:43727 ] - [ INFO ]  click元素：confrim[By.xpath://*[text()='好的 继续']]成功！
+2020-03-17 00:55:19  [ main:43728 ] - [ INFO ]  查找元素：rconfrim方式[By.xpath://*[text()='职业符合']]
+2020-03-17 00:55:19  [ main:43865 ] - [ INFO ]  click元素：rconfrim[By.xpath://*[text()='职业符合']]成功！
+2020-03-17 00:55:19  [ main:43865 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 00:55:20  [ main:44385 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 00:55:20  [ main:44521 ] - [ INFO ]  关闭浏览器
+2020-03-17 00:55:20  [ main:44525 ] - [ INFO ]  ------------------开始执行测试---------------
+2020-03-17 00:55:20  [ main:44525 ] - [ INFO ]  启动浏览器
+2020-03-17 00:55:22  [ main:46396 ] - [ INFO ]  启动Chrome浏览器
+2020-03-17 00:55:31  [ main:55543 ] - [ INFO ]  打开页面
+2020-03-17 00:55:31  [ main:55543 ] - [ INFO ]  查找元素：name方式[By.cssSelector:input[data-type='name']]
+2020-03-17 00:55:31  [ main:55796 ] - [ INFO ]  input输入：name[By.cssSelector:input[data-type='name']  value:*******]
+2020-03-17 00:55:31  [ main:55797 ] - [ INFO ]  查找元素：idcard方式[By.cssSelector:input[data-type='identity']]
+2020-03-17 00:55:31  [ main:55993 ] - [ INFO ]  input输入：idcard[By.cssSelector:input[data-type='identity']  value:*******]
+2020-03-17 00:55:31  [ main:55994 ] - [ INFO ]  等待4秒
+2020-03-17 00:55:35  [ main:59996 ] - [ INFO ]  查找元素：mobile方式[By.cssSelector:input[data-type='mobile']]
+2020-03-17 00:55:35  [ main:60136 ] - [ INFO ]  input输入：mobile[By.cssSelector:input[data-type='mobile']  value:*******]
+2020-03-17 00:55:35  [ main:60136 ] - [ INFO ]  查找元素：sms_code方式[By.cssSelector:input[data-type='sms_code']]
+2020-03-17 00:55:35  [ main:60233 ] - [ INFO ]  input输入：sms_code[By.cssSelector:input[data-type='sms_code']  value:*******]
+2020-03-17 00:55:35  [ main:60252 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-03-17 00:55:36  [ main:60391 ] - [ INFO ]  查找元素：confrim方式[By.xpath://*[text()='好的 继续']]
+2020-03-17 00:55:36  [ main:60471 ] - [ INFO ]  click元素：confrim[By.xpath://*[text()='好的 继续']]成功！
+2020-03-17 00:55:36  [ main:60472 ] - [ INFO ]  查找元素：rconfrim方式[By.xpath://*[text()='职业符合']]
+2020-03-17 00:55:36  [ main:60702 ] - [ INFO ]  click元素：rconfrim[By.xpath://*[text()='职业符合']]成功！
+2020-03-17 00:55:36  [ main:60702 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 00:55:36  [ main:61255 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 00:55:37  [ main:61397 ] - [ INFO ]  关闭浏览器
+2020-03-17 00:55:37  [ main:61401 ] - [ INFO ]  ------------------开始执行测试---------------
+2020-03-17 00:55:37  [ main:61401 ] - [ INFO ]  启动浏览器
+2020-03-17 00:55:38  [ main:63191 ] - [ INFO ]  启动Chrome浏览器
+2020-03-17 00:55:44  [ main:69270 ] - [ INFO ]  打开页面
+2020-03-17 00:55:44  [ main:69278 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-03-17 00:55:45  [ main:69794 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-03-17 00:55:45  [ main:69836 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
+2020-03-17 00:55:45  [ main:69836 ] - [ INFO ]  查找元素：name方式[By.cssSelector:input[placeholder='请输入真实姓名']]
+2020-03-17 00:55:45  [ main:70067 ] - [ INFO ]  input输入：name[By.cssSelector:input[placeholder='请输入真实姓名']  value:*******]
+2020-03-17 00:55:45  [ main:70068 ] - [ INFO ]  查找元素：idcard方式[By.name:identity]
+2020-03-17 00:55:45  [ main:70340 ] - [ INFO ]  input输入：idcard[By.name:identity  value:*******]
+2020-03-17 00:55:45  [ main:70341 ] - [ INFO ]  查找元素：mobile方式[By.name:mobile]
+2020-03-17 00:55:46  [ main:70497 ] - [ INFO ]  input输入：mobile[By.name:mobile  value:*******]
+2020-03-17 00:55:46  [ main:70498 ] - [ INFO ]  查找元素：sms_code方式[By.name:sms_code]
+2020-03-17 00:55:46  [ main:70645 ] - [ INFO ]  input输入：sms_code[By.name:sms_code  value:*******]
+2020-03-17 00:55:46  [ main:70645 ] - [ INFO ]  等待2秒
+2020-03-17 00:55:48  [ main:72658 ] - [ INFO ]  查找元素：shebao方式[By.xpath://*[text()='无']]
+2020-03-17 00:55:48  [ main:72734 ] - [ INFO ]  click元素：shebao[By.xpath://*[text()='无']]成功！
+2020-03-17 00:55:48  [ main:72734 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-03-17 00:55:48  [ main:72774 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
+2020-03-17 00:55:48  [ main:72774 ] - [ INFO ]  等待2秒
+2020-03-17 00:55:50  [ main:74777 ] - [ INFO ]  查找元素：confrim方式[By.xpath://div[@class='protocol-btm-btn']]
+2020-03-17 00:55:50  [ main:74838 ] - [ INFO ]  click元素：confrim[By.xpath://div[@class='protocol-btm-btn']]成功！
+2020-03-17 00:55:50  [ main:74838 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 00:55:50  [ main:75364 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 00:55:51  [ main:75881 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 00:56:22  [ main:106387 ] - [ INFO ]  关闭浏览器
+2020-03-17 00:56:22  [ main:106389 ] - [ INFO ]  ------------------开始执行测试---------------
+2020-03-17 00:56:22  [ main:106390 ] - [ INFO ]  启动浏览器
+2020-03-17 00:56:23  [ main:107652 ] - [ INFO ]  启动Chrome浏览器
+2020-03-17 00:56:29  [ main:113495 ] - [ INFO ]  打开页面
+2020-03-17 00:56:29  [ main:113501 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-03-17 00:56:29  [ main:114018 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-03-17 00:56:29  [ main:114059 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
+2020-03-17 00:56:29  [ main:114059 ] - [ INFO ]  查找元素：name方式[By.cssSelector:input[placeholder='请输入真实姓名']]
+2020-03-17 00:56:29  [ main:114297 ] - [ INFO ]  input输入：name[By.cssSelector:input[placeholder='请输入真实姓名']  value:*******]
+2020-03-17 00:56:29  [ main:114298 ] - [ INFO ]  查找元素：idcard方式[By.name:identity]
+2020-03-17 00:56:30  [ main:114522 ] - [ INFO ]  input输入：idcard[By.name:identity  value:*******]
+2020-03-17 00:56:30  [ main:114523 ] - [ INFO ]  查找元素：mobile方式[By.name:mobile]
+2020-03-17 00:56:30  [ main:114661 ] - [ INFO ]  input输入：mobile[By.name:mobile  value:*******]
+2020-03-17 00:56:30  [ main:114662 ] - [ INFO ]  查找元素：sms_code方式[By.name:sms_code]
+2020-03-17 00:56:30  [ main:114789 ] - [ INFO ]  input输入：sms_code[By.name:sms_code  value:*******]
+2020-03-17 00:56:30  [ main:114789 ] - [ INFO ]  等待3秒
+2020-03-17 00:56:33  [ main:117798 ] - [ INFO ]  查找元素：shebao方式[By.xpath://*[text()='无']]
+2020-03-17 00:56:33  [ main:117896 ] - [ INFO ]  click元素：shebao[By.xpath://*[text()='无']]成功！
+2020-03-17 00:56:33  [ main:117896 ] - [ INFO ]  查找元素：pay_type方式[By.xpath://*[text()='全额缴纳']]
+2020-03-17 00:56:33  [ main:117938 ] - [ INFO ]  click元素：pay_type[By.xpath://*[text()='全额缴纳']]成功！
+2020-03-17 00:56:33  [ main:117938 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-03-17 00:56:33  [ main:117986 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
+2020-03-17 00:56:33  [ main:117986 ] - [ INFO ]  等待2秒
+2020-03-17 00:56:35  [ main:119987 ] - [ INFO ]  查找元素：confrim方式[By.xpath://div[@class='protocol-btm-btn']]
+2020-03-17 00:56:35  [ main:120047 ] - [ INFO ]  click元素：confrim[By.xpath://div[@class='protocol-btm-btn']]成功！
+2020-03-17 00:56:35  [ main:120047 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 00:56:36  [ main:120564 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 00:56:36  [ main:121078 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 00:56:40  [ main:124959 ] - [ INFO ]  关闭浏览器
+2020-03-17 00:56:40  [ main:124960 ] - [ INFO ]  ------------------开始执行测试---------------
+2020-03-17 00:56:40  [ main:124961 ] - [ INFO ]  启动浏览器
+2020-03-17 00:56:42  [ main:126389 ] - [ INFO ]  启动Chrome浏览器
+2020-03-17 00:56:47  [ main:132092 ] - [ INFO ]  打开页面
+2020-03-17 00:56:47  [ main:132097 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-03-17 00:56:48  [ main:132612 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-03-17 00:56:48  [ main:132654 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
+2020-03-17 00:56:48  [ main:132655 ] - [ INFO ]  查找元素：name方式[By.cssSelector:input[placeholder='请输入真实姓名']]
+2020-03-17 00:56:48  [ main:132897 ] - [ INFO ]  input输入：name[By.cssSelector:input[placeholder='请输入真实姓名']  value:*******]
+2020-03-17 00:56:48  [ main:132898 ] - [ INFO ]  查找元素：idcard方式[By.name:identity]
+2020-03-17 00:56:48  [ main:133218 ] - [ INFO ]  input输入：idcard[By.name:identity  value:*******]
+2020-03-17 00:56:48  [ main:133219 ] - [ INFO ]  查找元素：mobile方式[By.name:mobile]
+2020-03-17 00:56:49  [ main:133556 ] - [ INFO ]  input输入：mobile[By.name:mobile  value:*******]
+2020-03-17 00:56:49  [ main:133557 ] - [ INFO ]  查找元素：sms_code方式[By.name:sms_code]
+2020-03-17 00:56:49  [ main:133731 ] - [ INFO ]  input输入：sms_code[By.name:sms_code  value:*******]
+2020-03-17 00:56:49  [ main:133732 ] - [ INFO ]  等待2秒
+2020-03-17 00:56:51  [ main:135754 ] - [ INFO ]  查找元素：shebao方式[By.xpath://*[text()='无']]
+2020-03-17 00:56:51  [ main:135836 ] - [ INFO ]  click元素：shebao[By.xpath://*[text()='无']]成功！
+2020-03-17 00:56:51  [ main:135836 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-03-17 00:56:51  [ main:135867 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
+2020-03-17 00:56:51  [ main:135867 ] - [ INFO ]  等待2秒
+2020-03-17 00:56:53  [ main:137867 ] - [ INFO ]  查找元素：confrim方式[By.xpath://div[@class='protocol-btm-btn']]
+2020-03-17 00:56:53  [ main:137932 ] - [ INFO ]  click元素：confrim[By.xpath://div[@class='protocol-btm-btn']]成功！
+2020-03-17 00:56:53  [ main:137933 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 00:56:54  [ main:138461 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 00:56:54  [ main:138981 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 00:56:58  [ main:143371 ] - [ INFO ]  关闭浏览器
+2020-03-17 00:56:59  [ main:143373 ] - [ INFO ]  ------------------开始执行测试---------------
+2020-03-17 00:56:59  [ main:143373 ] - [ INFO ]  启动浏览器
+2020-03-17 00:57:00  [ main:145190 ] - [ INFO ]  启动Chrome浏览器
+2020-03-17 00:57:06  [ main:150899 ] - [ INFO ]  打开页面
+2020-03-17 00:57:06  [ main:150905 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-03-17 00:57:07  [ main:151424 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-03-17 00:57:07  [ main:151481 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
+2020-03-17 00:57:07  [ main:151482 ] - [ INFO ]  查找元素：name方式[By.cssSelector:input[placeholder='请输入真实姓名']]
+2020-03-17 00:57:07  [ main:151781 ] - [ INFO ]  input输入：name[By.cssSelector:input[placeholder='请输入真实姓名']  value:*******]
+2020-03-17 00:57:07  [ main:151782 ] - [ INFO ]  查找元素：idcard方式[By.name:identity]
+2020-03-17 00:57:07  [ main:152108 ] - [ INFO ]  input输入：idcard[By.name:identity  value:*******]
+2020-03-17 00:57:07  [ main:152108 ] - [ INFO ]  查找元素：mobile方式[By.name:mobile]
+2020-03-17 00:57:07  [ main:152316 ] - [ INFO ]  input输入：mobile[By.name:mobile  value:*******]
+2020-03-17 00:57:07  [ main:152316 ] - [ INFO ]  查找元素：sms_code方式[By.name:sms_code]
+2020-03-17 00:57:08  [ main:152440 ] - [ INFO ]  input输入：sms_code[By.name:sms_code  value:*******]
+2020-03-17 00:57:08  [ main:152440 ] - [ INFO ]  等待2秒
+2020-03-17 00:57:10  [ main:154458 ] - [ INFO ]  查找元素：shebao方式[By.xpath://*[text()='无']]
+2020-03-17 00:57:10  [ main:154553 ] - [ INFO ]  click元素：shebao[By.xpath://*[text()='无']]成功！
+2020-03-17 00:57:10  [ main:154554 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-03-17 00:57:10  [ main:154589 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
+2020-03-17 00:57:10  [ main:154589 ] - [ INFO ]  等待2秒
+2020-03-17 00:57:12  [ main:156591 ] - [ INFO ]  查找元素：confrim方式[By.xpath://div[@class='protocol-btm-btn']]
+2020-03-17 00:57:12  [ main:156649 ] - [ INFO ]  click元素：confrim[By.xpath://div[@class='protocol-btm-btn']]成功！
+2020-03-17 00:57:12  [ main:156650 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 00:57:12  [ main:157170 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 00:57:13  [ main:157688 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 00:57:22  [ main:166427 ] - [ INFO ]  关闭浏览器
+2020-03-17 00:57:22  [ main:166429 ] - [ INFO ]  ------------------开始执行测试---------------
+2020-03-17 00:57:22  [ main:166430 ] - [ INFO ]  启动浏览器
+2020-03-17 00:57:23  [ main:168098 ] - [ INFO ]  启动Chrome浏览器
+2020-03-17 00:57:29  [ main:173853 ] - [ INFO ]  打开页面
+2020-03-17 00:57:29  [ main:173859 ] - [ INFO ]  查找元素：yg20w方式[By.xpath://*[@class='amount-box-wrap']/*[position()=2]]
+2020-03-17 00:57:30  [ main:174374 ] - [ INFO ]  查找元素：yg20w方式[By.xpath://*[@class='amount-box-wrap']/*[position()=2]]
+2020-03-17 00:57:30  [ main:174909 ] - [ INFO ]  关闭浏览器
+2020-03-17 00:57:30  [ main:174915 ] - [ INFO ]  ------------------开始执行测试---------------
+2020-03-17 00:57:30  [ main:174915 ] - [ INFO ]  启动浏览器
+2020-03-17 00:57:31  [ main:176332 ] - [ INFO ]  启动Chrome浏览器
+2020-03-17 00:57:37  [ main:182094 ] - [ INFO ]  打开页面
+2020-03-17 00:57:37  [ main:182099 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-03-17 00:57:38  [ main:182612 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-03-17 00:57:38  [ main:182665 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
+2020-03-17 00:57:38  [ main:182666 ] - [ INFO ]  查找元素：name方式[By.cssSelector:input[placeholder='请输入真实姓名']]
+2020-03-17 00:57:38  [ main:182916 ] - [ INFO ]  input输入：name[By.cssSelector:input[placeholder='请输入真实姓名']  value:*******]
+2020-03-17 00:57:38  [ main:182917 ] - [ INFO ]  查找元素：idcard方式[By.name:identity]
+2020-03-17 00:57:38  [ main:183116 ] - [ INFO ]  input输入：idcard[By.name:identity  value:*******]
+2020-03-17 00:57:38  [ main:183116 ] - [ INFO ]  查找元素：mobile方式[By.name:mobile]
+2020-03-17 00:57:38  [ main:183308 ] - [ INFO ]  input输入：mobile[By.name:mobile  value:*******]
+2020-03-17 00:57:38  [ main:183308 ] - [ INFO ]  查找元素：sms_code方式[By.name:sms_code]
+2020-03-17 00:57:39  [ main:183396 ] - [ INFO ]  input输入：sms_code[By.name:sms_code  value:*******]
+2020-03-17 00:57:39  [ main:183396 ] - [ INFO ]  等待2秒
+2020-03-17 00:57:41  [ main:185409 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-03-17 00:57:41  [ main:185493 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
+2020-03-17 00:57:41  [ main:185493 ] - [ INFO ]  等待2秒
+2020-03-17 00:57:43  [ main:187498 ] - [ INFO ]  查找元素：confrim方式[By.xpath://div[@class='protocol-btm-btn']]
+2020-03-17 00:57:43  [ main:187556 ] - [ INFO ]  click元素：confrim[By.xpath://div[@class='protocol-btm-btn']]成功！
+2020-03-17 00:57:43  [ main:187556 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 00:57:43  [ main:188078 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 00:57:44  [ main:188593 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 00:58:03  [ main:207432 ] - [ INFO ]  关闭浏览器
+2020-03-17 00:58:03  [ main:207435 ] - [ INFO ]  ------------------开始执行测试---------------
+2020-03-17 00:58:03  [ main:207435 ] - [ INFO ]  启动浏览器
+2020-03-17 00:58:04  [ main:208938 ] - [ INFO ]  启动Chrome浏览器
+2020-03-17 00:58:11  [ main:215480 ] - [ INFO ]  打开页面
+2020-03-17 00:58:11  [ main:215488 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-03-17 00:58:11  [ main:215589 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
+2020-03-17 00:58:11  [ main:215590 ] - [ INFO ]  查找元素：name方式[By.cssSelector:input[placeholder='请输入真实姓名']]
+2020-03-17 00:58:11  [ main:215825 ] - [ INFO ]  input输入：name[By.cssSelector:input[placeholder='请输入真实姓名']  value:*******]
+2020-03-17 00:58:11  [ main:215825 ] - [ INFO ]  查找元素：idcard方式[By.name:identity]
+2020-03-17 00:58:11  [ main:216003 ] - [ INFO ]  input输入：idcard[By.name:identity  value:*******]
+2020-03-17 00:58:11  [ main:216003 ] - [ INFO ]  查找元素：mobile方式[By.name:mobile]
+2020-03-17 00:58:11  [ main:216186 ] - [ INFO ]  input输入：mobile[By.name:mobile  value:*******]
+2020-03-17 00:58:11  [ main:216187 ] - [ INFO ]  查找元素：sms_code方式[By.name:sms_code]
+2020-03-17 00:58:11  [ main:216274 ] - [ INFO ]  input输入：sms_code[By.name:sms_code  value:*******]
+2020-03-17 00:58:11  [ main:216274 ] - [ INFO ]  等待2秒
+2020-03-17 00:58:13  [ main:218286 ] - [ INFO ]  查找元素：shebao方式[By.xpath://*[text()='无']]
+2020-03-17 00:58:14  [ main:218399 ] - [ INFO ]  click元素：shebao[By.xpath://*[text()='无']]成功！
+2020-03-17 00:58:14  [ main:218399 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-03-17 00:58:14  [ main:218429 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
+2020-03-17 00:58:14  [ main:218429 ] - [ INFO ]  等待2秒
+2020-03-17 00:58:16  [ main:220430 ] - [ INFO ]  查找元素：confrim方式[By.xpath://div[@class='protocol-btm-btn']]
+2020-03-17 00:58:16  [ main:220490 ] - [ INFO ]  click元素：confrim[By.xpath://div[@class='protocol-btm-btn']]成功！
+2020-03-17 00:58:16  [ main:220490 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 00:58:16  [ main:221008 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 00:58:17  [ main:221522 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 00:58:17  [ main:222042 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 00:58:22  [ main:226445 ] - [ INFO ]  关闭浏览器
+2020-03-17 00:58:22  [ main:226448 ] - [ INFO ]  ------------------开始执行测试---------------
+2020-03-17 00:58:22  [ main:226448 ] - [ INFO ]  启动浏览器
+2020-03-17 00:58:23  [ main:228257 ] - [ INFO ]  启动Chrome浏览器
+2020-03-17 00:58:29  [ main:234038 ] - [ INFO ]  打开页面
+2020-03-17 00:58:29  [ main:234046 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-03-17 00:58:30  [ main:234562 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-03-17 00:58:30  [ main:234599 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
+2020-03-17 00:58:30  [ main:234600 ] - [ INFO ]  查找元素：name方式[By.cssSelector:input[placeholder='请输入真实姓名']]
+2020-03-17 00:58:30  [ main:234903 ] - [ INFO ]  input输入：name[By.cssSelector:input[placeholder='请输入真实姓名']  value:*******]
+2020-03-17 00:58:30  [ main:234903 ] - [ INFO ]  查找元素：idcard方式[By.name:identity]
+2020-03-17 00:58:30  [ main:235143 ] - [ INFO ]  input输入：idcard[By.name:identity  value:*******]
+2020-03-17 00:58:30  [ main:235144 ] - [ INFO ]  查找元素：mobile方式[By.name:mobile]
+2020-03-17 00:58:30  [ main:235326 ] - [ INFO ]  input输入：mobile[By.name:mobile  value:*******]
+2020-03-17 00:58:30  [ main:235329 ] - [ INFO ]  查找元素：sms_code方式[By.name:sms_code]
+2020-03-17 00:58:31  [ main:235449 ] - [ INFO ]  input输入：sms_code[By.name:sms_code  value:*******]
+2020-03-17 00:58:31  [ main:235450 ] - [ INFO ]  等待2秒
+2020-03-17 00:58:33  [ main:237464 ] - [ INFO ]  查找元素：shebao方式[By.xpath://*[text()='无']]
+2020-03-17 00:58:33  [ main:237541 ] - [ INFO ]  click元素：shebao[By.xpath://*[text()='无']]成功！
+2020-03-17 00:58:33  [ main:237542 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-03-17 00:58:33  [ main:237587 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
+2020-03-17 00:58:33  [ main:237587 ] - [ INFO ]  等待2秒
+2020-03-17 00:58:35  [ main:239588 ] - [ INFO ]  查找元素：confrim方式[By.xpath://div[@class='protocol-btm-btn']]
+2020-03-17 00:58:35  [ main:239646 ] - [ INFO ]  click元素：confrim[By.xpath://div[@class='protocol-btm-btn']]成功！
+2020-03-17 00:58:35  [ main:239646 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 00:58:35  [ main:240164 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 00:58:36  [ main:240682 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 00:58:36  [ main:241201 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 00:58:44  [ main:249362 ] - [ INFO ]  关闭浏览器
+2020-03-17 00:58:44  [ main:249366 ] - [ INFO ]  ------------------开始执行测试---------------
+2020-03-17 00:58:44  [ main:249366 ] - [ INFO ]  启动浏览器
+2020-03-17 00:58:46  [ main:250845 ] - [ INFO ]  启动Chrome浏览器
+2020-03-17 00:58:52  [ main:256626 ] - [ INFO ]  打开页面
+2020-03-17 00:58:52  [ main:256634 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-03-17 00:58:52  [ main:257159 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-03-17 00:58:57  [ main:262231 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
+2020-03-17 00:58:57  [ main:262231 ] - [ INFO ]  查找元素：name方式[By.cssSelector:input[placeholder='请输入真实姓名']]
+2020-03-17 00:58:58  [ main:262399 ] - [ INFO ]  input输入：name[By.cssSelector:input[placeholder='请输入真实姓名']  value:*******]
+2020-03-17 00:58:58  [ main:262400 ] - [ INFO ]  查找元素：idcard方式[By.name:identity]
+2020-03-17 00:58:58  [ main:262607 ] - [ INFO ]  input输入：idcard[By.name:identity  value:*******]
+2020-03-17 00:58:58  [ main:262607 ] - [ INFO ]  查找元素：mobile方式[By.name:mobile]
+2020-03-17 00:58:58  [ main:262744 ] - [ INFO ]  input输入：mobile[By.name:mobile  value:*******]
+2020-03-17 00:58:58  [ main:262744 ] - [ INFO ]  查找元素：sms_code方式[By.name:sms_code]
+2020-03-17 00:58:58  [ main:262845 ] - [ INFO ]  input输入：sms_code[By.name:sms_code  value:*******]
+2020-03-17 00:58:58  [ main:262845 ] - [ INFO ]  等待2秒
+2020-03-17 00:59:00  [ main:264856 ] - [ INFO ]  查找元素：shebao方式[By.xpath://*[text()='无']]
+2020-03-17 00:59:04  [ main:269269 ] - [ INFO ]  click元素：shebao[By.xpath://*[text()='无']]成功！
+2020-03-17 00:59:04  [ main:269269 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-03-17 00:59:04  [ main:269319 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
+2020-03-17 00:59:04  [ main:269319 ] - [ INFO ]  等待2秒
+2020-03-17 00:59:06  [ main:271323 ] - [ INFO ]  查找元素：confrim方式[By.xpath://div[@class='protocol-btm-btn']]
+2020-03-17 00:59:07  [ main:271385 ] - [ INFO ]  click元素：confrim[By.xpath://div[@class='protocol-btm-btn']]成功！
+2020-03-17 00:59:07  [ main:271385 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 00:59:07  [ main:271903 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 00:59:08  [ main:272422 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 00:59:08  [ main:272939 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 00:59:11  [ main:275850 ] - [ INFO ]  关闭浏览器
+2020-03-17 00:59:11  [ main:275857 ] - [ INFO ]  ------------------开始执行测试---------------
+2020-03-17 00:59:11  [ main:275857 ] - [ INFO ]  启动浏览器
+2020-03-17 00:59:13  [ main:277453 ] - [ INFO ]  启动Chrome浏览器
+2020-03-17 00:59:44  [ main:308379 ] - [ INFO ]  打开页面
+2020-03-17 00:59:44  [ main:308386 ] - [ INFO ]  查找元素：submit方式[By.className:maba-button]
+2020-03-17 00:59:44  [ main:308508 ] - [ INFO ]  click元素：submit[By.className:maba-button]成功！
+2020-03-17 00:59:44  [ main:308509 ] - [ INFO ]  等待5秒
+2020-03-17 00:59:49  [ main:313512 ] - [ INFO ]  查找元素：jiangao方式[By.xpath://*[text()='以上情况全无']]
+2020-03-17 00:59:49  [ main:313583 ] - [ INFO ]  click元素：jiangao[By.xpath://*[text()='以上情况全无']]成功！
+2020-03-17 00:59:49  [ main:313583 ] - [ INFO ]  查找元素：ins_name方式[By.cssSelector:input[placeholder='请输入投保人姓名']]
+2020-03-17 00:59:49  [ main:314102 ] - [ INFO ]  查找元素：ins_name方式[By.cssSelector:input[placeholder='请输入投保人姓名']]
+2020-03-17 00:59:49  [ main:314247 ] - [ INFO ]  input输入：ins_name[By.cssSelector:input[placeholder='请输入投保人姓名']  value:*******]
+2020-03-17 00:59:49  [ main:314247 ] - [ INFO ]  查找元素：ins_idcard方式[By.cssSelector:input[placeholder='请输入投保人证件号码']]
+2020-03-17 00:59:50  [ main:314485 ] - [ INFO ]  input输入：ins_idcard[By.cssSelector:input[placeholder='请输入投保人证件号码']  value:*******]
+2020-03-17 00:59:50  [ main:314646 ] - [ INFO ]  查找元素：mobile方式[By.cssSelector:input[placeholder='请输入投保人手机号']]
+2020-03-17 00:59:51  [ main:315756 ] - [ INFO ]  input输入：mobile[By.cssSelector:input[placeholder='请输入投保人手机号']  value:*******]
+2020-03-17 00:59:51  [ main:315756 ] - [ INFO ]  查找元素：sms_code方式[By.name:sms_code]
+2020-03-17 00:59:52  [ main:316513 ] - [ INFO ]  input输入：sms_code[By.name:sms_code  value:*******]
+2020-03-17 00:59:52  [ main:316513 ] - [ INFO ]  查找元素：email方式[By.name:email]
+2020-03-17 00:59:52  [ main:317261 ] - [ INFO ]  input输入：email[By.name:email  value:*******]
+2020-03-17 00:59:53  [ main:317384 ] - [ INFO ]  等待2秒
+2020-03-17 00:59:55  [ main:319468 ] - [ INFO ]  查找元素：postcode方式[By.name:postcode]
+2020-03-17 00:59:55  [ main:320041 ] - [ INFO ]  input输入：postcode[By.name:postcode  value:*******]
+2020-03-17 00:59:55  [ main:320041 ] - [ INFO ]  查找元素：address方式[By.cssSelector:input[placeholder='请输入投保人详细地址']]
+2020-03-17 00:59:57  [ main:321754 ] - [ INFO ]  input输入：address[By.cssSelector:input[placeholder='请输入投保人详细地址']  value:*******]
+2020-03-17 00:59:57  [ main:321762 ] - [ INFO ]  查找元素：self方式[By.xpath://*[text()='本人']]
+2020-03-17 00:59:57  [ main:321885 ] - [ INFO ]  click元素：self[By.xpath://*[text()='本人']]成功！
+2020-03-17 00:59:57  [ main:321885 ] - [ INFO ]  等待1秒
+2020-03-17 00:59:58  [ main:322886 ] - [ INFO ]  查找元素：job方式[By.xpath://*[text()='请选择职业类别']]
+2020-03-17 00:59:58  [ main:322972 ] - [ INFO ]  click元素：job[By.xpath://*[text()='请选择职业类别']]成功！
+2020-03-17 00:59:58  [ main:322972 ] - [ INFO ]  等待2秒
+2020-03-17 01:00:00  [ main:325061 ] - [ INFO ]  等待2秒
+2020-03-17 01:00:02  [ main:327064 ] - [ INFO ]  查找元素：submitF方式[By.xpath://*[text()='立即投保']]
+2020-03-17 01:00:02  [ main:327129 ] - [ INFO ]  click元素：submitF[By.xpath://*[text()='立即投保']]成功！
+2020-03-17 01:00:02  [ main:327129 ] - [ INFO ]  等待2秒
+2020-03-17 01:00:04  [ main:329132 ] - [ INFO ]  查找元素：confirm方式[By.className:protocol-btm-btn]
+2020-03-17 01:00:04  [ main:329181 ] - [ INFO ]  click元素：confirm[By.className:protocol-btm-btn]成功！
+2020-03-17 01:00:04  [ main:329181 ] - [ INFO ]  等待2秒
+2020-03-17 01:00:06  [ main:331234 ] - [ INFO ]  等待3秒
+2020-03-17 01:00:09  [ main:334238 ] - [ INFO ]  查找元素：submitF方式[By.xpath://*[text()='立即投保']]
+2020-03-17 01:00:09  [ main:334292 ] - [ INFO ]  click元素：submitF[By.xpath://*[text()='立即投保']]成功！
+2020-03-17 01:00:09  [ main:334293 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
+2020-03-17 01:00:10  [ main:334811 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
+2020-03-17 01:00:10  [ main:335330 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
+2020-03-17 01:00:11  [ main:335854 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
+2020-03-17 01:00:11  [ main:336000 ] - [ INFO ]  关闭浏览器
+2020-03-17 01:00:11  [ main:336002 ] - [ INFO ]  ------------------开始执行测试---------------
+2020-03-17 01:00:11  [ main:336002 ] - [ INFO ]  启动浏览器
+2020-03-17 01:00:13  [ main:337540 ] - [ INFO ]  启动Chrome浏览器
+2020-03-17 01:00:19  [ main:344231 ] - [ INFO ]  打开页面
+2020-03-17 01:00:19  [ main:344243 ] - [ INFO ]  查找元素：plan2000方式[By.xpath://*[text()='2000万']]
+2020-03-17 01:00:24  [ main:349345 ] - [ INFO ]  click元素：plan2000[By.xpath://*[text()='2000万']]成功！
+2020-03-17 01:00:24  [ main:349351 ] - [ INFO ]  查找元素：woyaotoubao方式[By.xpath://*[text()='我要投保']]
+2020-03-17 01:00:30  [ main:354849 ] - [ INFO ]  click元素：woyaotoubao[By.xpath://*[text()='我要投保']]成功！
+2020-03-17 01:00:30  [ main:355217 ] - [ INFO ]  查找元素：sms_code方式[By.cssSelector:input[placeholder='请输入验证码']]
+2020-03-17 01:00:30  [ main:355307 ] - [ INFO ]  input输入：sms_code[By.cssSelector:input[placeholder='请输入验证码']  value:*******]
+2020-03-17 01:00:30  [ main:355307 ] - [ INFO ]  查找元素：submit方式[By.xpath://*[text()='立即投保']]
+2020-03-17 01:00:36  [ main:360489 ] - [ INFO ]  click元素：submit[By.xpath://*[text()='立即投保']]成功！
+2020-03-17 01:00:36  [ main:360490 ] - [ INFO ]  等待1秒
+2020-03-17 01:00:37  [ main:361495 ] - [ INFO ]  查找元素：submit方式[By.xpath://*[text()='立即投保']]
+2020-03-17 01:00:42  [ main:366850 ] - [ INFO ]  click元素：submit[By.xpath://*[text()='立即投保']]成功！
+2020-03-17 01:00:42  [ main:366850 ] - [ INFO ]  等待2秒
+2020-03-17 01:00:44  [ main:368854 ] - [ INFO ]  查找元素：confirm方式[By.xpath://*[@class='baoxian-button-base m-auto']]
+2020-03-17 01:00:50  [ main:374972 ] - [ INFO ]  click元素：confirm[By.xpath://*[@class='baoxian-button-base m-auto']]成功！
+2020-03-17 01:00:50  [ main:374973 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
+2020-03-17 01:00:51  [ main:375491 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
+2020-03-17 01:00:51  [ main:376020 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
+2020-03-17 01:04:04  [ main:569165 ] - [ INFO ]  关闭浏览器
+2020-03-17 01:04:04  [ main:569168 ] - [ INFO ]  ------------------开始执行测试---------------
+2020-03-17 01:04:04  [ main:569168 ] - [ INFO ]  启动浏览器
+2020-03-17 01:04:05  [ main:570368 ] - [ INFO ]  启动Chrome浏览器
+2020-03-17 01:04:13  [ main:577960 ] - [ INFO ]  打开页面
+2020-03-17 01:04:13  [ main:577966 ] - [ INFO ]  查找元素：submit方式[By.xpath://*[text()='立即投保']]
+2020-03-17 01:04:13  [ main:578035 ] - [ INFO ]  click元素：submit[By.xpath://*[text()='立即投保']]成功！
+2020-03-17 01:04:13  [ main:578036 ] - [ INFO ]  等待5秒
+2020-03-17 01:04:18  [ main:583198 ] - [ INFO ]  等待2秒
+2020-03-17 01:04:21  [ main:585413 ] - [ INFO ]  等待2秒
+2020-03-17 01:04:23  [ main:587488 ] - [ INFO ]  查找元素：baoe20方式[By.xpath://*[text()='20万']]
+2020-03-17 01:04:23  [ main:587552 ] - [ INFO ]  click元素：baoe20[By.xpath://*[text()='20万']]成功！
+2020-03-17 01:04:23  [ main:587553 ] - [ INFO ]  查找元素：period20方式[By.xpath://div[@class='mb-trial-item-left period']/following-sibling::div[1]/div/div[1]/div[text()='20年']]
+2020-03-17 01:04:23  [ main:587623 ] - [ INFO ]  click元素：period20[By.xpath://div[@class='mb-trial-item-left period']/following-sibling::div[1]/div/div[1]/div[text()='20年']]成功！
+2020-03-17 01:04:23  [ main:587623 ] - [ INFO ]  查找元素：pay10方式[By.xpath://div[@class='mb-trial-item-left pay_peroids']/following-sibling::div[1]/div/div[1]/div[text()='10年']]
+2020-03-17 01:04:23  [ main:587716 ] - [ INFO ]  click元素：pay10[By.xpath://div[@class='mb-trial-item-left pay_peroids']/following-sibling::div[1]/div/div[1]/div[text()='10年']]成功！
+2020-03-17 01:04:23  [ main:587716 ] - [ INFO ]  查找元素：ercizhongji方式[By.xpath://div[text()='二次重疾']/following-sibling::div[1]/div[1]/div[1]/div[2]]
+2020-03-17 01:04:23  [ main:587782 ] - [ INFO ]  click元素：ercizhongji[By.xpath://div[text()='二次重疾']/following-sibling::div[1]/div[1]/div[1]/div[2]]成功！
+2020-03-17 01:04:23  [ main:587782 ] - [ INFO ]  查找元素：tejihanjianbing方式[By.xpath://div[text()='特疾和罕见病']/following-sibling::div[1]/div[1]/div[1]/div[2]]
+2020-03-17 01:04:23  [ main:587871 ] - [ INFO ]  click元素：tejihanjianbing[By.xpath://div[text()='特疾和罕见病']/following-sibling::div[1]/div[1]/div[1]/div[2]]成功！
+2020-03-17 01:04:23  [ main:587871 ] - [ INFO ]  查找元素：toubaorenhuomian方式[By.xpath://div[text()='投保人豁免']/following-sibling::div[1]/div[1]/div[1]/div[1]]
+2020-03-17 01:04:23  [ main:587948 ] - [ INFO ]  click元素：toubaorenhuomian[By.xpath://div[text()='投保人豁免']/following-sibling::div[1]/div[1]/div[1]/div[1]]成功！
+2020-03-17 01:04:23  [ main:587948 ] - [ INFO ]  查找元素：submit方式[By.xpath://*[text()='立即投保']]
+2020-03-17 01:04:23  [ main:588016 ] - [ INFO ]  click元素：submit[By.xpath://*[text()='立即投保']]成功！
+2020-03-17 01:04:23  [ main:588016 ] - [ INFO ]  等待5秒
+2020-03-17 01:04:28  [ main:593018 ] - [ INFO ]  查找元素：jiangao方式[By.xpath://*[text()='以上情况全无']]
+2020-03-17 01:04:28  [ main:593094 ] - [ INFO ]  click元素：jiangao[By.xpath://*[text()='以上情况全无']]成功！
+2020-03-17 01:04:28  [ main:593095 ] - [ INFO ]  查找元素：ins_name方式[By.cssSelector:input[placeholder='请输入投保人姓名']]
+2020-03-17 01:04:29  [ main:593611 ] - [ INFO ]  查找元素：ins_name方式[By.cssSelector:input[placeholder='请输入投保人姓名']]
+2020-03-17 01:04:29  [ main:593841 ] - [ INFO ]  input输入：ins_name[By.cssSelector:input[placeholder='请输入投保人姓名']  value:*******]
+2020-03-17 01:04:29  [ main:593842 ] - [ INFO ]  查找元素：ins_idcard方式[By.cssSelector:input[placeholder='请输入投保人证件号码']]
+2020-03-17 01:04:29  [ main:594055 ] - [ INFO ]  input输入：ins_idcard[By.cssSelector:input[placeholder='请输入投保人证件号码']  value:*******]
+2020-03-17 01:04:29  [ main:594056 ] - [ INFO ]  查找元素：changqi方式[By.xpath://*[text()='长期']]
+2020-03-17 01:04:29  [ main:594157 ] - [ INFO ]  click元素：changqi[By.xpath://*[text()='长期']]成功！
+2020-03-17 01:04:29  [ main:594158 ] - [ INFO ]  查找元素：mobile方式[By.name:mobile]
+2020-03-17 01:04:29  [ main:594334 ] - [ INFO ]  input输入：mobile[By.name:mobile  value:*******]
+2020-03-17 01:04:29  [ main:594335 ] - [ INFO ]  查找元素：sms_code方式[By.cssSelector:input[placeholder="请输入验证码"]]
+2020-03-17 01:04:30  [ main:594458 ] - [ INFO ]  input输入：sms_code[By.cssSelector:input[placeholder="请输入验证码"]  value:*******]
+2020-03-17 01:04:30  [ main:594458 ] - [ INFO ]  查找元素：email方式[By.name:email]
+2020-03-17 01:04:30  [ main:594666 ] - [ INFO ]  input输入：email[By.name:email  value:*******]
+2020-03-17 01:04:30  [ main:594667 ] - [ INFO ]  查找元素：postcode方式[By.name:postcode]
+2020-03-17 01:04:30  [ main:594781 ] - [ INFO ]  input输入：postcode[By.name:postcode  value:*******]
+2020-03-17 01:04:30  [ main:594782 ] - [ INFO ]  查找元素：address方式[By.name:address]
+2020-03-17 01:04:30  [ main:595030 ] - [ INFO ]  input输入：address[By.name:address  value:*******]
+2020-03-17 01:04:30  [ main:595030 ] - [ INFO ]  查找元素：apl_idcard方式[By.cssSelector:input[placeholder='请输入被保人证件号码']]
+2020-03-17 01:04:30  [ main:595248 ] - [ INFO ]  input输入：apl_idcard[By.cssSelector:input[placeholder='请输入被保人证件号码']  value:*******]
+2020-03-17 01:04:30  [ main:595248 ] - [ INFO ]  查找元素：apl_name方式[By.cssSelector:input[placeholder='请输入真实姓名']]
+2020-03-17 01:04:30  [ main:595355 ] - [ INFO ]  input输入：apl_name[By.cssSelector:input[placeholder='请输入真实姓名']  value:*******]
+2020-03-17 01:04:30  [ main:595360 ] - [ INFO ]  查找元素：shengao方式[By.xpath://*[text()='132CM']]
+2020-03-17 01:04:31  [ main:595423 ] - [ INFO ]  click元素：shengao[By.xpath://*[text()='132CM']]成功！
+2020-03-17 01:04:31  [ main:595423 ] - [ INFO ]  等待2秒
+2020-03-17 01:04:33  [ main:597485 ] - [ INFO ]  等待1秒
+2020-03-17 01:04:34  [ main:598539 ] - [ INFO ]  等待1秒
+2020-03-17 01:04:35  [ main:599604 ] - [ INFO ]  查找元素：tizhong方式[By.xpath://*[text()='71KG']]
+2020-03-17 01:04:35  [ main:599675 ] - [ INFO ]  click元素：tizhong[By.xpath://*[text()='71KG']]成功！
+2020-03-17 01:04:35  [ main:599676 ] - [ INFO ]  等待2秒
+2020-03-17 01:04:37  [ main:601731 ] - [ INFO ]  等待1秒
+2020-03-17 01:04:38  [ main:602783 ] - [ INFO ]  等待1秒
+2020-03-17 01:04:39  [ main:603864 ] - [ INFO ]  等待1秒
+2020-03-17 01:04:40  [ main:604912 ] - [ INFO ]  等待1秒
+2020-03-17 01:04:41  [ main:605982 ] - [ INFO ]  查找元素：bank_card方式[By.cssSelector:input[placeholder='请输入银行卡号']]
+2020-03-17 01:04:41  [ main:606368 ] - [ INFO ]  input输入：bank_card[By.cssSelector:input[placeholder='请输入银行卡号']  value:*******]
+2020-03-17 01:04:41  [ main:606368 ] - [ INFO ]  查找元素：bank_mobile方式[By.cssSelector:input[placeholder='请输入预留手机号']]
+2020-03-17 01:04:42  [ main:606598 ] - [ INFO ]  input输入：bank_mobile[By.cssSelector:input[placeholder='请输入预留手机号']  value:*******]
+2020-03-17 01:04:42  [ main:606755 ] - [ INFO ]  等待3秒
+2020-03-17 01:04:45  [ main:609759 ] - [ INFO ]  查找元素：submit方式[By.xpath://*[text()='立即投保']]
+2020-03-17 01:04:45  [ main:609818 ] - [ INFO ]  click元素：submit[By.xpath://*[text()='立即投保']]成功！
+2020-03-17 01:04:45  [ main:609818 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
+2020-03-17 01:04:45  [ main:610333 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
+2020-03-17 01:04:46  [ main:610856 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
+2020-03-17 01:04:46  [ main:611371 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
+2020-03-17 01:04:47  [ main:611889 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
+2020-03-17 01:04:48  [ main:612407 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
+2020-03-17 01:04:48  [ main:612927 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
+2020-03-17 01:04:49  [ main:613446 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
+2020-03-17 01:04:49  [ main:613957 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
+2020-03-17 01:04:50  [ main:614471 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
+2020-03-17 01:04:50  [ main:614989 ] - [ INFO ]  查找元素：deadline方式[By.xpath://*[text()='请在 23:50 前完成支付，逾期订单将自动取消']]
+2020-03-17 01:04:50  [ main:615012 ] - [ INFO ]  超时无法定位页面元素
+2020-03-17 01:04:51  [ main:615538 ] - [ ERROR ]  错误截图：/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/report/snapshot/2020-03-17 010450647.jpg
+2020-03-17 01:04:51  [ main:615546 ] - [ INFO ]  2020-03-17 010450647
+2020-03-17 01:04:51  [ main:615741 ] - [ INFO ]  关闭浏览器
+2020-03-17 01:04:51  [ main:615743 ] - [ INFO ]  ------------------开始执行测试---------------
+2020-03-17 01:04:51  [ main:615743 ] - [ INFO ]  启动浏览器
+2020-03-17 01:04:52  [ main:617054 ] - [ INFO ]  启动Chrome浏览器
+2020-03-17 01:05:02  [ main:626551 ] - [ INFO ]  打开页面
+2020-03-17 01:05:02  [ main:626551 ] - [ INFO ]  查找元素：order方式[By.xpath://*[@id='btnbox']/div/div[3]]
+2020-03-17 01:05:02  [ main:626718 ] - [ INFO ]  click元素：order[By.xpath://*[@id='btnbox']/div/div[3]]成功！
+2020-03-17 01:05:02  [ main:626718 ] - [ INFO ]  查找元素：name方式[By.xpath:(//div[@name='本人']//input[@type='text'])[position()=1]]
+2020-03-17 01:05:02  [ main:626939 ] - [ INFO ]  input输入：name[By.xpath:(//div[@name='本人']//input[@type='text'])[position()=1]  value:*******]
+2020-03-17 01:05:02  [ main:626940 ] - [ INFO ]  查找元素：idcard方式[By.xpath:(//div[@name='本人']//input[@type='text'])[position()=2]]
+2020-03-17 01:05:02  [ main:627138 ] - [ INFO ]  input输入：idcard[By.xpath:(//div[@name='本人']//input[@type='text'])[position()=2]  value:*******]
+2020-03-17 01:05:02  [ main:627138 ] - [ INFO ]  等待4秒
+2020-03-17 01:05:06  [ main:631138 ] - [ INFO ]  查找元素：mobile方式[By.xpath:(//div[@name='本人']//input[@type='tel'])[position()=1]]
+2020-03-17 01:05:06  [ main:631292 ] - [ INFO ]  input输入：mobile[By.xpath:(//div[@name='本人']//input[@type='tel'])[position()=1]  value:*******]
+2020-03-17 01:05:06  [ main:631292 ] - [ INFO ]  查找元素：sms_code方式[By.xpath:(//div[@name='本人']//input[@type='tel'])[position()=2]]
+2020-03-17 01:05:07  [ main:631428 ] - [ INFO ]  input输入：sms_code[By.xpath:(//div[@name='本人']//input[@type='tel'])[position()=2]  value:*******]
+2020-03-17 01:05:07  [ main:631442 ] - [ INFO ]  查找元素：pay_type方式[By.xpath://*[text()='全额缴清']]
+2020-03-17 01:05:07  [ main:631527 ] - [ INFO ]  click元素：pay_type[By.xpath://*[text()='全额缴清']]成功！
+2020-03-17 01:05:07  [ main:631527 ] - [ INFO ]  查找元素：shebao方式[By.xpath://div[@name='本人']//*[text()='无']]
+2020-03-17 01:05:07  [ main:631579 ] - [ INFO ]  click元素：shebao[By.xpath://div[@name='本人']//*[text()='无']]成功！
+2020-03-17 01:05:07  [ main:631579 ] - [ INFO ]  查找元素：order方式[By.xpath://*[@id='btnbox']/div/div[3]]
+2020-03-17 01:05:07  [ main:631644 ] - [ INFO ]  click元素：order[By.xpath://*[@id='btnbox']/div/div[3]]成功！
+2020-03-17 01:05:07  [ main:631648 ] - [ INFO ]  查找元素：confrim方式[By.xpath://*[@class='baoxian-button-base baoxian-button-orange m-auto']]
+2020-03-17 01:05:07  [ main:631768 ] - [ INFO ]  click元素：confrim[By.xpath://*[@class='baoxian-button-base baoxian-button-orange m-auto']]成功！
+2020-03-17 01:05:07  [ main:631769 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 01:05:07  [ main:632285 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 01:05:08  [ main:632798 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 01:05:08  [ main:633317 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 01:05:09  [ main:633832 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 01:05:09  [ main:634344 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 01:05:10  [ main:634863 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 01:05:11  [ main:635378 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 01:05:11  [ main:635894 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-03-17 01:05:11  [ main:636047 ] - [ INFO ]  关闭浏览器
+2020-03-17 01:05:11  [ main:636049 ] - [ INFO ]  ------------------开始执行测试---------------
+2020-03-17 01:05:11  [ main:636049 ] - [ INFO ]  启动浏览器
+2020-03-17 01:05:13  [ main:637521 ] - [ INFO ]  启动Chrome浏览器
+2020-03-17 01:07:14  [ main:758418 ] - [ INFO ]  打开页面
+2020-03-17 01:07:14  [ main:758426 ] - [ INFO ]  查找元素：baoe30w方式[By.xpath://*[text()='30万元']]
+2020-03-17 01:07:19  [ main:763610 ] - [ INFO ]  click元素：baoe30w[By.xpath://*[text()='30万元']]成功！
+2020-03-17 01:07:19  [ main:763610 ] - [ INFO ]  查找元素：submit方式[By.className:hz-button-text]
+2020-03-17 01:07:24  [ main:768679 ] - [ INFO ]  click元素：submit[By.className:hz-button-text]成功！
+2020-03-17 01:07:24  [ main:768679 ] - [ INFO ]  等待2秒
+2020-03-17 01:07:26  [ main:770680 ] - [ INFO ]  查找元素：fuhe方式[By.xpath://*[text()='符合投保条件']]
+2020-03-17 01:07:31  [ main:775790 ] - [ INFO ]  click元素：fuhe[By.xpath://*[text()='符合投保条件']]成功！
+2020-03-17 01:07:31  [ main:775790 ] - [ INFO ]  等待2秒
+2020-03-17 01:07:33  [ main:778115 ] - [ INFO ]  查找元素：mobile方式[By.cssSelector:input[data-type='mobile']]
+2020-03-17 01:07:33  [ main:778231 ] - [ INFO ]  input输入：mobile[By.cssSelector:input[data-type='mobile']  value:*******]
+2020-03-17 01:07:33  [ main:778231 ] - [ INFO ]  查找元素：sms_code方式[By.cssSelector:input[data-type='sms_code']]
+2020-03-17 01:07:33  [ main:778303 ] - [ INFO ]  input输入：sms_code[By.cssSelector:input[data-type='sms_code']  value:*******]
+2020-03-17 01:07:33  [ main:778308 ] - [ INFO ]  查找元素：city方式[By.xpath://*[text()='请选择']]
+2020-03-17 01:07:39  [ main:783574 ] - [ INFO ]  click元素：city[By.xpath://*[text()='请选择']]成功！
+2020-03-17 01:07:39  [ main:783575 ] - [ INFO ]  等待1秒
+2020-03-17 01:07:40  [ main:784579 ] - [ INFO ]  查找元素：sure方式[By.xpath://*[text()='确定']]
+2020-03-17 01:07:45  [ main:789753 ] - [ INFO ]  click元素：sure[By.xpath://*[text()='确定']]成功！
+2020-03-17 01:07:45  [ main:790012 ] - [ INFO ]  等待2秒
+2020-03-17 01:07:47  [ main:792027 ] - [ INFO ]  查找元素：baoe30w方式[By.xpath://*[text()='30万元']]
+2020-03-17 01:07:47  [ main:792193 ] - [ INFO ]  关闭浏览器
+2020-03-17 01:07:53  [ main:797533 ] - [ DEBUG ]  Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+2020-03-17 01:07:53  [ main:797534 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+2020-03-17 01:07:53  [ main:797543 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index.ftl"): Found
+2020-03-17 01:07:53  [ main:797543 ] - [ DEBUG ]  Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+2020-03-17 01:07:53  [ main:797757 ] - [ DEBUG ]  Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+2020-03-17 01:07:53  [ main:797758 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+2020-03-17 01:07:53  [ main:797758 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head.ftl"): Found
+2020-03-17 01:07:53  [ main:797759 ] - [ DEBUG ]  Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+2020-03-17 01:07:53  [ main:797774 ] - [ DEBUG ]  Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+2020-03-17 01:07:53  [ main:797775 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+2020-03-17 01:07:53  [ main:797775 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav.ftl"): Found
+2020-03-17 01:07:53  [ main:797775 ] - [ DEBUG ]  Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+2020-03-17 01:07:53  [ main:797781 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-03-17 01:07:53  [ main:797782 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+2020-03-17 01:07:53  [ main:797782 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+2020-03-17 01:07:53  [ main:797782 ] - [ DEBUG ]  Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+2020-03-17 01:07:53  [ main:797790 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2020-03-17 01:07:53  [ main:797790 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+2020-03-17 01:07:53  [ main:797791 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+2020-03-17 01:07:53  [ main:797791 ] - [ DEBUG ]  Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+2020-03-17 01:07:53  [ main:797803 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+2020-03-17 01:07:53  [ main:797803 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+2020-03-17 01:07:53  [ main:797803 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+2020-03-17 01:07:53  [ main:797804 ] - [ DEBUG ]  Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+2020-03-17 01:07:53  [ main:797817 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-03-17 01:07:53  [ main:797818 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-03-17 01:07:53  [ main:797819 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-03-17 01:07:53  [ main:797821 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-03-17 01:07:53  [ main:797822 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-03-17 01:07:53  [ main:797823 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-03-17 01:07:53  [ main:797825 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-03-17 01:07:53  [ main:797826 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-03-17 01:07:53  [ main:797827 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-03-17 01:07:53  [ main:797828 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-03-17 01:07:53  [ main:797828 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-03-17 01:07:53  [ main:797829 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-03-17 01:07:53  [ main:797830 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-03-17 01:07:53  [ main:797831 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-03-17 01:07:53  [ main:797832 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-03-17 01:07:53  [ main:797834 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-03-17 01:07:53  [ main:797834 ] - [ DEBUG ]  Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-03-17 01:07:53  [ main:797835 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+2020-03-17 01:07:53  [ main:797835 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+2020-03-17 01:07:53  [ main:797835 ] - [ DEBUG ]  Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+2020-03-17 01:07:53  [ main:797838 ] - [ DEBUG ]  Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-03-17 01:07:53  [ main:797838 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+2020-03-17 01:07:53  [ main:797839 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+2020-03-17 01:07:53  [ main:797839 ] - [ DEBUG ]  Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+2020-03-17 01:07:53  [ main:797845 ] - [ DEBUG ]  Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-03-17 01:07:53  [ main:797845 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+2020-03-17 01:07:53  [ main:797845 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+2020-03-17 01:07:53  [ main:797846 ] - [ DEBUG ]  Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+2020-03-17 01:07:53  [ main:797849 ] - [ DEBUG ]  Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-03-17 01:07:53  [ main:797849 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+2020-03-17 01:07:53  [ main:797849 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+2020-03-17 01:07:53  [ main:797849 ] - [ DEBUG ]  Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
