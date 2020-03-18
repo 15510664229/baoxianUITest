@@ -3,84 +3,34 @@
   <component name="ChangeListManager">
     <list default="true" id="ec0d697c-af63-4738-9381-99a0acc596eb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-11 184258689.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-11 184634453.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-11 193355091.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-11 202527797.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-11 204332623.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-11 204810163.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-11 204829333.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 124856365.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 124917061.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 125442230.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 125504093.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 140856019.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 140928742.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 150942418.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 155137746.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 155150400.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 160424718.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 160441018.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 160459134.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 160515500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 160531661.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 161135621.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 161203602.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 161220266.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 161644158.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 171914160.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 172601576.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 173601340.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 193413525.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 193820024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 194359747.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 194548330.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 194802468.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 194927622.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 195118599.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 203851347.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 204629706.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 220406320.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 224601718.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 225226490.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 225834322.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-12 231256752.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 134153260.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 152508379.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 152834258.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 153319210.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 153751326.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 155234483.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 160948192.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 161324489.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 163404187.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 165203409.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 165916575.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 170124257.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 170632383.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 170858402.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 171046317.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 171313318.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 171514025.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 171831035.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 172220231.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 172445209.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 173549882.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 173732476.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 173855679.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 174157203.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 191556695.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 191902831.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 192336597.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 192603799.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 201600389.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 204039141.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 204352473.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 205038078.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 205344231.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-14 114208036.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/fangaiAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/fangaiAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/sun/baoxian/fangaiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sun/baoxian/fangaiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/index_new.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/index_new.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/res/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/jiankangbao2vAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/jiankangbao2vAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/base/MobileChromeDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/base/MobileChromeDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/base/WebCaseBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/base/WebCaseBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/base/WebElementBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/base/WebElementBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/utils/ScreenShotUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/utils/ScreenShotUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/changqingbaoAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/changqingbaoAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/fangaiAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/fangaiAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/jiangxinAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/jiangxinAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/jiankangbao2vAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/jiankangbao2vAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/jinglingbaoAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/jinglingbaoAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/kaixinbaobeiAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/kaixinbaobeiAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/mamibaobeiAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/mamibaobeiAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/shortInsurance19Action.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/shortInsurance19Action.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/taikangAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/taikangAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/yangguangAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/yangguangAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/base/WebElementBase$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/base/WebElementBase$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/base/WebElementBase$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/base/WebElementBase$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/base/WebElementBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/base/WebElementBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/utils/ScreenShotUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/utils/ScreenShotUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/sun/baoxian/fangaiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/sun/baoxian/fangaiTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/output.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/overview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/suite1_test1_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite1_test1_results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/suites.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suites.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,14 +44,261 @@
     </execution>
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/testng.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/report/index_new.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-291">
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#7202#7207#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sun/baoxian/actions/fangaiAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="51" column="25" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sun/baoxian/utils/ScreenShotUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="491">
+              <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sun/baoxian/base/WebElementBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-11">
+              <caret line="797" column="37" lean-forward="true" selection-start-line="797" selection-start-column="37" selection-end-line="797" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sun/baoxian/base/WebActionBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-101">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sun/baoxian/actions/jiankangbao2vAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1221">
+              <caret line="163" lean-forward="true" selection-start-line="163" selection-end-line="163" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sun/baoxian/base/MobileChromeDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="22" column="60" lean-forward="true" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sun/baoxian/base/WebCaseBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>formatDate</find>
+      <find>suc</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/sun/baoxian/base/WebElementBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sun/baoxian/utils/ScreenShotUtil.java" />
+        <option value="$PROJECT_DIR$/res/testng.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/sun/baoxian/base/MobileChromeDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sun/baoxian/base/WebCaseBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/jiankangbao2vAction.java" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1ZFCUn4hOQyIHV9laMQnu2OY1XH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="baoxianUITest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="baoxianUITest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="baoxianUITest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="baoxianUITest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="report" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="baoxianUITest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="baoxianUITest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="res" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="baoxianUITest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="baoxianUITest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="baoxianUITest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="baoxianUITest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="baoxianUITest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="baoxianUITest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="baoxianUITest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="baoxianUITest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sun" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="baoxianUITest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="baoxianUITest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sun" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="baoxian" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="baoxianUITest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="baoxianUITest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sun" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="baoxian" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="actions" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="baoxianUITest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="baoxianUITest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sun" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="baoxian" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="base" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="baoxianUITest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="baoxianUITest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sun" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="baoxian" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="utils" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="baoxianUITest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="baoxianUITest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="baoxianUITest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="baoxianUITest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="baoxianUITest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="baoxianUITest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="baoxianUITest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="baoxianUITest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sun" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="baoxianUITest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="baoxianUITest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sun" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="baoxian" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="baoxianUITest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="baoxianUITest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="target" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="baoxianUITest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="baoxianUITest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="test-output" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -138,6 +335,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WebElementBase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sun.baoxian.base.WebElementBase" />
+      <module name="baoxianUITest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sun.baoxian.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/res/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="baoxianUITest" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/res/testng.xml" />
@@ -151,6 +361,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG./Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/res/testng.xml" />
+        <item itemvalue="Application.WebElementBase" />
         <item itemvalue="Application.WebAssertionBase" />
       </list>
     </recent_temporary>
@@ -209,6 +420,50 @@
     <option name="localTasksCounter" value="6" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="_Users_xueping_sun_IdeaProjects_baoxianUITest_baoxianUITest_res_testng_xml - 2020.03.18 at 11h 28m 50s.xml">
+      <configuration name="/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/res/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_xueping_sun_IdeaProjects_baoxianUITest_baoxianUITest_res_testng_xml - 2020.03.18 at 11h 38m 56s.xml">
+      <configuration name="/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/res/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_xueping_sun_IdeaProjects_baoxianUITest_baoxianUITest_res_testng_xml - 2020.03.18 at 11h 48m 59s.xml">
+      <configuration name="/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/res/testng.xml" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2064000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="805" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30475503" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3299712" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3299712" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3299712" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3299712" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.3299712" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+    </layout>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -218,8 +473,28 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
           </value>
         </entry>
       </map>
@@ -230,5 +505,93 @@
     <MESSAGE value="4" />
     <MESSAGE value="截图修改" />
     <option name="LAST_COMMIT_MESSAGE" value="截图修改" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59-sources.jar!/org/openqa/selenium/TakesScreenshot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/sun/baoxian/fangaiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sun/baoxian/actions/fangaiAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="51" column="25" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/snapshot/2020-03-18-112841471.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/snapshot/2020-03-18-113847536.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sun/baoxian/utils/ScreenShotUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/index_new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-291">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7202#7207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sun/baoxian/base/WebElementBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="797" column="37" lean-forward="true" selection-start-line="797" selection-start-column="37" selection-end-line="797" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sun/baoxian/base/MobileChromeDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="22" column="60" lean-forward="true" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sun/baoxian/base/WebCaseBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sun/baoxian/base/WebActionBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-101">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sun/baoxian/actions/jiankangbao2vAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1221">
+          <caret line="163" lean-forward="true" selection-start-line="163" selection-end-line="163" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

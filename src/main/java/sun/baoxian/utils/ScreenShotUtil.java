@@ -24,9 +24,6 @@ public class ScreenShotUtil {
         this.screenName = screenName;
     }
 
-    public String  getscreenName(){
-        return this.screenName;
-    }
 
     public ScreenShotUtil(WebDriver driver) {
         this.driver = driver;
@@ -78,7 +75,7 @@ public class ScreenShotUtil {
             Files.copy(scrFile, new File(screenPath));
             log.error("收银台截图：" + screenPath);
             String imgaename = screenPath.split("snapshot")[1];
-            Reporter.log("<a href=snapshot/" + imgaename +".jpg"+ " target=_blank><img src=snapshot/" +imgaename+".jpg"
+            Reporter.log("<a href=snapshot" + imgaename + " target=_blank><img src=snapshot/" + imgaename
                     + " style=width:30px;height:30px img/>收银台截图</a>", true);
         } catch (Exception e) {
             // TODO: handle exception

@@ -13,7 +13,7 @@
 		<parameter name="browerType" value="chrome" />
 		<classes>
 			<class name="sun.baoxian.fangaiTest"></class>
-			<class name="sun.baoxian.yanguangTest"></class>
+<!--			<class name="sun.baoxian.yanguangTest"></class>-->
 			<class name="sun.baoxian.shortInsuranceTest"></class>
 			<class name="sun.baoxian.yanguangTest"></class>
 			<class name="sun.baoxian.changqingbaoTest"></class>
