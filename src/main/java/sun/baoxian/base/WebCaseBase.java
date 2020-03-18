@@ -37,6 +37,7 @@ public class WebCaseBase {
                 System.setProperty("webdriver.chrome.driver", "root/Users/xueping.sun/driver/chromedriver1");
                 ChromeOptions headlessOptions = new ChromeOptions();
                 headlessOptions.addArguments("--headless");
+                headlessOptions.addArguments("no-sandbox");
                 DesiredCapabilities capabilities = DesiredCapabilities.chrome();
                 capabilities.setCapability(ChromeOptions.CAPABILITY, headlessOptions);
                 this.driver =new ChromeDriver(capabilities);
