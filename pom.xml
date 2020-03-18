@@ -195,6 +195,7 @@
             <artifactId>aspectjweaver</artifactId>
             <version>1.8.10</version>
         </dependency>
+
     </dependencies>
     <build>
         <defaultGoal>compile</defaultGoal>
