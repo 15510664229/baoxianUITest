@@ -8,8 +8,6 @@ public class taikangActionTest extends WebCaseBase {
     @Test
     public void taikang2019() throws Exception{
         taikangAction action=new taikangAction();
-        action.order();
-
-
+        action.taikang2019_001();
     }
 }

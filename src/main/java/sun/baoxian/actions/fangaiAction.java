@@ -48,9 +48,40 @@ public class fangaiAction extends WebCaseBase {
         action.click(page1.confrim());
         action.sleep(3);
         action.DisplayElement(page1.deadline());
-      //  action.SnapshotForElement("res/images/", "fangai.png", page1.deadline());
-        //action.Snapshot("report/snapshot/","fangai.png");
-        //WebAssertionBase.printpayURL(action.getUrl());
+        action.successend();
+        Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
+        Reporter.log(action.getUrl());
+    }
+    //线上回归 旧链接 综合版
+    public void fangai_002(String url) throws Exception{
+        fangaipage page1=new fangaipage();
+        page1.getPage(url);
+        //等待页面加载完成
+        action.pagefoload(15);
+        action.executeJS("window.scrollBy(0,200);");
+        action.click(page1.lijilingqu());
+        action.sleep(2);
+        List<WebElement> list=new ArrayList<>();
+        list=driver.findElements(By.cssSelector("input[placeholder=\"信息保密 仅用于投保\"]"));
+        list.get(0).sendKeys("回归");
+        action.sleep(2);
+        String i1=idCardGenerator.generate("19881101","1");
+        String m1=mobile.getTel();
+        list.get(1).sendKeys(i1);
+        list.get(2).sendKeys("18230288372");
+        action.type(page1.sms_code(),"111111");
+        action.executeJS("window.scrollBy(0,500);");
+       // action.click(page1.pay_type());
+        action.sleep(2);
+        action.executeJS("window.scrollBy(0,200);");
+        action.click(page1.shebao());
+        action.click(page1.submit());
+        action.sleep(1);
+        action.click(page1.submit());
+        action.sleep(1);
+        action.click(page1.confrim());
+        action.sleep(3);
+        action.DisplayElement(page1.deadline());
         action.successend();
         Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());

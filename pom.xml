@@ -211,7 +211,7 @@
                     </argLine>
                     <suiteXmlFiles>
                         <!--指定要执行的testngXml路径 -->
-                        <suiteXmlFile>res/testng.xml</suiteXmlFile>
+                        <suiteXmlFile>res/testng_online.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     <testFailureIgnore>true</testFailureIgnore>
                     <argLine>-Dfile.encoding=UTF-8</argLine>

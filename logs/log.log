@@ -295,3 +295,5 @@
 2020-03-18 14:21:38  [ main:46276 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
 2020-03-18 14:21:38  [ main:46276 ] - [ DEBUG ]  Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
 >>>>>>> be8ca2e7f420336e8855c5fc3a72dbed5e2e5735
+2020-03-19 17:54:21  [ main:0 ] - [ INFO ]  自动生成对象库java代码成功
+2020-03-19 17:54:33  [ main:0 ] - [ INFO ]  自动生成对象库java代码成功

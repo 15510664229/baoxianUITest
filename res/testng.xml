@@ -9,7 +9,7 @@
 
 	</listeners>
 	
-	<test name="UI自动化测试" preserve-order="true">
+	<test name="UI自动化测试【测试回归】" preserve-order="true">
 		<parameter name="browerType" value="chrome" />
 		<classes>
 			<class name="sun.baoxian.fangaiTest"></class>

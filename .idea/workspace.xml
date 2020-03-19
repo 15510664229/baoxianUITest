@@ -2,10 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec0d697c-af63-4738-9381-99a0acc596eb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/res/testng_online.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sun/baoxianonline/changqingbaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sun/baoxianonline/duolaAbaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sun/baoxianonline/fangaiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sun/baoxianonline/fangai_new.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sun/baoxianonline/jiangxinTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sun/baoxianonline/jiankangbao2vTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sun/baoxianonline/jinglingbaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sun/baoxianonline/mamibaobeiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sun/baoxianonline/taikang2019.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sun/baoxianonline/taikang2020.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sun/baoxianonline/yangguang_new.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/res/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/changqingbaoAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/changqingbaoAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/duolaAbaoAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/duolaAbaoAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/fangaiAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/fangaiAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/jiangxinAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/jiangxinAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/jiankangbao2vAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/jiankangbao2vAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/jinglingbaoAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/jinglingbaoAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/kaixinbaobeiAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/kaixinbaobeiAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/mamibaobeiAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/mamibaobeiAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/shortInsurance19Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/shortInsurance19Action.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/base/WebElementBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/base/WebElementBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/utils/Retry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/utils/Retry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/taikangAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/taikangAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/pageObject/shortTmp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/pageObject/shortTmp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/pageObjectFiles/yml/UILibrary-SIT19.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pageObjectFiles/yml/UILibrary-SIT19.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sun/baoxian/fangaiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sun/baoxian/fangaiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sun/baoxian/kaixinbaobeiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sun/baoxian/kaixinbaobeiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sun/baoxian/mamibaobeiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sun/baoxian/mamibaobeiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sun/baoxian/shortInsuranceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sun/baoxian/shortInsuranceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sun/baoxian/taikangActionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sun/baoxian/taikangActionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjectFiles/yml/UILibrary-SIT19.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjectFiles/yml/UILibrary-SIT19.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/changqingbaoAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/changqingbaoAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/fangaiAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/fangaiAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/jiangxinAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/jiangxinAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/jiankangbao2vAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/jiankangbao2vAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/jinglingbaoAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/jinglingbaoAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/kaixinbaobeiAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/kaixinbaobeiAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/mamibaobeiAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/mamibaobeiAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/shortInsurance19Action.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/shortInsurance19Action.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/taikangAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/taikangAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/pageObject/shortTmp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/pageObject/shortTmp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/utils/Retry.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/utils/Retry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/sun/baoxian/fangaiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/sun/baoxian/fangaiTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/sun/baoxian/kaixinbaobeiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/sun/baoxian/kaixinbaobeiTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/sun/baoxian/mamibaobeiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/sun/baoxian/mamibaobeiTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/sun/baoxian/shortInsuranceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/sun/baoxian/shortInsuranceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/sun/baoxian/taikangActionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/sun/baoxian/taikangActionTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,11 +85,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/sun/baoxianonline" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.35283193" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\selenium\baoxianUITest\src\test\java\sun\baoxianonline" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -57,7 +108,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/res/testng.xml">
+  <component name="RunManager" selected="Application.GenerateAutoCodeForYml">
     <configuration name="GenerateAutoCodeForYml" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sun.baoxian.utils.pageObjectGenerate.GenerateAutoCodeForYml" />
       <module name="baoxianUITest" />
@@ -96,8 +147,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/res/testng.xml" />
         <item itemvalue="Application.GenerateAutoCodeForYml" />
+        <item itemvalue="TestNG./Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/res/testng.xml" />
         <item itemvalue="Application.WebAssertionBase" />
       </list>
     </recent_temporary>
@@ -177,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584586943377</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="增加等待时间-失败重试次数改为1">
+      <created>1584607260556</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1584607260556</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -249,6 +307,7 @@
     <MESSAGE value="6" />
     <MESSAGE value="哆啦A保" />
     <MESSAGE value="Merge branch 'master' of https://github.com/Lee-Kwangsoo/baoxianUITest&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;logs/log.log&#10;#&#9;target/classes/sun/baoxian/actions/jiankangbao2vAction.class&#10;#&#9;target/classes/sun/baoxian/base/WebElementBase.class&#10;#&#9;target/classes/sun/baoxian/utils/ScreenShotUtil.class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/Lee-Kwangsoo/baoxianUITest&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;logs/log.log&#10;#&#9;target/classes/sun/baoxian/actions/jiankangbao2vAction.class&#10;#&#9;target/classes/sun/baoxian/base/WebElementBase.class&#10;#&#9;target/classes/sun/baoxian/utils/ScreenShotUtil.class" />
+    <MESSAGE value="增加等待时间-失败重试次数改为1" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加等待时间-失败重试次数改为1" />
   </component>
 </project>

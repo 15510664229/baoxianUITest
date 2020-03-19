@@ -8,6 +8,6 @@ public class kaixinbaobeiTest extends WebCaseBase {
     @Test
     public void kaixinbaobei() throws Exception{
         kaixinbaobeiAction action=new kaixinbaobeiAction();
-        action.kaixinbaobei();
+        action.kaixinbaobei_001();
     }
 }

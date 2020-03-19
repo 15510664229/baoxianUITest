@@ -8,22 +8,22 @@ public class shortInsuranceTest  extends WebCaseBase {
     @Test
     public void taikang2020_SC_ZH() throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
-        action.yiyuanZH();
+        action.yiyuanZH_001();
     }
     @Test
     public void taikang2020_SC_Y() throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
-        action.yiyuanY();
+        action.yiyuanY_001();
     }
     @Test
     public void taikang2020_SC_M() throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
-        action.yiyuanM();
+        action.yiyuanM_001();
     }
     @Test
     public void taikang2020_PH_001() throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
-        action.pinghuaY();
+        action.pinghuaY_001();
     }
 
     @Test

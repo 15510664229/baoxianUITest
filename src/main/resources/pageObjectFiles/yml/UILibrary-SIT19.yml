@@ -4,6 +4,7 @@ pages:
       value: "http://test.bxm.ncfimg.com/biz/page/info?page_id=62&is_gray=1&goods_code=G2823849253"
       desc: "短险模版"
       locators:
+        - {type: "xpath",timeout: "5",value: "//*[@class='fill-btn']",desc: "lijilingqu",name: "lijilingqu"}
         - {type: "xpath",timeout: "5",value: "//*[text()='立即投保']",desc: "order",name: "order"}
         - {type: "name",timeout: "5",value: "identity",desc: "idcard",name: "idcard"}
         - {type: "name",timeout: "5",value: "mobile",desc: "mobile",name: "mobile"}

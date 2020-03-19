@@ -13,6 +13,17 @@ private String path="src/main/resources/pageObjectFiles/yml/";
 getLocatorMap();
 }
 /***
+* lijilingqu
+* @return
+* @throws IOException
+*/
+public  LocatorBase lijilingqu() throws IOException
+ {
+   LocatorBase locator=getLocator("lijilingqu");
+   return locator;
+ }
+
+/***
 * order
 * @return
 * @throws IOException
