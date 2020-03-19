@@ -34,9 +34,9 @@ public class WebCaseBase {
 //           .usingDriverExecutable(new File("/Users/xueping.sun/driver/chromedriver1"))
 //            .usingAnyFreePort().build();
 //        service.start();
-                System.setProperty("webdriver.chrome.driver", "/root/Users/xueping.sun/driver/chromedriver1");
+                System.setProperty("webdriver.chrome.driver", "/Users/xueping.sun/driver/chromedriver1");
                 ChromeOptions headlessOptions = new ChromeOptions();
-                headlessOptions.addArguments("--headless");
+                //headlessOptions.addArguments("--headless");
                 headlessOptions.addArguments("no-sandbox");
                 DesiredCapabilities capabilities = DesiredCapabilities.chrome();
                 capabilities.setCapability(ChromeOptions.CAPABILITY, headlessOptions);
@@ -55,8 +55,6 @@ public class WebCaseBase {
                 this.driver = new EdgeDriver();
                 log.info("启动IE浏览器");
                 break;
-            case "mobile":
-                this.driver=new MobileChromeDriver();
             default:
                 this.driver = new ChromeDriver();
                 log.info("启动默认浏览器（Chrome）");

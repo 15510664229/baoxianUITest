@@ -39,6 +39,7 @@ public class jinglingbaoAction extends WebCaseBase {
         action.click(page1.submit());
         action.sleep(2);
         action.click(page1.confirm());
+        action.sleep(3);
         action.DisplayElement(page1.deadline());
         //action.SnapshotForElement("res/images/", "jingling.png", page1.deadline());
        action.successend();

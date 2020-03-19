@@ -100,6 +100,7 @@ public class mamibaobeiAction extends WebCaseBase {
         actions.click(list1).perform();
         action.sleep(3);
         action.click(page1.submit());
+        action.sleep(4);
         action.DisplayElement(page1.deadline());
        // action.SnapshotForElement("res/images/", "mamibaobei.png", page1.deadline());
         action.successend();

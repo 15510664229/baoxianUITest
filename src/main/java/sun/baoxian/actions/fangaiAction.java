@@ -30,6 +30,7 @@ public class fangaiAction extends WebCaseBase {
         List<WebElement> list=new ArrayList<>();
         list=driver.findElements(By.cssSelector("input[placeholder=\"信息保密 仅用于投保\"]"));
         list.get(0).sendKeys("自动化");
+        action.sleep(2);
         String i1=idCardGenerator.generate("19881101","1");
         String m1=mobile.getTel();
         list.get(1).sendKeys(i1);
@@ -45,6 +46,7 @@ public class fangaiAction extends WebCaseBase {
         action.click(page1.submit());
         action.sleep(1);
         action.click(page1.confrim());
+        action.sleep(3);
         action.DisplayElement(page1.deadline());
       //  action.SnapshotForElement("res/images/", "fangai.png", page1.deadline());
         //action.Snapshot("report/snapshot/","fangai.png");

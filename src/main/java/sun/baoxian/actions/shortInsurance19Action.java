@@ -23,6 +23,7 @@ public class shortInsurance19Action extends WebCaseBase {
         action.pagefoload(10);
         action.click(page1.order());
         action.type(page1.name(), "自动化");
+        action.sleep(1);
         action.type(page1.idcard(), i1);
         action.type(page1.mobile(), m1);
         action.type(page1.sms_code(), "111111");
@@ -49,6 +50,7 @@ public class shortInsurance19Action extends WebCaseBase {
         action.pagefoload(10);
         action.click(page1.order());
         action.type(page1.name(), "自动化");
+        action.sleep(1);
         action.type(page1.idcard(), i1);
         action.type(page1.mobile(), m1);
         action.type(page1.sms_code(), "111111");
@@ -60,6 +62,7 @@ public class shortInsurance19Action extends WebCaseBase {
         action.click(page1.order());
         action.sleep(2);
         action.click(page1.confrim());
+        action.sleep(2);
         action.DisplayElement(page1.pay());
         action.getUrl();
         //action.SnapshotForElement("res/images","taikang.png",page1.pay());
@@ -76,6 +79,7 @@ public class shortInsurance19Action extends WebCaseBase {
         action.pagefoload(10);
         action.click(page1.order());
         action.type(page1.name(), "自动化");
+        action.sleep(1);
         action.type(page1.idcard(), idCardGenerator.generate("19921210", "0"));
         action.type(page1.mobile(), "18230288372");
         action.type(page1.sms_code(), "111111");
@@ -86,6 +90,7 @@ public class shortInsurance19Action extends WebCaseBase {
         action.click(page1.order());
         action.sleep(2);
         action.click(page1.confrim());
+        action.sleep(2);
         action.DisplayElement(page1.pay());
         action.successend();
         //action.SnapshotForElement("res/images","taikang.png",page1.pay());
@@ -98,6 +103,7 @@ public class shortInsurance19Action extends WebCaseBase {
         action.pagefoload(10);
         action.click(page1.order());
         action.type(page1.name(), "自动化");
+        action.sleep(1);
         action.type(page1.idcard(), i1);
         action.type(page1.mobile(), m1);
         action.type(page1.sms_code(), "111111");
@@ -109,6 +115,7 @@ public class shortInsurance19Action extends WebCaseBase {
         action.click(page1.order());
         action.sleep(2);
         action.click(page1.confrim());
+        action.sleep(2);
         action.DisplayElement(page1.pay());
         action.getUrl();
         action.successend();
@@ -154,6 +161,7 @@ public class shortInsurance19Action extends WebCaseBase {
         action.pagefoload(10);
         action.click(page1.order());
         action.type(page1.name(), "自动化");
+        action.sleep(1);
         action.type(page1.idcard(), i1 );
         action.type(page1.mobile(), m1);
         action.type(page1.sms_code(), "111111");
@@ -179,6 +187,7 @@ public class shortInsurance19Action extends WebCaseBase {
         action.pagefoload(10);
         action.click(page1.order());
         action.type(page1.name(), "自动化");
+        action.sleep(1);
         action.type(page1.idcard(), i1);
         action.type(page1.mobile(), m1);
         action.type(page1.sms_code(), "111111");
@@ -202,14 +211,15 @@ public class shortInsurance19Action extends WebCaseBase {
      */
     public void YG_ZH_Plus() throws Exception {
         shortTmp page1 = new shortTmp();
-        page1.getPage("http://test.bxm.ncfimg.com/biz/page/info?page_id=191&is_gray=1&goods_code=G1583900229");
+        page1.getPage("http://test.bxm.ncfimg.com/biz/page/info?page_id=194&is_gray=1&goods_code=G1583914102#/");
         //等待页面加载完成
         action.pagefoload(10);
         //选中保额
-        action.FindUitl(page1.yg20w());
-        action.click(page1.yg20w());
+       // action.FindUitl(page1.yg30w());
+      //  action.click(page1.yg30w());
         action.click(page1.order());
         action.type(page1.name(), "自动化");
+        action.sleep(1);
         action.type(page1.idcard(), i1);
         action.type(page1.mobile(), m1);
         action.type(page1.sms_code(), "111111");
@@ -234,7 +244,7 @@ public class shortInsurance19Action extends WebCaseBase {
         action.pagefoload(10);
         action.click(page1.order());
         action.type(page1.name(), "自动化");
-
+        action.sleep(1);
         action.type(page1.idcard(), i1);
         action.type(page1.mobile(), m1);
         action.type(page1.sms_code(), "111111");

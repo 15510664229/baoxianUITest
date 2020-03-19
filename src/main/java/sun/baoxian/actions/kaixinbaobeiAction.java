@@ -37,6 +37,7 @@ public class kaixinbaobeiAction extends WebCaseBase {
         String i1=idCardGenerator.generate("19811121","0");
         String i2=idCardGenerator.generate("20180101","1");
         list.get(0).sendKeys(name1);
+        action.sleep(1);
         list1.get(0).sendKeys(i1);
         action.type(page1.mobile(),m1);
         action.type(page1.sms_code(),"111111");
@@ -46,11 +47,12 @@ public class kaixinbaobeiAction extends WebCaseBase {
         action.click(page1.sure());
         action.executeJS("window.scrollBy(0,200);");
         list.get(1).sendKeys(name2);
+        action.sleep(2);
         list1.get(1).sendKeys(i2);
         action.sleep(2);
         action.executeJS("window.scrollBy(0,400);");
         action.click(page1.baoe30w());
-        action.click(page1.peroid60());
+        //action.click(page1.peroid60());
         //切换年缴
         action.click(page1.pay_type());
         action.click(page1.quzhifu());
@@ -75,6 +77,7 @@ public class kaixinbaobeiAction extends WebCaseBase {
         actions.click(element1).perform();
         action.sleep(3);
         action.click(page1.bangka());
+        action.sleep(6);
         action.DisplayElement(page1.success());
         //action.Snapshot("res/images/", "kaixinbaobei.png");
         action.successend();

@@ -12,24 +12,21 @@ import org.openqa.selenium.remote.RemoteTouchScreen;
 import java.util.HashMap;
 import java.util.Map;
 
-public class MobileChromeDriver extends ChromeDriver implements HasTouchScreen {
+public class MobileChromeDriver extends ChromeDriver {
     private RemoteTouchScreen touch;
-    private WebDriver driver;
+    //private WebDriver driver;
 
-    public MobileChromeDriver() {
-        System.setProperty("webdriver.chrome.driver", "/root/Users/xueping.sun/driver/chromedriver1");
+    public MobileChromeDriver(WebDriver driver) {
+        System.setProperty("webdriver.chrome.driver", "/Users/xueping.sun/driver/chromedriver1");
         Map<String, String> mobileEmulation = new HashMap<String, String>();
         mobileEmulation.put("deviceName", "Galaxy S5");
         ChromeOptions headlessOptions = new ChromeOptions();
-        headlessOptions.addArguments("--headless");
         headlessOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
+        headlessOptions.addArguments("no-sandbox");
+        //headlessOptions.addArguments("--headless");
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
         capabilities.setCapability(ChromeOptions.CAPABILITY, headlessOptions);
-        this.driver =new ChromeDriver(capabilities);
-        touch = new RemoteTouchScreen(getExecuteMethod());
-    }
-
-    public TouchScreen getTouch() {
-        return touch;
+        driver =new ChromeDriver(capabilities);
+        WebElementBase action = new WebElementBase();
     }
 }

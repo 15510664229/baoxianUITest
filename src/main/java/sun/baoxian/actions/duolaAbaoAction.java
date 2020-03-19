@@ -2,7 +2,11 @@ package sun.baoxian.actions;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.Reporter;
+import sun.baoxian.base.MobileChromeDriver;
 import sun.baoxian.base.WebCaseBase;
 import sun.baoxian.base.WebElementBase;
 import sun.baoxian.pageObject.duolaAbaopage;
@@ -11,7 +15,9 @@ import sun.data.IdCardGenerator;
 import sun.data.Mobile;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class duolaAbaoAction extends WebCaseBase {
     WebElementBase action = new WebElementBase();
@@ -45,6 +51,7 @@ public class duolaAbaoAction extends WebCaseBase {
         action.sleep(2);
         driver.findElement(By.xpath("//*[text()='确定']")).click();
         String birth2 = w.get(1).getText().replaceAll("/*-", "");
+        action.executeJS("window.scrollBy(0,400);");
         action.click(page1.baoe20());
         action.click(page1.payY());
         action.click(page1.exzlerci());
@@ -52,43 +59,52 @@ public class duolaAbaoAction extends WebCaseBase {
         action.click(page1.submit());
         action.sleep(5);
         action.click(page1.jiangao());
+        action.sleep(4);
+        String url=action.getUrl();
+        driver.quit();
+
+        this.driver=new MobileChromeDriver(driver);
+
+        driver.get(url);
+        action.sleep(2);
         action.type(page1.ins_name(), "自动化");
         String m1=mobile.getTel();
         String i1=idCardGenerator.generate(birth1, "1");
         //String i2=idCardGenerator.generate(birth2, "1");
         String n1=mobile.getChineseName();
         action.type(page1.ins_idcard(),i1);
-        action.click(page1.queding());
         action.type(page1.ins_mobile(), m1);
         action.type(page1.sms_code(), "111111");
         action.type(page1.email(), "226587@qq.com");
         action.type(page1.address(), "朝阳区不知道大街自动化小区琳琳街1410号");
         action.executeJS("window.scrollBy(0,400);");
+        //job
+        action.click(page1.job());
+        action.sleep(1);
+        List<WebElement> list2=new ArrayList<>();
+        list2=driver.findElements(By.xpath("//*[text()='家庭主妇']"));
+        list2.get(0).click();
+        action.sleep(2);
+        action.executeJS("window.scrollBy(0,400);");
         //身高
-        action.click(page1.shengao());
-        action.sleep(2);
-        WebElement element2 = driver.findElement(By.xpath("//*[@class='am-picker-col-mask']"));
-        SwipeScreenOrElement swp3 = new SwipeScreenOrElement(driver, element2);
-        for (int i = 0; i < 2; i++) {
-            swp3.swipe(element2, 20, 50, 20, 80);
-            action.sleep(1);
-        }
-
-        driver.findElement(By.xpath("//*[text()='确定']")).click();
-
-        //体重
-        action.click(page1.tizhong());
-        action.sleep(2);
-        WebElement element3 = driver.findElement(By.xpath("//*[@class='am-picker-col-mask']"));
-        SwipeScreenOrElement swp4 = new SwipeScreenOrElement(driver, element3);
-        for (int i = 0; i < 4; i++) {
-            swp4.swipe(element3, 400, 50, 400, 92);
-            action.sleep(1);
-        }
-        driver.findElement(By.xpath("//*[text()='确定']")).click();
+//        action.click(page1.shengao());
+//        action.sleep(2);
+//        WebElement element2 = driver.findElement(By.xpath("//*[@class='am-picker-col-mask']"));
+//        SwipeScreenOrElement swp3 = new SwipeScreenOrElement(driver, element2);
+//        swp3.swipeToDown(3);
+//        action.click(page1.queding());
+//
+//        //体重
+//        action.click(page1.tizhong());
+//        action.sleep(2);
+//        WebElement element3 = driver.findElement(By.xpath("//*[@class='am-picker-col-mask']"));
+//        SwipeScreenOrElement swp4 = new SwipeScreenOrElement(driver, element3);
+//        swp4.swipeToDown(3);
+//        action.click(page1.queding());
         action.type(page1.bank_card(), "62170000121212222");
         action.type(page1.bank_mobile(), m1);
         action.click(page1.submit());
+        action.sleep(5);
         action.DisplayElement(page1.deadline());
         action.successend();
         Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);

@@ -6,6 +6,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.Reporter;
+import sun.baoxian.base.MobileChromeDriver;
 import sun.baoxian.base.WebCaseBase;
 import sun.baoxian.base.WebElementBase;
 import sun.baoxian.pageObject.jiankangbao2vpage;
@@ -84,16 +85,17 @@ public class jiankangbao2vAction extends WebCaseBase {
         String email1=mobile.getEmail(5,8);
         String address1=mobile.getRoad();
         action.type(page1.ins_name(),name1);
+        action.sleep(2);
         action.type(page1.ins_idcard(),idcard_ins);
-        List<WebElement> l1= new ArrayList<>();
-        l1=driver.findElements(By.xpath("//*[text()='证件止期']"));
-        l1.get(0).click();
-        action.sleep(2);
-        list = driver.findElements(By.className("am-picker-col-mask"));
-        SwipeScreenOrElement swp3 = new SwipeScreenOrElement(driver, list.get(0));
-        swp3.swipe(list.get(0), 20, 80, 20, 50);
-        action.sleep(2);
-        action.click(page1.queding());
+//        List<WebElement> l1= new ArrayList<>();
+//        l1=driver.findElements(By.xpath("//*[text()='证件止期']"));
+//        l1.get(0).click();
+//        action.sleep(2);
+//        list = driver.findElements(By.className("am-picker-col-mask"));
+//        SwipeScreenOrElement swp3 = new SwipeScreenOrElement(driver, list.get(0));
+//        swp3.swipe(list.get(0), 20, 80, 20, 50);
+//        action.sleep(2);
+//        action.click(page1.queding());
         action.type(page1.mobile(),mobile_ins);
         action.type(page1.sms_code(),"111111");
         action.type(page1.email(),email1);
@@ -105,40 +107,39 @@ public class jiankangbao2vAction extends WebCaseBase {
         action.sleep(3);
         action.type(page1.apl_idcard(),idcard_apl);
         action.executeJS("window.scrollBy(0,500);");
-        l1.get(1).click();
-        action.sleep(2);
-        list = driver.findElements(By.className("am-picker-col-mask"));
-        SwipeScreenOrElement swp4 = new SwipeScreenOrElement(driver, list.get(0));
-        swp4.swipe(list.get(0), 20, 100, 20, 50);
-        action.sleep(2);
-        action.click(page1.queding());
-        action.executeJS("window.scrollBy(0,500);");
+//        l1.get(1).click();
+//        action.sleep(2);
+//        list = driver.findElements(By.className("am-picker-col-mask"));
+//        SwipeScreenOrElement swp4 = new SwipeScreenOrElement(driver, list.get(0));
+//        swp4.swipe(list.get(0), 20, 100, 20, 50);
+//        action.sleep(2);
+//        action.click(page1.queding());
+//        action.executeJS("window.scrollBy(0,500);");
         action.type(page1.apl_mobile(),mobile_apl);
         action.type(page1.bank_card(),"62170000121212233");
         action.type(page1.bank_mobile(),mobile_ins);
         action.click(page1.submitF());
         action.sleep(3);
         action.click(page1.confirm());
-        action.sleep(8);
-
-
+        action.sleep(15);
         //输入短信验证码
-
         String url=action.getUrl();
         driver.quit();
 
-        System.setProperty("webdriver.chrome.driver", "/root/Users/xueping.sun/driver/chromedriver1");
+        System.setProperty("webdriver.chrome.driver", "/Users/xueping.sun/driver/chromedriver1");
         Map<String, String> mobileEmulation = new HashMap<String, String>();
         mobileEmulation.put("deviceName", "Galaxy S5");
         ChromeOptions headlessOptions = new ChromeOptions();
         headlessOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
         headlessOptions.addArguments("no-sandbox");
+        //headlessOptions.addArguments("--headless");
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
         capabilities.setCapability(ChromeOptions.CAPABILITY, headlessOptions);
-        this.driver =new ChromeDriver(capabilities);
+        driver =new ChromeDriver(capabilities);
 
         driver.get(url);
-        action.sleep(2);
+        action.pagefoload(15);
+        action.sleep(10);
         action.executeJS("window.scrollBy(0,500);");
         action.click(page1.pay());
         List<WebElement> smslist=new ArrayList<>();
@@ -151,8 +152,7 @@ public class jiankangbao2vAction extends WebCaseBase {
         for (int i=0;i<6;i++){
             ac.sendKeys(smslist.get(i),"1").perform();
         }
-
-        action.sleep(4);
+        action.sleep(8);
         action.DisplayElement(page1.success());
         action.successend();
         // action.SnapshotForElement("res/images/", "mamibaobei.png", page1.deadline());

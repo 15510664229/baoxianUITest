@@ -41,6 +41,7 @@ public class jiangxinAction extends WebCaseBase {
         action.click(page1.submitF());
         action.sleep(2);
         action.click(page1.confirm());
+        action.sleep(6);
         action.DisplayElement(page1.deadline());
         //action.SnapshotForElement("res/images/", "jiangxin.png", page1.deadline());
        action.successend();

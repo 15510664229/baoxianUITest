@@ -66,6 +66,7 @@ public class changqingbaoAction extends WebCaseBase {
         ac.click(list3).perform();
         action.sleep(3);
         action.click(page1.submitF());
+        action.sleep(5);
         action.DisplayElement(page1.deadline());
         //action.SnapshotForElement("res/images/", "changqingbao.png", page1.deadline());
        action.successend();

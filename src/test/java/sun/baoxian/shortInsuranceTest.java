@@ -6,17 +6,17 @@ import sun.baoxian.base.WebCaseBase;
 
 public class shortInsuranceTest  extends WebCaseBase {
     @Test
-    public void taikang2020_SC_001() throws Exception{
+    public void taikang2020_SC_ZH() throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
         action.yiyuanZH();
     }
     @Test
-    public void taikang2020_SC_002() throws Exception{
+    public void taikang2020_SC_Y() throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
         action.yiyuanY();
     }
     @Test
-    public void taikang2020_SC_003() throws Exception{
+    public void taikang2020_SC_M() throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
         action.yiyuanM();
     }
@@ -42,12 +42,12 @@ public class shortInsuranceTest  extends WebCaseBase {
         action.zhonghuiPH();
     }
     @Test
-    public void yangguang_001() throws Exception{
+    public void yangguang_ZHYW() throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
         action.YG_ZH_Plus();
     }
     @Test
-    public void yangguang_002() throws Exception{
+    public void yangguang_BWYW() throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
         action.YG_BW_Plus();
     }
