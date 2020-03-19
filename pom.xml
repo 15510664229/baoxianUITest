@@ -8,13 +8,13 @@
     <artifactId>baoxianUITest</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
-        <property>
-            <xml.file>${env.xmlFileName}</xml.file>
+            <xmlFileName></xmlFileName>
 <!--            <testType>${env.testType}</testType>-->
-        </property>
     </properties>
 
+
     <dependencies>
+
         <dependency>
             <groupId>xml-apis</groupId>
             <artifactId>xml-apis</artifactId>
@@ -221,7 +221,7 @@
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar"
                     </argLine>
                     <suiteXmlFiles>
-                        <suiteXmlFile>res/${xml.file}</suiteXmlFile>
+                        <suiteXmlFile>res/${xmlFileName}</suiteXmlFile>
                     </suiteXmlFiles>
                     <testFailureIgnore>true</testFailureIgnore>
                     <argLine>-Dfile.encoding=UTF-8</argLine>
