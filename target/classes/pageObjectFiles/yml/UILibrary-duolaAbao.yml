@@ -1,0 +1,39 @@
+pages:
+  - page:
+      pageName: sun.baoxian.pageObject.duolaAbaopage
+      value: "http://test.bxm.ncfimg.com/biz/page/info?page_id=105&is_gray=1&goods_code=G1581501768#/"
+      desc: "哆啦A保"
+      locators:
+        - {type: "xpath",timeout: "5",value: "//*[text()='立即投保']",desc: "submit",name: "submit"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='10万']",desc: "baoe10",name: "baoe10"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='15万",desc: "baoe15",name: "baoe15"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='20万",desc: "baoe20",name: "baoe20"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='25万",desc: "baoe25",name: "baoe25"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='30万']",desc: "baoe30",name: "baoe30"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='35万']",desc: "baoe35",name: "baoe35"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='40万']",desc: "baoe40",name: "baoe40"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='45万']",desc: "baoe45",name: "baoe45"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='50万']",desc: "baoe50",name: "baoe50"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='55万']",desc: "baoe55",name: "baoe55"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='60万']",desc: "baoe60",name: "baoe60"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='年缴']",desc: "payY",name: "payY"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='月缴']",desc: "payM",name: "payM"}
+        - {type: "xpath",timeout: "5",value: "//div[text()='特定疾病/恶性肿瘤']/following-sibling::div[1]/div[1]/div[1]/div[2]",desc: "tdjb",name: "tdjb"}
+        - {type: "xpath",timeout: "5",value: "//div[text()='恶性肿瘤二次赔付']/following-sibling::div[1]/div[1]/div[1]/div[2]",desc: "exzlerci",name: "exzlerci"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='以上情况全无']",desc: "jiangao",name: "jiangao"}
+        - {type: "xpath",timeout: "5",value: "//*[@id='InsureInfoModule']/div[2]/div/div[1]/div[2]/div/div/div/input",desc: "ins_name",name: "ins_name"}
+        - {type: "cssSelector",timeout: "5",value: "//*[@id='InsureInfoModule']/div[4]/div/div/div[2]/input",desc: "ins_idcard",name: "ins_idcard"}
+        - {type: "xpath",timeout: "5",value: "//*[@id='InsureInfoModule']/div[7]/div/div/div[2]/input",desc: "ins_mobile",name: "ins_mobile"}
+        - {type: "cssSelector",timeout: "5",value: "input[placeholder=\"请输入验证码\"]",desc: "sms_code",name: "sms_code"}
+        - {type: "name",timeout: "5",value: "email",desc: "email",name: "email"}
+        - {type: "name",timeout: "5",value: "address",desc: "address",name: "address"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='请选择职业类别']",desc: "job",name: "job"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='确定']",desc: "queding",name: "queding"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='身高']",desc: "shengao",name: "shengao"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='体重']",desc: "tizhong",name: "tizhong"}
+        - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入银行卡号']",desc: "bank_card",name: "bank_card"}
+        - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入预留手机号']",desc: "bank_mobile",name: "bank_mobile"}
+        - {type: "xpath",timeout: "5",value: "//*[@class='mather-baby-protocol']//*[name()='svg']//*",desc: "xieyi",name: "xieyi"}
+        - {type: "classname",timeout: "5",value: "hz-button-text",desc: "pay",name: "pay"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='请在 23:50 前完成支付，逾期订单将自动取消']",desc: "deadline",name: "deadline"}
+

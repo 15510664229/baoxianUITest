@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec0d697c-af63-4738-9381-99a0acc596eb" name="Default Changelist" comment="" />
+    <list default="true" id="ec0d697c-af63-4738-9381-99a0acc596eb" name="Default Changelist" comment="Merge branch 'master' of https://github.com/Lee-Kwangsoo/baoxianUITest&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;logs/log.log&#10;#&#9;target/classes/sun/baoxian/actions/jiankangbao2vAction.class&#10;#&#9;target/classes/sun/baoxian/base/WebElementBase.class&#10;#&#9;target/classes/sun/baoxian/utils/ScreenShotUtil.class">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/index_new.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/index_new.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/jiankangbao2vAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/jiankangbao2vAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/base/MobileChromeDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/base/MobileChromeDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/base/WebCaseBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/base/WebCaseBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/base/WebElementBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/base/WebElementBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/utils/ScreenShotUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/utils/ScreenShotUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/jiankangbao2vAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/jiankangbao2vAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/base/MobileChromeDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/base/MobileChromeDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/base/WebCaseBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/base/WebCaseBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/base/WebElementBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/base/WebElementBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/utils/ScreenShotUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/utils/ScreenShotUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/output.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/overview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/suite1_test1_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite1_test1_results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/suites.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suites.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +132,7 @@
       <workItem from="1584374698134" duration="1849000" />
       <workItem from="1584425474985" duration="4021000" />
       <workItem from="1584439095621" duration="9300000" />
-      <workItem from="1584583562732" duration="3280000" />
+      <workItem from="1584583562732" duration="4028000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1584375025489</created>
@@ -163,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584586844634</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="哆啦A保">
+      <created>1584586943377</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1584586943377</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +215,7 @@
     <MESSAGE value="截图修改" />
     <MESSAGE value="6" />
     <MESSAGE value="哆啦A保" />
-    <option name="LAST_COMMIT_MESSAGE" value="哆啦A保" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/Lee-Kwangsoo/baoxianUITest&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;logs/log.log&#10;#&#9;target/classes/sun/baoxian/actions/jiankangbao2vAction.class&#10;#&#9;target/classes/sun/baoxian/base/WebElementBase.class&#10;#&#9;target/classes/sun/baoxian/utils/ScreenShotUtil.class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/Lee-Kwangsoo/baoxianUITest&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;logs/log.log&#10;#&#9;target/classes/sun/baoxian/actions/jiankangbao2vAction.class&#10;#&#9;target/classes/sun/baoxian/base/WebElementBase.class&#10;#&#9;target/classes/sun/baoxian/utils/ScreenShotUtil.class" />
   </component>
 </project>
