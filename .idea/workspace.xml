@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec0d697c-af63-4738-9381-99a0acc596eb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/duolaAbaoAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/pageObjectFiles/yml/UILibrary-duolaAbao.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-11 184258689.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-11 184634453.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-11 193355091.jpg" beforeDir="false" />
@@ -79,8 +82,23 @@
       <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 205038078.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-13 205344231.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/report/snapshot/2020-03-14 114208036.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/fangaiAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/fangaiAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/sun/baoxian/fangaiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sun/baoxian/fangaiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/utils/pageObjectGenerate/GenerateAutoCodeForYml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/utils/pageObjectGenerate/GenerateAutoCodeForYml.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/changqingbaoAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/changqingbaoAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/fangaiAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/fangaiAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/jiangxinAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/jiangxinAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/jiankangbao2vAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/jiankangbao2vAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/jinglingbaoAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/jinglingbaoAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/kaixinbaobeiAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/kaixinbaobeiAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/mamibaobeiAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/mamibaobeiAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/shortInsurance19Action.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/shortInsurance19Action.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/taikangAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/taikangAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/yangguangAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/actions/yangguangAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/base/WebElementBase$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/base/WebElementBase$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/base/WebElementBase$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/base/WebElementBase$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/base/WebElementBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/base/WebElementBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/utils/ScreenShotUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/utils/ScreenShotUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sun/baoxian/utils/pageObjectGenerate/GenerateAutoCodeForYml.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sun/baoxian/utils/pageObjectGenerate/GenerateAutoCodeForYml.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/sun/baoxian/fangaiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/sun/baoxian/fangaiTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,12 +115,20 @@
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZFCUn4hOQyIHV9laMQnu2OY1XH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -124,7 +150,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/res/testng.xml">
+  <component name="RunManager" selected="Application.GenerateAutoCodeForYml">
+    <configuration name="GenerateAutoCodeForYml" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sun.baoxian.utils.pageObjectGenerate.GenerateAutoCodeForYml" />
+      <module name="baoxianUITest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sun.baoxian.utils.pageObjectGenerate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WebAssertionBase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sun.baoxian.base.WebAssertionBase" />
       <module name="baoxianUITest" />
@@ -150,6 +189,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenerateAutoCodeForYml" />
         <item itemvalue="TestNG./Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/res/testng.xml" />
         <item itemvalue="Application.WebAssertionBase" />
       </list>
@@ -169,7 +209,8 @@
       <workItem from="1584370048378" duration="714000" />
       <workItem from="1584374698134" duration="1849000" />
       <workItem from="1584425474985" duration="4021000" />
-      <workItem from="1584439095621" duration="8686000" />
+      <workItem from="1584439095621" duration="9300000" />
+      <workItem from="1584583562732" duration="3033000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1584375025489</created>
@@ -206,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584447413385</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="6">
+      <created>1584448226642</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584448226642</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +277,7 @@
     <MESSAGE value="1" />
     <MESSAGE value="4" />
     <MESSAGE value="截图修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="截图修改" />
+    <MESSAGE value="6" />
+    <option name="LAST_COMMIT_MESSAGE" value="6" />
   </component>
 </project>
