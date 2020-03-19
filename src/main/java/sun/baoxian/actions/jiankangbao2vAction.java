@@ -200,7 +200,7 @@ public class jiankangbao2vAction extends WebCaseBase {
         String mobile_apl = mobile.getTel();
         String email1 = mobile.getEmail(5, 8);
         String address1 = mobile.getRoad();
-        action.type(page1.ins_name(), name1);
+        action.type(page1.ins_name(), "回归");
         action.sleep(2);
         action.type(page1.ins_idcard(), idcard_ins);
         action.type(page1.mobile(), "18230288372");
@@ -238,21 +238,20 @@ public class jiankangbao2vAction extends WebCaseBase {
         action.pagefoload(15);
         action.sleep(10);
         action.executeJS("window.scrollBy(0,500);");
-        action.click(page1.pay());
-        List<WebElement> smslist = new ArrayList<>();
-        action.sleep(2);
-        smslist = driver.findElements(By.xpath("//*[@class='sms-input']"));
-        //((JavascriptExecutor)driver).executeScript("document.getElementById(\"ip0\").type ='text';");
-        Actions ac = new Actions(driver);
-        ac.moveToElement(smslist.get(0));
-        ac.clickAndHold();
-        for (int i = 0; i < 6; i++) {
-            ac.sendKeys(smslist.get(i), "1").perform();
-        }
-        action.sleep(8);
-        action.DisplayElement(page1.success());
+//        action.click(page1.pay());
+//        List<WebElement> smslist = new ArrayList<>();
+//        action.sleep(2);
+//        smslist = driver.findElements(By.xpath("//*[@class='sms-input']"));
+//        Actions ac = new Actions(driver);
+//        ac.moveToElement(smslist.get(0));
+//        ac.clickAndHold();
+//        for (int i = 0; i < 6; i++) {
+//            ac.sendKeys(smslist.get(i), "1").perform();
+//        }
+//        action.sleep(8);
+//        action.DisplayElement(page1.success());
         action.successend();
-        // action.SnapshotForElement("res/images/", "mamibaobei.png", page1.deadline());
+        action.sleep(3);
         Reporter.log("投保人信息：手机号：" + mobile_ins + "      " + "身份证号：" + idcard_ins);
         Reporter.log("被保人信息：姓名：" + name2 + "      " + "身份证号：" + idcard_apl);
     }

@@ -110,4 +110,59 @@ public  LocatorBase pay() throws IOException
    LocatorBase locator=getLocator("pay");
    return locator;
  }
+
+/***
+* name1
+* @return
+* @throws IOException
+*/
+public  LocatorBase name1() throws IOException
+ {
+   LocatorBase locator=getLocator("name1");
+   return locator;
+ }
+
+/***
+* idcard1
+* @return
+* @throws IOException
+*/
+public  LocatorBase idcard1() throws IOException
+ {
+   LocatorBase locator=getLocator("idcard1");
+   return locator;
+ }
+
+/***
+* mobile1
+* @return
+* @throws IOException
+*/
+public  LocatorBase mobile1() throws IOException
+ {
+   LocatorBase locator=getLocator("mobile1");
+   return locator;
+ }
+
+/***
+* sms_code1
+* @return
+* @throws IOException
+*/
+public  LocatorBase sms_code1() throws IOException
+ {
+   LocatorBase locator=getLocator("sms_code1");
+   return locator;
+ }
+
+/***
+* deadline
+* @return
+* @throws IOException
+*/
+public  LocatorBase deadline() throws IOException
+ {
+   LocatorBase locator=getLocator("deadline");
+   return locator;
+ }
 }

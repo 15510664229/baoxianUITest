@@ -111,7 +111,7 @@ public class duolaAbaoAction extends WebCaseBase {
         Reporter.log("支付链接： "+action.getUrl());
     }
 
-
+//线上回归
     public void duolaAbao_002() throws Exception {
         duolaAbaopage page1 = new duolaAbaopage();
         page1.getPage("https://bxm.ncfimg.com/biz/page/info?page_id=27&goods_code=G1582255066&channel=124&fr=504&product_code=P7020200006&__pl__=");
@@ -177,7 +177,7 @@ public class duolaAbaoAction extends WebCaseBase {
         action.type(page1.bank_mobile(), m1);
         action.click(page1.submit());
         action.sleep(5);
-        action.DisplayElement(page1.deadline());
+        //action.DisplayElement(page1.deadline());
         action.successend();
         Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
         Reporter.log("支付链接： "+action.getUrl());

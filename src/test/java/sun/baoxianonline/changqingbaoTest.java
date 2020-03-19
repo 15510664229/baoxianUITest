@@ -6,7 +6,7 @@ import sun.baoxian.base.WebCaseBase;
 
 public class changqingbaoTest extends WebCaseBase {
     @Test
-    public void changqingbao() throws Exception{
+    public void changqingbaoA() throws Exception{
         changqingbaoAction action=new changqingbaoAction();
         action.changqingbao_002();
     }

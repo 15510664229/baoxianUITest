@@ -7,6 +7,12 @@
     <groupId>test</groupId>
     <artifactId>baoxianUITest</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <properties>
+        <property>
+            <xml.file>${env.xmlFileName}</xml.file>
+<!--            <testType>${env.testType}</testType>-->
+        </property>
+    </properties>
 
     <dependencies>
         <dependency>
@@ -197,6 +203,7 @@
         </dependency>
 
     </dependencies>
+
     <build>
         <defaultGoal>compile</defaultGoal>
         <plugins>
@@ -206,12 +213,15 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.22.2</version>
                 <configuration>
+<!--                    <systemPropertyVariables>-->
+<!--                        <propertyName>${testType}}</propertyName>-->
+<!--                    </systemPropertyVariables>-->
+
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar"
                     </argLine>
                     <suiteXmlFiles>
-                        <!--指定要执行的testngXml路径 -->
-                        <suiteXmlFile>res/testng_online.xml</suiteXmlFile>
+                        <suiteXmlFile>res/${xml.file}</suiteXmlFile>
                     </suiteXmlFiles>
                     <testFailureIgnore>true</testFailureIgnore>
                     <argLine>-Dfile.encoding=UTF-8</argLine>
@@ -227,6 +237,18 @@
                     </dependency>
                 </dependencies>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <configuration>    <!-- 过滤后缀为pfx、cer、pfx的证书文件 -->
+                    <nonFilteredFileExtensions>
+                        <nonFilteredFileExtension>pfx</nonFilteredFileExtension>
+                        <nonFilteredFileExtension>jks</nonFilteredFileExtension>
+                        <nonFilteredFileExtension>cer</nonFilteredFileExtension>
+                    </nonFilteredFileExtensions>
+                </configuration>
+            </plugin>
+
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -237,6 +259,7 @@
                 </configuration>
             </plugin>
         </plugins>
+
     </build>
 
 

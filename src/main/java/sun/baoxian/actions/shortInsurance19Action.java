@@ -66,7 +66,6 @@ public class shortInsurance19Action extends WebCaseBase {
         action.sleep(2);
         action.DisplayElement(page1.pay());
         action.getUrl();
-        //action.SnapshotForElement("res/images","taikang.png",page1.pay());
         action.successend();
         Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
@@ -299,6 +298,7 @@ public class shortInsurance19Action extends WebCaseBase {
         page1.getPage(url);
         //等待页面加载完成
         action.pagefoload(10);
+        action.executeJS("window.scrollBy(0,400);");
         action.click(page1.lijilingqu());
         action.type(page1.name(), "回归");
         action.sleep(1);
@@ -313,7 +313,7 @@ public class shortInsurance19Action extends WebCaseBase {
         action.click(page1.order());
         action.sleep(2);
         action.click(page1.confrim());
-        action.sleep(2);
+        action.sleep(3);
         action.DisplayElement(page1.pay());
         action.getUrl();
         action.successend();
