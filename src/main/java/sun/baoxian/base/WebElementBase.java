@@ -818,5 +818,10 @@ public class WebElementBase extends  WebCaseBase {
         }
         return status;
     }
+    /**
+     * 等待页面加载，等待超过10s就刷新页面
+     *
+     */
+
 }
 

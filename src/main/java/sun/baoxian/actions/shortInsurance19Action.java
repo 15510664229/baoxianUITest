@@ -35,6 +35,7 @@ public class shortInsurance19Action extends WebCaseBase {
         action.click(page1.order());
         action.sleep(2);
         action.click(page1.confrim());
+        action.sleep(2);
         action.DisplayElement(page1.pay());
         action.getUrl();
         //action.SnapshotForElement("res/images/", "taikang.png", page1.pay());
