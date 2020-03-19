@@ -782,10 +782,11 @@ public class WebElementBase extends  WebCaseBase {
         return webElements;
     }
 
-    private String formatDate(Date date) {
-        SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HHmmssSSS");
+    public String formatDate(Date date) {
+        SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd-HHmmssSSS");
         return formatter.format(date).toString();
     }
+
     /**
      * @author sunxueping-jk
      */
