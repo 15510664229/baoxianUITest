@@ -9,15 +9,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Description:
- * Author: 沙陌
- * Date: 2019-01-15
- */
+
 public class GenerateAutoCodeForYml {
     private static Logger log = Logger.getLogger(GenerateAutoCodeForYml.class);
     //填入需要构建java文件的yml地址
-    static  String path="src/main/resources/pageObjectFiles/yml/UILibrary-jiankangbao2V.yml";
+    static  String path="src/main/resources/pageObjectFiles/yml/UILibrary-duolaAbao.yml";
     public static void autoCode() throws Exception
     {
         File file = new File(path);
@@ -65,7 +61,7 @@ public class GenerateAutoCodeForYml {
                     + pageClassName
                     + "() {\n");
             sb.append("//工程内读取对象库文件\n	");
-            sb.append("setXmlObjectPath(path+\"/UILibrary-jiankangbao2V.yml\");\n");
+            sb.append("setXmlObjectPath(path+\"/UILibrary-duolaAbao.yml\");\n");
             sb.append("getLocatorMap();");
             sb.append("\n}");
             System.out.println(pageElement.get("desc"));
