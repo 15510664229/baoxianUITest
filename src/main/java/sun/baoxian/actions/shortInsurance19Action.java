@@ -272,6 +272,7 @@ public class shortInsurance19Action extends WebCaseBase {
         page1.getPage(url);
         //等待页面加载完成
         action.pagefoload(10);
+        action.sleep(3);
         action.click(page1.order());
         action.type(page1.name(), "回归");
         action.sleep(1);
@@ -298,6 +299,7 @@ public class shortInsurance19Action extends WebCaseBase {
         page1.getPage(url);
         //等待页面加载完成
         action.pagefoload(10);
+        action.sleep(3);
         action.executeJS("window.scrollBy(0,400);");
         action.click(page1.lijilingqu());
         action.type(page1.name(), "回归");
@@ -327,6 +329,7 @@ public class shortInsurance19Action extends WebCaseBase {
         page1.getPage(url);
         //等待页面加载完成
         action.pagefoload(10);
+        action.sleep(3);
         //选中保额
         // action.FindUitl(page1.yg30w());
         //  action.click(page1.yg30w());

@@ -104,7 +104,7 @@ public class duolaAbaoAction extends WebCaseBase {
         action.type(page1.bank_card(), "62170000121212222");
         action.type(page1.bank_mobile(), m1);
         action.click(page1.submit());
-        action.sleep(5);
+        action.sleep(7);
         action.DisplayElement(page1.deadline());
         action.successend();
         Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
@@ -117,6 +117,7 @@ public class duolaAbaoAction extends WebCaseBase {
         page1.getPage("https://bxm.ncfimg.com/biz/page/info?page_id=27&goods_code=G1582255066&channel=124&fr=504&product_code=P7020200006&__pl__=");
         //等待页面加载完成
         action.pagefoload(15);
+        action.sleep(3);
         action.click(page1.submit());
         action.sleep(5);
         //弹层填写信息
@@ -176,7 +177,7 @@ public class duolaAbaoAction extends WebCaseBase {
         action.type(page1.bank_card(), "62170000121212222");
         action.type(page1.bank_mobile(), m1);
         action.click(page1.submit());
-        action.sleep(5);
+        action.sleep(7);
         //action.DisplayElement(page1.deadline());
         action.successend();
         Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
