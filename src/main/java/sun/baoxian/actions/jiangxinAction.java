@@ -74,7 +74,7 @@ public class jiangxinAction extends WebCaseBase {
         String m1= mobile.getTel();
         String i1=idCardGenerator.generate("19931210", "0");
         action.type(page1.idcard(),i1);
-        action.type(page1.mobile(), m1);
+        action.type(page1.mobile(), "18230288372");
         action.type(page1.sms_code(), "111111");
         action.FindUitl(page1.bank_card());
         action.type(page1.bank_card(),"62179999000001111");

@@ -335,8 +335,9 @@ public class shortInsurance19Action extends WebCaseBase {
         //  action.click(page1.yg30w());
         action.click(page1.order());
         action.type(page1.name(), "回归");
-        action.sleep(1);
+        action.sleep(2);
         action.type(page1.idcard(), i1);
+        action.sleep(2);
         action.type(page1.mobile(), "18230288372");
         action.type(page1.sms_code(), "111111");
         //滑动页面使元素可见
@@ -346,6 +347,7 @@ public class shortInsurance19Action extends WebCaseBase {
         action.click(page1.order());
         action.sleep(2);
         action.click(page1.confrim());
+        action.sleep(3);
         action.DisplayElement(page1.pay());
         action.getUrl();
         action.successend();
