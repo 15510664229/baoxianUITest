@@ -102,8 +102,13 @@ public class jiankangbao2vAction extends WebCaseBase {
         action.click(page1.submitF());
         action.sleep(3);
         action.click(page1.confirm());
-        action.sleep(15);
-        //输入短信验证码
+        action.sleep(3);
+        //保司返回结果截图
+        action.successend();
+        action.sleep(10);
+        action.executeJS("window.scrollBy(0,500);");
+        Boolean flag=action.isElementsPresent(page1.pay(),3);
+        if (flag){
         String url=action.getUrl();
         driver.quit();
         System.setProperty("webdriver.chrome.driver", "/Users/xueping.sun/driver/chromedriver1");
@@ -134,7 +139,7 @@ public class jiankangbao2vAction extends WebCaseBase {
         }
         action.sleep(8);
         action.DisplayElement(page1.success());
-        action.successend();
+        action.successend();}
         // action.SnapshotForElement("res/images/", "mamibaobei.png", page1.deadline());
         Reporter.log("投保人信息：手机号："+mobile_ins+"      "+"身份证号："+idcard_ins);
         Reporter.log("被保人信息：姓名："+name2+"      "+"身份证号："+idcard_apl);
