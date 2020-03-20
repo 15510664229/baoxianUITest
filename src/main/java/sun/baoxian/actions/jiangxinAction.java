@@ -17,6 +17,7 @@ public class jiangxinAction extends WebCaseBase {
         page1.getPage("http://test.bxm.ncfimg.com/#/long_insurancev2/detail?product_code=301912S0049&tid=25");
         //等待页面加载完成
         action.pagefoload(15);
+        action.sleep(5);
         action.click(page1.submit());
         action.sleep(5);
         //弹层填写信息
@@ -57,6 +58,7 @@ public class jiangxinAction extends WebCaseBase {
         page1.getPage("https://bxm.ncfimg.com/#/long_insurancev2/detail?product_code=301912S0049");
         //等待页面加载完成
         action.pagefoload(15);
+        action.sleep(5);
         action.click(page1.submit());
         action.sleep(5);
         //弹层填写信息

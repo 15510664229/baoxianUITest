@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec0d697c-af63-4738-9381-99a0acc596eb" name="Default Changelist" comment="linux 尝试">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sun/data/InstallCert.java" afterDir="false" />
+    <list default="true" id="ec0d697c-af63-4738-9381-99a0acc596eb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/res/testng_online.xml" beforeDir="false" afterPath="$PROJECT_DIR$/res/testng_online.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/jiankangbao2vAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/jiankangbao2vAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/base/MobileChromeDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/base/MobileChromeDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sun/baoxian/base/WebCaseBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sun/baoxian/base/WebCaseBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/html/output.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/output.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/html/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/overview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/html/suite1_test1_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite1_test1_results.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/html/suites.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suites.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/res/testng_online.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+            <state relative-caret-position="245">
+              <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -44,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sun/baoxian/base/WebCaseBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="36" column="63" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="63" />
+            <state relative-caret-position="532">
+              <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -68,27 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
+            <state relative-caret-position="293">
               <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sun/data/InstallCert.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3208">
-              <caret line="17" column="70" lean-forward="true" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="70" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#7208#7209#0" expanded="true" />
-                <element signature="e#7244#7245#0" expanded="true" />
-                <element signature="e#7301#7302#0" expanded="true" />
-                <element signature="e#7366#7367#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -96,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sun/baoxian/base/MobileChromeDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+            <state relative-caret-position="19">
+              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -105,8 +79,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sun/baoxian/actions/jiankangbao2vAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2033">
-              <caret line="124" column="24" lean-forward="true" selection-start-line="124" selection-start-column="24" selection-end-line="124" selection-end-column="24" />
+            <state relative-caret-position="223">
+              <caret line="242" column="30" lean-forward="true" selection-start-line="242" selection-start-column="30" selection-end-line="242" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sun/baoxian/utils/RetryListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sun/baoxian/utils/Retry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -116,15 +108,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
               <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sun/baoxian/base/WebAssertionBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -167,10 +150,10 @@
         <option value="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/duolaAbaoAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/sun/data/InstallCert.java" />
         <option value="$USER_HOME$/Downloads/test/InstallCert.java" />
-        <option value="$PROJECT_DIR$/res/testng_online.xml" />
         <option value="$PROJECT_DIR$/src/main/java/sun/baoxian/base/WebCaseBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/sun/baoxian/base/MobileChromeDriver.java" />
         <option value="$PROJECT_DIR$/src/main/java/sun/baoxian/actions/jiankangbao2vAction.java" />
+        <option value="$PROJECT_DIR$/res/testng_online.xml" />
       </list>
     </option>
   </component>
@@ -375,7 +358,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InstallCert">
+  <component name="RunManager" selected="TestNG./Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/res/testng_online.xml">
     <configuration name="GenerateAutoCodeForYml" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sun.baoxian.utils.pageObjectGenerate.GenerateAutoCodeForYml" />
       <module name="baoxianUITest" />
@@ -437,8 +420,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InstallCert" />
         <item itemvalue="TestNG./Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/res/testng_online.xml" />
+        <item itemvalue="Application.InstallCert" />
         <item itemvalue="TestNG./Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/res/testng.xml" />
         <item itemvalue="Application.GenerateAutoCodeForYml" />
         <item itemvalue="Application.WebAssertionBase" />
@@ -465,7 +448,7 @@
       <workItem from="1584594265080" duration="8362000" />
       <workItem from="1584624405103" duration="1410000" />
       <workItem from="1584630479465" duration="6998000" />
-      <workItem from="1584670843380" duration="5738000" />
+      <workItem from="1584670843380" duration="8182000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1584375025489</created>
@@ -579,7 +562,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584673153912</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="提交测试">
+      <created>1584695220729</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1584695220729</updated>
+    </task>
+    <task id="LOCAL-00018" summary="测试回归">
+      <created>1584696143978</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1584696143978</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -615,21 +612,21 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18728000" />
+    <option name="totallyTimeSpent" value="21172000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="805" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3501441" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3501441" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299712" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32708934" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39913544" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32708934" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39913544" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -724,7 +721,9 @@
     <MESSAGE value="用例" />
     <MESSAGE value="增加等待时间" />
     <MESSAGE value="linux 尝试" />
-    <option name="LAST_COMMIT_MESSAGE" value="linux 尝试" />
+    <MESSAGE value="提交测试" />
+    <MESSAGE value="测试回归" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试回归" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/sun/baoxian/utils/ImageUtil.java">
@@ -931,13 +930,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sun/baoxian/base/WebActionBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sun/baoxian/base/WebAssertionBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -982,38 +974,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sun/baoxian/base/WebCaseBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="36" column="63" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="63" />
+        <state relative-caret-position="532">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sun/baoxian/base/WebActionBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sun/baoxian/base/MobileChromeDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+        <state relative-caret-position="19">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sun/baoxian/actions/jiankangbao2vAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2033">
-          <caret line="124" column="24" lean-forward="true" selection-start-line="124" selection-start-column="24" selection-end-line="124" selection-end-column="24" />
+        <state relative-caret-position="223">
+          <caret line="242" column="30" lean-forward="true" selection-start-line="242" selection-start-column="30" selection-end-line="242" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sun/baoxian/utils/RetryListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sun/baoxian/utils/Retry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/testng_online.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        <state relative-caret-position="245">
+          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
         </state>
       </provider>
     </entry>
