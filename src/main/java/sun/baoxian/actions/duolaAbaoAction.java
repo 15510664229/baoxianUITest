@@ -148,7 +148,7 @@ public class duolaAbaoAction extends WebCaseBase {
         action.click(page1.submit());
         action.sleep(5);
         action.click(page1.jiangao());
-        action.sleep(4);
+        action.sleep(8);
         String url=action.getUrl();
         driver.quit();
 
