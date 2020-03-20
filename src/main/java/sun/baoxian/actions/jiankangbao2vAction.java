@@ -117,7 +117,7 @@ public class jiankangbao2vAction extends WebCaseBase {
         ChromeOptions headlessOptions = new ChromeOptions();
         headlessOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
         headlessOptions.addArguments("no-sandbox");
-        headlessOptions.addArguments("--headless");
+//        headlessOptions.addArguments("--headless");
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
         capabilities.setCapability(ChromeOptions.CAPABILITY, headlessOptions);
         driver =new ChromeDriver(capabilities);
@@ -235,7 +235,7 @@ public class jiankangbao2vAction extends WebCaseBase {
         ChromeOptions headlessOptions = new ChromeOptions();
         headlessOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
         headlessOptions.addArguments("no-sandbox");
-        headlessOptions.addArguments("--headless");
+//        headlessOptions.addArguments("--headless");
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
         capabilities.setCapability(ChromeOptions.CAPABILITY, headlessOptions);
         driver = new ChromeDriver(capabilities);
