@@ -111,7 +111,7 @@ public class jiankangbao2vAction extends WebCaseBase {
         if (flag){
         String url=action.getUrl();
         driver.quit();
-        System.setProperty("webdriver.chrome.driver", "root/Users/xueping.sun/driver/chromedriver1");
+        System.setProperty("webdriver.chrome.driver", "/Users/xueping.sun/driver/chromedriver1");
         Map<String, String> mobileEmulation = new HashMap<String, String>();
         mobileEmulation.put("deviceName", "Galaxy S5");
         ChromeOptions headlessOptions = new ChromeOptions();
@@ -229,7 +229,7 @@ public class jiankangbao2vAction extends WebCaseBase {
         //输入短信验证码
         String url = action.getUrl();
         driver.quit();
-        System.setProperty("webdriver.chrome.driver", "root/Users/xueping.sun/driver/chromedriver1");
+        System.setProperty("webdriver.chrome.driver", "/Users/xueping.sun/driver/chromedriver1");
         Map<String, String> mobileEmulation = new HashMap<String, String>();
         mobileEmulation.put("deviceName", "Galaxy S5");
         ChromeOptions headlessOptions = new ChromeOptions();

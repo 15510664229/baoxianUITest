@@ -12,17 +12,17 @@
     <test name="UI自动化测试【线上回归】" preserve-order="true">
         <parameter name="browerType" value="chrome" />
         <classes>
-<!--            <class name="sun.baoxianonline.changqingbaoTest"></class>-->
+            <class name="sun.baoxianonline.changqingbaoTest"></class>
             <class name="sun.baoxianonline.duolaAbaoTest"></class>
-<!--            <class name="sun.baoxianonline.fangai_new"></class>-->
-<!--            <class name="sun.baoxianonline.fangaiTest"></class>-->
-<!--            <class name="sun.baoxianonline.jiangxinTest"></class>-->
-<!--            <class name="sun.baoxianonline.jiankangbao2vTest"></class>-->
-<!--            <class name="sun.baoxianonline.jinglingbaoTest"></class>-->
-<!--            <class name="sun.baoxianonline.mamibaobeiTest"></class>-->
-<!--            <class name="sun.baoxianonline.taikang2019"></class>-->
-<!--            <class name="sun.baoxianonline.taikang2020"></class>-->
-<!--            <class name="sun.baoxianonline.yangguang_new"></class>-->
+            <class name="sun.baoxianonline.fangai_new"></class>
+            <class name="sun.baoxianonline.fangaiTest"></class>
+            <class name="sun.baoxianonline.jiangxinTest"></class>
+            <class name="sun.baoxianonline.jiankangbao2vTest"></class>
+            <class name="sun.baoxianonline.jinglingbaoTest"></class>
+            <class name="sun.baoxianonline.mamibaobeiTest"></class>
+            <class name="sun.baoxianonline.taikang2019"></class>
+            <class name="sun.baoxianonline.taikang2020"></class>
+            <class name="sun.baoxianonline.yangguang_new"></class>
         </classes>
     </test>
 </suite>

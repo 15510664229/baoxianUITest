@@ -34,7 +34,7 @@ public class WebCaseBase {
 //           .usingDriverExecutable(new File("/Users/xueping.sun/driver/chromedriver1"))
 //            .usingAnyFreePort().build();
 //        service.start();
-                System.setProperty("webdriver.chrome.driver", "root/Users/xueping.sun/driver/chromedriver1");
+                System.setProperty("webdriver.chrome.driver", "/Users/xueping.sun/driver/chromedriver1");
                 ChromeOptions headlessOptions = new ChromeOptions();
                 headlessOptions.addArguments("--headless");
                 headlessOptions.addArguments("no-sandbox");
