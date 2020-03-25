@@ -45,10 +45,10 @@ public class WebCaseBase {
 //                System.setProperty("webdriver.firefox.marionette","C:\\Program Files\\Mozilla Firefox\\firefox.exe");
 //                this.driver = new FirefoxDriver();
                 // 引入geckodriver驱动 ---第二个参数是驱动所在路径
-                System.setProperty("webdriver.gecko.driver","C:\\Program Files\\Mozilla Firefox\\geckodriver.exe");
+                System.setProperty("webdriver.gecko.driver","/usr/bin/geckodriver.exe");
 // 新建一个firefox浏览器实例,并设置headless,不显示浏览器的情况下运行程序
                 FirefoxBinary firefoxBinary = new FirefoxBinary();
-               // firefoxBinary.addCommandLineOptions("--headless");
+//                firefoxBinary.addCommandLineOptions("--headless");
                 FirefoxOptions firefoxOptions = new FirefoxOptions();
                 firefoxOptions.setBinary(firefoxBinary);
                 this.driver = new FirefoxDriver(firefoxOptions);
