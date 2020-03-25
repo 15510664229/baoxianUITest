@@ -41,7 +41,6 @@ public class jinglingbaoAction extends WebCaseBase {
         action.click(page1.confirm());
         action.sleep(3);
         action.DisplayElement(page1.deadline());
-        //action.SnapshotForElement("res/images/", "jingling.png", page1.deadline());
        action.successend();
         Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());

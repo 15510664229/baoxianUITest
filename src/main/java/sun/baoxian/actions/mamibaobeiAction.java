@@ -142,7 +142,7 @@ public class mamibaobeiAction extends WebCaseBase {
         action.click(page1.tejihanjianbing());
         action.click(page1.toubaorenhuomian());
         action.click(page1.submit());
-        action.sleep(5);
+        action.sleep(3);
         action.click(page1.jiangao());
         action.type(page1.ins_name(), "回归");
         String m1=mobile.getTel();
@@ -170,12 +170,14 @@ public class mamibaobeiAction extends WebCaseBase {
         }
         driver.findElement(By.xpath("//*[text()='确定']")).click();
         //体重
+        action.executeJS("window.scrollBy(0,400);");
+        action.sleep(2);
         action.click(page1.tizhong());
         action.sleep(2);
         WebElement element3 = driver.findElement(By.xpath("//*[@class='am-picker-col-mask']"));
         SwipeScreenOrElement swp4 = new SwipeScreenOrElement(driver, element3);
         for (int i = 0; i < 4; i++) {
-            swp4.swipe(element3, 400, 50, 400, 92);
+            swp4.swipe(element3, 400, 50, 400, 100);
             action.sleep(1);
         }
         driver.findElement(By.xpath("//*[text()='确定']")).click();
@@ -189,10 +191,10 @@ public class mamibaobeiAction extends WebCaseBase {
         action.click(page1.submit());
         action.sleep(4);
         action.DisplayElement(page1.deadline());
-        // action.SnapshotForElement("res/images/", "mamibaobei.png", page1.deadline());
         action.successend();
+        action.sleep(2);
         Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
         Reporter.log("被保人信息：姓名："+n1+"      "+"身份证号："+i2);
-        Reporter.log("支付链接： "+action.getUrl());
+        Reporter.log("链接地址： "+action.getUrl());
     }
 }

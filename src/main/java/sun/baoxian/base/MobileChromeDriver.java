@@ -23,7 +23,7 @@ public class MobileChromeDriver extends ChromeDriver {
         ChromeOptions headlessOptions = new ChromeOptions();
         headlessOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
         headlessOptions.addArguments("no-sandbox");
-        //headlessOptions.addArguments("--headless");
+       // headlessOptions.addArguments("--headless");
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
         capabilities.setCapability(ChromeOptions.CAPABILITY, headlessOptions);
         driver =new ChromeDriver(capabilities);

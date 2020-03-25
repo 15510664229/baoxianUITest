@@ -73,10 +73,10 @@ public class ScreenShotUtil {
         File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         try {
             Files.copy(scrFile, new File(screenPath));
-            log.error("收银台截图：" + screenPath);
+            log.error("成功截图：" + screenPath);
             String imgaename = screenPath.split("snapshot")[1];
             Reporter.log("<a href=snapshot" + imgaename + " target=_blank><img src=snapshot/" + imgaename
-                    + " style=width:30px;height:30px img/>收银台截图</a>", true);
+                    + " style=width:30px;height:30px img/>成功截图</a>", true);
         } catch (Exception e) {
             // TODO: handle exception
             e.printStackTrace();
