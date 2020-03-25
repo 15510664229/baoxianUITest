@@ -48,7 +48,7 @@ public class WebCaseBase {
                 System.setProperty("webdriver.gecko.driver","/usr/bin/geckodriver");
 // 新建一个firefox浏览器实例,并设置headless,不显示浏览器的情况下运行程序
                 FirefoxBinary firefoxBinary = new FirefoxBinary();
-//                firefoxBinary.addCommandLineOptions("--headless");
+                firefoxBinary.addCommandLineOptions("--headless");
                 FirefoxOptions firefoxOptions = new FirefoxOptions();
                 firefoxOptions.setBinary(firefoxBinary);
                 this.driver = new FirefoxDriver(firefoxOptions);
