@@ -9,19 +9,20 @@
 
 	</listeners>
 	
-	<test name="UI自动化测试【测试回归】" preserve-order="true">
+	<test name="UI自动化测试【线上回归】" preserve-order="true">
 		<parameter name="browerType" value="ff" />
 		<classes>
-			<class name="sun.baoxian.fangaiTest"></class>
-			<class name="sun.baoxian.shortInsuranceTest"></class>
-<!--			<class name="sun.baoxian.changqingbaoTest"></class>-->
-			<class name="sun.baoxian.jinglingbaoTest"></class>
-<!--			<class name="sun.baoxian.mamibaobeiTest"></class>-->
-			<class name="sun.baoxian.taikangActionTest"></class>
-<!--			<class name="sun.baoxian.kaixinbaobeiTest"></class>-->
-<!--			<class name="sun.baoxian_fox.jiankangbao2vTest"></class>-->
-<!--			<class name="sun.baoxian.duolaAbaoTest"></class>-->
-<!--			<class name="sun.baoxian.jiangxinTest"></class>-->
+<!--			<class name="sun.baoxianonline.changqingbaoTest"></class>-->
+<!--			<class name="sun.baoxianonline.duolaAbaoTest"></class>-->
+			<class name="sun.baoxianonline.fangai_new"></class>
+			<class name="sun.baoxianonline.fangaiTest"></class>
+<!--			<class name="sun.baoxianonline.jiangxinTest"></class>-->
+<!--			<class name="sun.baoxianonline.jiankangbao2vTest"></class>-->
+			<class name="sun.baoxianonline.jinglingbaoTest"></class>
+<!--			<class name="sun.baoxianonline.mamibaobeiTest"></class>-->
+			<class name="sun.baoxianonline.taikang2019"></class>
+			<class name="sun.baoxianonline.taikang2020"></class>
+			<class name="sun.baoxianonline.yangguang_new"></class>
 		</classes>
 	</test>
 
