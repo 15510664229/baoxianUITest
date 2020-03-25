@@ -6,7 +6,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterMethod;
@@ -29,11 +31,6 @@ public class WebCaseBase {
         log.info("启动浏览器");
         switch (browerType.toLowerCase()) {
             case "chrome":
-//        ChromeDriverService service;
-//        service = new ChromeDriverService.Builder()
-//           .usingDriverExecutable(new File("/Users/xueping.sun/driver/chromedriver1"))
-//            .usingAnyFreePort().build();
-//        service.start();
                 System.setProperty("webdriver.chrome.driver", "/Users/xueping.sun/driver/chromedriver1");
                 ChromeOptions headlessOptions = new ChromeOptions();
                 //headlessOptions.addArguments("--headless");
@@ -44,7 +41,17 @@ public class WebCaseBase {
                 log.info("启动Chrome浏览器");
                 break;
             case "ff":
-                this.driver = new FirefoxDriver();
+//                System.setProperty("webdriver.firefox.marionette","C:\\Program Files\\Mozilla Firefox\\firefox.exe");
+//                this.driver = new FirefoxDriver();
+                // 引入geckodriver驱动 ---第二个参数是驱动所在路径
+                System.setProperty("webdriver.gecko.driver","/user/bin/geckodriver");
+// 新建一个firefox浏览器实例,并设置headless,不显示浏览器的情况下运行程序
+                FirefoxBinary firefoxBinary = new FirefoxBinary();
+                firefoxBinary.addCommandLineOptions("--headless");
+                FirefoxOptions firefoxOptions = new FirefoxOptions();
+                firefoxOptions.setBinary(firefoxBinary);
+                this.driver = new FirefoxDriver(firefoxOptions);
+//WebDriver driver = new FirefoxDriver();
                 log.info("启动Firefox浏览器");
                 break;
             case "ie":

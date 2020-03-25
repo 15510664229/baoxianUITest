@@ -40,7 +40,7 @@ public class fangaiAction extends WebCaseBase {
         action.click(page1.pay_type());
         action.sleep(2);
         action.executeJS("window.scrollBy(0,200);");
-        action.click(page1.shebao());
+       // action.click(page1.shebao());
         action.click(page1.submit());
         action.sleep(1);
         action.click(page1.submit());
@@ -74,7 +74,7 @@ public class fangaiAction extends WebCaseBase {
        // action.click(page1.pay_type());
         action.sleep(2);
         action.executeJS("window.scrollBy(0,200);");
-        action.click(page1.shebao());
+       // action.click(page1.shebao());
         action.click(page1.submit());
         action.sleep(1);
         action.click(page1.submit());
