@@ -201,14 +201,14 @@ public class jiankangbao2vAction extends WebCaseBase {
         String name2 = mobile.getChineseName();
         String idcard_ins = idCardGenerator.generate(birth1, "0");
         String idcard_apl = idCardGenerator.generate(birth2, "1");
-        String mobile_ins = mobile.getTel();
+        String mobile_ins ="18230288372";
         String mobile_apl = mobile.getTel();
         String email1 = mobile.getEmail(5, 8);
         String address1 = mobile.getRoad();
         action.type(page1.ins_name(), "回归");
         action.sleep(2);
         action.type(page1.ins_idcard(), idcard_ins);
-        action.type(page1.mobile(), "18230288372");
+        action.type(page1.mobile(), mobile_ins);
         action.type(page1.sms_code(), "111111");
         action.type(page1.email(), email1);
         action.type(page1.address(), address1);

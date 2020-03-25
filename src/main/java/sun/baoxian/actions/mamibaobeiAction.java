@@ -145,13 +145,13 @@ public class mamibaobeiAction extends WebCaseBase {
         action.sleep(3);
         action.click(page1.jiangao());
         action.type(page1.ins_name(), "回归");
-        String m1=mobile.getTel();
+        String m1="18230288372";
         String i1=idCardGenerator.generate(birth1, "1");
         String i2=idCardGenerator.generate(birth2, "1");
         String n1=mobile.getChineseName();
         action.type(page1.ins_idcard(),i1);
         action.click(page1.changqi());
-        action.type(page1.mobile(), "18230288372");
+        action.type(page1.mobile(), m1);
         action.type(page1.sms_code(), "111111");
         action.type(page1.email(), "226587@qq.com");
         action.type(page1.postcode(), "100000");

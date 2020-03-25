@@ -91,8 +91,8 @@ public class changqingbaoAction extends WebCaseBase {
         List<WebElement> list=new ArrayList<>();
         list=driver.findElements(By.xpath("//*[text()='长期']"));
         list.get(0).click();
-        String m1=mobile.getTel();
-        action.type(page1.mobile(),"18230288372");
+        String m1="18230288372";
+        action.type(page1.mobile(),m1);
         action.type(page1.sms_code(),"111111");
         action.type(page1.email(),"12e34@qq.com");
         action.executeJS("window.scrollBy(0,400);");

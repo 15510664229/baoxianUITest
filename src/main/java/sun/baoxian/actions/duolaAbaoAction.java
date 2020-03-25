@@ -151,17 +151,16 @@ public class duolaAbaoAction extends WebCaseBase {
         action.sleep(8);
         String url=action.getUrl();
         driver.quit();
-
         this.driver=new MobileChromeDriver(driver);
         driver.get(url);
         action.sleep(2);
         action.type(page1.ins_name(), "回归");
-        String m1=mobile.getTel();
+        String m1="18230288372";
         String i1=idCardGenerator.generate(birth1, "1");
         //String i2=idCardGenerator.generate(birth2, "1");
         String n1=mobile.getChineseName();
         action.type(page1.ins_idcard(),i1);
-        action.type(page1.ins_mobile(), "18230288372");
+        action.type(page1.ins_mobile(), m1);
         action.type(page1.sms_code(), "111111");
         action.type(page1.email(), "226587@qq.com");
         action.type(page1.address(), "朝阳区不知道大街自动化小区琳琳街1410号");

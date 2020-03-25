@@ -66,9 +66,9 @@ public class fangaiAction extends WebCaseBase {
         list.get(0).sendKeys("回归");
         action.sleep(2);
         String i1=idCardGenerator.generate("19881101","1");
-        String m1=mobile.getTel();
+        String m1="18230288372";
         list.get(1).sendKeys(i1);
-        list.get(2).sendKeys("18230288372");
+        list.get(2).sendKeys(m1);
         action.type(page1.sms_code(),"111111");
         action.executeJS("window.scrollBy(0,500);");
        // action.click(page1.pay_type());

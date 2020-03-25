@@ -64,7 +64,7 @@ public class taikangAction extends WebCaseBase {
         action.click(page1.confrim());
         action.DisplayElement(page1.deadline());
         action.successend();
-        Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
+        Reporter.log("投保人信息：手机号：18230288372"+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
     }
 

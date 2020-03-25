@@ -100,7 +100,7 @@ public class kaixinbaobeiAction extends WebCaseBase {
         List<WebElement> list1=driver.findElements(By.cssSelector("input[data-type='identity']"));
         String name1=mobile.getChineseName();
         String name2=mobile.getChineseName();
-        String m1=mobile.getTel();
+        String m1="18230288372";
         String i1=idCardGenerator.generate("19811121","0");
         String i2=idCardGenerator.generate("20180101","1");
         list.get(0).sendKeys(name1);
