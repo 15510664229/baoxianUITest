@@ -342,7 +342,7 @@ public class shortInsurance19Action extends WebCaseBase {
         action.sleep(2);
         action.type(page1.idcard(), i1);
         action.sleep(2);
-        String m2="18230288372";
+        String m2="15510664229";
         action.type(page1.mobile(), m2);
         action.type(page1.sms_code(), "111111");
         //滑动页面使元素可见
@@ -359,6 +359,4 @@ public class shortInsurance19Action extends WebCaseBase {
         Reporter.log("投保人信息：手机号："+m2+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
     }
-
-
 }
