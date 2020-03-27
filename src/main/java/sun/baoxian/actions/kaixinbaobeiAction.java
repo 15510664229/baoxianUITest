@@ -24,6 +24,7 @@ public class kaixinbaobeiAction extends WebCaseBase {
         page1.getPage("http://test.bxm.ncfimg.com/#/detail_serious_illness?product_code=701909S0033");
         //等待页面加载完成
         action.pagefoload(15);
+        action.sleep(3);
         action.click(page1.baoe30w());
         action.click(page1.submit());
         action.sleep(2);

@@ -7,9 +7,11 @@ import sun.baoxian.base.WebCaseBase;
 
 
 public class jiankangbao2vTest extends WebCaseBase {
+    String url="http://test.bxm.ncfimg.com/#/long_insurance/detail?product_code=701911S0061";
+    String url1="https://bxm.ncfimg.com/#/long_insurance/detail?product_code=701911S0061";
     @Test
     public void jiankangbao3() throws Exception{
         jiankangbao2vAction action=new jiankangbao2vAction();
-        action.jiankangbao_003();
+        action.jiankangbao_fox(url1);
     }
 }

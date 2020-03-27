@@ -39,6 +39,7 @@ public class jiangxinAction extends WebCaseBase {
         action.type(page1.sms_code(), "111111");
         action.FindUitl(page1.bank_card());
         action.type(page1.bank_card(),"62179999000001111");
+        action.sleep(4);
         action.click(page1.submitF());
         action.sleep(2);
         action.click(page1.confirm());
@@ -78,6 +79,7 @@ public class jiangxinAction extends WebCaseBase {
         action.type(page1.sms_code(), "111111");
         action.FindUitl(page1.bank_card());
         action.type(page1.bank_card(),"62179999000001111");
+        action.sleep(4);
         action.click(page1.submitF());
         //试算成功即过，银行卡校验过不去，提交不可
 //        action.sleep(2);

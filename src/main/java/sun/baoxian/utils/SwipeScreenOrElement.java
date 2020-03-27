@@ -4,8 +4,10 @@ import java.time.Duration;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
-
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 public class SwipeScreenOrElement {
@@ -132,12 +134,16 @@ public class SwipeScreenOrElement {
     }
 
     public void swipe(WebElement webElement, int startx, int starty, int endx, int endy){
-        Actions ta=new Actions(driver);
-        ta.release();
-        ta.moveToElement(webElement,startx,starty).clickAndHold().moveByOffset(endx,endy).release().build().perform();
-       // ta.(new PointOption<>().point(startx, starty)).waitAction(WaitOptions.waitOptions(Duration.ofMillis(500))).moveTo(new PointOption<>().point(endx, endy)).release().perform();
+//        Actions ta=new Actions(driver);
+//        ta.release();
+//        ta.moveToElement(webElement,startx,starty).clickAndHold().moveByOffset(endx,endy).release().build().perform();
+            Actions ta=new Actions(driver);
+            ta.release();
+            ta.moveToElement(webElement,startx,starty).perform();
+        WebDriverWait wait=new WebDriverWait(driver,600);
+        wait.until(ExpectedConditions.elementToBeClickable(webElement));
+        ta.moveToElement(webElement).clickAndHold().moveByOffset(endx,endy).release().build().perform();
     }
-
 
 
     /**

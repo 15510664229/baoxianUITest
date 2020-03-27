@@ -12,16 +12,16 @@
 	<test name="UI自动化测试【测试回归】" preserve-order="true">
 		<parameter name="browerType" value="chrome" />
 		<classes>
-<!--			<class name="sun.baoxian.fangaiTest"></class>-->
+			<class name="sun.baoxian.fangaiTest"></class>
 			<class name="sun.baoxian.shortInsuranceTest"></class>
-<!--			<class name="sun.baoxian.changqingbaoTest"></class>-->
-<!--			<class name="sun.baoxian.jinglingbaoTest"></class>-->
-<!--			<class name="sun.baoxian.mamibaobeiTest"></class>-->
-<!--			<class name="sun.baoxian.taikangActionTest"></class>-->
-<!--			<class name="sun.baoxian.kaixinbaobeiTest"></class>-->
-<!--			<class name="sun.baoxian.jiankangbao2vTest"></class>-->
-<!--			<class name="sun.baoxian.duolaAbaoTest"></class>-->
-<!--			<class name="sun.baoxian.jiangxinTest"></class>-->
+			<class name="sun.baoxian.changqingbaoTest"></class>
+			<class name="sun.baoxian.jinglingbaoTest"></class>
+			<class name="sun.baoxian.mamibaobeiTest"></class>
+			<class name="sun.baoxian.taikangActionTest"></class>
+			<class name="sun.baoxian.kaixinbaobeiTest"></class>
+			<class name="sun.baoxian.jiankangbao2vTest"></class>
+			<class name="sun.baoxian.duolaAbaoTest"></class>
+			<class name="sun.baoxian.jiangxinTest"></class>
 		</classes>
 	</test>
 </suite> 

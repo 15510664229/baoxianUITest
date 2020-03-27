@@ -23,6 +23,7 @@ public class changqingbaoAction extends WebCaseBase {
         page1.getPage("http://test.bxm.ncfimg.com/#/long_insurancev2/detail?product_code=101912S0048");
         //等待页面加载完成
         action.pagefoload(15);
+        action.sleep(5);
         action.click(page1.submit());
         action.sleep(5);
         action.click(page1.jiangao());
