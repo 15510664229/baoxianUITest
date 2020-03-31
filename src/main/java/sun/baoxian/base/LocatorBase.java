@@ -5,9 +5,7 @@ import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
-/**
- * Description: Author: 沙陌 Date: 2019-01-15
- */
+
 public class LocatorBase {
     private String value;
     private int timout;
@@ -34,6 +32,12 @@ public class LocatorBase {
         this.value = element;
         this.timout = 3;
         this.type = ByType.xpath;
+    }
+    public LocatorBase(List<WebElement> list,int k) {
+        this.value=list.get(k).toString();
+        this.locatorName = locatorName;
+        int size=list.size();
+
     }
 
     public LocatorBase(String element, int waitSec) {

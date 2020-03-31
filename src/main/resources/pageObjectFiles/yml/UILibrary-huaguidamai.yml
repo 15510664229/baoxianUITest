@@ -1,0 +1,26 @@
+pages:
+  - page:
+      pageName: sun.baoxian.pageObject.damaipage
+      value: "http://test.bxm.ncfimg.com/biz/page/info?page_id=158&is_gray=1&goods_code=G1582533358#/"
+      desc: "华贵大麦年缴版"
+      locators:
+        - {type: "xpath",timeout: "5",value: "//*[text()='立即投保']",desc: "submit",name: "submit"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='年缴']",desc: "payY",name: "payY"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='月缴']",desc: "payM",name: "payM"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='以上情况全无']",desc: "jiangao",name: "jiangao"}
+        - {type: "xpath",timeout: "5",value: "//*[@id='InsureInfoModule']/div[2]/div/div[1]/div[2]/div/div/div/input",desc: "ins_name",name: "ins_name"}
+        - {type: "xpath",timeout: "5",value: "//*[@id='InsureInfoModule']/div[4]/div/div/div[2]/input",desc: "ins_idcard",name: "ins_idcard"}
+        - {type: "xpath",timeout: "5",value: "//*[@id='InsureInfoModule']/div[7]/div/div/div[2]/input",desc: "ins_mobile",name: "ins_mobile"}
+        - {type: "cssSelector",timeout: "5",value: "input[placeholder=\"请输入验证码\"]",desc: "sms_code",name: "sms_code"}
+        - {type: "name",timeout: "5",value: "email",desc: "email",name: "email"}
+        - {type: "xpath",timeout: "5",value: "//*[@id='InsureInfoModule']/div[11]/div/div/div[2]/input",desc: "address",name: "address"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='职业类型']",desc: "job",name: "job"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='确定']",desc: "queding",name: "queding"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='身高']",desc: "shengao",name: "shengao"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='体重']",desc: "tizhong",name: "tizhong"}
+        - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入银行卡号']",desc: "bank_card",name: "bank_card"}
+        - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入预留手机号']",desc: "bank_mobile",name: "bank_mobile"}
+        - {type: "xpath",timeout: "5",value: "//*[@class='protocol-btm-btn']",desc: "confirm",name: "confirm"}
+        - {type: "classname",timeout: "5",value: "hz-button-text",desc: "pay",name: "pay"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='请在 23:50 前完成支付，逾期订单将自动取消']",desc: "deadline",name: "deadline"}
+

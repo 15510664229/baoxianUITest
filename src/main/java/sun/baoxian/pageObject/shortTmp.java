@@ -165,4 +165,48 @@ public  LocatorBase jiangao() throws IOException
    LocatorBase locator=getLocator("jiangao");
    return locator;
  }
+
+/***
+* ins_name
+* @return
+* @throws IOException
+*/
+public  LocatorBase ins_name() throws IOException
+ {
+   LocatorBase locator=getLocator("ins_name");
+   return locator;
+ }
+
+/***
+* ins_identity
+* @return
+* @throws IOException
+*/
+public  LocatorBase ins_identity() throws IOException
+ {
+   LocatorBase locator=getLocator("ins_identity");
+   return locator;
+ }
+
+/***
+* apl_name
+* @return
+* @throws IOException
+*/
+public  LocatorBase apl_name() throws IOException
+ {
+   LocatorBase locator=getLocator("apl_name");
+   return locator;
+ }
+
+/***
+* apl_identity
+* @return
+* @throws IOException
+*/
+public  LocatorBase apl_identity() throws IOException
+ {
+   LocatorBase locator=getLocator("apl_identity");
+   return locator;
+ }
 }

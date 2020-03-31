@@ -73,8 +73,8 @@ public class WebCaseBase {
 
     @AfterMethod
     public void tearDown() throws IOException {
-        this.driver.quit();
-        WebElementBase action = new WebElementBase();
+//        this.driver.quit();
+//        WebElementBase action = new WebElementBase();
         log.info("关闭浏览器");
 
     }

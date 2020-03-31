@@ -49,57 +49,7 @@ public class shortInsurance19Action extends WebCaseBase {
         Reporter.log(action.getUrl());
     }
 
-//    public void yiyuanM_001() throws Exception {
-//        shortTmp page1 = new shortTmp();
-//        page1.getPage("http://test.bxm.ncfimg.com/biz/page/info?page_id=71&is_gray=1&goods_code=G1579598079");
-//        //等待页面加载完成
-//        action.pagefoload(10);
-//        action.click(page1.order());
-//        action.type(page1.name(), "自动化");
-//        action.sleep(1);
-//        action.type(page1.idcard(), i1);
-//        action.type(page1.mobile(), m1);
-//        action.type(page1.sms_code(), "111111");
-//        //滑动页面使元素可见
-//        action.sleep(2);
-//        String js2 = "window.scrollBy(0,400);";
-//        action.executeJS(js2);
-//        action.click(page1.shebao());
-//        action.click(page1.order());
-//        action.sleep(2);
-//        action.click(page1.confrim());
-//        action.sleep(2);
-//        action.DisplayElement(page1.pay());
-//        action.getUrl();
-//        action.successend();
-//        Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
-//        Reporter.log(action.getUrl());
-//
-//    }
-//
-//    public void yiyuanY_001() throws Exception {
-//        shortTmp page1 = new shortTmp();
-//        page1.getPage("http://test.bxm.ncfimg.com/biz/page/info?page_id=70&is_gray=1&goods_code=G1580975301");
-//        //等待页面加载完成
-//        action.pagefoload(10);
-//        action.click(page1.order());
-//        action.type(page1.name(), "自动化");
-//        action.sleep(1);
-//        action.type(page1.idcard(), idCardGenerator.generate("19921210", "0"));
-//        action.type(page1.mobile(), "18230288372");
-//        action.type(page1.sms_code(), "111111");
-//        //滑动页面使元素可见
-//        action.sleep(2);
-//        action.executeJS("window.scrollBy(0,400);");
-//        action.click(page1.shebao());
-//        action.click(page1.order());
-//        action.sleep(2);
-//        action.click(page1.confrim());
-//        action.sleep(2);
-//        action.DisplayElement(page1.pay());
-//        action.successend();
-//        //action.SnapshotForElement("res/images","taikang.png",page1.pay());
-//    }
+
 
     public void pinghuaY_001() throws Exception {
         shortTmp page1 = new shortTmp();
@@ -370,6 +320,43 @@ public class shortInsurance19Action extends WebCaseBase {
         action.getUrl();
         action.successend();
         Reporter.log("投保人信息：手机号："+m2+"      "+"身份证号："+i1);
+        Reporter.log(action.getUrl());
+    }
+
+    //学平险&（阳光综合意外plus版本）收费版回归
+    public void StudentTmp(String url) throws Exception {
+        shortTmp page1 = new shortTmp();
+        page1.getPage(url);
+        //等待页面加载完成
+        action.pagefoload(10);
+        action.sleep(5);
+        action.click(page1.order());
+        action.type(page1.apl_name(), "回归");
+        action.sleep(1);
+        action.type(page1.apl_identity(),i1);
+        action.sleep(2);
+        action.type(page1.mobile(),"18230288372");
+        action.sleep(2);
+        action.type(page1.sms_code(), "111111");
+        //被保人关系为子女
+        //滑动页面使元素可见
+        action.sleep(3);
+        action.executeJS("window.scrollBy(0,400);");
+        action.type(page1.ins_name(),"测试");
+        action.type(page1.ins_identity(),idCardGenerator.generate("20100101","0"));
+        action.sleep(3);
+        action.click(page1.order());
+        action.sleep(2);
+        action.click(page1.confrim());
+        if (action.isElementsPresent(page1.jiangao(),5)){
+            action.click(page1.jiangao());
+        }
+        action.sleep(2);
+        action.DisplayElement(page1.pay());
+        action.getUrl();
+        //action.SnapshotForElement("res/images/", "taikang.png", page1.pay());
+        action.successend();
+        Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
     }
 }

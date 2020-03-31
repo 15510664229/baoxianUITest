@@ -10,10 +10,17 @@
 	</listeners>
 	
 	<test name="UI自动化测试【测试回归】" preserve-order="true">
-		<parameter name="browerType" value="chrome" />
+		<parameter name="browerType" value="ff" />
 		<classes>
-			<class name="sun.baoxian.fangaiTest"></class>
-			<class name="sun.baoxian.shortInsuranceTest"></class>
+<!--			<class name="sun.baoxian.fangaiTest"></class>-->
+			<class name="sun.baoxian.shortInsuranceTest">
+				<methods >
+					<include name="studentCharge" />
+					<include name="yangguangPlus" />
+				</methods>
+			</class>
+			<class name="sun.baoxian.huatai"></class>
+			<class name="sun.baoxianonline.huaguidamaiTest"></class>
 			<class name="sun.baoxian.changqingbaoTest"></class>
 			<class name="sun.baoxian.jinglingbaoTest"></class>
 			<class name="sun.baoxian.mamibaobeiTest"></class>

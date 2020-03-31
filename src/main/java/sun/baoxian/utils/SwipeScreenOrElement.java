@@ -175,7 +175,7 @@ public class SwipeScreenOrElement {
         int endy=starty+height;
         switch (direction.toLowerCase()) {
             case "up":
-                this.swipe(element,centerx, endy-offsetfrom, centerx, starty+offsetend);
+                this.swipe(element,centerx, endy-offsetfrom, centerx, starty-offsetend);
                 break;
             case "down":
                 this.swipe(element,centerx,starty+offsetend , centerx, endy-offsetfrom);

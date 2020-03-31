@@ -33,6 +33,20 @@ public class shortInsuranceTest  extends WebCaseBase {
         shortInsurance19Action action=new shortInsurance19Action();
         action.pinghuaY_001();
     }
+    //学平险收费版
+    String StudentCharge="http://test.bxm.ncfimg.com/biz/page/info?page_id=248&is_gray=1&goods_code=G1585191131#/";
+    //阳光少儿意外plus版
+    String yangguangPlusurl="http://test.bxm.ncfimg.com/biz/page/info?page_id=242&is_gray=1&goods_code=G1585118141#/";
+    @Test
+    public void studentCharge () throws Exception{
+        shortInsurance19Action action=new shortInsurance19Action();
+        action.StudentTmp(StudentCharge);
+    }
+    @Test
+    public void yangguangPlus () throws Exception{
+        shortInsurance19Action action=new shortInsurance19Action();
+        action.StudentTmp(yangguangPlusurl);
+    }
 
     @Test
     public void zhonghui_001() throws Exception{
