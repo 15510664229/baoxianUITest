@@ -227,7 +227,7 @@ public class duolaAbaoAction extends WebCaseBase {
         action.click(page1.jiangao());
         action.sleep(5);
         action.type(page1.ins_name(), "回归");
-        String m1="18230288372";
+        String m1="15510664229";
         String i1=idCardGenerator.generate(birth1, "1");
         String n1=mobile.getChineseName();
         action.type(page1.ins_idcard(),i1);

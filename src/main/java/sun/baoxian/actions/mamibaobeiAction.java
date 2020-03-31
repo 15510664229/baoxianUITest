@@ -241,7 +241,7 @@ public class mamibaobeiAction extends WebCaseBase {
         action.sleep(3);
         action.click(page1.jiangao());
         action.type(page1.ins_name(), "回归");
-        String m1="18230288372";
+        String m1="15510664229";
         String i1=idCardGenerator.generate(birth1, "1");
         String i2=idCardGenerator.generate(birth2, "1");
         String n1=mobile.getChineseName();
