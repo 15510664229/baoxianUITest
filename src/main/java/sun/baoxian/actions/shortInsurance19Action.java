@@ -37,6 +37,9 @@ public class shortInsurance19Action extends WebCaseBase {
         action.click(page1.order());
         action.sleep(2);
         action.click(page1.confrim());
+        if (action.isElementsPresent(page1.jiangao(),5)){
+            action.click(page1.jiangao());
+        }
         action.sleep(2);
         action.DisplayElement(page1.pay());
         action.getUrl();
@@ -117,6 +120,9 @@ public class shortInsurance19Action extends WebCaseBase {
         action.click(page1.order());
         action.sleep(2);
         action.click(page1.confrim());
+        if (action.isElementsPresent(page1.jiangao(),5)){
+            action.click(page1.jiangao());
+        }
         action.sleep(2);
         action.DisplayElement(page1.pay());
         action.getUrl();
@@ -292,6 +298,10 @@ public class shortInsurance19Action extends WebCaseBase {
         action.sleep(2);
         action.click(page1.confrim());
         action.sleep(2);
+        if (action.isElementsPresent(page1.jiangao(),5)){
+            action.click(page1.jiangao());
+        }
+        action.sleep(3);
         action.DisplayElement(page1.pay());
         action.getUrl();
         action.successend();
@@ -319,6 +329,9 @@ public class shortInsurance19Action extends WebCaseBase {
         action.click(page1.order());
         action.sleep(2);
         action.click(page1.confrim());
+        if (action.isElementsPresent(page1.jiangao(),5)){
+            action.click(page1.jiangao());
+        }
         action.sleep(3);
         action.DisplayElement(page1.pay());
         action.getUrl();

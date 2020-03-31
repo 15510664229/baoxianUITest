@@ -13,7 +13,7 @@ import java.util.Map;
 public class GenerateAutoCodeForYml {
     private static Logger log = Logger.getLogger(GenerateAutoCodeForYml.class);
     //填入需要构建java文件的yml地址
-    static  String path="src/main/resources/pageObjectFiles/yml/UILibrary-mamibaobei.yml";
+    static  String path="src/main/resources/pageObjectFiles/yml/UILibrary-SIT19.yml";
     public static void autoCode() throws Exception
     {
         File file = new File(path);
@@ -61,7 +61,7 @@ public class GenerateAutoCodeForYml {
                     + pageClassName
                     + "() {\n");
             sb.append("//工程内读取对象库文件\n	");
-            sb.append("setXmlObjectPath(path+\"/UILibrary-mamibaobei.yml\");\n");
+            sb.append("setXmlObjectPath(path+\"/UILibrary-SIT19.yml\");\n");
             sb.append("getLocatorMap();");
             sb.append("\n}");
             System.out.println(pageElement.get("desc"));

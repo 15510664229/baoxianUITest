@@ -17,3 +17,4 @@ pages:
         - {type: "xpath",timeout: "5",value: "//*[@class='amount-box-wrap']/*[position()=1]",desc: "10w",name: "yg10w"}
         - {type: "xpath",timeout: "5",value: "//*[@class='amount-box-wrap']/*[position()=2]",desc: "30w",name: "yg30w"}
         - {type: "xpath",timeout: "5",value: "//*[@class='amount-box-wrap']/*[position()=3]",desc: "50w",name: "yg50w"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='确认无以上问题']",desc: "jiangao",name: "jiangao"}

@@ -154,4 +154,15 @@ public  LocatorBase yg50w() throws IOException
    LocatorBase locator=getLocator("yg50w");
    return locator;
  }
+
+/***
+* jiangao
+* @return
+* @throws IOException
+*/
+public  LocatorBase jiangao() throws IOException
+ {
+   LocatorBase locator=getLocator("jiangao");
+   return locator;
+ }
 }

@@ -23,6 +23,7 @@ public class shortInsuranceTest  extends WebCaseBase {
         shortInsurance19Action action=new shortInsurance19Action();
         action.shortTmptest(sc1Y);
     }
+    @Test
     public void taikang2020_SC_M() throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
         action.shortTmptest(sc1M);
