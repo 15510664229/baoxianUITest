@@ -74,8 +74,4 @@ public class taikang2020 extends WebCaseBase {
         action.PHTmp(PH_M02);
     }
 
-
-
-
-
 }

@@ -242,7 +242,7 @@ public class shortInsurance19Action extends WebCaseBase {
         //滑动页面使元素可见
         action.sleep(3);
         action.executeJS("window.scrollBy(0,400);");
-        action.click(page1.shebao());
+       // action.click(page1.shebao());
         //action.click(page1.pay_type());
         action.click(page1.order());
         action.sleep(2);

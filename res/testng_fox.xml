@@ -23,7 +23,7 @@
 			<class name="sun.baoxian_fox.mamibaobeiTest"></class>
 			<class name="sun.baoxianonline.taikang2020"></class>
 			<class name="sun.baoxianonline.yangguang_new"></class>
+			<class name="sun.baoxianonline.huatai"></class>
 		</classes>
 	</test>
-
 </suite> 
