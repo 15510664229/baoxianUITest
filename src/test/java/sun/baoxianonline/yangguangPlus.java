@@ -11,6 +11,6 @@ public class yangguangPlus extends WebCaseBase {
     @Test
     public void yangguangplus () throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
-        action.SCTmp(yangguangurl);
+        action.SCTmp_idcard(yangguangurl,"150404199312100264");
     }
 }

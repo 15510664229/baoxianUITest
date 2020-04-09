@@ -258,6 +258,47 @@ public class shortInsurance19Action extends WebCaseBase {
         Reporter.log("投保人信息：手机号：18230288372"+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
     }
+
+    /**
+     * 风控指定idcard
+     * @param url
+     * @throws Exception
+     */
+
+
+    public void SCTmp_idcard(String url,String idcard) throws Exception {
+        shortTmp page1 = new shortTmp();
+        page1.getPage(url);
+        //等待页面加载完成
+        action.pagefoload(10);
+        action.sleep(3);
+        action.click(page1.order());
+        action.type(page1.name(), "孙雪萍");
+        action.sleep(1);
+        action.type(page1.idcard(), idcard);
+        action.type(page1.mobile(), "18230288372");
+        action.type(page1.sms_code(), "111111");
+        //滑动页面使元素可见
+        action.sleep(3);
+        action.executeJS("window.scrollBy(0,400);");
+        // action.click(page1.shebao());
+        //action.click(page1.pay_type());
+        action.click(page1.order());
+        action.sleep(2);
+        action.click(page1.confrim());
+        action.sleep(2);
+        if (action.isElementsPresent(page1.jiangao(),5)){
+            action.click(page1.jiangao());
+        }
+        action.sleep(3);
+        action.DisplayElement(page1.pay());
+        action.getUrl();
+        action.successend();
+        Reporter.log("投保人信息：手机号：18230288372"+"      "+"身份证号："+idcard);
+        Reporter.log(action.getUrl());
+    }
+
+
     public void PHTmp(String url) throws Exception {
         shortTmp page1 = new shortTmp();
         page1.getPage(url);
