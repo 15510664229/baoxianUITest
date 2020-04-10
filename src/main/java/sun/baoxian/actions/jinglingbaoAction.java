@@ -47,9 +47,8 @@ public class jinglingbaoAction extends WebCaseBase {
         Reporter.log(action.getUrl());
     }
     //线上回归
-    public void jinglingbao_002() throws Exception {
+    public void jinglingbao_002(String url) throws Exception {
         jinglingpage page1=new jinglingpage();
-        String url="https://bxm.ncfimg.com/web1/#/taikang_accident/detail?product_code=301912S0047&tid=19";
         page1.getPage(url);
         //等待页面加载完成
         action.pagefoload(15);

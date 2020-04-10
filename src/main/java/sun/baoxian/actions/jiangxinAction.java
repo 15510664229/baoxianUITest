@@ -54,9 +54,9 @@ public class jiangxinAction extends WebCaseBase {
     /**
      * 线上回归
      */
-    public void jiangxin_002() throws Exception {
+    public void jiangxin_002(String url) throws Exception {
         jiangxinpage page1=new jiangxinpage();
-        page1.getPage("https://bxm.ncfimg.com/#/long_insurancev2/detail?product_code=301912S0049");
+        page1.getPage(url);
         //等待页面加载完成
         action.pagefoload(15);
         action.sleep(5);

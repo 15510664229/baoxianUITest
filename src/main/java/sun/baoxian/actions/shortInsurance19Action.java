@@ -53,7 +53,6 @@ public class shortInsurance19Action extends WebCaseBase {
             Assert.fail("核保失败-跳转收银台失败");
         }
         //action.DisplayElement(page1.pay());
-
         Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
     }
@@ -443,7 +442,7 @@ public class shortInsurance19Action extends WebCaseBase {
         action.sleep(1);
         action.type(page1.apl_identity(),i1);
         action.sleep(2);
-        action.type(page1.mobile(),"18230288372");
+        action.type(page1.mobile(),"15510664229");
         action.sleep(2);
         action.type(page1.sms_code(), "111111");
         //被保人关系为子女

@@ -62,7 +62,7 @@ public class huaguidamaiAction extends WebCaseBase {
         action.sleep(3);
         action.executeJS("window.scrollBy(0,400);");
         action.sleep(2);
-        String m1="18230288372";
+        String m1="15510664229";
         action.type(page1.ins_mobile(), m1);
         action.type(page1.sms_code(), "111111");
         action.type(page1.email(), "226587@qq.com");

@@ -1,11 +1,11 @@
-package sun.baoxianonline;
+package sun.baoxian_gray;
 
 import org.testng.annotations.Test;
 import sun.baoxian.actions.jinglingbaoAction;
 import sun.baoxian.base.WebCaseBase;
 
 public class jinglingbaoTest extends WebCaseBase {
-    String url="https://bxm.ncfimg.com/web1/#/taikang_accident/detail?product_code=301912S0047&tid=19";
+    String url="https://bxmgray.ncfimg.com/web1/#/taikang_accident/detail?product_code=301912S0047&tid=19";
     @Test
     public void jingling() throws Exception{
         jinglingbaoAction action=new jinglingbaoAction();

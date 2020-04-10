@@ -24,6 +24,10 @@
 			<class name="sun.baoxianonline.taikang2020"></class>
 			<class name="sun.baoxianonline.yangguang_new"></class>
 			<class name="sun.baoxianonline.yangguangPlus"></class>
+			<class name="sun.personal.tuibaoTest"></class>
+			<class name="sun.baoxianonline.huaguidamaiTest"></class>
+			<class name="sun.baoxianonline.huatai"></class>
+			<class name="sun.baoxianonline.studentChargeTest"></class>
 		</classes>
 	</test>
 </suite> 

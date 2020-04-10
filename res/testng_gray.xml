@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners><!-- 监听器设置，生成测试报告的监听器，不要改此处代码 -->
+		<listener class-name="sun.baoxian.utils.ExtentIReporterListenerUtil"></listener>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+	 	<listener class-name='sun.baoxian.utils.RetryListener'/>
+
+	</listeners>
+	
+	<test name="UI自动化测试【线上回归】" preserve-order="true">
+		<parameter name="browerType" value="ff" />
+		<classes>
+			<class name="sun.baoxian_gray.taikang2019"></class>
+			<class name="sun.baoxian_gray.changqingbaoTest"></class>
+			<class name="sun.baoxian_gray.duolaAbaoTest"></class>
+			<class name="sun.baoxian_gray.fangai_new"></class>
+			<class name="sun.baoxian_gray.fangaiTest"></class>
+			<class name="sun.baoxian_gray.jiangxinTest"></class>
+			<class name="sun.baoxian_gray.jiankangbao2vTest"></class>
+			<class name="sun.baoxian_gray.jinglingbaoTest"></class>
+			<class name="sun.baoxian_gray.mamibaobeiTest"></class>
+			<class name="sun.baoxian_gray.taikang2020"></class>
+			<class name="sun.baoxian_gray.yangguang_new"></class>
+			<class name="sun.baoxian_gray.yangguangPlus"></class>
+			<class name="sun.baoxian_gray.huaguidamaiTest"></class>
+			<class name="sun.baoxian_gray.huatai"></class>
+			<class name="sun.baoxian_gray.studentChargeTest"></class>
+		</classes>
+	</test>
+</suite> 

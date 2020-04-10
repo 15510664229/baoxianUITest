@@ -75,9 +75,8 @@ public class changqingbaoAction extends WebCaseBase {
         Reporter.log(action.getUrl());
     }
 
-    public void changqingbao_002() throws Exception {
+    public void changqingbao_002(String url) throws Exception {
         changqingbaopage page1=new changqingbaopage();
-        String url="https://bxm.ncfimg.com/#/long_insurancev2/detail?product_code=101912S0048";
         page1.getPage(url);
         //等待页面加载完成
 

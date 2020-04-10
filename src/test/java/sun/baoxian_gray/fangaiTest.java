@@ -1,13 +1,13 @@
-package sun.baoxianonline;
+package sun.baoxian_gray;
 
 import org.testng.annotations.Test;
 import sun.baoxian.actions.fangaiAction;
 import sun.baoxian.base.WebCaseBase;
 
 public class fangaiTest extends WebCaseBase {
-    String month="https://bxm.ncfimg.com/web1/#/zhonghui_toufang/detail?product_code=101912S0022&tid=28";
-    String year="https://bxm.ncfimg.com/web1/#/zhonghui_toufang/detail?product_code=101912S0022&tid=29";
-    String zhonghe="https://bxm.ncfimg.com/web1/#/zhonghui_toufang/detail?product_code=101912S0022&tid=30";
+    String month="https://bxmgray.ncfimg.com/web1/#/zhonghui_toufang/detail?product_code=101912S0022&tid=28";
+    String year="https://bxmgray.ncfimg.com/web1/#/zhonghui_toufang/detail?product_code=101912S0022&tid=29";
+    String zhonghe="https://bxmgray.ncfimg.com/web1/#/zhonghui_toufang/detail?product_code=101912S0022&tid=30";
     @Test
     public void fangai_M() throws Exception{
         fangaiAction action=new fangaiAction();
