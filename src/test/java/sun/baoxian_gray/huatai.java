@@ -16,6 +16,6 @@ public class huatai extends WebCaseBase {
     @Test
     public void HUATAI_zhuyuanTest () throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
-        action.StudentTmp(zhuyuanrul);
+        action.SCTmp(zhuyuanrul);
     }
 }

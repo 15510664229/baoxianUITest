@@ -12,23 +12,24 @@
 	<test name="UI自动化测试【测试回归】" preserve-order="true">
 		<parameter name="browerType" value="ff" />
 		<classes>
-<!--&lt;!&ndash;			<class name="sun.baoxian.fangaiTest"></class>&ndash;&gt;-->
-<!--			<class name="sun.baoxian.shortInsuranceTest">-->
+			<class name="sun.baoxian.fangaiTest"></class>
+			<class name="sun.baoxian.shortInsuranceTest">
 <!--				<methods >-->
 <!--					<include name="studentCharge" />-->
 <!--					<include name="yangguangPlus" />-->
 <!--				</methods>-->
-<!--			</class>-->
-			<class name="sun.baoxianonline.huatai"></class>
-<!--			<class name="sun.baoxianonline.huaguidamaiTest"></class>-->
-<!--			<class name="sun.baoxian.changqingbaoTest"></class>-->
-<!--			<class name="sun.baoxian.jinglingbaoTest"></class>-->
-<!--			<class name="sun.baoxian.mamibaobeiTest"></class>-->
-<!--			<class name="sun.baoxian.taikangActionTest"></class>-->
-<!--			<class name="sun.baoxian.kaixinbaobeiTest"></class>-->
-<!--			<class name="sun.baoxian.jiankangbao2vTest"></class>-->
-<!--			<class name="sun.baoxian.duolaAbaoTest"></class>-->
-<!--			<class name="sun.baoxian.jiangxinTest"></class>-->
+			</class>
+			<class name="sun.baoxian.huatai"></class>
+			<class name="sun.baoxian.huaguidamaiTest"></class>
+			<class name="sun.baoxian.changqingbaoTest"></class>
+			<class name="sun.baoxian.jinglingbaoTest"></class>
+			<class name="sun.baoxian.mamibaobeiTest"></class>
+			<class name="sun.baoxian.taikangActionTest"></class>
+			<class name="sun.baoxian.kaixinbaobeiTest"></class>
+			<class name="sun.baoxian.jiankangbao2vTest"></class>
+			<class name="sun.baoxian.duolaAbaoTest"></class>
+			<class name="sun.baoxian.jiangxinTest"></class>
+			<class name="sun.baoxian.yangguangPlus"></class>
 		</classes>
 	</test>
 </suite> 

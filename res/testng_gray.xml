@@ -13,11 +13,11 @@
 		<parameter name="browerType" value="ff" />
 		<classes>
 			<class name="sun.baoxian_gray.taikang2019"></class>
+			<class name="sun.baoxian_gray.jiangxinTest"></class>
 			<class name="sun.baoxian_gray.changqingbaoTest"></class>
 			<class name="sun.baoxian_gray.duolaAbaoTest"></class>
 			<class name="sun.baoxian_gray.fangai_new"></class>
 			<class name="sun.baoxian_gray.fangaiTest"></class>
-			<class name="sun.baoxian_gray.jiangxinTest"></class>
 			<class name="sun.baoxian_gray.jiankangbao2vTest"></class>
 			<class name="sun.baoxian_gray.jinglingbaoTest"></class>
 			<class name="sun.baoxian_gray.mamibaobeiTest"></class>

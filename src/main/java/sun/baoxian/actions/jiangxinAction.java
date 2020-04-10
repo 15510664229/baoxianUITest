@@ -72,7 +72,7 @@ public class jiangxinAction extends WebCaseBase {
         action.click(page1.jiangao());
         action.sleep(3);
         action.type(page1.name(), "回归");
-        String m1= "18230288372";
+        String m1= "15510664229";
         String i1=idCardGenerator.generate("19931210", "0");
         action.type(page1.idcard(),i1);
         action.type(page1.mobile(), m1);

@@ -52,7 +52,7 @@ public class taikangAction extends WebCaseBase {
         String m1=mobile.getTel();
         action.type(page1.idcard1(),i1);
         action.sleep(2);
-        action.type(page1.mobile1(),"18230288372");
+        action.type(page1.mobile1(),"15510664229");
         action.sleep(2);
         action.type(page1.sms_code1(),"111111");
         Thread.sleep(3);

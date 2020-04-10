@@ -398,11 +398,11 @@ public class shortInsurance19Action extends WebCaseBase {
         // action.FindUitl(page1.yg30w());
         //  action.click(page1.yg30w());
         action.click(page1.order());
-        action.type(page1.name(), "回归");
+        action.type(page1.name(), "孙雪萍");
         action.sleep(2);
         action.type(page1.idcard(), i1);
         action.sleep(2);
-        String m2="15510664229";
+        String m2="18230288372";
         action.type(page1.mobile(), m2);
         action.type(page1.sms_code(), "111111");
         //滑动页面使元素可见
@@ -423,8 +423,6 @@ public class shortInsurance19Action extends WebCaseBase {
             action.fail();
             Assert.fail("核保失败-跳转收银台失败");
         }
-
-
         Reporter.log("投保人信息：手机号："+m2+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
         Reporter.log("回归链接地址： "+url);
@@ -438,11 +436,13 @@ public class shortInsurance19Action extends WebCaseBase {
         action.pagefoload(10);
         action.sleep(5);
         action.click(page1.order());
-        action.type(page1.apl_name(), "回归");
+        action.type(page1.apl_name(), "孙雪萍");
         action.sleep(1);
-        action.type(page1.apl_identity(),i1);
+        String i="150404199312100264";
+        action.type(page1.apl_identity(),i);
         action.sleep(2);
-        action.type(page1.mobile(),"15510664229");
+        //action.type(page1.mobile(),"15510664229");
+        action.type(page1.mobile(),"18230288372");
         action.sleep(2);
         action.type(page1.sms_code(), "111111");
         //被保人关系为子女
@@ -472,7 +472,7 @@ public class shortInsurance19Action extends WebCaseBase {
             action.fail();
             Assert.fail("核保失败-跳转收银台失败");
         }
-        Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
+        Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i);
         Reporter.log(action.getUrl());
         Reporter.log("回归链接地址： "+url);
     }

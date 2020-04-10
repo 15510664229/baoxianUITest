@@ -87,11 +87,24 @@ public class huaguidamaiAction extends WebCaseBase {
         action.sleep(2);
         action.executeJS("window.scrollBy(0,400);");
         action.sleep(3);
+        //身高
+        action.click(page1.shengao());
+        action.sleep(2);
+        WebElement el5=driver.findElement(By.xpath("//*[@class='am-picker-col-mask']"));
+        Actions ta1=new Actions(driver);
+        ta.release();
+        for (int i=0;i<5;i++) {
+            ta1.moveToElement(el5).clickAndHold().moveByOffset(0, -100).release().build().perform();
+            action.sleep(3);
+        }
+        driver.findElement(By.xpath("//*[@class='am-picker-col-indicator ']")).click();
+        action.click(page1.queding());
+        action.sleep(2);
         action.click(page1.tizhong());
-        action.sleep(3);
+        action.sleep(2);
         WebElement el4=driver.findElement(By.xpath("//*[@class='am-picker-col-mask']"));
         SwipeScreenOrElement swp2 = new SwipeScreenOrElement(driver, el4);
-        for (int i=0;i<2;i++){
+        for (int i=0;i<6;i++){
             swp2.swipe(el4, 120, 30, 120, 100);
             action.sleep(2);
         }
