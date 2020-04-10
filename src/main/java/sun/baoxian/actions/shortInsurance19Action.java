@@ -400,6 +400,7 @@ public class shortInsurance19Action extends WebCaseBase {
         action.click(page1.order());
         action.type(page1.name(), "孙雪萍");
         action.sleep(2);
+        //String i="150404199312100264";
         action.type(page1.idcard(), i1);
         action.sleep(2);
         String m2="18230288372";
@@ -442,7 +443,7 @@ public class shortInsurance19Action extends WebCaseBase {
         action.type(page1.apl_identity(),i);
         action.sleep(2);
         //action.type(page1.mobile(),"15510664229");
-        action.type(page1.mobile(),"18230288372");
+        action.type(page1.mobile(),"15510664229");
         action.sleep(2);
         action.type(page1.sms_code(), "111111");
         //被保人关系为子女
@@ -453,7 +454,7 @@ public class shortInsurance19Action extends WebCaseBase {
         action.type(page1.ins_identity(),idCardGenerator.generate("20100101","0"));
         action.sleep(3);
         action.click(page1.order());
-        action.sleep(2);
+        action.sleep(3);
         action.click(page1.confrim());
         if (action.isElementsPresent(page1.jiangao(),5)){
             action.click(page1.jiangao());

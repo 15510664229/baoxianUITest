@@ -30,6 +30,7 @@
 			<class name="sun.baoxian.duolaAbaoTest"></class>
 			<class name="sun.baoxian.jiangxinTest"></class>
 			<class name="sun.baoxian.yangguangPlus"></class>
+			<class name="sun.baoxian.studentChargeTest"></class>
 		</classes>
 	</test>
 </suite> 

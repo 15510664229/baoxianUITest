@@ -69,7 +69,7 @@ public class jinglingbaoAction extends WebCaseBase {
         List<WebElement> list=new ArrayList<>();
         list=driver.findElements(By.cssSelector("input[placeholder='信息保密 仅用于投保']"));
         list.get(0).sendKeys("回归");
-        String m1="18230288372";
+        String m1="15510664229";
         String i1=idCardGenerator.generate("19931210","1");
         list.get(1).sendKeys(i1);
         list.get(2).sendKeys(m1);

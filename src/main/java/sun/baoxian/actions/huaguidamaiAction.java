@@ -56,7 +56,7 @@ public class huaguidamaiAction extends WebCaseBase {
         action.sleep(5);
         action.click(page1.jiangao());
         action.sleep(5);
-        action.type(page1.ins_name(), "回归");
+        action.type(page1.ins_name(), "孙雪萍");
         String i1=idCardGenerator.generate(birth, "0");
         action.type(page1.ins_idcard(),i1);
         action.sleep(3);

@@ -44,7 +44,7 @@ public class fangai_new extends WebCaseBase {
         action.SCTmp(sanyuan2);
     }
     @Test
-    public void taikang2019_TF_PH() throws Exception{
+    public void fangai_TF_PH() throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
         action.SCTmp(pinghua2);
     }

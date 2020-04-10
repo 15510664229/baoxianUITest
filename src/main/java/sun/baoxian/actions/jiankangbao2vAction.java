@@ -326,7 +326,7 @@ public class jiankangbao2vAction extends WebCaseBase {
         action.type(page1.ins_name(),name1);
         action.sleep(2);
         action.type(page1.ins_idcard(),idcard_ins);
-        action.type(page1.mobile(),"18230288372");
+        action.type(page1.mobile(),"15510664229");
         action.type(page1.sms_code(),"111111");
         action.type(page1.email(),email1);
         action.type(page1.address(),address1);
@@ -361,7 +361,7 @@ public class jiankangbao2vAction extends WebCaseBase {
 //        action.DisplayElement(page1.success());
         action.successend();
         // action.SnapshotForElement("res/images/", "mamibaobei.png", page1.deadline());
-        Reporter.log("投保人信息：手机号：18230288372"+"      "+"身份证号："+idcard_ins);
+        Reporter.log("投保人信息：手机号：15510664229"+"      "+"身份证号："+idcard_ins);
         Reporter.log("被保人信息：姓名："+name2+"      "+"身份证号："+idcard_apl);
         Reporter.log("回归链接："+url);
 
