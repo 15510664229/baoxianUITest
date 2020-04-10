@@ -296,6 +296,7 @@ public class mamibaobeiAction extends WebCaseBase {
         action.sleep(2);
         Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
         Reporter.log("被保人信息：姓名："+n1+"      "+"身份证号："+i2);
-        Reporter.log("链接地址： "+action.getUrl());
+        Reporter.log("页面最后链接地址： "+action.getUrl());
+        Reporter.log("回归链接地址： "+url);
     }
 }

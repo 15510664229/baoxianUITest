@@ -77,7 +77,8 @@ public class changqingbaoAction extends WebCaseBase {
 
     public void changqingbao_002() throws Exception {
         changqingbaopage page1=new changqingbaopage();
-        page1.getPage("https://bxm.ncfimg.com/#/long_insurancev2/detail?product_code=101912S0048");
+        String url="https://bxm.ncfimg.com/#/long_insurancev2/detail?product_code=101912S0048";
+        page1.getPage(url);
         //等待页面加载完成
 
         action.pagefoload(15);
@@ -132,6 +133,7 @@ public class changqingbaoAction extends WebCaseBase {
         action.sleep(2);
         Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
+        Reporter.log("测试回归地址"+url);
     }
 
 }

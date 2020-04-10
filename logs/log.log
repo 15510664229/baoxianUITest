@@ -1,740 +1,602 @@
-2020-03-20 09:16:52  [ main:0 ] - [ INFO ]  ------------------开始执行测试---------------
-2020-03-20 09:16:52  [ main:21 ] - [ INFO ]  启动浏览器
-2020-03-20 09:16:57  [ main:5442 ] - [ INFO ]  启动Chrome浏览器
-2020-03-20 09:17:13  [ main:21400 ] - [ INFO ]  打开页面
-2020-03-20 09:17:13  [ main:21440 ] - [ INFO ]  查找元素：submit方式[By.xpath://*[text()='立即投保']]
-2020-03-20 09:17:14  [ main:21667 ] - [ INFO ]  click元素：submit[By.xpath://*[text()='立即投保']]成功！
-2020-03-20 09:17:14  [ main:21668 ] - [ INFO ]  等待5秒
-2020-03-20 09:17:19  [ main:26950 ] - [ INFO ]  等待2秒
-2020-03-20 09:17:21  [ main:29165 ] - [ INFO ]  等待3秒
-2020-03-20 09:17:24  [ main:32341 ] - [ INFO ]  等待1秒
-2020-03-20 09:17:25  [ main:33384 ] - [ INFO ]  等待1秒
-2020-03-20 09:17:26  [ main:34388 ] - [ INFO ]  等待2秒
-2020-03-20 09:17:28  [ main:36473 ] - [ INFO ]  查找元素：periodZ方式[By.xpath://div[@class='mb-trial-item-left period']/following-sibling::div[1]/div/div[1]/div[text()='终身']]
-2020-03-20 09:17:29  [ main:36627 ] - [ INFO ]  click元素：periodZ[By.xpath://div[@class='mb-trial-item-left period']/following-sibling::div[1]/div/div[1]/div[text()='终身']]成功！
-2020-03-20 09:17:29  [ main:36628 ] - [ INFO ]  查找元素：payY方式[By.xpath://*[text()='年缴']]
-2020-03-20 09:17:29  [ main:36692 ] - [ INFO ]  click元素：payY[By.xpath://*[text()='年缴']]成功！
-2020-03-20 09:17:29  [ main:36693 ] - [ INFO ]  查找元素：period15方式[By.xpath://*[text()='15年']]
-2020-03-20 09:17:29  [ main:36741 ] - [ INFO ]  click元素：period15[By.xpath://*[text()='15年']]成功！
-2020-03-20 09:17:29  [ main:36742 ] - [ INFO ]  查找元素：exzlbxj方式[By.xpath://div[text()='恶性肿瘤保险金']/following-sibling::div[1]/div[1]/div[1]/div[2]]
-2020-03-20 09:17:29  [ main:36805 ] - [ INFO ]  click元素：exzlbxj[By.xpath://div[text()='恶性肿瘤保险金']/following-sibling::div[1]/div[1]/div[1]/div[2]]成功！
-2020-03-20 09:17:29  [ main:36806 ] - [ INFO ]  查找元素：crtdjbbxj方式[By.xpath://div[text()='成人特定疾病保险金']/following-sibling::div[1]/div[1]/div[1]/div[1]]
-2020-03-20 09:17:29  [ main:36863 ] - [ INFO ]  click元素：crtdjbbxj[By.xpath://div[text()='成人特定疾病保险金']/following-sibling::div[1]/div[1]/div[1]/div[1]]成功！
-2020-03-20 09:17:29  [ main:36864 ] - [ INFO ]  查找元素：zdjbyljt方式[By.xpath://div[text()='重大疾病医疗津贴']/following-sibling::div[1]/div[1]/div[1]/div[1]]
-2020-03-20 09:17:29  [ main:36923 ] - [ INFO ]  click元素：zdjbyljt[By.xpath://div[text()='重大疾病医疗津贴']/following-sibling::div[1]/div[1]/div[1]/div[1]]成功！
-2020-03-20 09:17:29  [ main:36924 ] - [ INFO ]  查找元素：sfqcjbzmqbxj方式[By.xpath://div[text()='身故/全残/疾病终末期保险金']/following-sibling::div[1]/div[1]/div[1]/div[1]]
-2020-03-20 09:17:29  [ main:36990 ] - [ INFO ]  click元素：sfqcjbzmqbxj[By.xpath://div[text()='身故/全残/疾病终末期保险金']/following-sibling::div[1]/div[1]/div[1]/div[1]]成功！
-2020-03-20 09:17:29  [ main:36991 ] - [ INFO ]  查找元素：submit方式[By.xpath://*[text()='立即投保']]
-2020-03-20 09:17:29  [ main:37050 ] - [ INFO ]  click元素：submit[By.xpath://*[text()='立即投保']]成功！
-2020-03-20 09:17:29  [ main:37051 ] - [ INFO ]  等待2秒
-2020-03-20 09:17:31  [ main:39054 ] - [ INFO ]  查找元素：jiangao方式[By.xpath://*[text()='以上情况全无']]
-2020-03-20 09:17:31  [ main:39135 ] - [ INFO ]  click元素：jiangao[By.xpath://*[text()='以上情况全无']]成功！
-2020-03-20 09:17:31  [ main:39136 ] - [ INFO ]  等待3秒
-2020-03-20 09:17:34  [ main:42144 ] - [ INFO ]  查找元素：ins_name方式[By.cssSelector:input[placeholder='请输入投保人姓名']]
-2020-03-20 09:17:34  [ main:42488 ] - [ INFO ]  input输入：ins_name[By.cssSelector:input[placeholder='请输入投保人姓名']  value:*******]
-2020-03-20 09:17:34  [ main:42488 ] - [ INFO ]  等待2秒
-2020-03-20 09:17:36  [ main:44491 ] - [ INFO ]  查找元素：ins_idcard方式[By.cssSelector:input[placeholder='请输入投保人证件号码']]
-2020-03-20 09:17:37  [ main:44752 ] - [ INFO ]  input输入：ins_idcard[By.cssSelector:input[placeholder='请输入投保人证件号码']  value:*******]
-2020-03-20 09:17:37  [ main:44753 ] - [ INFO ]  查找元素：mobile方式[By.name:mobile]
-2020-03-20 09:17:37  [ main:44927 ] - [ INFO ]  input输入：mobile[By.name:mobile  value:*******]
-2020-03-20 09:17:37  [ main:44927 ] - [ INFO ]  查找元素：sms_code方式[By.cssSelector:input[placeholder="请输入验证码"]]
-2020-03-20 09:17:37  [ main:45051 ] - [ INFO ]  input输入：sms_code[By.cssSelector:input[placeholder="请输入验证码"]  value:*******]
-2020-03-20 09:17:37  [ main:45051 ] - [ INFO ]  查找元素：email方式[By.name:email]
-2020-03-20 09:17:37  [ main:45233 ] - [ INFO ]  input输入：email[By.name:email  value:*******]
-2020-03-20 09:17:37  [ main:45234 ] - [ INFO ]  查找元素：address方式[By.name:address]
-2020-03-20 09:17:37  [ main:45439 ] - [ INFO ]  input输入：address[By.name:address  value:*******]
-2020-03-20 09:17:37  [ main:45439 ] - [ INFO ]  查找元素：postcode方式[By.name:postcode]
-2020-03-20 09:17:37  [ main:45543 ] - [ INFO ]  input输入：postcode[By.name:postcode  value:*******]
-2020-03-20 09:17:37  [ main:45549 ] - [ INFO ]  等待3秒
-2020-03-20 09:17:40  [ main:48554 ] - [ INFO ]  查找元素：apl_name方式[By.cssSelector:input[placeholder='请输入真实姓名']]
-2020-03-20 09:17:41  [ main:48652 ] - [ INFO ]  input输入：apl_name[By.cssSelector:input[placeholder='请输入真实姓名']  value:*******]
-2020-03-20 09:17:41  [ main:48652 ] - [ INFO ]  等待3秒
-2020-03-20 09:17:44  [ main:51656 ] - [ INFO ]  查找元素：apl_idcard方式[By.cssSelector:input[placeholder='请输入被保人证件号码']]
-2020-03-20 09:17:44  [ main:51858 ] - [ INFO ]  input输入：apl_idcard[By.cssSelector:input[placeholder='请输入被保人证件号码']  value:*******]
-2020-03-20 09:17:44  [ main:51865 ] - [ INFO ]  查找元素：apl_mobile方式[By.cssSelector:input[placeholder='请输入被保人手机号']]
-2020-03-20 09:17:44  [ main:52010 ] - [ INFO ]  input输入：apl_mobile[By.cssSelector:input[placeholder='请输入被保人手机号']  value:*******]
-2020-03-20 09:17:44  [ main:52011 ] - [ INFO ]  查找元素：bank_card方式[By.cssSelector:input[placeholder='请输入银行卡号']]
-2020-03-20 09:17:44  [ main:52231 ] - [ INFO ]  input输入：bank_card[By.cssSelector:input[placeholder='请输入银行卡号']  value:*******]
-2020-03-20 09:17:44  [ main:52231 ] - [ INFO ]  查找元素：bank_mobile方式[By.cssSelector:input[placeholder='请输入预留手机号']]
-2020-03-20 09:17:44  [ main:52377 ] - [ INFO ]  input输入：bank_mobile[By.cssSelector:input[placeholder='请输入预留手机号']  value:*******]
-2020-03-20 09:17:44  [ main:52378 ] - [ INFO ]  查找元素：submitF方式[By.xpath://*[text()='立即投保']]
-2020-03-20 09:17:44  [ main:52457 ] - [ INFO ]  click元素：submitF[By.xpath://*[text()='立即投保']]成功！
-2020-03-20 09:17:44  [ main:52458 ] - [ INFO ]  等待3秒
-2020-03-20 09:17:47  [ main:55461 ] - [ INFO ]  查找元素：confirm方式[By.className:protocol-btm-btn]
-2020-03-20 09:17:47  [ main:55538 ] - [ INFO ]  click元素：confirm[By.className:protocol-btm-btn]成功！
-2020-03-20 09:17:47  [ main:55538 ] - [ INFO ]  等待15秒
-2020-03-20 09:18:02  [ main:70556 ] - [ INFO ]  查找元素：pay方式[By.xpath://*[text()='立即支付']]
-2020-03-20 09:18:03  [ main:71081 ] - [ INFO ]  查找元素：pay方式[By.xpath://*[text()='立即支付']]
-2020-03-20 09:18:04  [ main:71594 ] - [ INFO ]  查找元素：pay方式[By.xpath://*[text()='立即支付']]
-2020-03-20 09:18:04  [ main:72104 ] - [ INFO ]  查找元素：pay方式[By.xpath://*[text()='立即支付']]
-2020-03-20 09:18:05  [ main:72618 ] - [ INFO ]  查找元素：pay方式[By.xpath://*[text()='立即支付']]
-2020-03-20 09:18:05  [ main:73131 ] - [ INFO ]  查找元素：pay方式[By.xpath://*[text()='立即支付']]
-2020-03-20 09:18:06  [ main:73650 ] - [ INFO ]  查找元素：pay方式[By.xpath://*[text()='立即支付']]
-2020-03-20 09:18:06  [ main:74168 ] - [ INFO ]  查找元素：pay方式[By.xpath://*[text()='立即支付']]
-2020-03-20 09:18:07  [ main:74681 ] - [ INFO ]  查找元素：pay方式[By.xpath://*[text()='立即支付']]
-2020-03-20 09:18:07  [ main:75201 ] - [ INFO ]  查找元素：pay方式[By.xpath://*[text()='立即支付']]
-2020-03-20 09:18:08  [ main:75713 ] - [ INFO ]  查找元素：pay方式[By.xpath://*[text()='立即支付']]
-2020-03-20 09:18:08  [ main:75728 ] - [ INFO ]  超时无法定位页面元素
-2020-03-20 09:18:08  [ main:76242 ] - [ ERROR ]  错误截图：/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/report/snapshot/2020-03-20-091808161.jpg
-2020-03-20 09:18:08  [ main:76245 ] - [ INFO ]  2020-03-20-091808161
-2020-03-20 09:18:08  [ main:76403 ] - [ INFO ]  关闭浏览器
-2020-03-20 09:18:08  [ main:76406 ] - [ INFO ]  ------------------开始执行测试---------------
-2020-03-20 09:18:08  [ main:76406 ] - [ INFO ]  启动浏览器
-2020-03-20 09:18:10  [ main:77928 ] - [ INFO ]  启动Chrome浏览器
-2020-03-20 09:18:17  [ main:85411 ] - [ INFO ]  打开页面
-2020-03-20 09:18:17  [ main:85419 ] - [ INFO ]  查找元素：submit方式[By.xpath://*[text()='立即投保']]
-2020-03-20 09:18:17  [ main:85573 ] - [ INFO ]  click元素：submit[By.xpath://*[text()='立即投保']]成功！
-2020-03-20 09:18:17  [ main:85574 ] - [ INFO ]  等待5秒
-2020-03-20 09:18:23  [ main:90721 ] - [ INFO ]  等待2秒
-2020-03-20 09:18:25  [ main:92878 ] - [ INFO ]  等待3秒
-2020-03-20 09:18:28  [ main:96019 ] - [ INFO ]  等待1秒
-2020-03-20 09:18:29  [ main:97066 ] - [ INFO ]  等待1秒
-2020-03-20 09:18:30  [ main:98068 ] - [ INFO ]  等待2秒
-2020-03-20 09:18:32  [ main:100155 ] - [ INFO ]  查找元素：periodZ方式[By.xpath://div[@class='mb-trial-item-left period']/following-sibling::div[1]/div/div[1]/div[text()='终身']]
-2020-03-20 09:18:32  [ main:100281 ] - [ INFO ]  click元素：periodZ[By.xpath://div[@class='mb-trial-item-left period']/following-sibling::div[1]/div/div[1]/div[text()='终身']]成功！
-2020-03-20 09:18:32  [ main:100282 ] - [ INFO ]  查找元素：payY方式[By.xpath://*[text()='年缴']]
-2020-03-20 09:18:32  [ main:100328 ] - [ INFO ]  click元素：payY[By.xpath://*[text()='年缴']]成功！
-2020-03-20 09:18:32  [ main:100328 ] - [ INFO ]  查找元素：period15方式[By.xpath://*[text()='15年']]
-2020-03-20 09:18:32  [ main:100378 ] - [ INFO ]  click元素：period15[By.xpath://*[text()='15年']]成功！
-2020-03-20 09:18:32  [ main:100379 ] - [ INFO ]  查找元素：exzlbxj方式[By.xpath://div[text()='恶性肿瘤保险金']/following-sibling::div[1]/div[1]/div[1]/div[2]]
-2020-03-20 09:18:32  [ main:100467 ] - [ INFO ]  click元素：exzlbxj[By.xpath://div[text()='恶性肿瘤保险金']/following-sibling::div[1]/div[1]/div[1]/div[2]]成功！
-2020-03-20 09:18:32  [ main:100468 ] - [ INFO ]  查找元素：crtdjbbxj方式[By.xpath://div[text()='成人特定疾病保险金']/following-sibling::div[1]/div[1]/div[1]/div[1]]
-2020-03-20 09:18:32  [ main:100528 ] - [ INFO ]  click元素：crtdjbbxj[By.xpath://div[text()='成人特定疾病保险金']/following-sibling::div[1]/div[1]/div[1]/div[1]]成功！
-2020-03-20 09:18:32  [ main:100529 ] - [ INFO ]  查找元素：zdjbyljt方式[By.xpath://div[text()='重大疾病医疗津贴']/following-sibling::div[1]/div[1]/div[1]/div[1]]
-2020-03-20 09:18:33  [ main:100577 ] - [ INFO ]  click元素：zdjbyljt[By.xpath://div[text()='重大疾病医疗津贴']/following-sibling::div[1]/div[1]/div[1]/div[1]]成功！
-2020-03-20 09:18:33  [ main:100578 ] - [ INFO ]  查找元素：sfqcjbzmqbxj方式[By.xpath://div[text()='身故/全残/疾病终末期保险金']/following-sibling::div[1]/div[1]/div[1]/div[1]]
-2020-03-20 09:18:33  [ main:100632 ] - [ INFO ]  click元素：sfqcjbzmqbxj[By.xpath://div[text()='身故/全残/疾病终末期保险金']/following-sibling::div[1]/div[1]/div[1]/div[1]]成功！
-2020-03-20 09:18:33  [ main:100632 ] - [ INFO ]  查找元素：submit方式[By.xpath://*[text()='立即投保']]
-2020-03-20 09:18:33  [ main:100693 ] - [ INFO ]  click元素：submit[By.xpath://*[text()='立即投保']]成功！
-2020-03-20 09:18:33  [ main:100693 ] - [ INFO ]  等待2秒
-2020-03-20 09:18:35  [ main:102697 ] - [ INFO ]  查找元素：jiangao方式[By.xpath://*[text()='以上情况全无']]
-2020-03-20 09:18:35  [ main:102778 ] - [ INFO ]  click元素：jiangao[By.xpath://*[text()='以上情况全无']]成功！
-2020-03-20 09:18:35  [ main:102778 ] - [ INFO ]  等待3秒
-2020-03-20 09:18:38  [ main:105783 ] - [ INFO ]  查找元素：ins_name方式[By.cssSelector:input[placeholder='请输入投保人姓名']]
-2020-03-20 09:18:38  [ main:105964 ] - [ INFO ]  input输入：ins_name[By.cssSelector:input[placeholder='请输入投保人姓名']  value:*******]
-2020-03-20 09:18:38  [ main:105964 ] - [ INFO ]  等待2秒
-2020-03-20 09:18:40  [ main:107969 ] - [ INFO ]  查找元素：ins_idcard方式[By.cssSelector:input[placeholder='请输入投保人证件号码']]
-2020-03-20 09:18:40  [ main:108201 ] - [ INFO ]  input输入：ins_idcard[By.cssSelector:input[placeholder='请输入投保人证件号码']  value:*******]
-2020-03-20 09:18:40  [ main:108202 ] - [ INFO ]  查找元素：mobile方式[By.name:mobile]
-2020-03-20 09:18:40  [ main:108355 ] - [ INFO ]  input输入：mobile[By.name:mobile  value:*******]
-2020-03-20 09:18:40  [ main:108355 ] - [ INFO ]  查找元素：sms_code方式[By.cssSelector:input[placeholder="请输入验证码"]]
-2020-03-20 09:18:40  [ main:108469 ] - [ INFO ]  input输入：sms_code[By.cssSelector:input[placeholder="请输入验证码"]  value:*******]
-2020-03-20 09:18:40  [ main:108470 ] - [ INFO ]  查找元素：email方式[By.name:email]
-2020-03-20 09:18:41  [ main:108657 ] - [ INFO ]  input输入：email[By.name:email  value:*******]
-2020-03-20 09:18:41  [ main:108657 ] - [ INFO ]  查找元素：address方式[By.name:address]
-2020-03-20 09:18:41  [ main:108828 ] - [ INFO ]  input输入：address[By.name:address  value:*******]
-2020-03-20 09:18:41  [ main:108829 ] - [ INFO ]  查找元素：postcode方式[By.name:postcode]
-2020-03-20 09:18:41  [ main:108930 ] - [ INFO ]  input输入：postcode[By.name:postcode  value:*******]
-2020-03-20 09:18:41  [ main:108936 ] - [ INFO ]  等待3秒
-2020-03-20 09:18:44  [ main:111940 ] - [ INFO ]  查找元素：apl_name方式[By.cssSelector:input[placeholder='请输入真实姓名']]
-2020-03-20 09:18:44  [ main:112024 ] - [ INFO ]  input输入：apl_name[By.cssSelector:input[placeholder='请输入真实姓名']  value:*******]
-2020-03-20 09:18:44  [ main:112024 ] - [ INFO ]  等待3秒
-2020-03-20 09:18:47  [ main:115028 ] - [ INFO ]  查找元素：apl_idcard方式[By.cssSelector:input[placeholder='请输入被保人证件号码']]
-2020-03-20 09:18:47  [ main:115236 ] - [ INFO ]  input输入：apl_idcard[By.cssSelector:input[placeholder='请输入被保人证件号码']  value:*******]
-2020-03-20 09:18:47  [ main:115249 ] - [ INFO ]  查找元素：apl_mobile方式[By.cssSelector:input[placeholder='请输入被保人手机号']]
-2020-03-20 09:18:47  [ main:115408 ] - [ INFO ]  input输入：apl_mobile[By.cssSelector:input[placeholder='请输入被保人手机号']  value:*******]
-2020-03-20 09:18:47  [ main:115408 ] - [ INFO ]  查找元素：bank_card方式[By.cssSelector:input[placeholder='请输入银行卡号']]
-2020-03-20 09:18:48  [ main:115628 ] - [ INFO ]  input输入：bank_card[By.cssSelector:input[placeholder='请输入银行卡号']  value:*******]
-2020-03-20 09:18:48  [ main:115629 ] - [ INFO ]  查找元素：bank_mobile方式[By.cssSelector:input[placeholder='请输入预留手机号']]
-2020-03-20 09:18:48  [ main:115766 ] - [ INFO ]  input输入：bank_mobile[By.cssSelector:input[placeholder='请输入预留手机号']  value:*******]
-2020-03-20 09:18:48  [ main:115767 ] - [ INFO ]  查找元素：submitF方式[By.xpath://*[text()='立即投保']]
-2020-03-20 09:18:48  [ main:115819 ] - [ INFO ]  click元素：submitF[By.xpath://*[text()='立即投保']]成功！
-2020-03-20 09:18:48  [ main:115819 ] - [ INFO ]  等待3秒
-2020-03-20 09:18:51  [ main:118823 ] - [ INFO ]  查找元素：confirm方式[By.className:protocol-btm-btn]
-2020-03-20 09:18:51  [ main:118890 ] - [ INFO ]  click元素：confirm[By.className:protocol-btm-btn]成功！
-2020-03-20 09:18:51  [ main:118891 ] - [ INFO ]  等待15秒
-2020-03-20 09:19:06  [ main:133970 ] - [ INFO ]  关闭浏览器
-2020-03-20 09:19:06  [ main:134261 ] - [ DEBUG ]  Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:19:06  [ main:134262 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index_en.ftl"): Not found
-2020-03-20 09:19:06  [ main:134265 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index.ftl"): Found
-2020-03-20 09:19:06  [ main:134265 ] - [ DEBUG ]  Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
-2020-03-20 09:19:06  [ main:134495 ] - [ DEBUG ]  Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:19:06  [ main:134495 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head_en.ftl"): Not found
-2020-03-20 09:19:06  [ main:134495 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head.ftl"): Found
-2020-03-20 09:19:06  [ main:134496 ] - [ DEBUG ]  Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
-2020-03-20 09:19:06  [ main:134523 ] - [ DEBUG ]  Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:19:06  [ main:134524 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
-2020-03-20 09:19:06  [ main:134524 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav.ftl"): Found
-2020-03-20 09:19:06  [ main:134525 ] - [ DEBUG ]  Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
-2020-03-20 09:19:06  [ main:134534 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:19:06  [ main:134535 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
-2020-03-20 09:19:06  [ main:134535 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
-2020-03-20 09:19:06  [ main:134536 ] - [ DEBUG ]  Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
-2020-03-20 09:19:06  [ main:134548 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:19:06  [ main:134549 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
-2020-03-20 09:19:06  [ main:134549 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
-2020-03-20 09:19:06  [ main:134550 ] - [ DEBUG ]  Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
-2020-03-20 09:19:07  [ main:134578 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:19:07  [ main:134579 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
-2020-03-20 09:19:07  [ main:134579 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
-2020-03-20 09:19:07  [ main:134580 ] - [ DEBUG ]  Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
-2020-03-20 09:19:07  [ main:134612 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
-2020-03-20 09:19:07  [ main:134613 ] - [ DEBUG ]  Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:19:07  [ main:134613 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
-2020-03-20 09:19:07  [ main:134613 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
-2020-03-20 09:19:07  [ main:134613 ] - [ DEBUG ]  Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
-2020-03-20 09:19:07  [ main:134624 ] - [ DEBUG ]  Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:19:07  [ main:134625 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
-2020-03-20 09:19:07  [ main:134625 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
-2020-03-20 09:19:07  [ main:134626 ] - [ DEBUG ]  Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
-2020-03-20 09:19:07  [ main:134634 ] - [ DEBUG ]  Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:19:07  [ main:134636 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
-2020-03-20 09:19:07  [ main:134636 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
-2020-03-20 09:19:07  [ main:134636 ] - [ DEBUG ]  Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
-2020-03-20 09:19:07  [ main:134643 ] - [ DEBUG ]  Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:19:07  [ main:134643 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
-2020-03-20 09:19:07  [ main:134644 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
-2020-03-20 09:19:07  [ main:134644 ] - [ DEBUG ]  Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
-2020-03-20 09:23:55  [ main:0 ] - [ INFO ]  ------------------开始执行测试---------------
-2020-03-20 09:23:55  [ main:11 ] - [ INFO ]  启动浏览器
-2020-03-20 09:23:57  [ main:2100 ] - [ INFO ]  启动Chrome浏览器
-2020-03-20 09:24:15  [ main:20025 ] - [ INFO ]  打开页面
-2020-03-20 09:24:15  [ main:20056 ] - [ INFO ]  查找元素：submit方式[By.xpath://*[text()='立即投保']]
-2020-03-20 09:24:15  [ main:20178 ] - [ INFO ]  click元素：submit[By.xpath://*[text()='立即投保']]成功！
-2020-03-20 09:24:15  [ main:20178 ] - [ INFO ]  等待5秒
-2020-03-20 09:24:20  [ main:25423 ] - [ INFO ]  等待2秒
-2020-03-20 09:24:22  [ main:27584 ] - [ INFO ]  等待3秒
-2020-03-20 09:24:25  [ main:30743 ] - [ INFO ]  等待1秒
-2020-03-20 09:24:27  [ main:31794 ] - [ INFO ]  等待1秒
-2020-03-20 09:24:28  [ main:32795 ] - [ INFO ]  等待2秒
-2020-03-20 09:24:30  [ main:34888 ] - [ INFO ]  查找元素：periodZ方式[By.xpath://div[@class='mb-trial-item-left period']/following-sibling::div[1]/div/div[1]/div[text()='终身']]
-2020-03-20 09:24:30  [ main:35047 ] - [ INFO ]  click元素：periodZ[By.xpath://div[@class='mb-trial-item-left period']/following-sibling::div[1]/div/div[1]/div[text()='终身']]成功！
-2020-03-20 09:24:30  [ main:35048 ] - [ INFO ]  查找元素：payY方式[By.xpath://*[text()='年缴']]
-2020-03-20 09:24:30  [ main:35101 ] - [ INFO ]  click元素：payY[By.xpath://*[text()='年缴']]成功！
-2020-03-20 09:24:30  [ main:35103 ] - [ INFO ]  查找元素：period15方式[By.xpath://*[text()='15年']]
-2020-03-20 09:24:30  [ main:35149 ] - [ INFO ]  click元素：period15[By.xpath://*[text()='15年']]成功！
-2020-03-20 09:24:30  [ main:35149 ] - [ INFO ]  查找元素：exzlbxj方式[By.xpath://div[text()='恶性肿瘤保险金']/following-sibling::div[1]/div[1]/div[1]/div[2]]
-2020-03-20 09:24:30  [ main:35207 ] - [ INFO ]  click元素：exzlbxj[By.xpath://div[text()='恶性肿瘤保险金']/following-sibling::div[1]/div[1]/div[1]/div[2]]成功！
-2020-03-20 09:24:30  [ main:35207 ] - [ INFO ]  查找元素：crtdjbbxj方式[By.xpath://div[text()='成人特定疾病保险金']/following-sibling::div[1]/div[1]/div[1]/div[1]]
-2020-03-20 09:24:30  [ main:35270 ] - [ INFO ]  click元素：crtdjbbxj[By.xpath://div[text()='成人特定疾病保险金']/following-sibling::div[1]/div[1]/div[1]/div[1]]成功！
-2020-03-20 09:24:30  [ main:35271 ] - [ INFO ]  查找元素：zdjbyljt方式[By.xpath://div[text()='重大疾病医疗津贴']/following-sibling::div[1]/div[1]/div[1]/div[1]]
-2020-03-20 09:24:30  [ main:35333 ] - [ INFO ]  click元素：zdjbyljt[By.xpath://div[text()='重大疾病医疗津贴']/following-sibling::div[1]/div[1]/div[1]/div[1]]成功！
-2020-03-20 09:24:30  [ main:35333 ] - [ INFO ]  查找元素：sfqcjbzmqbxj方式[By.xpath://div[text()='身故/全残/疾病终末期保险金']/following-sibling::div[1]/div[1]/div[1]/div[1]]
-2020-03-20 09:24:30  [ main:35402 ] - [ INFO ]  click元素：sfqcjbzmqbxj[By.xpath://div[text()='身故/全残/疾病终末期保险金']/following-sibling::div[1]/div[1]/div[1]/div[1]]成功！
-2020-03-20 09:24:30  [ main:35402 ] - [ INFO ]  查找元素：submit方式[By.xpath://*[text()='立即投保']]
-2020-03-20 09:24:30  [ main:35459 ] - [ INFO ]  click元素：submit[By.xpath://*[text()='立即投保']]成功！
-2020-03-20 09:24:30  [ main:35459 ] - [ INFO ]  等待2秒
-2020-03-20 09:24:32  [ main:37462 ] - [ INFO ]  查找元素：jiangao方式[By.xpath://*[text()='以上情况全无']]
-2020-03-20 09:24:32  [ main:37533 ] - [ INFO ]  click元素：jiangao[By.xpath://*[text()='以上情况全无']]成功！
-2020-03-20 09:24:32  [ main:37533 ] - [ INFO ]  等待3秒
-2020-03-20 09:24:35  [ main:40541 ] - [ INFO ]  查找元素：ins_name方式[By.cssSelector:input[placeholder='请输入投保人姓名']]
-2020-03-20 09:24:36  [ main:40892 ] - [ INFO ]  input输入：ins_name[By.cssSelector:input[placeholder='请输入投保人姓名']  value:*******]
-2020-03-20 09:24:36  [ main:40892 ] - [ INFO ]  等待2秒
-2020-03-20 09:24:38  [ main:42893 ] - [ INFO ]  查找元素：ins_idcard方式[By.cssSelector:input[placeholder='请输入投保人证件号码']]
-2020-03-20 09:24:38  [ main:43131 ] - [ INFO ]  input输入：ins_idcard[By.cssSelector:input[placeholder='请输入投保人证件号码']  value:*******]
-2020-03-20 09:24:38  [ main:43132 ] - [ INFO ]  查找元素：mobile方式[By.name:mobile]
-2020-03-20 09:24:38  [ main:43321 ] - [ INFO ]  input输入：mobile[By.name:mobile  value:*******]
-2020-03-20 09:24:38  [ main:43321 ] - [ INFO ]  查找元素：sms_code方式[By.cssSelector:input[placeholder="请输入验证码"]]
-2020-03-20 09:24:38  [ main:43452 ] - [ INFO ]  input输入：sms_code[By.cssSelector:input[placeholder="请输入验证码"]  value:*******]
-2020-03-20 09:24:38  [ main:43452 ] - [ INFO ]  查找元素：email方式[By.name:email]
-2020-03-20 09:24:38  [ main:43665 ] - [ INFO ]  input输入：email[By.name:email  value:*******]
-2020-03-20 09:24:38  [ main:43666 ] - [ INFO ]  查找元素：address方式[By.name:address]
-2020-03-20 09:24:39  [ main:43843 ] - [ INFO ]  input输入：address[By.name:address  value:*******]
-2020-03-20 09:24:39  [ main:43844 ] - [ INFO ]  查找元素：postcode方式[By.name:postcode]
-2020-03-20 09:24:39  [ main:43971 ] - [ INFO ]  input输入：postcode[By.name:postcode  value:*******]
-2020-03-20 09:24:39  [ main:43978 ] - [ INFO ]  等待3秒
-2020-03-20 09:24:42  [ main:46983 ] - [ INFO ]  查找元素：apl_name方式[By.cssSelector:input[placeholder='请输入真实姓名']]
-2020-03-20 09:24:42  [ main:47070 ] - [ INFO ]  input输入：apl_name[By.cssSelector:input[placeholder='请输入真实姓名']  value:*******]
-2020-03-20 09:24:42  [ main:47070 ] - [ INFO ]  等待3秒
-2020-03-20 09:24:45  [ main:50071 ] - [ INFO ]  查找元素：apl_idcard方式[By.cssSelector:input[placeholder='请输入被保人证件号码']]
-2020-03-20 09:24:45  [ main:50275 ] - [ INFO ]  input输入：apl_idcard[By.cssSelector:input[placeholder='请输入被保人证件号码']  value:*******]
-2020-03-20 09:24:45  [ main:50288 ] - [ INFO ]  查找元素：apl_mobile方式[By.cssSelector:input[placeholder='请输入被保人手机号']]
-2020-03-20 09:24:45  [ main:50440 ] - [ INFO ]  input输入：apl_mobile[By.cssSelector:input[placeholder='请输入被保人手机号']  value:*******]
-2020-03-20 09:24:45  [ main:50440 ] - [ INFO ]  查找元素：bank_card方式[By.cssSelector:input[placeholder='请输入银行卡号']]
-2020-03-20 09:24:45  [ main:50675 ] - [ INFO ]  input输入：bank_card[By.cssSelector:input[placeholder='请输入银行卡号']  value:*******]
-2020-03-20 09:24:45  [ main:50675 ] - [ INFO ]  查找元素：bank_mobile方式[By.cssSelector:input[placeholder='请输入预留手机号']]
-2020-03-20 09:24:46  [ main:50824 ] - [ INFO ]  input输入：bank_mobile[By.cssSelector:input[placeholder='请输入预留手机号']  value:*******]
-2020-03-20 09:24:46  [ main:50825 ] - [ INFO ]  查找元素：submitF方式[By.xpath://*[text()='立即投保']]
-2020-03-20 09:24:46  [ main:50941 ] - [ INFO ]  click元素：submitF[By.xpath://*[text()='立即投保']]成功！
-2020-03-20 09:24:46  [ main:50941 ] - [ INFO ]  等待3秒
-2020-03-20 09:24:49  [ main:53946 ] - [ INFO ]  查找元素：confirm方式[By.className:protocol-btm-btn]
-2020-03-20 09:24:49  [ main:54020 ] - [ INFO ]  click元素：confirm[By.className:protocol-btm-btn]成功！
-2020-03-20 09:24:49  [ main:54021 ] - [ INFO ]  等待10秒
-2020-03-20 09:24:59  [ main:64034 ] - [ INFO ]  等待3秒判断元素：//*[text()='立即支付']是否存在
-2020-03-20 09:25:02  [ main:67042 ] - [ INFO ]  查找一组元素：pay 方式[By.xpath://*[text()='立即支付']]
-2020-03-20 09:25:02  [ main:67055 ] - [ INFO ]  判断结果为：false
-2020-03-20 09:25:02  [ main:67530 ] - [ ERROR ]  成功截图：/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/report/snapshot/2020-03-20-092502293.jpg
-2020-03-20 09:25:02  [ main:67659 ] - [ INFO ]  关闭浏览器
-2020-03-20 09:25:08  [ main:72986 ] - [ DEBUG ]  Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:25:08  [ main:72987 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index_en.ftl"): Not found
-2020-03-20 09:25:08  [ main:72990 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index.ftl"): Found
-2020-03-20 09:25:08  [ main:72990 ] - [ DEBUG ]  Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
-2020-03-20 09:25:08  [ main:73163 ] - [ DEBUG ]  Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:25:08  [ main:73163 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head_en.ftl"): Not found
-2020-03-20 09:25:08  [ main:73164 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head.ftl"): Found
-2020-03-20 09:25:08  [ main:73164 ] - [ DEBUG ]  Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
-2020-03-20 09:25:08  [ main:73177 ] - [ DEBUG ]  Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:25:08  [ main:73177 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
-2020-03-20 09:25:08  [ main:73178 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav.ftl"): Found
-2020-03-20 09:25:08  [ main:73178 ] - [ DEBUG ]  Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
-2020-03-20 09:25:08  [ main:73182 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:25:08  [ main:73183 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
-2020-03-20 09:25:08  [ main:73183 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
-2020-03-20 09:25:08  [ main:73183 ] - [ DEBUG ]  Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
-2020-03-20 09:25:08  [ main:73190 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:25:08  [ main:73191 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
-2020-03-20 09:25:08  [ main:73191 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
-2020-03-20 09:25:08  [ main:73191 ] - [ DEBUG ]  Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
-2020-03-20 09:25:08  [ main:73201 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:25:08  [ main:73202 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
-2020-03-20 09:25:08  [ main:73202 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
-2020-03-20 09:25:08  [ main:73202 ] - [ DEBUG ]  Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
-2020-03-20 09:25:08  [ main:73217 ] - [ DEBUG ]  Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:25:08  [ main:73217 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
-2020-03-20 09:25:08  [ main:73217 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
-2020-03-20 09:25:08  [ main:73218 ] - [ DEBUG ]  Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
-2020-03-20 09:25:08  [ main:73220 ] - [ DEBUG ]  Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:25:08  [ main:73221 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
-2020-03-20 09:25:08  [ main:73221 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
-2020-03-20 09:25:08  [ main:73221 ] - [ DEBUG ]  Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
-2020-03-20 09:25:08  [ main:73224 ] - [ DEBUG ]  Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:25:08  [ main:73224 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
-2020-03-20 09:25:08  [ main:73224 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
-2020-03-20 09:25:08  [ main:73224 ] - [ DEBUG ]  Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
-2020-03-20 09:25:08  [ main:73227 ] - [ DEBUG ]  Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:25:08  [ main:73228 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
-2020-03-20 09:25:08  [ main:73228 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
-2020-03-20 09:25:08  [ main:73228 ] - [ DEBUG ]  Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
-2020-03-20 09:29:22  [ main:0 ] - [ INFO ]  ------------------开始执行测试---------------
-2020-03-20 09:29:22  [ main:15 ] - [ INFO ]  启动浏览器
-2020-03-20 09:29:24  [ main:2156 ] - [ INFO ]  启动Chrome浏览器
-2020-03-20 09:29:38  [ main:15893 ] - [ INFO ]  打开页面
-2020-03-20 09:29:38  [ main:15924 ] - [ INFO ]  查找元素：submit方式[By.xpath://*[text()='立即投保']]
-2020-03-20 09:29:38  [ main:16017 ] - [ INFO ]  click元素：submit[By.xpath://*[text()='立即投保']]成功！
-2020-03-20 09:29:38  [ main:16017 ] - [ INFO ]  等待5秒
-2020-03-20 09:29:43  [ main:21271 ] - [ INFO ]  等待2秒
-2020-03-20 09:29:45  [ main:23422 ] - [ INFO ]  等待3秒
-2020-03-20 09:29:48  [ main:26569 ] - [ INFO ]  等待1秒
-2020-03-20 09:29:49  [ main:27615 ] - [ INFO ]  等待1秒
-2020-03-20 09:29:50  [ main:28617 ] - [ INFO ]  等待2秒
-2020-03-20 09:29:53  [ main:30705 ] - [ INFO ]  查找元素：periodZ方式[By.xpath://div[@class='mb-trial-item-left period']/following-sibling::div[1]/div/div[1]/div[text()='终身']]
-2020-03-20 09:29:53  [ main:30827 ] - [ INFO ]  click元素：periodZ[By.xpath://div[@class='mb-trial-item-left period']/following-sibling::div[1]/div/div[1]/div[text()='终身']]成功！
-2020-03-20 09:29:53  [ main:30828 ] - [ INFO ]  查找元素：payY方式[By.xpath://*[text()='年缴']]
-2020-03-20 09:29:53  [ main:30878 ] - [ INFO ]  click元素：payY[By.xpath://*[text()='年缴']]成功！
-2020-03-20 09:29:53  [ main:30879 ] - [ INFO ]  查找元素：period15方式[By.xpath://*[text()='15年']]
-2020-03-20 09:29:53  [ main:30929 ] - [ INFO ]  click元素：period15[By.xpath://*[text()='15年']]成功！
-2020-03-20 09:29:53  [ main:30929 ] - [ INFO ]  查找元素：exzlbxj方式[By.xpath://div[text()='恶性肿瘤保险金']/following-sibling::div[1]/div[1]/div[1]/div[2]]
-2020-03-20 09:29:53  [ main:30984 ] - [ INFO ]  click元素：exzlbxj[By.xpath://div[text()='恶性肿瘤保险金']/following-sibling::div[1]/div[1]/div[1]/div[2]]成功！
-2020-03-20 09:29:53  [ main:30985 ] - [ INFO ]  查找元素：crtdjbbxj方式[By.xpath://div[text()='成人特定疾病保险金']/following-sibling::div[1]/div[1]/div[1]/div[1]]
-2020-03-20 09:29:53  [ main:31045 ] - [ INFO ]  click元素：crtdjbbxj[By.xpath://div[text()='成人特定疾病保险金']/following-sibling::div[1]/div[1]/div[1]/div[1]]成功！
-2020-03-20 09:29:53  [ main:31045 ] - [ INFO ]  查找元素：zdjbyljt方式[By.xpath://div[text()='重大疾病医疗津贴']/following-sibling::div[1]/div[1]/div[1]/div[1]]
-2020-03-20 09:29:53  [ main:31096 ] - [ INFO ]  click元素：zdjbyljt[By.xpath://div[text()='重大疾病医疗津贴']/following-sibling::div[1]/div[1]/div[1]/div[1]]成功！
-2020-03-20 09:29:53  [ main:31097 ] - [ INFO ]  查找元素：sfqcjbzmqbxj方式[By.xpath://div[text()='身故/全残/疾病终末期保险金']/following-sibling::div[1]/div[1]/div[1]/div[1]]
-2020-03-20 09:29:53  [ main:31147 ] - [ INFO ]  click元素：sfqcjbzmqbxj[By.xpath://div[text()='身故/全残/疾病终末期保险金']/following-sibling::div[1]/div[1]/div[1]/div[1]]成功！
-2020-03-20 09:29:53  [ main:31147 ] - [ INFO ]  查找元素：submit方式[By.xpath://*[text()='立即投保']]
-2020-03-20 09:29:53  [ main:31206 ] - [ INFO ]  click元素：submit[By.xpath://*[text()='立即投保']]成功！
-2020-03-20 09:29:53  [ main:31207 ] - [ INFO ]  等待2秒
-2020-03-20 09:29:55  [ main:33212 ] - [ INFO ]  查找元素：jiangao方式[By.xpath://*[text()='以上情况全无']]
-2020-03-20 09:29:55  [ main:33288 ] - [ INFO ]  click元素：jiangao[By.xpath://*[text()='以上情况全无']]成功！
-2020-03-20 09:29:55  [ main:33288 ] - [ INFO ]  等待3秒
-2020-03-20 09:29:58  [ main:36295 ] - [ INFO ]  查找元素：ins_name方式[By.cssSelector:input[placeholder='请输入投保人姓名']]
-2020-03-20 09:29:58  [ main:36516 ] - [ INFO ]  input输入：ins_name[By.cssSelector:input[placeholder='请输入投保人姓名']  value:*******]
-2020-03-20 09:29:58  [ main:36516 ] - [ INFO ]  等待2秒
-2020-03-20 09:30:00  [ main:38518 ] - [ INFO ]  查找元素：ins_idcard方式[By.cssSelector:input[placeholder='请输入投保人证件号码']]
-2020-03-20 09:30:01  [ main:38741 ] - [ INFO ]  input输入：ins_idcard[By.cssSelector:input[placeholder='请输入投保人证件号码']  value:*******]
-2020-03-20 09:30:01  [ main:38742 ] - [ INFO ]  查找元素：mobile方式[By.name:mobile]
-2020-03-20 09:30:01  [ main:38903 ] - [ INFO ]  input输入：mobile[By.name:mobile  value:*******]
-2020-03-20 09:30:01  [ main:38903 ] - [ INFO ]  查找元素：sms_code方式[By.cssSelector:input[placeholder="请输入验证码"]]
-2020-03-20 09:30:01  [ main:39011 ] - [ INFO ]  input输入：sms_code[By.cssSelector:input[placeholder="请输入验证码"]  value:*******]
-2020-03-20 09:30:01  [ main:39012 ] - [ INFO ]  查找元素：email方式[By.name:email]
-2020-03-20 09:30:01  [ main:39220 ] - [ INFO ]  input输入：email[By.name:email  value:*******]
-2020-03-20 09:30:01  [ main:39220 ] - [ INFO ]  查找元素：address方式[By.name:address]
-2020-03-20 09:30:01  [ main:39408 ] - [ INFO ]  input输入：address[By.name:address  value:*******]
-2020-03-20 09:30:01  [ main:39408 ] - [ INFO ]  查找元素：postcode方式[By.name:postcode]
-2020-03-20 09:30:01  [ main:39536 ] - [ INFO ]  input输入：postcode[By.name:postcode  value:*******]
-2020-03-20 09:30:01  [ main:39541 ] - [ INFO ]  等待3秒
-2020-03-20 09:30:04  [ main:42542 ] - [ INFO ]  查找元素：apl_name方式[By.cssSelector:input[placeholder='请输入真实姓名']]
-2020-03-20 09:30:04  [ main:42641 ] - [ INFO ]  input输入：apl_name[By.cssSelector:input[placeholder='请输入真实姓名']  value:*******]
-2020-03-20 09:30:04  [ main:42642 ] - [ INFO ]  等待3秒
-2020-03-20 09:30:07  [ main:45645 ] - [ INFO ]  查找元素：apl_idcard方式[By.cssSelector:input[placeholder='请输入被保人证件号码']]
-2020-03-20 09:30:08  [ main:45861 ] - [ INFO ]  input输入：apl_idcard[By.cssSelector:input[placeholder='请输入被保人证件号码']  value:*******]
-2020-03-20 09:30:08  [ main:45869 ] - [ INFO ]  查找元素：apl_mobile方式[By.cssSelector:input[placeholder='请输入被保人手机号']]
-2020-03-20 09:30:08  [ main:46019 ] - [ INFO ]  input输入：apl_mobile[By.cssSelector:input[placeholder='请输入被保人手机号']  value:*******]
-2020-03-20 09:30:08  [ main:46019 ] - [ INFO ]  查找元素：bank_card方式[By.cssSelector:input[placeholder='请输入银行卡号']]
-2020-03-20 09:30:08  [ main:46241 ] - [ INFO ]  input输入：bank_card[By.cssSelector:input[placeholder='请输入银行卡号']  value:*******]
-2020-03-20 09:30:08  [ main:46241 ] - [ INFO ]  查找元素：bank_mobile方式[By.cssSelector:input[placeholder='请输入预留手机号']]
-2020-03-20 09:30:08  [ main:46391 ] - [ INFO ]  input输入：bank_mobile[By.cssSelector:input[placeholder='请输入预留手机号']  value:*******]
-2020-03-20 09:30:08  [ main:46391 ] - [ INFO ]  查找元素：submitF方式[By.xpath://*[text()='立即投保']]
-2020-03-20 09:30:08  [ main:46480 ] - [ INFO ]  click元素：submitF[By.xpath://*[text()='立即投保']]成功！
-2020-03-20 09:30:08  [ main:46481 ] - [ INFO ]  等待3秒
-2020-03-20 09:30:11  [ main:49486 ] - [ INFO ]  查找元素：confirm方式[By.className:protocol-btm-btn]
-2020-03-20 09:30:11  [ main:49552 ] - [ INFO ]  click元素：confirm[By.className:protocol-btm-btn]成功！
-2020-03-20 09:30:12  [ main:50020 ] - [ ERROR ]  成功截图：/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/report/snapshot/2020-03-20-093011864.jpg
-2020-03-20 09:30:12  [ main:50025 ] - [ INFO ]  等待10秒
-2020-03-20 09:30:22  [ main:60039 ] - [ INFO ]  等待3秒判断元素：//*[text()='立即支付']是否存在
-2020-03-20 09:30:25  [ main:63049 ] - [ INFO ]  查找一组元素：pay 方式[By.xpath://*[text()='立即支付']]
-2020-03-20 09:30:25  [ main:63071 ] - [ INFO ]  判断结果为：false
-2020-03-20 09:30:25  [ main:63237 ] - [ INFO ]  关闭浏览器
-2020-03-20 09:30:25  [ main:63441 ] - [ DEBUG ]  Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:30:25  [ main:63443 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index_en.ftl"): Not found
-2020-03-20 09:30:25  [ main:63448 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index.ftl"): Found
-2020-03-20 09:30:25  [ main:63448 ] - [ DEBUG ]  Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
-2020-03-20 09:30:26  [ main:63727 ] - [ DEBUG ]  Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:30:26  [ main:63728 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head_en.ftl"): Not found
-2020-03-20 09:30:26  [ main:63728 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head.ftl"): Found
-2020-03-20 09:30:26  [ main:63728 ] - [ DEBUG ]  Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
-2020-03-20 09:30:26  [ main:63747 ] - [ DEBUG ]  Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:30:26  [ main:63747 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
-2020-03-20 09:30:26  [ main:63748 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav.ftl"): Found
-2020-03-20 09:30:26  [ main:63748 ] - [ DEBUG ]  Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
-2020-03-20 09:30:26  [ main:63754 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:30:26  [ main:63754 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
-2020-03-20 09:30:26  [ main:63754 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
-2020-03-20 09:30:26  [ main:63755 ] - [ DEBUG ]  Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
-2020-03-20 09:30:26  [ main:63762 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:30:26  [ main:63762 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
-2020-03-20 09:30:26  [ main:63762 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
-2020-03-20 09:30:26  [ main:63763 ] - [ DEBUG ]  Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
-2020-03-20 09:30:26  [ main:63773 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:30:26  [ main:63774 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
-2020-03-20 09:30:26  [ main:63774 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
-2020-03-20 09:30:26  [ main:63774 ] - [ DEBUG ]  Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
-2020-03-20 09:30:26  [ main:63788 ] - [ DEBUG ]  Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:30:26  [ main:63789 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
-2020-03-20 09:30:26  [ main:63789 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
-2020-03-20 09:30:26  [ main:63789 ] - [ DEBUG ]  Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
-2020-03-20 09:30:26  [ main:63792 ] - [ DEBUG ]  Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:30:26  [ main:63793 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
-2020-03-20 09:30:26  [ main:63793 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
-2020-03-20 09:30:26  [ main:63793 ] - [ DEBUG ]  Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
-2020-03-20 09:30:26  [ main:63796 ] - [ DEBUG ]  Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:30:26  [ main:63796 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
-2020-03-20 09:30:26  [ main:63797 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
-2020-03-20 09:30:26  [ main:63797 ] - [ DEBUG ]  Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
-2020-03-20 09:30:26  [ main:63800 ] - [ DEBUG ]  Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:30:26  [ main:63800 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
-2020-03-20 09:30:26  [ main:63801 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
-2020-03-20 09:30:26  [ main:63801 ] - [ DEBUG ]  Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
-2020-03-20 09:31:08  [ main:0 ] - [ INFO ]  ------------------开始执行测试---------------
-2020-03-20 09:31:08  [ main:13 ] - [ INFO ]  启动浏览器
-2020-03-20 09:31:10  [ main:1968 ] - [ INFO ]  启动Chrome浏览器
-2020-03-20 09:31:24  [ main:16657 ] - [ INFO ]  打开页面
-2020-03-20 09:31:24  [ main:16686 ] - [ INFO ]  查找元素：submit方式[By.xpath://*[text()='立即投保']]
-2020-03-20 09:31:25  [ main:16838 ] - [ INFO ]  click元素：submit[By.xpath://*[text()='立即投保']]成功！
-2020-03-20 09:31:25  [ main:16838 ] - [ INFO ]  等待5秒
-2020-03-20 09:31:30  [ main:22093 ] - [ INFO ]  等待2秒
-2020-03-20 09:31:32  [ main:24244 ] - [ INFO ]  等待3秒
-2020-03-20 09:31:35  [ main:27392 ] - [ INFO ]  等待1秒
-2020-03-20 09:31:36  [ main:28438 ] - [ INFO ]  等待1秒
-2020-03-20 09:31:37  [ main:29442 ] - [ INFO ]  等待2秒
-2020-03-20 09:31:39  [ main:31531 ] - [ INFO ]  查找元素：periodZ方式[By.xpath://div[@class='mb-trial-item-left period']/following-sibling::div[1]/div/div[1]/div[text()='终身']]
-2020-03-20 09:31:39  [ main:31653 ] - [ INFO ]  click元素：periodZ[By.xpath://div[@class='mb-trial-item-left period']/following-sibling::div[1]/div/div[1]/div[text()='终身']]成功！
-2020-03-20 09:31:39  [ main:31653 ] - [ INFO ]  查找元素：payY方式[By.xpath://*[text()='年缴']]
-2020-03-20 09:31:40  [ main:31703 ] - [ INFO ]  click元素：payY[By.xpath://*[text()='年缴']]成功！
-2020-03-20 09:31:40  [ main:31704 ] - [ INFO ]  查找元素：period15方式[By.xpath://*[text()='15年']]
-2020-03-20 09:31:40  [ main:31754 ] - [ INFO ]  click元素：period15[By.xpath://*[text()='15年']]成功！
-2020-03-20 09:31:40  [ main:31754 ] - [ INFO ]  查找元素：exzlbxj方式[By.xpath://div[text()='恶性肿瘤保险金']/following-sibling::div[1]/div[1]/div[1]/div[2]]
-2020-03-20 09:31:40  [ main:31812 ] - [ INFO ]  click元素：exzlbxj[By.xpath://div[text()='恶性肿瘤保险金']/following-sibling::div[1]/div[1]/div[1]/div[2]]成功！
-2020-03-20 09:31:40  [ main:31813 ] - [ INFO ]  查找元素：crtdjbbxj方式[By.xpath://div[text()='成人特定疾病保险金']/following-sibling::div[1]/div[1]/div[1]/div[1]]
-2020-03-20 09:31:40  [ main:31868 ] - [ INFO ]  click元素：crtdjbbxj[By.xpath://div[text()='成人特定疾病保险金']/following-sibling::div[1]/div[1]/div[1]/div[1]]成功！
-2020-03-20 09:31:40  [ main:31868 ] - [ INFO ]  查找元素：zdjbyljt方式[By.xpath://div[text()='重大疾病医疗津贴']/following-sibling::div[1]/div[1]/div[1]/div[1]]
-2020-03-20 09:31:40  [ main:31921 ] - [ INFO ]  click元素：zdjbyljt[By.xpath://div[text()='重大疾病医疗津贴']/following-sibling::div[1]/div[1]/div[1]/div[1]]成功！
-2020-03-20 09:31:40  [ main:31922 ] - [ INFO ]  查找元素：sfqcjbzmqbxj方式[By.xpath://div[text()='身故/全残/疾病终末期保险金']/following-sibling::div[1]/div[1]/div[1]/div[1]]
-2020-03-20 09:31:40  [ main:31988 ] - [ INFO ]  click元素：sfqcjbzmqbxj[By.xpath://div[text()='身故/全残/疾病终末期保险金']/following-sibling::div[1]/div[1]/div[1]/div[1]]成功！
-2020-03-20 09:31:40  [ main:31988 ] - [ INFO ]  查找元素：submit方式[By.xpath://*[text()='立即投保']]
-2020-03-20 09:31:40  [ main:32050 ] - [ INFO ]  click元素：submit[By.xpath://*[text()='立即投保']]成功！
-2020-03-20 09:31:40  [ main:32050 ] - [ INFO ]  等待2秒
-2020-03-20 09:31:42  [ main:34055 ] - [ INFO ]  查找元素：jiangao方式[By.xpath://*[text()='以上情况全无']]
-2020-03-20 09:31:42  [ main:34130 ] - [ INFO ]  click元素：jiangao[By.xpath://*[text()='以上情况全无']]成功！
-2020-03-20 09:31:42  [ main:34130 ] - [ INFO ]  等待3秒
-2020-03-20 09:31:45  [ main:37139 ] - [ INFO ]  查找元素：ins_name方式[By.cssSelector:input[placeholder='请输入投保人姓名']]
-2020-03-20 09:31:45  [ main:37510 ] - [ INFO ]  input输入：ins_name[By.cssSelector:input[placeholder='请输入投保人姓名']  value:*******]
-2020-03-20 09:31:45  [ main:37510 ] - [ INFO ]  等待2秒
-2020-03-20 09:31:47  [ main:39515 ] - [ INFO ]  查找元素：ins_idcard方式[By.cssSelector:input[placeholder='请输入投保人证件号码']]
-2020-03-20 09:31:48  [ main:39747 ] - [ INFO ]  input输入：ins_idcard[By.cssSelector:input[placeholder='请输入投保人证件号码']  value:*******]
-2020-03-20 09:31:48  [ main:39748 ] - [ INFO ]  查找元素：mobile方式[By.name:mobile]
-2020-03-20 09:31:48  [ main:39915 ] - [ INFO ]  input输入：mobile[By.name:mobile  value:*******]
-2020-03-20 09:31:48  [ main:39915 ] - [ INFO ]  查找元素：sms_code方式[By.cssSelector:input[placeholder="请输入验证码"]]
-2020-03-20 09:31:48  [ main:40027 ] - [ INFO ]  input输入：sms_code[By.cssSelector:input[placeholder="请输入验证码"]  value:*******]
-2020-03-20 09:31:48  [ main:40027 ] - [ INFO ]  查找元素：email方式[By.name:email]
-2020-03-20 09:31:48  [ main:40261 ] - [ INFO ]  input输入：email[By.name:email  value:*******]
-2020-03-20 09:31:48  [ main:40262 ] - [ INFO ]  查找元素：address方式[By.name:address]
-2020-03-20 09:31:48  [ main:40458 ] - [ INFO ]  input输入：address[By.name:address  value:*******]
-2020-03-20 09:31:48  [ main:40459 ] - [ INFO ]  查找元素：postcode方式[By.name:postcode]
-2020-03-20 09:31:48  [ main:40571 ] - [ INFO ]  input输入：postcode[By.name:postcode  value:*******]
-2020-03-20 09:31:48  [ main:40578 ] - [ INFO ]  等待3秒
-2020-03-20 09:31:51  [ main:43581 ] - [ INFO ]  查找元素：apl_name方式[By.cssSelector:input[placeholder='请输入真实姓名']]
-2020-03-20 09:31:51  [ main:43674 ] - [ INFO ]  input输入：apl_name[By.cssSelector:input[placeholder='请输入真实姓名']  value:*******]
-2020-03-20 09:31:51  [ main:43675 ] - [ INFO ]  等待3秒
-2020-03-20 09:31:54  [ main:46679 ] - [ INFO ]  查找元素：apl_idcard方式[By.cssSelector:input[placeholder='请输入被保人证件号码']]
-2020-03-20 09:31:55  [ main:46886 ] - [ INFO ]  input输入：apl_idcard[By.cssSelector:input[placeholder='请输入被保人证件号码']  value:*******]
-2020-03-20 09:31:55  [ main:46900 ] - [ INFO ]  查找元素：apl_mobile方式[By.cssSelector:input[placeholder='请输入被保人手机号']]
-2020-03-20 09:31:55  [ main:47055 ] - [ INFO ]  input输入：apl_mobile[By.cssSelector:input[placeholder='请输入被保人手机号']  value:*******]
-2020-03-20 09:31:55  [ main:47055 ] - [ INFO ]  查找元素：bank_card方式[By.cssSelector:input[placeholder='请输入银行卡号']]
-2020-03-20 09:31:55  [ main:47284 ] - [ INFO ]  input输入：bank_card[By.cssSelector:input[placeholder='请输入银行卡号']  value:*******]
-2020-03-20 09:31:55  [ main:47285 ] - [ INFO ]  查找元素：bank_mobile方式[By.cssSelector:input[placeholder='请输入预留手机号']]
-2020-03-20 09:31:55  [ main:47429 ] - [ INFO ]  input输入：bank_mobile[By.cssSelector:input[placeholder='请输入预留手机号']  value:*******]
-2020-03-20 09:31:55  [ main:47429 ] - [ INFO ]  查找元素：submitF方式[By.xpath://*[text()='立即投保']]
-2020-03-20 09:31:55  [ main:47548 ] - [ INFO ]  click元素：submitF[By.xpath://*[text()='立即投保']]成功！
-2020-03-20 09:31:55  [ main:47548 ] - [ INFO ]  等待3秒
-2020-03-20 09:31:58  [ main:50549 ] - [ INFO ]  查找元素：confirm方式[By.className:protocol-btm-btn]
-2020-03-20 09:31:58  [ main:50621 ] - [ INFO ]  click元素：confirm[By.className:protocol-btm-btn]成功！
-2020-03-20 09:31:58  [ main:50622 ] - [ INFO ]  等待3秒
-2020-03-20 09:32:02  [ main:54039 ] - [ ERROR ]  成功截图：/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/report/snapshot/2020-03-20-093201935.jpg
-2020-03-20 09:32:02  [ main:54040 ] - [ INFO ]  等待10秒
-2020-03-20 09:32:12  [ main:64053 ] - [ INFO ]  等待3秒判断元素：//*[text()='立即支付']是否存在
-2020-03-20 09:32:15  [ main:67057 ] - [ INFO ]  查找一组元素：pay 方式[By.xpath://*[text()='立即支付']]
-2020-03-20 09:32:15  [ main:67077 ] - [ INFO ]  判断结果为：false
-2020-03-20 09:32:15  [ main:67183 ] - [ INFO ]  关闭浏览器
-2020-03-20 09:32:15  [ main:67586 ] - [ DEBUG ]  Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:32:15  [ main:67588 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index_en.ftl"): Not found
-2020-03-20 09:32:15  [ main:67589 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index.ftl"): Found
-2020-03-20 09:32:15  [ main:67589 ] - [ DEBUG ]  Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
-2020-03-20 09:32:16  [ main:67826 ] - [ DEBUG ]  Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:32:16  [ main:67827 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head_en.ftl"): Not found
-2020-03-20 09:32:16  [ main:67827 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head.ftl"): Found
-2020-03-20 09:32:16  [ main:67827 ] - [ DEBUG ]  Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
-2020-03-20 09:32:16  [ main:67841 ] - [ DEBUG ]  Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:32:16  [ main:67842 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
-2020-03-20 09:32:16  [ main:67843 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav.ftl"): Found
-2020-03-20 09:32:16  [ main:67844 ] - [ DEBUG ]  Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
-2020-03-20 09:32:16  [ main:67850 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:32:16  [ main:67850 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
-2020-03-20 09:32:16  [ main:67850 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
-2020-03-20 09:32:16  [ main:67850 ] - [ DEBUG ]  Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
-2020-03-20 09:32:16  [ main:67857 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:32:16  [ main:67857 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
-2020-03-20 09:32:16  [ main:67858 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
-2020-03-20 09:32:16  [ main:67858 ] - [ DEBUG ]  Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
-2020-03-20 09:32:16  [ main:67869 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:32:16  [ main:67869 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
-2020-03-20 09:32:16  [ main:67870 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
-2020-03-20 09:32:16  [ main:67870 ] - [ DEBUG ]  Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
-2020-03-20 09:32:16  [ main:67885 ] - [ DEBUG ]  Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:32:16  [ main:67885 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
-2020-03-20 09:32:16  [ main:67886 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
-2020-03-20 09:32:16  [ main:67886 ] - [ DEBUG ]  Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
-2020-03-20 09:32:16  [ main:67889 ] - [ DEBUG ]  Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:32:16  [ main:67889 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
-2020-03-20 09:32:16  [ main:67889 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
-2020-03-20 09:32:16  [ main:67890 ] - [ DEBUG ]  Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
-2020-03-20 09:32:16  [ main:67892 ] - [ DEBUG ]  Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:32:16  [ main:67892 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
-2020-03-20 09:32:16  [ main:67892 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
-2020-03-20 09:32:16  [ main:67893 ] - [ DEBUG ]  Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
-2020-03-20 09:32:16  [ main:67896 ] - [ DEBUG ]  Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 09:32:16  [ main:67897 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
-2020-03-20 09:32:16  [ main:67897 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
-2020-03-20 09:32:16  [ main:67897 ] - [ DEBUG ]  Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
-2020-03-20 10:45:35  [ main:0 ] - [ INFO ]  ------------------开始执行测试---------------
-2020-03-20 10:45:35  [ main:15 ] - [ INFO ]  启动浏览器
-2020-03-20 10:45:37  [ main:2532 ] - [ INFO ]  启动Chrome浏览器
-2020-03-20 10:45:50  [ main:15222 ] - [ INFO ]  打开页面
-2020-03-20 10:45:50  [ main:15252 ] - [ INFO ]  等待3秒
-2020-03-20 10:45:53  [ main:18256 ] - [ INFO ]  查找元素：submit方式[By.xpath://*[text()='立即投保']]
-2020-03-20 10:45:53  [ main:18357 ] - [ INFO ]  click元素：submit[By.xpath://*[text()='立即投保']]成功！
-2020-03-20 10:45:53  [ main:18358 ] - [ INFO ]  等待5秒
-2020-03-20 10:45:58  [ main:23599 ] - [ INFO ]  等待2秒
-2020-03-20 10:46:01  [ main:25814 ] - [ INFO ]  等待2秒
-2020-03-20 10:46:03  [ main:27901 ] - [ INFO ]  查找元素：baoe20方式[By.xpath://*[text()='20万']]
-2020-03-20 10:46:03  [ main:27966 ] - [ INFO ]  click元素：baoe20[By.xpath://*[text()='20万']]成功！
-2020-03-20 10:46:03  [ main:27966 ] - [ INFO ]  查找元素：payY方式[By.xpath://*[text()='年缴']]
-2020-03-20 10:46:03  [ main:28029 ] - [ INFO ]  click元素：payY[By.xpath://*[text()='年缴']]成功！
-2020-03-20 10:46:03  [ main:28030 ] - [ INFO ]  查找元素：exzlerci方式[By.xpath://div[text()='恶性肿瘤二次赔付']/following-sibling::div[1]/div[1]/div[1]/div[2]]
-2020-03-20 10:46:03  [ main:28076 ] - [ INFO ]  click元素：exzlerci[By.xpath://div[text()='恶性肿瘤二次赔付']/following-sibling::div[1]/div[1]/div[1]/div[2]]成功！
-2020-03-20 10:46:03  [ main:28077 ] - [ INFO ]  查找元素：tdjb方式[By.xpath://div[text()='特定疾病/恶性肿瘤']/following-sibling::div[1]/div[1]/div[1]/div[2]]
-2020-03-20 10:46:03  [ main:28153 ] - [ INFO ]  click元素：tdjb[By.xpath://div[text()='特定疾病/恶性肿瘤']/following-sibling::div[1]/div[1]/div[1]/div[2]]成功！
-2020-03-20 10:46:03  [ main:28154 ] - [ INFO ]  查找元素：submit方式[By.xpath://*[text()='立即投保']]
-2020-03-20 10:46:03  [ main:28199 ] - [ INFO ]  click元素：submit[By.xpath://*[text()='立即投保']]成功！
-2020-03-20 10:46:03  [ main:28199 ] - [ INFO ]  等待5秒
-2020-03-20 10:46:08  [ main:33205 ] - [ INFO ]  查找元素：jiangao方式[By.xpath://*[text()='以上情况全无']]
-2020-03-20 10:46:09  [ main:33734 ] - [ INFO ]  click元素：jiangao[By.xpath://*[text()='以上情况全无']]成功！
-2020-03-20 10:46:09  [ main:33735 ] - [ INFO ]  等待4秒
-2020-03-20 10:46:17  [ main:41734 ] - [ INFO ]  等待2秒
-2020-03-20 10:46:19  [ main:43738 ] - [ INFO ]  查找元素：ins_name方式[By.xpath://*[@id='InsureInfoModule']/div[2]/div/div[1]/div[2]/div/div/div/input]
-2020-03-20 10:46:19  [ main:43912 ] - [ INFO ]  input输入：ins_name[By.xpath://*[@id='InsureInfoModule']/div[2]/div/div[1]/div[2]/div/div/div/input  value:*******]
-2020-03-20 10:46:19  [ main:43915 ] - [ INFO ]  查找元素：ins_idcard方式[By.xpath://*[@id='InsureInfoModule']/div[4]/div/div/div[2]/input]
-2020-03-20 10:46:19  [ main:44210 ] - [ INFO ]  input输入：ins_idcard[By.xpath://*[@id='InsureInfoModule']/div[4]/div/div/div[2]/input  value:*******]
-2020-03-20 10:46:19  [ main:44211 ] - [ INFO ]  查找元素：ins_mobile方式[By.xpath://*[@id='InsureInfoModule']/div[7]/div/div/div[2]/input]
-2020-03-20 10:46:19  [ main:44370 ] - [ INFO ]  input输入：ins_mobile[By.xpath://*[@id='InsureInfoModule']/div[7]/div/div/div[2]/input  value:*******]
-2020-03-20 10:46:19  [ main:44371 ] - [ INFO ]  查找元素：sms_code方式[By.cssSelector:input[placeholder="请输入验证码"]]
-2020-03-20 10:46:19  [ main:44481 ] - [ INFO ]  input输入：sms_code[By.cssSelector:input[placeholder="请输入验证码"]  value:*******]
-2020-03-20 10:46:19  [ main:44481 ] - [ INFO ]  查找元素：email方式[By.name:email]
-2020-03-20 10:46:20  [ main:44660 ] - [ INFO ]  input输入：email[By.name:email  value:*******]
-2020-03-20 10:46:20  [ main:44660 ] - [ INFO ]  查找元素：address方式[By.xpath://*[@id='InsureInfoModule']/div[11]/div/div/div[2]/input]
-2020-03-20 10:46:20  [ main:44904 ] - [ INFO ]  input输入：address[By.xpath://*[@id='InsureInfoModule']/div[11]/div/div/div[2]/input  value:*******]
-2020-03-20 10:46:20  [ main:44911 ] - [ INFO ]  查找元素：job方式[By.xpath://*[text()='职业类型']]
-2020-03-20 10:46:20  [ main:45000 ] - [ INFO ]  click元素：job[By.xpath://*[text()='职业类型']]成功！
-2020-03-20 10:46:20  [ main:45000 ] - [ INFO ]  等待1秒
-2020-03-20 10:46:21  [ main:46119 ] - [ INFO ]  关闭浏览器
-2020-03-20 10:46:21  [ main:46122 ] - [ INFO ]  ------------------开始执行测试---------------
-2020-03-20 10:46:21  [ main:46122 ] - [ INFO ]  启动浏览器
-2020-03-20 10:46:22  [ main:47325 ] - [ INFO ]  启动Chrome浏览器
-2020-03-20 10:46:29  [ main:53733 ] - [ INFO ]  打开页面
-2020-03-20 10:46:29  [ main:53739 ] - [ INFO ]  等待3秒
-2020-03-20 10:46:32  [ main:56742 ] - [ INFO ]  查找元素：submit方式[By.xpath://*[text()='立即投保']]
-2020-03-20 10:46:32  [ main:56811 ] - [ INFO ]  click元素：submit[By.xpath://*[text()='立即投保']]成功！
-2020-03-20 10:46:32  [ main:56812 ] - [ INFO ]  等待5秒
-2020-03-20 10:46:37  [ main:61949 ] - [ INFO ]  等待2秒
-2020-03-20 10:46:39  [ main:64123 ] - [ INFO ]  等待2秒
-2020-03-20 10:46:41  [ main:66202 ] - [ INFO ]  查找元素：baoe20方式[By.xpath://*[text()='20万']]
-2020-03-20 10:46:41  [ main:66256 ] - [ INFO ]  click元素：baoe20[By.xpath://*[text()='20万']]成功！
-2020-03-20 10:46:41  [ main:66257 ] - [ INFO ]  查找元素：payY方式[By.xpath://*[text()='年缴']]
-2020-03-20 10:46:41  [ main:66340 ] - [ INFO ]  click元素：payY[By.xpath://*[text()='年缴']]成功！
-2020-03-20 10:46:41  [ main:66340 ] - [ INFO ]  查找元素：exzlerci方式[By.xpath://div[text()='恶性肿瘤二次赔付']/following-sibling::div[1]/div[1]/div[1]/div[2]]
-2020-03-20 10:46:41  [ main:66381 ] - [ INFO ]  click元素：exzlerci[By.xpath://div[text()='恶性肿瘤二次赔付']/following-sibling::div[1]/div[1]/div[1]/div[2]]成功！
-2020-03-20 10:46:41  [ main:66381 ] - [ INFO ]  查找元素：tdjb方式[By.xpath://div[text()='特定疾病/恶性肿瘤']/following-sibling::div[1]/div[1]/div[1]/div[2]]
-2020-03-20 10:46:41  [ main:66476 ] - [ INFO ]  click元素：tdjb[By.xpath://div[text()='特定疾病/恶性肿瘤']/following-sibling::div[1]/div[1]/div[1]/div[2]]成功！
-2020-03-20 10:46:41  [ main:66476 ] - [ INFO ]  查找元素：submit方式[By.xpath://*[text()='立即投保']]
-2020-03-20 10:46:41  [ main:66518 ] - [ INFO ]  click元素：submit[By.xpath://*[text()='立即投保']]成功！
-2020-03-20 10:46:41  [ main:66519 ] - [ INFO ]  等待5秒
-2020-03-20 10:46:46  [ main:71524 ] - [ INFO ]  查找元素：jiangao方式[By.xpath://*[text()='以上情况全无']]
-2020-03-20 10:46:47  [ main:71917 ] - [ INFO ]  click元素：jiangao[By.xpath://*[text()='以上情况全无']]成功！
-2020-03-20 10:46:47  [ main:71917 ] - [ INFO ]  等待4秒
-2020-03-20 10:46:54  [ main:79240 ] - [ INFO ]  等待2秒
-2020-03-20 10:46:56  [ main:81244 ] - [ INFO ]  查找元素：ins_name方式[By.xpath://*[@id='InsureInfoModule']/div[2]/div/div[1]/div[2]/div/div/div/input]
-2020-03-20 10:46:56  [ main:81375 ] - [ INFO ]  input输入：ins_name[By.xpath://*[@id='InsureInfoModule']/div[2]/div/div[1]/div[2]/div/div/div/input  value:*******]
-2020-03-20 10:46:56  [ main:81375 ] - [ INFO ]  查找元素：ins_idcard方式[By.xpath://*[@id='InsureInfoModule']/div[4]/div/div/div[2]/input]
-2020-03-20 10:46:57  [ main:81645 ] - [ INFO ]  input输入：ins_idcard[By.xpath://*[@id='InsureInfoModule']/div[4]/div/div/div[2]/input  value:*******]
-2020-03-20 10:46:57  [ main:81646 ] - [ INFO ]  查找元素：ins_mobile方式[By.xpath://*[@id='InsureInfoModule']/div[7]/div/div/div[2]/input]
-2020-03-20 10:46:57  [ main:81797 ] - [ INFO ]  input输入：ins_mobile[By.xpath://*[@id='InsureInfoModule']/div[7]/div/div/div[2]/input  value:*******]
-2020-03-20 10:46:57  [ main:81798 ] - [ INFO ]  查找元素：sms_code方式[By.cssSelector:input[placeholder="请输入验证码"]]
-2020-03-20 10:46:57  [ main:81919 ] - [ INFO ]  input输入：sms_code[By.cssSelector:input[placeholder="请输入验证码"]  value:*******]
-2020-03-20 10:46:57  [ main:81919 ] - [ INFO ]  查找元素：email方式[By.name:email]
-2020-03-20 10:46:57  [ main:82082 ] - [ INFO ]  input输入：email[By.name:email  value:*******]
-2020-03-20 10:46:57  [ main:82082 ] - [ INFO ]  查找元素：address方式[By.xpath://*[@id='InsureInfoModule']/div[11]/div/div/div[2]/input]
-2020-03-20 10:46:57  [ main:82312 ] - [ INFO ]  input输入：address[By.xpath://*[@id='InsureInfoModule']/div[11]/div/div/div[2]/input  value:*******]
-2020-03-20 10:46:57  [ main:82319 ] - [ INFO ]  查找元素：job方式[By.xpath://*[text()='职业类型']]
-2020-03-20 10:46:57  [ main:82364 ] - [ INFO ]  click元素：job[By.xpath://*[text()='职业类型']]成功！
-2020-03-20 10:46:57  [ main:82365 ] - [ INFO ]  等待1秒
-2020-03-20 10:46:58  [ main:83422 ] - [ INFO ]  等待2秒
-2020-03-20 10:47:00  [ main:85437 ] - [ INFO ]  查找元素：bank_card方式[By.cssSelector:input[placeholder='请输入银行卡号']]
-2020-03-20 10:47:01  [ main:85785 ] - [ INFO ]  input输入：bank_card[By.cssSelector:input[placeholder='请输入银行卡号']  value:*******]
-2020-03-20 10:47:01  [ main:85785 ] - [ INFO ]  查找元素：bank_mobile方式[By.cssSelector:input[placeholder='请输入预留手机号']]
-2020-03-20 10:47:01  [ main:85944 ] - [ INFO ]  input输入：bank_mobile[By.cssSelector:input[placeholder='请输入预留手机号']  value:*******]
-2020-03-20 10:47:01  [ main:85944 ] - [ INFO ]  查找元素：submit方式[By.xpath://*[text()='立即投保']]
-2020-03-20 10:47:01  [ main:86012 ] - [ INFO ]  click元素：submit[By.xpath://*[text()='立即投保']]成功！
-2020-03-20 10:47:01  [ main:86012 ] - [ INFO ]  等待7秒
-2020-03-20 10:47:08  [ main:93480 ] - [ ERROR ]  成功截图：/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/report/snapshot/2020-03-20-104708394.jpg
-2020-03-20 10:47:08  [ main:93601 ] - [ INFO ]  关闭浏览器
-2020-03-20 10:47:09  [ main:93798 ] - [ DEBUG ]  Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 10:47:09  [ main:93800 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index_en.ftl"): Not found
-2020-03-20 10:47:09  [ main:93802 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index.ftl"): Found
-2020-03-20 10:47:09  [ main:93802 ] - [ DEBUG ]  Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
-2020-03-20 10:47:09  [ main:94007 ] - [ DEBUG ]  Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 10:47:09  [ main:94008 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head_en.ftl"): Not found
-2020-03-20 10:47:09  [ main:94008 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head.ftl"): Found
-2020-03-20 10:47:09  [ main:94008 ] - [ DEBUG ]  Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
-2020-03-20 10:47:09  [ main:94025 ] - [ DEBUG ]  Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 10:47:09  [ main:94025 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
-2020-03-20 10:47:09  [ main:94026 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav.ftl"): Found
-2020-03-20 10:47:09  [ main:94026 ] - [ DEBUG ]  Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
-2020-03-20 10:47:09  [ main:94031 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 10:47:09  [ main:94032 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
-2020-03-20 10:47:09  [ main:94032 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
-2020-03-20 10:47:09  [ main:94032 ] - [ DEBUG ]  Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
-2020-03-20 10:47:09  [ main:94040 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 10:47:09  [ main:94040 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
-2020-03-20 10:47:09  [ main:94040 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
-2020-03-20 10:47:09  [ main:94041 ] - [ DEBUG ]  Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
-2020-03-20 10:47:09  [ main:94051 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 10:47:09  [ main:94051 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
-2020-03-20 10:47:09  [ main:94051 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
-2020-03-20 10:47:09  [ main:94052 ] - [ DEBUG ]  Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
-2020-03-20 10:47:09  [ main:94069 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
-2020-03-20 10:47:09  [ main:94071 ] - [ DEBUG ]  Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 10:47:09  [ main:94071 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
-2020-03-20 10:47:09  [ main:94071 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
-2020-03-20 10:47:09  [ main:94071 ] - [ DEBUG ]  Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
-2020-03-20 10:47:09  [ main:94078 ] - [ DEBUG ]  Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 10:47:09  [ main:94078 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
-2020-03-20 10:47:09  [ main:94079 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
-2020-03-20 10:47:09  [ main:94079 ] - [ DEBUG ]  Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
-2020-03-20 10:47:09  [ main:94087 ] - [ DEBUG ]  Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 10:47:09  [ main:94087 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
-2020-03-20 10:47:09  [ main:94087 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
-2020-03-20 10:47:09  [ main:94087 ] - [ DEBUG ]  Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
-2020-03-20 10:47:09  [ main:94091 ] - [ DEBUG ]  Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 10:47:09  [ main:94091 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
-2020-03-20 10:47:09  [ main:94091 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
-2020-03-20 10:47:09  [ main:94092 ] - [ DEBUG ]  Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
-2020-03-20 10:49:14  [ main:0 ] - [ INFO ]  ------------------开始执行测试---------------
-2020-03-20 10:49:14  [ main:14 ] - [ INFO ]  启动浏览器
-2020-03-20 10:49:16  [ main:2405 ] - [ INFO ]  启动Chrome浏览器
-2020-03-20 10:49:27  [ main:13528 ] - [ INFO ]  打开页面
-2020-03-20 10:49:27  [ main:13553 ] - [ INFO ]  等待3秒
-2020-03-20 10:49:30  [ main:16562 ] - [ INFO ]  查找元素：submit方式[By.xpath://*[text()='立即投保']]
-2020-03-20 10:49:30  [ main:16656 ] - [ INFO ]  click元素：submit[By.xpath://*[text()='立即投保']]成功！
-2020-03-20 10:49:30  [ main:16656 ] - [ INFO ]  等待5秒
-2020-03-20 10:49:35  [ main:21855 ] - [ INFO ]  等待2秒
-2020-03-20 10:49:38  [ main:24040 ] - [ INFO ]  等待2秒
-2020-03-20 10:49:40  [ main:26115 ] - [ INFO ]  查找元素：baoe20方式[By.xpath://*[text()='20万']]
-2020-03-20 10:49:40  [ main:26167 ] - [ INFO ]  click元素：baoe20[By.xpath://*[text()='20万']]成功！
-2020-03-20 10:49:40  [ main:26167 ] - [ INFO ]  查找元素：payY方式[By.xpath://*[text()='年缴']]
-2020-03-20 10:49:40  [ main:26232 ] - [ INFO ]  click元素：payY[By.xpath://*[text()='年缴']]成功！
-2020-03-20 10:49:40  [ main:26232 ] - [ INFO ]  查找元素：exzlerci方式[By.xpath://div[text()='恶性肿瘤二次赔付']/following-sibling::div[1]/div[1]/div[1]/div[2]]
-2020-03-20 10:49:40  [ main:26281 ] - [ INFO ]  click元素：exzlerci[By.xpath://div[text()='恶性肿瘤二次赔付']/following-sibling::div[1]/div[1]/div[1]/div[2]]成功！
-2020-03-20 10:49:40  [ main:26282 ] - [ INFO ]  查找元素：tdjb方式[By.xpath://div[text()='特定疾病/恶性肿瘤']/following-sibling::div[1]/div[1]/div[1]/div[2]]
-2020-03-20 10:49:40  [ main:26334 ] - [ INFO ]  click元素：tdjb[By.xpath://div[text()='特定疾病/恶性肿瘤']/following-sibling::div[1]/div[1]/div[1]/div[2]]成功！
-2020-03-20 10:49:40  [ main:26334 ] - [ INFO ]  查找元素：submit方式[By.xpath://*[text()='立即投保']]
-2020-03-20 10:49:40  [ main:26372 ] - [ INFO ]  click元素：submit[By.xpath://*[text()='立即投保']]成功！
-2020-03-20 10:49:40  [ main:26372 ] - [ INFO ]  等待5秒
-2020-03-20 10:49:45  [ main:31375 ] - [ INFO ]  查找元素：jiangao方式[By.xpath://*[text()='以上情况全无']]
-2020-03-20 10:49:45  [ main:31804 ] - [ INFO ]  click元素：jiangao[By.xpath://*[text()='以上情况全无']]成功！
-2020-03-20 10:49:45  [ main:31805 ] - [ INFO ]  等待8秒
-2020-03-20 10:49:57  [ main:43208 ] - [ INFO ]  等待2秒
-2020-03-20 10:49:59  [ main:45211 ] - [ INFO ]  查找元素：ins_name方式[By.xpath://*[@id='InsureInfoModule']/div[2]/div/div[1]/div[2]/div/div/div/input]
-2020-03-20 10:49:59  [ main:45366 ] - [ INFO ]  input输入：ins_name[By.xpath://*[@id='InsureInfoModule']/div[2]/div/div[1]/div[2]/div/div/div/input  value:*******]
-2020-03-20 10:49:59  [ main:45369 ] - [ INFO ]  查找元素：ins_idcard方式[By.xpath://*[@id='InsureInfoModule']/div[4]/div/div/div[2]/input]
-2020-03-20 10:49:59  [ main:45589 ] - [ INFO ]  input输入：ins_idcard[By.xpath://*[@id='InsureInfoModule']/div[4]/div/div/div[2]/input  value:*******]
-2020-03-20 10:49:59  [ main:45590 ] - [ INFO ]  查找元素：ins_mobile方式[By.xpath://*[@id='InsureInfoModule']/div[7]/div/div/div[2]/input]
-2020-03-20 10:49:59  [ main:45756 ] - [ INFO ]  input输入：ins_mobile[By.xpath://*[@id='InsureInfoModule']/div[7]/div/div/div[2]/input  value:*******]
-2020-03-20 10:49:59  [ main:45757 ] - [ INFO ]  查找元素：sms_code方式[By.cssSelector:input[placeholder="请输入验证码"]]
-2020-03-20 10:49:59  [ main:45857 ] - [ INFO ]  input输入：sms_code[By.cssSelector:input[placeholder="请输入验证码"]  value:*******]
-2020-03-20 10:49:59  [ main:45858 ] - [ INFO ]  查找元素：email方式[By.name:email]
-2020-03-20 10:50:00  [ main:46011 ] - [ INFO ]  input输入：email[By.name:email  value:*******]
-2020-03-20 10:50:00  [ main:46011 ] - [ INFO ]  查找元素：address方式[By.xpath://*[@id='InsureInfoModule']/div[11]/div/div/div[2]/input]
-2020-03-20 10:50:00  [ main:46446 ] - [ INFO ]  input输入：address[By.xpath://*[@id='InsureInfoModule']/div[11]/div/div/div[2]/input  value:*******]
-2020-03-20 10:50:00  [ main:46453 ] - [ INFO ]  查找元素：job方式[By.xpath://*[text()='职业类型']]
-2020-03-20 10:50:00  [ main:46540 ] - [ INFO ]  click元素：job[By.xpath://*[text()='职业类型']]成功！
-2020-03-20 10:50:00  [ main:46540 ] - [ INFO ]  等待1秒
-2020-03-20 10:50:01  [ main:47596 ] - [ INFO ]  等待2秒
-2020-03-20 10:50:03  [ main:49608 ] - [ INFO ]  查找元素：bank_card方式[By.cssSelector:input[placeholder='请输入银行卡号']]
-2020-03-20 10:50:03  [ main:49842 ] - [ INFO ]  input输入：bank_card[By.cssSelector:input[placeholder='请输入银行卡号']  value:*******]
-2020-03-20 10:50:03  [ main:49842 ] - [ INFO ]  查找元素：bank_mobile方式[By.cssSelector:input[placeholder='请输入预留手机号']]
-2020-03-20 10:50:04  [ main:49997 ] - [ INFO ]  input输入：bank_mobile[By.cssSelector:input[placeholder='请输入预留手机号']  value:*******]
-2020-03-20 10:50:04  [ main:49997 ] - [ INFO ]  查找元素：submit方式[By.xpath://*[text()='立即投保']]
-2020-03-20 10:50:04  [ main:50071 ] - [ INFO ]  click元素：submit[By.xpath://*[text()='立即投保']]成功！
-2020-03-20 10:50:04  [ main:50071 ] - [ INFO ]  等待7秒
-2020-03-20 10:50:11  [ main:57566 ] - [ ERROR ]  成功截图：/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/report/snapshot/2020-03-20-105011167.jpg
-2020-03-20 10:50:11  [ main:57691 ] - [ INFO ]  关闭浏览器
-2020-03-20 10:50:11  [ main:57881 ] - [ DEBUG ]  Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 10:50:11  [ main:57882 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index_en.ftl"): Not found
-2020-03-20 10:50:11  [ main:57885 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index.ftl"): Found
-2020-03-20 10:50:11  [ main:57885 ] - [ DEBUG ]  Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
-2020-03-20 10:50:12  [ main:58164 ] - [ DEBUG ]  Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 10:50:12  [ main:58169 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head_en.ftl"): Not found
-2020-03-20 10:50:12  [ main:58170 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head.ftl"): Found
-2020-03-20 10:50:12  [ main:58170 ] - [ DEBUG ]  Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
-2020-03-20 10:50:12  [ main:58188 ] - [ DEBUG ]  Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 10:50:12  [ main:58188 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
-2020-03-20 10:50:12  [ main:58189 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav.ftl"): Found
-2020-03-20 10:50:12  [ main:58190 ] - [ DEBUG ]  Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
-2020-03-20 10:50:12  [ main:58196 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 10:50:12  [ main:58197 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
-2020-03-20 10:50:12  [ main:58197 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
-2020-03-20 10:50:12  [ main:58197 ] - [ DEBUG ]  Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
-2020-03-20 10:50:12  [ main:58205 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 10:50:12  [ main:58205 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
-2020-03-20 10:50:12  [ main:58206 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
-2020-03-20 10:50:12  [ main:58206 ] - [ DEBUG ]  Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
-2020-03-20 10:50:12  [ main:58217 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 10:50:12  [ main:58218 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
-2020-03-20 10:50:12  [ main:58218 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
-2020-03-20 10:50:12  [ main:58218 ] - [ DEBUG ]  Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
-2020-03-20 10:50:12  [ main:58239 ] - [ DEBUG ]  Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 10:50:12  [ main:58239 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
-2020-03-20 10:50:12  [ main:58240 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
-2020-03-20 10:50:12  [ main:58240 ] - [ DEBUG ]  Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
-2020-03-20 10:50:12  [ main:58243 ] - [ DEBUG ]  Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 10:50:12  [ main:58243 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
-2020-03-20 10:50:12  [ main:58244 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
-2020-03-20 10:50:12  [ main:58244 ] - [ DEBUG ]  Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
-2020-03-20 10:50:12  [ main:58246 ] - [ DEBUG ]  Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 10:50:12  [ main:58246 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
-2020-03-20 10:50:12  [ main:58246 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
-2020-03-20 10:50:12  [ main:58247 ] - [ DEBUG ]  Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
-2020-03-20 10:50:12  [ main:58250 ] - [ DEBUG ]  Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-03-20 10:50:12  [ main:58250 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
-2020-03-20 10:50:12  [ main:58250 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
-2020-03-20 10:50:12  [ main:58250 ] - [ DEBUG ]  Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+2020-04-09 10:47:47  [ main:0 ] - [ INFO ]  ------------------开始执行测试---------------
+2020-04-09 10:47:47  [ main:25 ] - [ INFO ]  启动浏览器
+2020-04-09 10:48:08  [ main:20975 ] - [ DEBUG ]  Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 10:48:08  [ main:20977 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+2020-04-09 10:48:08  [ main:20979 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index.ftl"): Found
+2020-04-09 10:48:08  [ main:20979 ] - [ DEBUG ]  Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+2020-04-09 10:48:08  [ main:21316 ] - [ DEBUG ]  Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 10:48:08  [ main:21317 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+2020-04-09 10:48:08  [ main:21318 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head.ftl"): Found
+2020-04-09 10:48:08  [ main:21318 ] - [ DEBUG ]  Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+2020-04-09 10:48:08  [ main:21384 ] - [ DEBUG ]  Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 10:48:08  [ main:21385 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+2020-04-09 10:48:08  [ main:21387 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav.ftl"): Found
+2020-04-09 10:48:08  [ main:21388 ] - [ DEBUG ]  Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+2020-04-09 10:48:08  [ main:21400 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 10:48:08  [ main:21402 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+2020-04-09 10:48:08  [ main:21433 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+2020-04-09 10:48:08  [ main:21434 ] - [ DEBUG ]  Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+2020-04-09 10:48:08  [ main:21445 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 10:48:08  [ main:21445 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+2020-04-09 10:48:08  [ main:21446 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+2020-04-09 10:48:08  [ main:21446 ] - [ DEBUG ]  Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+2020-04-09 10:48:08  [ main:21469 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 10:48:08  [ main:21469 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+2020-04-09 10:48:08  [ main:21470 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+2020-04-09 10:48:08  [ main:21470 ] - [ DEBUG ]  Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+2020-04-09 10:48:08  [ main:21491 ] - [ DEBUG ]  Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 10:48:08  [ main:21491 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+2020-04-09 10:48:08  [ main:21492 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+2020-04-09 10:48:08  [ main:21492 ] - [ DEBUG ]  Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+2020-04-09 10:48:08  [ main:21495 ] - [ DEBUG ]  Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 10:48:08  [ main:21496 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+2020-04-09 10:48:08  [ main:21497 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+2020-04-09 10:48:08  [ main:21497 ] - [ DEBUG ]  Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+2020-04-09 10:48:08  [ main:21506 ] - [ DEBUG ]  Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 10:48:08  [ main:21507 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+2020-04-09 10:48:08  [ main:21507 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+2020-04-09 10:48:08  [ main:21507 ] - [ DEBUG ]  Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+2020-04-09 10:48:08  [ main:21510 ] - [ DEBUG ]  Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 10:48:08  [ main:21511 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+2020-04-09 10:48:08  [ main:21511 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+2020-04-09 10:48:08  [ main:21511 ] - [ DEBUG ]  Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+2020-04-09 10:48:38  [ main:0 ] - [ INFO ]  ------------------开始执行测试---------------
+2020-04-09 10:48:38  [ main:15 ] - [ INFO ]  启动浏览器
+2020-04-09 10:48:46  [ main:7641 ] - [ INFO ]  启动Chrome浏览器
+2020-04-09 10:48:59  [ main:20659 ] - [ INFO ]  打开页面
+2020-04-09 10:48:59  [ main:20705 ] - [ INFO ]  等待3秒
+2020-04-09 10:49:02  [ main:23710 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-04-09 10:49:05  [ main:26603 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
+2020-04-09 10:49:05  [ main:26604 ] - [ INFO ]  查找元素：name方式[By.cssSelector:input[placeholder='请输入真实姓名']]
+2020-04-09 10:49:05  [ main:26865 ] - [ INFO ]  input输入：name[By.cssSelector:input[placeholder='请输入真实姓名']  value:*******]
+2020-04-09 10:49:05  [ main:26866 ] - [ INFO ]  等待1秒
+2020-04-09 10:49:06  [ main:27868 ] - [ INFO ]  查找元素：idcard方式[By.name:identity]
+2020-04-09 10:49:06  [ main:28063 ] - [ INFO ]  input输入：idcard[By.name:identity  value:*******]
+2020-04-09 10:49:06  [ main:28063 ] - [ INFO ]  查找元素：mobile方式[By.name:mobile]
+2020-04-09 10:49:06  [ main:28198 ] - [ INFO ]  input输入：mobile[By.name:mobile  value:*******]
+2020-04-09 10:49:06  [ main:28199 ] - [ INFO ]  查找元素：sms_code方式[By.name:sms_code]
+2020-04-09 10:49:07  [ main:28357 ] - [ INFO ]  input输入：sms_code[By.name:sms_code  value:*******]
+2020-04-09 10:49:07  [ main:28359 ] - [ INFO ]  等待3秒
+2020-04-09 10:49:10  [ main:31385 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-04-09 10:49:10  [ main:31499 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
+2020-04-09 10:49:10  [ main:31500 ] - [ INFO ]  等待2秒
+2020-04-09 10:49:12  [ main:33505 ] - [ INFO ]  查找元素：confrim方式[By.xpath://div[@class='protocol-btm-btn']]
+2020-04-09 10:49:12  [ main:33564 ] - [ INFO ]  click元素：confrim[By.xpath://div[@class='protocol-btm-btn']]成功！
+2020-04-09 10:49:12  [ main:33564 ] - [ INFO ]  等待2秒
+2020-04-09 10:49:14  [ main:35568 ] - [ INFO ]  等待5秒判断元素：//*[text()='确认无以上问题']是否存在
+2020-04-09 10:49:19  [ main:40582 ] - [ INFO ]  查找一组元素：jiangao 方式[By.xpath://*[text()='确认无以上问题']]
+2020-04-09 10:49:19  [ main:40612 ] - [ INFO ]  判断结果为：false
+2020-04-09 10:49:19  [ main:40612 ] - [ INFO ]  等待3秒
+2020-04-09 10:49:22  [ main:43617 ] - [ INFO ]  查找元素：pay方式[By.className:hz-button-text]
+2020-04-09 10:49:22  [ main:44154 ] - [ ERROR ]  成功截图：/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/report/snapshot/2020-04-09-104922314.jpg
+2020-04-09 10:49:22  [ main:44341 ] - [ INFO ]  关闭浏览器
+2020-04-09 10:49:28  [ main:50143 ] - [ DEBUG ]  Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 10:49:28  [ main:50144 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+2020-04-09 10:49:28  [ main:50147 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index.ftl"): Found
+2020-04-09 10:49:28  [ main:50147 ] - [ DEBUG ]  Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+2020-04-09 10:49:29  [ main:50568 ] - [ DEBUG ]  Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 10:49:29  [ main:50569 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+2020-04-09 10:49:29  [ main:50569 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head.ftl"): Found
+2020-04-09 10:49:29  [ main:50569 ] - [ DEBUG ]  Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+2020-04-09 10:49:29  [ main:50584 ] - [ DEBUG ]  Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 10:49:29  [ main:50584 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+2020-04-09 10:49:29  [ main:50585 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav.ftl"): Found
+2020-04-09 10:49:29  [ main:50585 ] - [ DEBUG ]  Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+2020-04-09 10:49:29  [ main:50596 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 10:49:29  [ main:50597 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+2020-04-09 10:49:29  [ main:50597 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+2020-04-09 10:49:29  [ main:50597 ] - [ DEBUG ]  Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+2020-04-09 10:49:29  [ main:50653 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 10:49:29  [ main:50654 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+2020-04-09 10:49:29  [ main:50656 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+2020-04-09 10:49:29  [ main:50659 ] - [ DEBUG ]  Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+2020-04-09 10:49:29  [ main:50672 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 10:49:29  [ main:50673 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+2020-04-09 10:49:29  [ main:50673 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+2020-04-09 10:49:29  [ main:50674 ] - [ DEBUG ]  Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+2020-04-09 10:49:29  [ main:50690 ] - [ DEBUG ]  Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 10:49:29  [ main:50691 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+2020-04-09 10:49:29  [ main:50691 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+2020-04-09 10:49:29  [ main:50691 ] - [ DEBUG ]  Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+2020-04-09 10:49:29  [ main:50694 ] - [ DEBUG ]  Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 10:49:29  [ main:50695 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+2020-04-09 10:49:29  [ main:50695 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+2020-04-09 10:49:29  [ main:50695 ] - [ DEBUG ]  Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+2020-04-09 10:49:29  [ main:50698 ] - [ DEBUG ]  Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 10:49:29  [ main:50699 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+2020-04-09 10:49:29  [ main:50699 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+2020-04-09 10:49:29  [ main:50699 ] - [ DEBUG ]  Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+2020-04-09 10:49:29  [ main:50702 ] - [ DEBUG ]  Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 10:49:29  [ main:50703 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+2020-04-09 10:49:29  [ main:50703 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+2020-04-09 10:49:29  [ main:50703 ] - [ DEBUG ]  Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+2020-04-09 20:23:25  [ main:0 ] - [ INFO ]  ------------------开始执行测试---------------
+2020-04-09 20:23:25  [ main:22 ] - [ INFO ]  启动浏览器
+2020-04-09 20:23:32  [ main:6860 ] - [ INFO ]  启动Chrome浏览器
+2020-04-09 20:23:43  [ main:18366 ] - [ INFO ]  打开页面
+2020-04-09 20:23:44  [ main:18423 ] - [ INFO ]  等待3秒
+2020-04-09 20:23:47  [ main:21432 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-04-09 20:23:47  [ main:21549 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
+2020-04-09 20:23:47  [ main:21550 ] - [ INFO ]  查找元素：name方式[By.cssSelector:input[placeholder='请输入真实姓名']]
+2020-04-09 20:23:47  [ main:22060 ] - [ INFO ]  input输入：name[By.cssSelector:input[placeholder='请输入真实姓名']  value:*******]
+2020-04-09 20:23:47  [ main:22061 ] - [ INFO ]  等待1秒
+2020-04-09 20:23:48  [ main:23065 ] - [ INFO ]  查找元素：idcard方式[By.name:identity]
+2020-04-09 20:23:48  [ main:23325 ] - [ INFO ]  input输入：idcard[By.name:identity  value:*******]
+2020-04-09 20:23:48  [ main:23326 ] - [ INFO ]  查找元素：mobile方式[By.name:mobile]
+2020-04-09 20:23:49  [ main:23491 ] - [ INFO ]  input输入：mobile[By.name:mobile  value:*******]
+2020-04-09 20:23:49  [ main:23492 ] - [ INFO ]  查找元素：sms_code方式[By.name:sms_code]
+2020-04-09 20:23:49  [ main:23624 ] - [ INFO ]  input输入：sms_code[By.name:sms_code  value:*******]
+2020-04-09 20:23:49  [ main:23625 ] - [ INFO ]  等待3秒
+2020-04-09 20:23:52  [ main:26641 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-04-09 20:23:52  [ main:26719 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
+2020-04-09 20:23:52  [ main:26720 ] - [ INFO ]  等待2秒
+2020-04-09 20:23:54  [ main:28726 ] - [ INFO ]  查找元素：confrim方式[By.xpath://div[@class='protocol-btm-btn']]
+2020-04-09 20:23:54  [ main:28796 ] - [ INFO ]  click元素：confrim[By.xpath://div[@class='protocol-btm-btn']]成功！
+2020-04-09 20:23:54  [ main:28796 ] - [ INFO ]  等待2秒
+2020-04-09 20:23:56  [ main:30801 ] - [ INFO ]  等待5秒判断元素：//*[text()='确认无以上问题']是否存在
+2020-04-09 20:24:01  [ main:35809 ] - [ INFO ]  查找一组元素：jiangao 方式[By.xpath://*[text()='确认无以上问题']]
+2020-04-09 20:24:01  [ main:35847 ] - [ INFO ]  判断结果为：false
+2020-04-09 20:24:01  [ main:35847 ] - [ INFO ]  等待3秒
+2020-04-09 20:24:04  [ main:38854 ] - [ INFO ]  等待10秒判断元素：hz-button-text是否存在
+2020-04-09 20:24:14  [ main:48857 ] - [ INFO ]  查找一组元素：pay 方式[By.className:hz-button-text]
+2020-04-09 20:24:14  [ main:48872 ] - [ INFO ]  判断结果为：false
+2020-04-09 20:24:14  [ main:48873 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-04-09 20:24:14  [ main:48908 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
+2020-04-09 20:24:15  [ main:49420 ] - [ ERROR ]  成功截图：/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/report/snapshot/2020-04-09-202414520.jpg
+2020-04-09 20:24:15  [ main:49601 ] - [ INFO ]  关闭浏览器
+2020-04-09 20:24:15  [ main:49954 ] - [ DEBUG ]  Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:24:15  [ main:49956 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+2020-04-09 20:24:15  [ main:49962 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index.ftl"): Found
+2020-04-09 20:24:15  [ main:49963 ] - [ DEBUG ]  Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+2020-04-09 20:24:16  [ main:50700 ] - [ DEBUG ]  Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:24:16  [ main:50701 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+2020-04-09 20:24:16  [ main:50701 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head.ftl"): Found
+2020-04-09 20:24:16  [ main:50701 ] - [ DEBUG ]  Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+2020-04-09 20:24:16  [ main:50813 ] - [ DEBUG ]  Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:24:16  [ main:50814 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+2020-04-09 20:24:16  [ main:50814 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav.ftl"): Found
+2020-04-09 20:24:16  [ main:50815 ] - [ DEBUG ]  Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+2020-04-09 20:24:16  [ main:50821 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:24:16  [ main:50821 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+2020-04-09 20:24:16  [ main:50822 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+2020-04-09 20:24:16  [ main:50822 ] - [ DEBUG ]  Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+2020-04-09 20:24:16  [ main:50829 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:24:16  [ main:50830 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+2020-04-09 20:24:16  [ main:50830 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+2020-04-09 20:24:16  [ main:50830 ] - [ DEBUG ]  Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+2020-04-09 20:24:16  [ main:50841 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:24:16  [ main:50844 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+2020-04-09 20:24:16  [ main:50844 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+2020-04-09 20:24:16  [ main:50844 ] - [ DEBUG ]  Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+2020-04-09 20:24:16  [ main:50979 ] - [ DEBUG ]  Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:24:16  [ main:50979 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+2020-04-09 20:24:16  [ main:50980 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+2020-04-09 20:24:16  [ main:50980 ] - [ DEBUG ]  Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+2020-04-09 20:24:16  [ main:50986 ] - [ DEBUG ]  Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:24:16  [ main:50987 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+2020-04-09 20:24:16  [ main:50987 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+2020-04-09 20:24:16  [ main:50988 ] - [ DEBUG ]  Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+2020-04-09 20:24:16  [ main:50994 ] - [ DEBUG ]  Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:24:16  [ main:50995 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+2020-04-09 20:24:16  [ main:50995 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+2020-04-09 20:24:16  [ main:50995 ] - [ DEBUG ]  Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+2020-04-09 20:24:16  [ main:51001 ] - [ DEBUG ]  Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:24:16  [ main:51002 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+2020-04-09 20:24:16  [ main:51002 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+2020-04-09 20:24:16  [ main:51002 ] - [ DEBUG ]  Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+2020-04-09 20:34:29  [ main:3 ] - [ INFO ]  ------------------开始执行测试---------------
+2020-04-09 20:34:29  [ main:16 ] - [ INFO ]  启动浏览器
+2020-04-09 20:34:32  [ main:2952 ] - [ INFO ]  启动Chrome浏览器
+2020-04-09 20:34:43  [ main:14162 ] - [ INFO ]  打开页面
+2020-04-09 20:34:44  [ main:14213 ] - [ INFO ]  等待3秒
+2020-04-09 20:34:47  [ main:17220 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-04-09 20:34:47  [ main:17314 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
+2020-04-09 20:34:47  [ main:17314 ] - [ INFO ]  查找元素：name方式[By.cssSelector:input[placeholder='请输入真实姓名']]
+2020-04-09 20:34:47  [ main:17568 ] - [ INFO ]  input输入：name[By.cssSelector:input[placeholder='请输入真实姓名']  value:*******]
+2020-04-09 20:34:47  [ main:17569 ] - [ INFO ]  等待1秒
+2020-04-09 20:34:48  [ main:18573 ] - [ INFO ]  查找元素：idcard方式[By.name:identity]
+2020-04-09 20:34:48  [ main:18816 ] - [ INFO ]  input输入：idcard[By.name:identity  value:*******]
+2020-04-09 20:34:48  [ main:18817 ] - [ INFO ]  查找元素：mobile方式[By.name:mobile]
+2020-04-09 20:34:48  [ main:19006 ] - [ INFO ]  input输入：mobile[By.name:mobile  value:*******]
+2020-04-09 20:34:48  [ main:19007 ] - [ INFO ]  查找元素：sms_code方式[By.name:sms_code]
+2020-04-09 20:34:48  [ main:19160 ] - [ INFO ]  input输入：sms_code[By.name:sms_code  value:*******]
+2020-04-09 20:34:48  [ main:19161 ] - [ INFO ]  等待3秒
+2020-04-09 20:34:51  [ main:22178 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-04-09 20:34:52  [ main:22282 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
+2020-04-09 20:34:52  [ main:22283 ] - [ INFO ]  等待2秒
+2020-04-09 20:34:54  [ main:24289 ] - [ INFO ]  查找元素：confrim方式[By.xpath://div[@class='protocol-btm-btn']]
+2020-04-09 20:34:54  [ main:24355 ] - [ INFO ]  click元素：confrim[By.xpath://div[@class='protocol-btm-btn']]成功！
+2020-04-09 20:34:54  [ main:24356 ] - [ INFO ]  等待2秒
+2020-04-09 20:34:56  [ main:26360 ] - [ INFO ]  等待5秒判断元素：//*[text()='确认无以上问题']是否存在
+2020-04-09 20:35:01  [ main:31368 ] - [ INFO ]  查找一组元素：jiangao 方式[By.xpath://*[text()='确认无以上问题']]
+2020-04-09 20:35:01  [ main:31401 ] - [ INFO ]  判断结果为：false
+2020-04-09 20:35:01  [ main:31401 ] - [ INFO ]  等待3秒
+2020-04-09 20:35:04  [ main:34406 ] - [ INFO ]  等待10秒判断元素：hz-button-text是否存在
+2020-04-09 20:35:14  [ main:44410 ] - [ INFO ]  查找一组元素：pay 方式[By.className:hz-button-text]
+2020-04-09 20:35:14  [ main:44421 ] - [ INFO ]  判断结果为：false
+2020-04-09 20:35:14  [ main:44422 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-04-09 20:35:14  [ main:44466 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
+2020-04-09 20:35:14  [ main:44974 ] - [ ERROR ]  成功截图：/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/report/snapshot/2020-04-09-203514286.jpg
+2020-04-09 20:35:14  [ main:45139 ] - [ INFO ]  关闭浏览器
+2020-04-09 20:35:20  [ main:50544 ] - [ DEBUG ]  Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:35:20  [ main:50546 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+2020-04-09 20:35:20  [ main:50550 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index.ftl"): Found
+2020-04-09 20:35:20  [ main:50550 ] - [ DEBUG ]  Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+2020-04-09 20:35:20  [ main:50963 ] - [ DEBUG ]  Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:35:20  [ main:50964 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+2020-04-09 20:35:20  [ main:50964 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head.ftl"): Found
+2020-04-09 20:35:20  [ main:50964 ] - [ DEBUG ]  Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+2020-04-09 20:35:20  [ main:50985 ] - [ DEBUG ]  Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:35:20  [ main:50986 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+2020-04-09 20:35:20  [ main:50986 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav.ftl"): Found
+2020-04-09 20:35:20  [ main:50986 ] - [ DEBUG ]  Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+2020-04-09 20:35:20  [ main:50994 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:35:20  [ main:50994 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+2020-04-09 20:35:20  [ main:50994 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+2020-04-09 20:35:20  [ main:50994 ] - [ DEBUG ]  Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+2020-04-09 20:35:20  [ main:51003 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:35:20  [ main:51004 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+2020-04-09 20:35:20  [ main:51005 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+2020-04-09 20:35:20  [ main:51005 ] - [ DEBUG ]  Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+2020-04-09 20:35:20  [ main:51018 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:35:20  [ main:51019 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+2020-04-09 20:35:20  [ main:51019 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+2020-04-09 20:35:20  [ main:51020 ] - [ DEBUG ]  Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+2020-04-09 20:35:20  [ main:51038 ] - [ DEBUG ]  Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:35:20  [ main:51039 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+2020-04-09 20:35:20  [ main:51039 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+2020-04-09 20:35:20  [ main:51039 ] - [ DEBUG ]  Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+2020-04-09 20:35:20  [ main:51043 ] - [ DEBUG ]  Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:35:20  [ main:51043 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+2020-04-09 20:35:20  [ main:51044 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+2020-04-09 20:35:20  [ main:51045 ] - [ DEBUG ]  Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+2020-04-09 20:35:20  [ main:51050 ] - [ DEBUG ]  Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:35:20  [ main:51050 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+2020-04-09 20:35:20  [ main:51051 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+2020-04-09 20:35:20  [ main:51051 ] - [ DEBUG ]  Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+2020-04-09 20:35:20  [ main:51056 ] - [ DEBUG ]  Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:35:20  [ main:51056 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+2020-04-09 20:35:20  [ main:51057 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+2020-04-09 20:35:20  [ main:51057 ] - [ DEBUG ]  Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+2020-04-09 20:44:31  [ main:0 ] - [ INFO ]  ------------------开始执行测试---------------
+2020-04-09 20:44:31  [ main:16 ] - [ INFO ]  启动浏览器
+2020-04-09 20:44:36  [ main:4461 ] - [ INFO ]  启动Chrome浏览器
+2020-04-09 20:44:48  [ main:17050 ] - [ INFO ]  打开页面
+2020-04-09 20:44:48  [ main:17090 ] - [ INFO ]  等待3秒
+2020-04-09 20:44:51  [ main:20094 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-04-09 20:44:52  [ main:20191 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
+2020-04-09 20:44:52  [ main:20192 ] - [ INFO ]  查找元素：name方式[By.cssSelector:input[placeholder='请输入真实姓名']]
+2020-04-09 20:44:52  [ main:20431 ] - [ INFO ]  input输入：name[By.cssSelector:input[placeholder='请输入真实姓名']  value:*******]
+2020-04-09 20:44:52  [ main:20431 ] - [ INFO ]  等待1秒
+2020-04-09 20:44:53  [ main:21436 ] - [ INFO ]  查找元素：idcard方式[By.name:identity]
+2020-04-09 20:44:53  [ main:21668 ] - [ INFO ]  input输入：idcard[By.name:identity  value:*******]
+2020-04-09 20:44:53  [ main:21669 ] - [ INFO ]  查找元素：mobile方式[By.name:mobile]
+2020-04-09 20:44:53  [ main:21805 ] - [ INFO ]  input输入：mobile[By.name:mobile  value:*******]
+2020-04-09 20:44:53  [ main:21805 ] - [ INFO ]  查找元素：sms_code方式[By.name:sms_code]
+2020-04-09 20:44:53  [ main:21916 ] - [ INFO ]  input输入：sms_code[By.name:sms_code  value:*******]
+2020-04-09 20:44:53  [ main:21918 ] - [ INFO ]  等待3秒
+2020-04-09 20:44:56  [ main:24940 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-04-09 20:44:56  [ main:25003 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
+2020-04-09 20:44:56  [ main:25003 ] - [ INFO ]  等待2秒
+2020-04-09 20:44:58  [ main:27005 ] - [ INFO ]  查找元素：confrim方式[By.xpath://div[@class='protocol-btm-btn']]
+2020-04-09 20:44:58  [ main:27083 ] - [ INFO ]  click元素：confrim[By.xpath://div[@class='protocol-btm-btn']]成功！
+2020-04-09 20:44:58  [ main:27084 ] - [ INFO ]  等待2秒
+2020-04-09 20:45:00  [ main:29088 ] - [ INFO ]  等待5秒判断元素：//*[text()='确认无以上问题']是否存在
+2020-04-09 20:45:05  [ main:34097 ] - [ INFO ]  查找一组元素：jiangao 方式[By.xpath://*[text()='确认无以上问题']]
+2020-04-09 20:45:05  [ main:34124 ] - [ INFO ]  判断结果为：false
+2020-04-09 20:45:05  [ main:34124 ] - [ INFO ]  等待3秒
+2020-04-09 20:45:08  [ main:37128 ] - [ INFO ]  等待10秒判断元素：hz-button-text是否存在
+2020-04-09 20:45:19  [ main:47133 ] - [ INFO ]  查找一组元素：pay 方式[By.className:hz-button-text]
+2020-04-09 20:45:19  [ main:47147 ] - [ INFO ]  判断结果为：false
+2020-04-09 20:45:19  [ main:47147 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-04-09 20:45:19  [ main:47185 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
+2020-04-09 20:45:19  [ main:47185 ] - [ INFO ]  等待1秒
+2020-04-09 20:45:20  [ main:48642 ] - [ ERROR ]  成功截图：/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/report/snapshot/2020-04-09-204520062.jpg
+2020-04-09 20:45:20  [ main:49019 ] - [ ERROR ]  成功截图：/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/report/snapshot/2020-04-09-204520511.jpg
+2020-04-09 20:45:21  [ main:49416 ] - [ ERROR ]  成功截图：/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/report/snapshot/2020-04-09-204520886.jpg
+2020-04-09 20:45:21  [ main:49696 ] - [ INFO ]  关闭浏览器
+2020-04-09 20:45:21  [ main:49871 ] - [ DEBUG ]  Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:45:21  [ main:49873 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+2020-04-09 20:45:21  [ main:49875 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index.ftl"): Found
+2020-04-09 20:45:21  [ main:49876 ] - [ DEBUG ]  Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+2020-04-09 20:45:22  [ main:50165 ] - [ DEBUG ]  Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:45:22  [ main:50165 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+2020-04-09 20:45:22  [ main:50165 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head.ftl"): Found
+2020-04-09 20:45:22  [ main:50169 ] - [ DEBUG ]  Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+2020-04-09 20:45:22  [ main:50186 ] - [ DEBUG ]  Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:45:22  [ main:50187 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+2020-04-09 20:45:22  [ main:50187 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav.ftl"): Found
+2020-04-09 20:45:22  [ main:50187 ] - [ DEBUG ]  Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+2020-04-09 20:45:22  [ main:50193 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:45:22  [ main:50193 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+2020-04-09 20:45:22  [ main:50194 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+2020-04-09 20:45:22  [ main:50194 ] - [ DEBUG ]  Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+2020-04-09 20:45:22  [ main:50202 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:45:22  [ main:50202 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+2020-04-09 20:45:22  [ main:50203 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+2020-04-09 20:45:22  [ main:50203 ] - [ DEBUG ]  Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+2020-04-09 20:45:22  [ main:50212 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:45:22  [ main:50213 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+2020-04-09 20:45:22  [ main:50213 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+2020-04-09 20:45:22  [ main:50213 ] - [ DEBUG ]  Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+2020-04-09 20:45:22  [ main:50235 ] - [ DEBUG ]  Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:45:22  [ main:50235 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+2020-04-09 20:45:22  [ main:50236 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+2020-04-09 20:45:22  [ main:50236 ] - [ DEBUG ]  Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+2020-04-09 20:45:22  [ main:50239 ] - [ DEBUG ]  Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:45:22  [ main:50239 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+2020-04-09 20:45:22  [ main:50239 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+2020-04-09 20:45:22  [ main:50240 ] - [ DEBUG ]  Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+2020-04-09 20:45:22  [ main:50242 ] - [ DEBUG ]  Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:45:22  [ main:50242 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+2020-04-09 20:45:22  [ main:50243 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+2020-04-09 20:45:22  [ main:50243 ] - [ DEBUG ]  Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+2020-04-09 20:45:22  [ main:50246 ] - [ DEBUG ]  Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:45:22  [ main:50246 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+2020-04-09 20:45:22  [ main:50247 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+2020-04-09 20:45:22  [ main:50247 ] - [ DEBUG ]  Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+2020-04-09 20:52:32  [ main:0 ] - [ INFO ]  ------------------开始执行测试---------------
+2020-04-09 20:52:32  [ main:13 ] - [ INFO ]  启动浏览器
+2020-04-09 20:52:36  [ main:3628 ] - [ INFO ]  启动Chrome浏览器
+2020-04-09 20:52:47  [ main:14628 ] - [ INFO ]  打开页面
+2020-04-09 20:52:47  [ main:14651 ] - [ INFO ]  等待3秒
+2020-04-09 20:52:50  [ main:17659 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-04-09 20:52:50  [ main:17726 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
+2020-04-09 20:52:50  [ main:17726 ] - [ INFO ]  查找元素：name方式[By.cssSelector:input[placeholder='请输入真实姓名']]
+2020-04-09 20:52:50  [ main:18145 ] - [ INFO ]  input输入：name[By.cssSelector:input[placeholder='请输入真实姓名']  value:*******]
+2020-04-09 20:52:50  [ main:18146 ] - [ INFO ]  等待1秒
+2020-04-09 20:52:51  [ main:19148 ] - [ INFO ]  查找元素：idcard方式[By.name:identity]
+2020-04-09 20:52:51  [ main:19407 ] - [ INFO ]  input输入：idcard[By.name:identity  value:*******]
+2020-04-09 20:52:51  [ main:19407 ] - [ INFO ]  查找元素：mobile方式[By.name:mobile]
+2020-04-09 20:52:51  [ main:19576 ] - [ INFO ]  input输入：mobile[By.name:mobile  value:*******]
+2020-04-09 20:52:51  [ main:19577 ] - [ INFO ]  查找元素：sms_code方式[By.name:sms_code]
+2020-04-09 20:52:52  [ main:19743 ] - [ INFO ]  input输入：sms_code[By.name:sms_code  value:*******]
+2020-04-09 20:52:52  [ main:19744 ] - [ INFO ]  等待3秒
+2020-04-09 20:52:55  [ main:22756 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-04-09 20:52:55  [ main:22826 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
+2020-04-09 20:52:55  [ main:22826 ] - [ INFO ]  等待2秒
+2020-04-09 20:52:57  [ main:24830 ] - [ INFO ]  查找元素：confrim方式[By.xpath://div[@class='protocol-btm-btn']]
+2020-04-09 20:52:57  [ main:24891 ] - [ INFO ]  click元素：confrim[By.xpath://div[@class='protocol-btm-btn']]成功！
+2020-04-09 20:52:57  [ main:24891 ] - [ INFO ]  等待2秒
+2020-04-09 20:52:59  [ main:26895 ] - [ INFO ]  等待5秒判断元素：//*[text()='确认无以上问题']是否存在
+2020-04-09 20:53:04  [ main:31904 ] - [ INFO ]  查找一组元素：jiangao 方式[By.xpath://*[text()='确认无以上问题']]
+2020-04-09 20:53:04  [ main:31938 ] - [ INFO ]  判断结果为：false
+2020-04-09 20:53:04  [ main:31939 ] - [ INFO ]  等待3秒
+2020-04-09 20:53:07  [ main:34943 ] - [ INFO ]  等待10秒判断元素：hz-button-text是否存在
+2020-04-09 20:53:17  [ main:44949 ] - [ INFO ]  查找一组元素：pay 方式[By.className:hz-button-text]
+2020-04-09 20:53:17  [ main:44967 ] - [ INFO ]  判断结果为：false
+2020-04-09 20:53:17  [ main:44967 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-04-09 20:53:17  [ main:45002 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
+2020-04-09 20:53:17  [ main:45002 ] - [ INFO ]  等待1秒
+2020-04-09 20:53:18  [ main:46337 ] - [ ERROR ]  成功截图：/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/report/snapshot/2020-04-09-205318417.jpg
+2020-04-09 20:53:19  [ main:46603 ] - [ ERROR ]  成功截图：/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/report/snapshot/2020-04-09-205318746.jpg
+2020-04-09 20:53:19  [ main:46884 ] - [ INFO ]  关闭浏览器
+2020-04-09 20:53:19  [ main:47152 ] - [ DEBUG ]  Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:53:19  [ main:47153 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+2020-04-09 20:53:19  [ main:47155 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index.ftl"): Found
+2020-04-09 20:53:19  [ main:47156 ] - [ DEBUG ]  Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+2020-04-09 20:53:19  [ main:47580 ] - [ DEBUG ]  Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:53:19  [ main:47580 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+2020-04-09 20:53:19  [ main:47581 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head.ftl"): Found
+2020-04-09 20:53:19  [ main:47581 ] - [ DEBUG ]  Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+2020-04-09 20:53:20  [ main:47603 ] - [ DEBUG ]  Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:53:20  [ main:47603 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+2020-04-09 20:53:20  [ main:47604 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav.ftl"): Found
+2020-04-09 20:53:20  [ main:47604 ] - [ DEBUG ]  Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+2020-04-09 20:53:20  [ main:47612 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:53:20  [ main:47613 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+2020-04-09 20:53:20  [ main:47613 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+2020-04-09 20:53:20  [ main:47613 ] - [ DEBUG ]  Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+2020-04-09 20:53:20  [ main:47622 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:53:20  [ main:47622 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+2020-04-09 20:53:20  [ main:47623 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+2020-04-09 20:53:20  [ main:47623 ] - [ DEBUG ]  Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+2020-04-09 20:53:20  [ main:47640 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:53:20  [ main:47640 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+2020-04-09 20:53:20  [ main:47641 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+2020-04-09 20:53:20  [ main:47641 ] - [ DEBUG ]  Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+2020-04-09 20:53:20  [ main:47658 ] - [ DEBUG ]  Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:53:20  [ main:47662 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+2020-04-09 20:53:20  [ main:47662 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+2020-04-09 20:53:20  [ main:47663 ] - [ DEBUG ]  Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+2020-04-09 20:53:20  [ main:47666 ] - [ DEBUG ]  Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:53:20  [ main:47668 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+2020-04-09 20:53:20  [ main:47668 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+2020-04-09 20:53:20  [ main:47668 ] - [ DEBUG ]  Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+2020-04-09 20:53:20  [ main:47671 ] - [ DEBUG ]  Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:53:20  [ main:47671 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+2020-04-09 20:53:20  [ main:47671 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+2020-04-09 20:53:20  [ main:47672 ] - [ DEBUG ]  Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+2020-04-09 20:53:20  [ main:47679 ] - [ DEBUG ]  Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 20:53:20  [ main:47680 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+2020-04-09 20:53:20  [ main:47680 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+2020-04-09 20:53:20  [ main:47680 ] - [ DEBUG ]  Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+2020-04-09 21:02:12  [ main:0 ] - [ INFO ]  ------------------开始执行测试---------------
+2020-04-09 21:02:12  [ main:16 ] - [ INFO ]  启动浏览器
+2020-04-09 21:02:17  [ main:4214 ] - [ INFO ]  启动Chrome浏览器
+2020-04-09 21:02:29  [ main:16380 ] - [ INFO ]  打开页面
+2020-04-09 21:02:29  [ main:16414 ] - [ INFO ]  等待3秒
+2020-04-09 21:02:32  [ main:19422 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-04-09 21:02:32  [ main:19503 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
+2020-04-09 21:02:32  [ main:19504 ] - [ INFO ]  查找元素：name方式[By.cssSelector:input[placeholder='请输入真实姓名']]
+2020-04-09 21:02:32  [ main:19887 ] - [ INFO ]  input输入：name[By.cssSelector:input[placeholder='请输入真实姓名']  value:*******]
+2020-04-09 21:02:32  [ main:19888 ] - [ INFO ]  等待1秒
+2020-04-09 21:02:33  [ main:20892 ] - [ INFO ]  查找元素：idcard方式[By.name:identity]
+2020-04-09 21:02:34  [ main:21170 ] - [ INFO ]  input输入：idcard[By.name:identity  value:*******]
+2020-04-09 21:02:34  [ main:21170 ] - [ INFO ]  查找元素：mobile方式[By.name:mobile]
+2020-04-09 21:02:34  [ main:21334 ] - [ INFO ]  input输入：mobile[By.name:mobile  value:*******]
+2020-04-09 21:02:34  [ main:21334 ] - [ INFO ]  查找元素：sms_code方式[By.name:sms_code]
+2020-04-09 21:02:34  [ main:21507 ] - [ INFO ]  input输入：sms_code[By.name:sms_code  value:*******]
+2020-04-09 21:02:34  [ main:21508 ] - [ INFO ]  等待3秒
+2020-04-09 21:02:37  [ main:24522 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-04-09 21:02:37  [ main:24607 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
+2020-04-09 21:02:37  [ main:24608 ] - [ INFO ]  等待2秒
+2020-04-09 21:02:39  [ main:26611 ] - [ INFO ]  查找元素：confrim方式[By.xpath://div[@class='protocol-btm-btn']]
+2020-04-09 21:02:39  [ main:26684 ] - [ INFO ]  click元素：confrim[By.xpath://div[@class='protocol-btm-btn']]成功！
+2020-04-09 21:02:39  [ main:26684 ] - [ INFO ]  等待2秒
+2020-04-09 21:02:41  [ main:28688 ] - [ INFO ]  等待5秒判断元素：//*[text()='确认无以上问题']是否存在
+2020-04-09 21:02:46  [ main:33697 ] - [ INFO ]  查找一组元素：jiangao 方式[By.xpath://*[text()='确认无以上问题']]
+2020-04-09 21:02:46  [ main:33726 ] - [ INFO ]  判断结果为：false
+2020-04-09 21:02:46  [ main:33726 ] - [ INFO ]  等待3秒
+2020-04-09 21:02:49  [ main:36731 ] - [ INFO ]  等待10秒判断元素：hz-button-text是否存在
+2020-04-09 21:02:59  [ main:46734 ] - [ INFO ]  查找一组元素：pay 方式[By.className:hz-button-text]
+2020-04-09 21:02:59  [ main:46752 ] - [ INFO ]  判断结果为：false
+2020-04-09 21:02:59  [ main:46752 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-04-09 21:02:59  [ main:46791 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
+2020-04-09 21:02:59  [ main:46791 ] - [ INFO ]  等待1秒
+2020-04-09 21:03:01  [ main:48250 ] - [ ERROR ]  失败截图：/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/report/snapshot/2020-04-09-210300778.jpg
+2020-04-09 21:03:01  [ main:48654 ] - [ ERROR ]  失败截图：/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/report/snapshot/2020-04-09-210301231.jpg
+2020-04-09 21:03:01  [ main:48861 ] - [ INFO ]  关闭浏览器
+2020-04-09 21:03:07  [ main:54274 ] - [ DEBUG ]  Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 21:03:07  [ main:54276 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+2020-04-09 21:03:07  [ main:54279 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index.ftl"): Found
+2020-04-09 21:03:07  [ main:54280 ] - [ DEBUG ]  Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+2020-04-09 21:03:07  [ main:54502 ] - [ DEBUG ]  Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 21:03:07  [ main:54504 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+2020-04-09 21:03:07  [ main:54505 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head.ftl"): Found
+2020-04-09 21:03:07  [ main:54505 ] - [ DEBUG ]  Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+2020-04-09 21:03:07  [ main:54522 ] - [ DEBUG ]  Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 21:03:07  [ main:54522 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+2020-04-09 21:03:07  [ main:54523 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav.ftl"): Found
+2020-04-09 21:03:07  [ main:54523 ] - [ DEBUG ]  Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+2020-04-09 21:03:07  [ main:54528 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 21:03:07  [ main:54528 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+2020-04-09 21:03:07  [ main:54529 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+2020-04-09 21:03:07  [ main:54529 ] - [ DEBUG ]  Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+2020-04-09 21:03:07  [ main:54539 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 21:03:07  [ main:54539 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+2020-04-09 21:03:07  [ main:54541 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+2020-04-09 21:03:07  [ main:54542 ] - [ DEBUG ]  Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+2020-04-09 21:03:07  [ main:54554 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 21:03:07  [ main:54554 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+2020-04-09 21:03:07  [ main:54554 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+2020-04-09 21:03:07  [ main:54555 ] - [ DEBUG ]  Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+2020-04-09 21:03:07  [ main:54570 ] - [ DEBUG ]  Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 21:03:07  [ main:54571 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+2020-04-09 21:03:07  [ main:54571 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+2020-04-09 21:03:07  [ main:54571 ] - [ DEBUG ]  Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+2020-04-09 21:03:07  [ main:54575 ] - [ DEBUG ]  Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 21:03:07  [ main:54576 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+2020-04-09 21:03:07  [ main:54576 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+2020-04-09 21:03:07  [ main:54576 ] - [ DEBUG ]  Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+2020-04-09 21:03:07  [ main:54578 ] - [ DEBUG ]  Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 21:03:07  [ main:54578 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+2020-04-09 21:03:07  [ main:54579 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+2020-04-09 21:03:07  [ main:54579 ] - [ DEBUG ]  Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+2020-04-09 21:03:07  [ main:54584 ] - [ DEBUG ]  Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 21:03:07  [ main:54584 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+2020-04-09 21:03:07  [ main:54585 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+2020-04-09 21:03:07  [ main:54585 ] - [ DEBUG ]  Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+2020-04-09 21:15:10  [ main:0 ] - [ INFO ]  ------------------开始执行测试---------------
+2020-04-09 21:15:10  [ main:14 ] - [ INFO ]  启动浏览器
+2020-04-09 21:15:15  [ main:5044 ] - [ INFO ]  启动Chrome浏览器
+2020-04-09 21:15:26  [ main:16050 ] - [ INFO ]  打开页面
+2020-04-09 21:15:26  [ main:16080 ] - [ INFO ]  等待3秒
+2020-04-09 21:15:29  [ main:19088 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-04-09 21:15:29  [ main:19150 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
+2020-04-09 21:15:29  [ main:19151 ] - [ INFO ]  查找元素：name方式[By.cssSelector:input[placeholder='请输入真实姓名']]
+2020-04-09 21:15:29  [ main:19410 ] - [ INFO ]  input输入：name[By.cssSelector:input[placeholder='请输入真实姓名']  value:*******]
+2020-04-09 21:15:29  [ main:19411 ] - [ INFO ]  等待1秒
+2020-04-09 21:15:30  [ main:20417 ] - [ INFO ]  查找元素：idcard方式[By.name:identity]
+2020-04-09 21:15:31  [ main:20647 ] - [ INFO ]  input输入：idcard[By.name:identity  value:*******]
+2020-04-09 21:15:31  [ main:20647 ] - [ INFO ]  查找元素：mobile方式[By.name:mobile]
+2020-04-09 21:15:31  [ main:20798 ] - [ INFO ]  input输入：mobile[By.name:mobile  value:*******]
+2020-04-09 21:15:31  [ main:20798 ] - [ INFO ]  查找元素：sms_code方式[By.name:sms_code]
+2020-04-09 21:15:31  [ main:20941 ] - [ INFO ]  input输入：sms_code[By.name:sms_code  value:*******]
+2020-04-09 21:15:31  [ main:20943 ] - [ INFO ]  等待3秒
+2020-04-09 21:15:34  [ main:23960 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-04-09 21:15:34  [ main:24020 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
+2020-04-09 21:15:34  [ main:24020 ] - [ INFO ]  等待2秒
+2020-04-09 21:15:36  [ main:26027 ] - [ INFO ]  查找元素：confrim方式[By.xpath://div[@class='protocol-btm-btn']]
+2020-04-09 21:15:36  [ main:26097 ] - [ INFO ]  click元素：confrim[By.xpath://div[@class='protocol-btm-btn']]成功！
+2020-04-09 21:15:36  [ main:26097 ] - [ INFO ]  等待2秒
+2020-04-09 21:15:38  [ main:28105 ] - [ INFO ]  等待5秒判断元素：//*[text()='确认无以上问题']是否存在
+2020-04-09 21:15:43  [ main:33110 ] - [ INFO ]  查找一组元素：jiangao 方式[By.xpath://*[text()='确认无以上问题']]
+2020-04-09 21:15:43  [ main:33134 ] - [ INFO ]  判断结果为：false
+2020-04-09 21:15:43  [ main:33136 ] - [ INFO ]  等待3秒
+2020-04-09 21:15:46  [ main:36141 ] - [ INFO ]  等待10秒判断元素：hz-button-text是否存在
+2020-04-09 21:15:56  [ main:46146 ] - [ INFO ]  查找一组元素：pay 方式[By.className:hz-button-text]
+2020-04-09 21:15:56  [ main:46161 ] - [ INFO ]  判断结果为：false
+2020-04-09 21:15:56  [ main:46161 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-04-09 21:15:56  [ main:46197 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
+2020-04-09 21:15:56  [ main:46198 ] - [ INFO ]  等待1秒
+2020-04-09 21:15:58  [ main:47655 ] - [ ERROR ]  失败截图：/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/report/snapshot/2020-04-09-211557644.jpg
+2020-04-09 21:15:58  [ main:48058 ] - [ ERROR ]  失败截图：/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/report/snapshot/2020-04-09-211558095.jpg
+2020-04-09 21:15:58  [ main:48249 ] - [ INFO ]  关闭浏览器
+2020-04-09 21:15:58  [ main:48253 ] - [ INFO ]  ------------------开始执行测试---------------
+2020-04-09 21:15:58  [ main:48254 ] - [ INFO ]  启动浏览器
+2020-04-09 21:16:00  [ main:49756 ] - [ INFO ]  启动Chrome浏览器
+2020-04-09 21:16:07  [ main:57312 ] - [ INFO ]  打开页面
+2020-04-09 21:16:07  [ main:57321 ] - [ INFO ]  等待3秒
+2020-04-09 21:16:10  [ main:60326 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-04-09 21:16:10  [ main:60375 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
+2020-04-09 21:16:10  [ main:60376 ] - [ INFO ]  查找元素：name方式[By.cssSelector:input[placeholder='请输入真实姓名']]
+2020-04-09 21:16:11  [ main:60621 ] - [ INFO ]  input输入：name[By.cssSelector:input[placeholder='请输入真实姓名']  value:*******]
+2020-04-09 21:16:11  [ main:60621 ] - [ INFO ]  等待1秒
+2020-04-09 21:16:12  [ main:61625 ] - [ INFO ]  查找元素：idcard方式[By.name:identity]
+2020-04-09 21:16:12  [ main:61835 ] - [ INFO ]  input输入：idcard[By.name:identity  value:*******]
+2020-04-09 21:16:12  [ main:61835 ] - [ INFO ]  查找元素：mobile方式[By.name:mobile]
+2020-04-09 21:16:12  [ main:61985 ] - [ INFO ]  input输入：mobile[By.name:mobile  value:*******]
+2020-04-09 21:16:12  [ main:61985 ] - [ INFO ]  查找元素：sms_code方式[By.name:sms_code]
+2020-04-09 21:16:12  [ main:62105 ] - [ INFO ]  input输入：sms_code[By.name:sms_code  value:*******]
+2020-04-09 21:16:12  [ main:62106 ] - [ INFO ]  等待3秒
+2020-04-09 21:16:15  [ main:65123 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-04-09 21:16:15  [ main:65190 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
+2020-04-09 21:16:15  [ main:65190 ] - [ INFO ]  等待2秒
+2020-04-09 21:16:17  [ main:67195 ] - [ INFO ]  查找元素：confrim方式[By.xpath://div[@class='protocol-btm-btn']]
+2020-04-09 21:16:17  [ main:67258 ] - [ INFO ]  click元素：confrim[By.xpath://div[@class='protocol-btm-btn']]成功！
+2020-04-09 21:16:17  [ main:67259 ] - [ INFO ]  等待2秒
+2020-04-09 21:16:19  [ main:69262 ] - [ INFO ]  等待5秒判断元素：//*[text()='确认无以上问题']是否存在
+2020-04-09 21:16:24  [ main:74266 ] - [ INFO ]  查找一组元素：jiangao 方式[By.xpath://*[text()='确认无以上问题']]
+2020-04-09 21:16:24  [ main:74281 ] - [ INFO ]  判断结果为：false
+2020-04-09 21:16:24  [ main:74281 ] - [ INFO ]  等待3秒
+2020-04-09 21:16:27  [ main:77285 ] - [ INFO ]  等待10秒判断元素：hz-button-text是否存在
+2020-04-09 21:16:37  [ main:87288 ] - [ INFO ]  查找一组元素：pay 方式[By.className:hz-button-text]
+2020-04-09 21:16:37  [ main:87309 ] - [ INFO ]  判断结果为：false
+2020-04-09 21:16:37  [ main:87309 ] - [ INFO ]  查找元素：order方式[By.xpath://*[text()='立即投保']]
+2020-04-09 21:16:37  [ main:87345 ] - [ INFO ]  click元素：order[By.xpath://*[text()='立即投保']]成功！
+2020-04-09 21:16:37  [ main:87345 ] - [ INFO ]  等待1秒
+2020-04-09 21:16:39  [ main:88757 ] - [ ERROR ]  失败截图：/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/report/snapshot/2020-04-09-211638788.jpg
+2020-04-09 21:16:39  [ main:89147 ] - [ ERROR ]  失败截图：/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/report/snapshot/2020-04-09-211639197.jpg
+2020-04-09 21:16:39  [ main:89298 ] - [ INFO ]  关闭浏览器
+2020-04-09 21:16:45  [ main:94614 ] - [ DEBUG ]  Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 21:16:45  [ main:94615 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+2020-04-09 21:16:45  [ main:94617 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index.ftl"): Found
+2020-04-09 21:16:45  [ main:94617 ] - [ DEBUG ]  Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+2020-04-09 21:16:45  [ main:94903 ] - [ DEBUG ]  Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 21:16:45  [ main:94903 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+2020-04-09 21:16:45  [ main:94903 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head.ftl"): Found
+2020-04-09 21:16:45  [ main:94903 ] - [ DEBUG ]  Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+2020-04-09 21:16:45  [ main:94922 ] - [ DEBUG ]  Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 21:16:45  [ main:94923 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+2020-04-09 21:16:45  [ main:94923 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav.ftl"): Found
+2020-04-09 21:16:45  [ main:94923 ] - [ DEBUG ]  Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+2020-04-09 21:16:45  [ main:94939 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 21:16:45  [ main:94940 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+2020-04-09 21:16:45  [ main:94941 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+2020-04-09 21:16:45  [ main:94941 ] - [ DEBUG ]  Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+2020-04-09 21:16:45  [ main:94950 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 21:16:45  [ main:94951 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+2020-04-09 21:16:45  [ main:94951 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+2020-04-09 21:16:45  [ main:94951 ] - [ DEBUG ]  Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+2020-04-09 21:16:45  [ main:94966 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 21:16:45  [ main:94966 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+2020-04-09 21:16:45  [ main:94967 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+2020-04-09 21:16:45  [ main:94967 ] - [ DEBUG ]  Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+2020-04-09 21:16:45  [ main:94986 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-04-09 21:16:45  [ main:94989 ] - [ DEBUG ]  Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 21:16:45  [ main:94992 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+2020-04-09 21:16:45  [ main:94992 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+2020-04-09 21:16:45  [ main:94992 ] - [ DEBUG ]  Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+2020-04-09 21:16:45  [ main:94998 ] - [ DEBUG ]  Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 21:16:45  [ main:94999 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+2020-04-09 21:16:45  [ main:94999 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+2020-04-09 21:16:45  [ main:94999 ] - [ DEBUG ]  Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+2020-04-09 21:16:45  [ main:95009 ] - [ DEBUG ]  Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 21:16:45  [ main:95009 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+2020-04-09 21:16:45  [ main:95010 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+2020-04-09 21:16:45  [ main:95010 ] - [ DEBUG ]  Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+2020-04-09 21:16:45  [ main:95017 ] - [ DEBUG ]  Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-04-09 21:16:45  [ main:95017 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+2020-04-09 21:16:45  [ main:95018 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+2020-04-09 21:16:45  [ main:95018 ] - [ DEBUG ]  Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/xueping.sun/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"

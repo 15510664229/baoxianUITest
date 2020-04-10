@@ -2,6 +2,7 @@ package sun.baoxian.actions;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.Reporter;
 import sun.baoxian.base.WebAssertionBase;
 import sun.baoxian.base.WebCaseBase;
@@ -47,8 +48,15 @@ public class fangaiAction extends WebCaseBase {
         action.sleep(1);
         action.click(page1.confrim());
         action.sleep(3);
-        action.DisplayElement(page1.deadline());
-        action.successend();
+        if (action.isElementsPresent(page1.deadline(),10)){
+            action.successend();
+        }else {
+            action.click(page1.submit());
+            action.sleep(1);
+            action.fail();
+            action.fail();
+            Assert.fail("核保失败-跳转收银台失败");
+        }
         Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
     }
@@ -80,10 +88,20 @@ public class fangaiAction extends WebCaseBase {
         action.click(page1.submit());
         action.sleep(1);
         action.click(page1.confrim());
-        action.sleep(3);
-        action.DisplayElement(page1.deadline());
-        action.successend();
+        //action.sleep(3);
+        if (action.isElementsPresent(page1.deadline(),10)){
+            action.successend();
+        }else {
+            action.click(page1.submit());
+            action.sleep(1);
+            action.fail();
+            action.fail();
+            Assert.fail("核保失败-跳转收银台失败");
+        }
+        //action.DisplayElement(page1.deadline());
+
         Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
+        Reporter.log("回归链接地址："+url);
     }
 }

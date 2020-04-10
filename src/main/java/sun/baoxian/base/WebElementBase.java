@@ -797,6 +797,13 @@ public class WebElementBase extends  WebCaseBase {
         screenShot.setscreenName(this.formatDate(nowDate));
         screenShot.takeScreenshot1();
     }
+    public void fail(){
+        ScreenShotUtil screenShot = new ScreenShotUtil(driver);
+        //设置截图名字
+        Date nowDate = new Date();
+        screenShot.setscreenName(this.formatDate(nowDate));
+        screenShot.takeScreenshotfail();
+    }
 
     /**
      * 滑动页面直到出现某个元素

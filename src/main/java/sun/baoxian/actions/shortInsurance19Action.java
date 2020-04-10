@@ -1,6 +1,7 @@
 package sun.baoxian.actions;
 
 import org.bytedeco.javacpp.presets.opencv_core;
+import org.testng.Assert;
 import org.testng.Reporter;
 import sun.baoxian.base.WebCaseBase;
 import sun.baoxian.base.WebElementBase;
@@ -41,10 +42,18 @@ public class shortInsurance19Action extends WebCaseBase {
             action.click(page1.jiangao());
         }
         action.sleep(2);
-        action.DisplayElement(page1.pay());
-        action.getUrl();
-        //action.SnapshotForElement("res/images/", "taikang.png", page1.pay());
-        action.successend();
+        if (action.isElementsPresent(page1.pay(),10)){
+            action.getUrl();
+            action.successend();
+        }else {
+            action.click(page1.order());
+            action.sleep(1);
+            action.fail();
+            action.fail();
+            Assert.fail("核保失败-跳转收银台失败");
+        }
+        //action.DisplayElement(page1.pay());
+
         Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
     }
@@ -73,10 +82,16 @@ public class shortInsurance19Action extends WebCaseBase {
         if (action.isElementsPresent(page1.jiangao(),5)){
             action.click(page1.jiangao());
         }
-        action.sleep(2);
-        action.DisplayElement(page1.pay());
-        action.getUrl();
-        action.successend();
+        if (action.isElementsPresent(page1.pay(),10)){
+            action.getUrl();
+            action.successend();
+        }else {
+            action.click(page1.order());
+            action.sleep(1);
+            action.fail();
+            action.fail();
+            Assert.fail("核保失败-跳转收银台失败");
+        }
         //action.SnapshotForElement("res/images","taikang.png",page1.pay());
         Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
@@ -189,9 +204,16 @@ public class shortInsurance19Action extends WebCaseBase {
         action.click(page1.order());
         action.sleep(2);
         action.click(page1.confrim());
-        action.DisplayElement(page1.pay());
-        action.getUrl();
-        action.successend();
+        if (action.isElementsPresent(page1.pay(),10)){
+            action.getUrl();
+            action.successend();
+        }else {
+            action.click(page1.order());
+            action.sleep(1);
+            action.fail();
+            action.fail();
+            Assert.fail("核保失败-跳转收银台失败");
+        }
         Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
     }
@@ -216,10 +238,16 @@ public class shortInsurance19Action extends WebCaseBase {
         action.sleep(2);
         //协议默认选中，直接跳转收银台了
         action.click(page1.confrim());
-        action.DisplayElement(page1.pay());
-        action.getUrl();
-        //action.SnapshotForElement("res/images","taikang.png",page1.pay());
-       action.successend();
+        if (action.isElementsPresent(page1.pay(),10)){
+            action.getUrl();
+            action.successend();
+        }else {
+            action.click(page1.order());
+            action.sleep(1);
+            action.fail();
+            action.fail();
+            Assert.fail("核保失败-跳转收银台失败");
+        }
         Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
         Reporter.log("支付链接： "+action.getUrl());
     }
@@ -252,11 +280,22 @@ public class shortInsurance19Action extends WebCaseBase {
             action.click(page1.jiangao());
         }
         action.sleep(3);
-        action.DisplayElement(page1.pay());
-        action.getUrl();
-        action.successend();
+        if (action.isElementsPresent(page1.pay(),10)){
+            action.getUrl();
+            action.successend();
+        }else  {
+            action.click(page1.order());
+            action.sleep(1);
+            action.fail();
+            action.fail();
+            Assert.fail("核保失败-跳转收银台失败");
+
+        }
         Reporter.log("投保人信息：手机号：18230288372"+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
+        Reporter.log("回归链接地址： "+url);
+        //action.DisplayElement(page1.pay());
+
     }
 
     /**
@@ -291,9 +330,17 @@ public class shortInsurance19Action extends WebCaseBase {
             action.click(page1.jiangao());
         }
         action.sleep(3);
+        if (action.isElementsPresent(page1.pay(),10)) {
         action.DisplayElement(page1.pay());
         action.getUrl();
         action.successend();
+        }else {
+            action.click(page1.order());
+            action.sleep(1);
+            action.fail();
+            action.fail();
+            Assert.fail("核保失败-跳转收银台失败");
+        }
         Reporter.log("投保人信息：手机号：18230288372"+"      "+"身份证号："+idcard);
         Reporter.log(action.getUrl());
     }
@@ -324,11 +371,21 @@ public class shortInsurance19Action extends WebCaseBase {
             action.click(page1.jiangao());
         }
         action.sleep(3);
-        action.DisplayElement(page1.pay());
-        action.getUrl();
-        action.successend();
+        if (action.isElementsPresent(page1.pay(),10)){
+            //action.DisplayElement(page1.pay());
+            action.getUrl();
+            action.successend();
+        }else {
+            action.click(page1.order());
+            action.sleep(1);
+            action.fail();
+            action.fail();
+            Assert.fail("核保失败-跳转收银台失败");
+        }
+
         Reporter.log("投保人信息：手机号：18230288372"+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
+        Reporter.log("回归链接地址： "+url);
     }
 
     //online  阳光线上回归
@@ -357,11 +414,21 @@ public class shortInsurance19Action extends WebCaseBase {
         action.sleep(2);
         action.click(page1.confrim());
         action.sleep(3);
-        action.DisplayElement(page1.pay());
-        action.getUrl();
-        action.successend();
+        if (action.isElementsPresent(page1.pay(),10)){
+            action.getUrl();
+            action.successend();
+        }else {
+            action.click(page1.order());
+            action.sleep(1);
+            action.fail();
+            action.fail();
+            Assert.fail("核保失败-跳转收银台失败");
+        }
+
+
         Reporter.log("投保人信息：手机号："+m2+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
+        Reporter.log("回归链接地址： "+url);
     }
 
     //学平险&（阳光综合意外plus版本）收费版回归
@@ -393,11 +460,21 @@ public class shortInsurance19Action extends WebCaseBase {
             action.click(page1.jiangao());
         }
         action.sleep(2);
-        action.DisplayElement(page1.pay());
-        action.getUrl();
-        //action.SnapshotForElement("res/images/", "taikang.png", page1.pay());
-        action.successend();
+
+        if (action.isElementsPresent(page1.pay(),10)){
+            //action.DisplayElement(page1.pay());
+            action.getUrl();
+            //action.SnapshotForElement("res/images/", "taikang.png", page1.pay());
+            action.successend();
+        }else {
+            action.click(page1.order());
+            action.sleep(1);
+            action.fail();
+            action.fail();
+            Assert.fail("核保失败-跳转收银台失败");
+        }
         Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
+        Reporter.log("回归链接地址： "+url);
     }
 }

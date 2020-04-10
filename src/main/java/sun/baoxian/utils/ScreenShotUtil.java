@@ -63,6 +63,7 @@ public class ScreenShotUtil {
         this.sreenShot(screenPath);
     }
 
+
     /**
      * 截图写到日志里，截图全屏幕
      * @author xueping.sun
@@ -82,6 +83,32 @@ public class ScreenShotUtil {
             e.printStackTrace();
         }
 
+    }
+
+    public  void sreenShot1(String screenPath){
+
+        File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+        try {
+            Files.copy(scrFile, new File(screenPath));
+            log.error("失败截图：" + screenPath);
+            String imgaename = screenPath.split("snapshot")[1];
+            Reporter.log("<a href=snapshot" + imgaename + " target=_blank><img src=snapshot/" + imgaename
+                    + " style=width:30px;height:30px img/>失败截图</a>", true);
+        } catch (Exception e) {
+            // TODO: handle exception
+            e.printStackTrace();
+        }
+
+    }
+
+    public void takeScreenshotfail() {
+        String screenName = this.screenName + ".jpg";
+        File dir = new File("report/snapshot/");
+        if (!dir.exists()) {
+            dir.mkdirs();
+        }
+        String screenPath = dir.getAbsolutePath() + "/" + screenName;
+        this.sreenShot1(screenPath);
     }
 }
 

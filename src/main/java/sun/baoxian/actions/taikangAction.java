@@ -1,5 +1,6 @@
 package sun.baoxian.actions;
 import com.sun.org.apache.xalan.internal.xsltc.dom.CurrentNodeListFilter;
+import org.testng.Assert;
 import org.testng.Reporter;
 import sun.baoxian.base.WebAssertionBase;
 import sun.baoxian.base.WebCaseBase;
@@ -62,10 +63,18 @@ public class taikangAction extends WebCaseBase {
         action.click(page1.order());
         action.sleep(4);
         action.click(page1.confrim());
-        action.DisplayElement(page1.deadline());
-        action.successend();
+        if (action.isElementsPresent(page1.deadline(),10)){
+            action.successend();
+        }else {
+            action.click(page1.order());
+            action.sleep(1);
+            action.fail();
+            action.fail();
+            Assert.fail("核保失败-跳转收银台失败");
+        }
         Reporter.log("投保人信息：手机号：18230288372"+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
+        Reporter.log("测试地址"+url);
     }
 
 
