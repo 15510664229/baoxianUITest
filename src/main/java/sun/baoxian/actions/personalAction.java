@@ -3,7 +3,6 @@ package sun.baoxian.actions;
 import sun.baoxian.base.WebCaseBase;
 import sun.baoxian.base.WebElementBase;
 import sun.baoxian.pageObject.personalpage;
-
 import java.io.IOException;
 
 public class personalAction extends WebCaseBase {

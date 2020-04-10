@@ -430,7 +430,7 @@ public class shortInsurance19Action extends WebCaseBase {
         Reporter.log("回归链接地址： "+url);
     }
 
-    //学平险&（阳光综合意外plus版本）收费版回归
+    //学平险&（阳光综合意外plus版本）收费版回归 online
     public void StudentTmp(String url) throws Exception {
         shortTmp page1 = new shortTmp();
         page1.getPage(url);
@@ -476,4 +476,8 @@ public class shortInsurance19Action extends WebCaseBase {
         Reporter.log(action.getUrl());
         Reporter.log("回归链接地址： "+url);
     }
+
+
+
+
 }

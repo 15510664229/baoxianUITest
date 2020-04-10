@@ -7,7 +7,7 @@ import sun.baoxian.base.WebCaseBase;
 public class changqingbaoTest extends WebCaseBase {
     String urlgray="https://bxmgray.ncfimg.com/#/long_insurancev2/detail?product_code=101912S0048";
     @Test
-    public void changqingbaoA(String url) throws Exception{
+    public void changqingbaoA() throws Exception{
         changqingbaoAction action=new changqingbaoAction();
         action.changqingbao_002(urlgray);
     }

@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.Reporter;
 import sun.baoxian.base.WebCaseBase;
 import sun.baoxian.base.WebElementBase;
@@ -25,7 +26,8 @@ public class mamibaobeiAction extends WebCaseBase {
 
     public void mamibaobei_001() throws Exception {
         mamibaobeipage page1 = new mamibaobeipage();
-        page1.getPage("http://test.bxm.ncfimg.com/#/long_insurance/detail?product_code=701911S0021");
+        String url="http://test.bxm.ncfimg.com/#/long_insurance/detail?product_code=701911S0021";
+        page1.getPage(url);
         //等待页面加载完成
         action.pagefoload(15);
         action.click(page1.submit());
@@ -103,12 +105,19 @@ public class mamibaobeiAction extends WebCaseBase {
         action.sleep(3);
         action.click(page1.submit());
         action.sleep(4);
-        action.DisplayElement(page1.deadline());
-       // action.SnapshotForElement("res/images/", "mamibaobei.png", page1.deadline());
-        action.successend();
+        if (action.isElementsPresent(page1.deadline(),10)){
+            action.successend();
+        }else {
+            action.click(page1.submit());
+            action.sleep(1);
+            action.fail();
+            action.fail();
+            Assert.fail("核保失败-跳转收银台失败");
+        }
         Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
         Reporter.log("被保人信息：姓名："+n1+"      "+"身份证号："+i2);
-        Reporter.log("支付链接： "+action.getUrl());
+        Reporter.log("页面最后链接地址： "+action.getUrl());
+        Reporter.log("回归链接地址： "+url);
 
     }
     //线上回归
