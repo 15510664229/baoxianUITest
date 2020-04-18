@@ -270,7 +270,7 @@ public class duolaAbaoAction extends WebCaseBase {
         action.click(page1.tdjb());
         action.click(page1.submit());
         action.sleep(5);
-        action.click(page1.jiangao());
+        action.click(page1.jianggao_new());
         action.sleep(5);
         action.type(page1.ins_name(), "孙雪萍");
         String m1="15510664229";
