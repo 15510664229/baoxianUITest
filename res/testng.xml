@@ -15,7 +15,7 @@
 			<class name="sun.baoxian.fangaiTest"></class>
 			<class name="sun.baoxian.shortInsuranceTest">
 <!--				<methods >-->
-<!--					<include name="studentCharge" />-->
+<!--					<include name="taikang2020_PH_001" />-->
 <!--					<include name="yangguangPlus" />-->
 <!--				</methods>-->
 			</class>

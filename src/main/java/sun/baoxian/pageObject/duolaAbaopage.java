@@ -200,6 +200,17 @@ public  LocatorBase jiangao() throws IOException
  }
 
 /***
+* jianggao_new
+* @return
+* @throws IOException
+*/
+public  LocatorBase jianggao_new() throws IOException
+ {
+   LocatorBase locator=getLocator("jianggao_new");
+   return locator;
+ }
+
+/***
 * ins_name
 * @return
 * @throws IOException
@@ -262,6 +273,17 @@ public  LocatorBase email() throws IOException
 public  LocatorBase address() throws IOException
  {
    LocatorBase locator=getLocator("address");
+   return locator;
+ }
+
+/***
+* address_new
+* @return
+* @throws IOException
+*/
+public  LocatorBase address_new() throws IOException
+ {
+   LocatorBase locator=getLocator("address_new");
    return locator;
  }
 
@@ -361,6 +383,17 @@ public  LocatorBase pay() throws IOException
 public  LocatorBase deadline() throws IOException
  {
    LocatorBase locator=getLocator("deadline");
+   return locator;
+ }
+
+/***
+* confrim
+* @return
+* @throws IOException
+*/
+public  LocatorBase confrim() throws IOException
+ {
+   LocatorBase locator=getLocator("confrim");
    return locator;
  }
 }

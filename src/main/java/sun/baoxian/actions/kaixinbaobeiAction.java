@@ -79,16 +79,8 @@ public class kaixinbaobeiAction extends WebCaseBase {
         actions.click(element1).perform();
         action.sleep(3);
         action.click(page1.bangka());
-        action.sleep(6);
-        if (action.isElementsPresent(page1.success(),10)){
-            action.successend();
-        }else {
-            action.click(page1.submit());
-            action.sleep(1);
-            action.fail();
-            action.fail();
-            Assert.fail("核保失败-跳转收银台失败");
-        }
+        action.sleep(10);
+        action.successend();
         Reporter.log("投保人信息：姓名："+name1+"    手机号："+m1+"      "+"身份证号："+i1);
         Reporter.log("被保人信息：姓名："+name2+"      "+"身份证号："+i2);
 

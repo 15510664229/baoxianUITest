@@ -10,6 +10,6 @@ public class huaguidamaiTest  extends WebCaseBase {
     @Test
     public void huaguidamaiTest () throws Exception{
         huaguidamaiAction action=new huaguidamaiAction();
-        action.damai(damaitest);
+        action.damai_test(damaitest);
     }
 }

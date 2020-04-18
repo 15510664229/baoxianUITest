@@ -57,6 +57,17 @@ public  LocatorBase jiangao() throws IOException
  }
 
 /***
+* jiangao_new
+* @return
+* @throws IOException
+*/
+public  LocatorBase jiangao_new() throws IOException
+ {
+   LocatorBase locator=getLocator("jiangao_new");
+   return locator;
+ }
+
+/***
 * ins_name
 * @return
 * @throws IOException
@@ -119,6 +130,17 @@ public  LocatorBase email() throws IOException
 public  LocatorBase address() throws IOException
  {
    LocatorBase locator=getLocator("address");
+   return locator;
+ }
+
+/***
+* address_new
+* @return
+* @throws IOException
+*/
+public  LocatorBase address_new() throws IOException
+ {
+   LocatorBase locator=getLocator("address_new");
    return locator;
  }
 

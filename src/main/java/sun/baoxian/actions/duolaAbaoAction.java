@@ -4,7 +4,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.Assert;
 import org.testng.Reporter;
 import sun.baoxian.base.MobileChromeDriver;
 import sun.baoxian.base.WebCaseBase;
@@ -24,11 +26,20 @@ public class duolaAbaoAction extends WebCaseBase {
     IdCardGenerator idCardGenerator = new IdCardGenerator();
     Mobile mobile=new Mobile();
 
-    public void duolaAbao_001() throws Exception {
+    /**
+     * 火狐测试环境回归
+     * @throws Exception
+     */
+
+    public void duolaAbao_001(String url) throws Exception {
+        /**
+         * 哆啦A保核测试环境跳转至收银台
+         */
         duolaAbaopage page1 = new duolaAbaopage();
-        page1.getPage("http://test.bxm.ncfimg.com/biz/page/info?page_id=105&is_gray=1&goods_code=G1581501768#/");
+        page1.getPage(url);
         //等待页面加载完成
         action.pagefoload(15);
+        action.sleep(3);
         action.click(page1.submit());
         action.sleep(5);
         //弹层填写信息
@@ -40,14 +51,17 @@ public class duolaAbaoAction extends WebCaseBase {
         List<WebElement> list = new ArrayList<>();
         list = driver.findElements(By.className("am-picker-col-mask"));
         SwipeScreenOrElement swp1 = new SwipeScreenOrElement(driver, list.get(0));
-        swp1.swipe(list.get(0), 20, 30, 20, 200);
+        for (int i=0;i<4;i++){
+            swp1.swipe(list.get(0), 20, 30, 20, 100);
+            action.sleep(1);
+        }
         action.sleep(2);
         driver.findElement(By.xpath("//*[text()='确定']")).click();
         String birth1 = w.get(0).getText().replaceAll("/*-", "");
         w.get(1).click();
         list = driver.findElements(By.className("am-picker-col-mask"));
         SwipeScreenOrElement swp2 = new SwipeScreenOrElement(driver, list.get(0));
-        swp1.swipe(list.get(0), 20, 30, 20, 150);
+        swp1.swipe(list.get(0), 20, 30, 20, 100);
         action.sleep(2);
         driver.findElement(By.xpath("//*[text()='确定']")).click();
         String birth2 = w.get(1).getText().replaceAll("/*-", "");
@@ -58,60 +72,89 @@ public class duolaAbaoAction extends WebCaseBase {
         action.click(page1.tdjb());
         action.click(page1.submit());
         action.sleep(5);
-        action.click(page1.jiangao());
-        action.sleep(4);
-        String url=action.getUrl();
-        driver.quit();
-
-        this.driver=new MobileChromeDriver(driver);
-
-        driver.get(url);
-        action.sleep(2);
-        action.type(page1.ins_name(), "自动化");
+        action.click(page1.jianggao_new());
+        action.sleep(5);
+        action.type(page1.ins_name(), "回归");
         String m1=mobile.getTel();
-        String i1=idCardGenerator.generate(birth1, "1");
-        //String i2=idCardGenerator.generate(birth2, "1");
-        String n1=mobile.getChineseName();
+        String i1=idCardGenerator.generate(birth1,"1");
         action.type(page1.ins_idcard(),i1);
         action.type(page1.ins_mobile(), m1);
         action.type(page1.sms_code(), "111111");
-        action.type(page1.email(), "226587@qq.com");
-        action.type(page1.address(), "朝阳区不知道大街自动化小区琳琳街1410号");
+        action.type(page1.email(), mobile.getEmail(4,6));
         action.executeJS("window.scrollBy(0,400);");
+        action.type(page1.address_new(), "朝阳区不知道大街自动化小区琳琳街1410号");
+        action.executeJS("window.scrollBy(0,200);");
         //job
         action.click(page1.job());
-        action.sleep(1);
-        List<WebElement> list2=new ArrayList<>();
-        list2=driver.findElements(By.xpath("//*[text()='家庭主妇']"));
-        list2.get(0).click();
+        //滑动选中职业
+        action.sleep(3);
+
+        WebElement el2 = driver.findElement(By.xpath("//*[@class='am-picker-col-indicator ']"));
+        driver.getPageSource();
+
+        Actions ta=new Actions(driver);
+        ta.release();
+        for (int i=0;i<3;i++) {
+            ta.moveToElement(el2).clickAndHold().moveByOffset(0, -150).release().build().perform();
+            action.sleep(2);
+            driver.findElement(By.xpath("//*[@class='am-picker-col-indicator ']")).click();
+            action.sleep(4);
+        }
+        //选择完成，等待回到投保页面
         action.sleep(2);
         action.executeJS("window.scrollBy(0,400);");
-        //身高
+//        //身高
 //        action.click(page1.shengao());
 //        action.sleep(2);
-//        WebElement element2 = driver.findElement(By.xpath("//*[@class='am-picker-col-mask']"));
-//        SwipeScreenOrElement swp3 = new SwipeScreenOrElement(driver, element2);
-//        swp3.swipeToDown(3);
-//        action.click(page1.queding());
+//        WebElement el5=driver.findElement(By.xpath("//*[@class='am-picker-col-mask']"));
+//        Actions ta1=new Actions(driver);
+//        ta1.release();
+//        for (int i=0;i<17;i++) {
+//            ta1.moveToElement(el5).clickAndHold().moveByOffset(0, -100).release().build().perform();
+//            action.sleep(1);
+//        }
 //
-//        //体重
+//        driver.findElement(By.xpath("//*[@class='am-picker-col-indicator ']")).click();
+//        action.click(page1.queding());
+//        action.sleep(2);
 //        action.click(page1.tizhong());
 //        action.sleep(2);
-//        WebElement element3 = driver.findElement(By.xpath("//*[@class='am-picker-col-mask']"));
-//        SwipeScreenOrElement swp4 = new SwipeScreenOrElement(driver, element3);
-//        swp4.swipeToDown(3);
+//        WebElement el6=driver.findElement(By.xpath("//*[@class='am-picker-col-mask']"));
+//        Actions ta2=new Actions(driver);
+//        ta2.release();
+//        for (int i=0;i<10;i++) {
+//            ta2.moveToElement(el6).clickAndHold().moveByOffset(0, -100).release().build().perform();
+//            action.sleep(1);
+//        }
+//        driver.findElement(By.xpath("//*[@class='am-picker-col-indicator ']")).click();
 //        action.click(page1.queding());
+//        action.sleep(2);
+
+        action.executeJS("window.scrollBy(0,400);");
         action.type(page1.bank_card(), "62170000121212222");
         action.type(page1.bank_mobile(), m1);
+        action.sleep(3);
         action.click(page1.submit());
-        action.sleep(7);
-        action.DisplayElement(page1.deadline());
-        action.successend();
+        action.sleep(3);
+        action.click(page1.confrim());
+        action.sleep(2);
+        if (action.isElementsPresent(page1.pay(),10)){
+            //action.DisplayElement(page1.pay());
+            action.getUrl();
+            action.successend();
+        }else {
+            action.click(page1.submit());
+            action.sleep(1);
+            action.fail();
+            action.fail();
+            Assert.fail("核保失败-跳转收银台失败");
+        }
+
         Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
-        Reporter.log("支付链接： "+action.getUrl());
+        Reporter.log("回归链接地址： "+url);
     }
 
-//线上回归
+//线上回归 chrome  暂时没有维护第一版跑过
     public void duolaAbao_002() throws Exception {
         duolaAbaopage page1 = new duolaAbaopage();
         page1.getPage("https://bxm.ncfimg.com/biz/page/info?page_id=27&goods_code=G1582255066&channel=124&fr=504&product_code=P7020200006&__pl__=");
@@ -187,6 +230,9 @@ public class duolaAbaoAction extends WebCaseBase {
      * @throws Exception
      */
     public void duolaAbao_003(String url) throws Exception {
+        /**
+         * 哆啦A保核保保司通不过，提交成功截图即为通过
+         */
         duolaAbaopage page1 = new duolaAbaopage();
         page1.getPage(url);
         //等待页面加载完成
@@ -226,30 +272,70 @@ public class duolaAbaoAction extends WebCaseBase {
         action.sleep(5);
         action.click(page1.jiangao());
         action.sleep(5);
-        action.type(page1.ins_name(), "回归");
+        action.type(page1.ins_name(), "孙雪萍");
         String m1="15510664229";
-        String i1=idCardGenerator.generate(birth1, "1");
-        String n1=mobile.getChineseName();
+        String i1="150404199312100264";
         action.type(page1.ins_idcard(),i1);
         action.type(page1.ins_mobile(), m1);
         action.type(page1.sms_code(), "111111");
         action.type(page1.email(), "226587@qq.com");
-        action.type(page1.address(), "朝阳区不知道大街自动化小区琳琳街1410号");
         action.executeJS("window.scrollBy(0,400);");
+        action.type(page1.address(), "朝阳区不知道大街自动化小区琳琳街1410号");
+        action.executeJS("window.scrollBy(0,200);");
         //job
         action.click(page1.job());
-        action.sleep(1);
-        List<WebElement> list2=new ArrayList<>();
-        list2=driver.findElements(By.xpath("//*[text()='家庭主妇']"));
-        list2.get(0).click();
+        //滑动选中职业
+        action.sleep(3);
+
+        WebElement el2 = driver.findElement(By.xpath("//*[@class='am-picker-col-indicator ']"));
+        driver.getPageSource();
+
+        Actions ta=new Actions(driver);
+        ta.release();
+        for (int i=0;i<3;i++) {
+            ta.moveToElement(el2).clickAndHold().moveByOffset(0, -150).release().build().perform();
+            action.sleep(2);
+            driver.findElement(By.xpath("//*[@class='am-picker-col-indicator ']")).click();
+            action.sleep(4);
+        }
+        //选择完成，等待回到投保页面
         action.sleep(2);
+        action.executeJS("window.scrollBy(0,400);");
+        //身高
+        action.click(page1.shengao());
+        action.sleep(2);
+        WebElement el5=driver.findElement(By.xpath("//*[@class='am-picker-col-mask']"));
+        Actions ta1=new Actions(driver);
+        ta1.release();
+        for (int i=0;i<17;i++) {
+            ta1.moveToElement(el5).clickAndHold().moveByOffset(0, -100).release().build().perform();
+            action.sleep(1);
+        }
+
+        driver.findElement(By.xpath("//*[@class='am-picker-col-indicator ']")).click();
+        action.click(page1.queding());
+        action.sleep(2);
+        action.click(page1.tizhong());
+        action.sleep(2);
+        WebElement el6=driver.findElement(By.xpath("//*[@class='am-picker-col-mask']"));
+        Actions ta2=new Actions(driver);
+        ta2.release();
+        for (int i=0;i<10;i++) {
+            ta2.moveToElement(el6).clickAndHold().moveByOffset(0, -100).release().build().perform();
+            action.sleep(1);
+        }
+        driver.findElement(By.xpath("//*[@class='am-picker-col-indicator ']")).click();
+        action.click(page1.queding());
+        action.sleep(2);
+
         action.executeJS("window.scrollBy(0,400);");
         action.type(page1.bank_card(), "62170000121212222");
         action.type(page1.bank_mobile(), m1);
         action.sleep(3);
         action.click(page1.submit());
-        action.sleep(30);
-        //action.DisplayElement(page1.deadline());
+        action.sleep(3);
+        action.click(page1.confrim());
+        action.sleep(2);
         action.successend();
         Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
         Reporter.log("回归链接地址： "+url);

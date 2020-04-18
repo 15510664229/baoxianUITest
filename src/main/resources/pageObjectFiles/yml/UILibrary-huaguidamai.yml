@@ -8,12 +8,14 @@ pages:
         - {type: "xpath",timeout: "5",value: "//*[text()='年缴']",desc: "payY",name: "payY"}
         - {type: "xpath",timeout: "5",value: "//*[text()='月缴']",desc: "payM",name: "payM"}
         - {type: "xpath",timeout: "5",value: "//*[text()='以上情况全无']",desc: "jiangao",name: "jiangao"}
-        - {type: "xpath",timeout: "5",value: "//*[@id='InsureInfoModule']/div[2]/div/div[1]/div[2]/div/div/div/input",desc: "ins_name",name: "ins_name"}
-        - {type: "xpath",timeout: "5",value: "//*[@id='InsureInfoModule']/div[4]/div/div/div[2]/input",desc: "ins_idcard",name: "ins_idcard"}
-        - {type: "xpath",timeout: "5",value: "//*[@id='InsureInfoModule']/div[7]/div/div/div[2]/input",desc: "ins_mobile",name: "ins_mobile"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='确认无以上问题']",desc: "jiangao_new",name: "jiangao_new"}
+        - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入真实姓名']:first-child",desc: "ins_name",name: "ins_name"}
+        - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入身份证号']:first-child",desc: "ins_idcard",name: "ins_idcard"}
+        - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入手机号']:first-child",desc: "ins_mobile",name: "ins_mobile"}
         - {type: "cssSelector",timeout: "5",value: "input[placeholder=\"请输入验证码\"]",desc: "sms_code",name: "sms_code"}
         - {type: "name",timeout: "5",value: "email",desc: "email",name: "email"}
-        - {type: "xpath",timeout: "5",value: "//*[@id='InsureInfoModule']/div[11]/div/div/div[2]/input",desc: "address",name: "address"}
+        - {type: "cssSelector",timeout: "5",value: "textarea[placeholder='请输入详细地址']:first-child",desc: "address",name: "address"}
+        - {type: "cssSelector",timeout: "5",value: "input[placeholder=\"请输入详细地址\"]",desc: "address_new",name: "address_new"}
         - {type: "xpath",timeout: "5",value: "//*[text()='职业类型']",desc: "job",name: "job"}
         - {type: "xpath",timeout: "5",value: "//*[text()='确定']",desc: "queding",name: "queding"}
         - {type: "xpath",timeout: "5",value: "//*[text()='身高']",desc: "shengao",name: "shengao"}
