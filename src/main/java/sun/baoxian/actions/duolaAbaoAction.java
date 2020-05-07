@@ -229,7 +229,7 @@ public class duolaAbaoAction extends WebCaseBase {
      * @param url
      * @throws Exception
      */
-    public void duolaAbao_003(String url) throws Exception {
+    public void duolaAbao_003(String url,String mobile) throws Exception {
         /**
          * 哆啦A保核保保司通不过，提交成功截图即为通过
          */
@@ -273,10 +273,9 @@ public class duolaAbaoAction extends WebCaseBase {
         action.click(page1.jianggao_new());
         action.sleep(5);
         action.type(page1.ins_name(), "孙雪萍");
-        String m1="15510664229";
         String i1="150404199312100264";
         action.type(page1.ins_idcard(),i1);
-        action.type(page1.ins_mobile(), m1);
+        action.type(page1.ins_mobile(), mobile);
         action.type(page1.sms_code(), "111111");
         action.type(page1.email(), "226587@qq.com");
         action.executeJS("window.scrollBy(0,400);");
@@ -330,14 +329,14 @@ public class duolaAbaoAction extends WebCaseBase {
 
         action.executeJS("window.scrollBy(0,400);");
         action.type(page1.bank_card(), "62170000121212222");
-        action.type(page1.bank_mobile(), m1);
+        action.type(page1.bank_mobile(), mobile);
         action.sleep(3);
         action.click(page1.submit());
         action.sleep(3);
         action.click(page1.confrim());
         action.sleep(2);
         action.successend();
-        Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
+        Reporter.log("投保人信息：手机号："+mobile+"      "+"身份证号："+i1);
         Reporter.log("回归链接地址： "+url);
     }
 }

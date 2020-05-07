@@ -5,7 +5,7 @@
 	<listeners><!-- 监听器设置，生成测试报告的监听器，不要改此处代码 -->
 		<listener class-name="sun.baoxian.utils.ExtentIReporterListenerUtil"></listener>
 		<listener class-name="org.uncommons.reportng.HTMLReporter" />
-	 	<listener class-name='sun.baoxian.utils.RetryListener'/>
+<!--	 	<listener class-name='sun.baoxian.utils.RetryListener'/>-->
 
 	</listeners>
 	
@@ -13,20 +13,20 @@
 		<parameter name="browerType" value="ff" />
 		<classes>
 			<class name="sun.baoxianonline.taikang2020"></class>
-			<class name="sun.baoxianonline.changqingbaoTest"></class>
-			<class name="sun.baoxian_fox.duolaAbaoTest"></class>
-			<class name="sun.baoxianonline.taikang2019"></class>
-			<class name="sun.baoxianonline.huaguidamaiTest"></class>
-			<class name="sun.baoxian_fox.jiankangbao2vTest"></class>
-			<class name="sun.baoxianonline.studentChargeTest"></class>
-			<class name="sun.baoxianonline.jiangxinTest"></class>
-			<class name="sun.baoxian_fox.mamibaobeiTest"></class>
-			<class name="sun.baoxianonline.huatai"></class>
-			<class name="sun.baoxianonline.fangai_new"></class>
-			<class name="sun.baoxianonline.fangaiTest"></class>
-			<class name="sun.baoxianonline.jinglingbaoTest"></class>
-			<class name="sun.baoxianonline.yangguang_new"></class>
-			<class name="sun.baoxianonline.yangguangPlus"></class>
+            <class name="sun.baoxianonline.changqingbaoTest"></class>
+            <class name="sun.baoxian_fox.duolaAbaoTest"></class>
+            <class name="sun.baoxianonline.taikang2019"></class>
+            <class name="sun.baoxianonline.huaguidamaiTest"></class>
+            <class name="sun.baoxian_fox.jiankangbao2vTest"></class>
+            <class name="sun.baoxianonline.studentChargeTest"></class>
+            <class name="sun.baoxianonline.jiangxinTest"></class>
+            <class name="sun.baoxian_fox.mamibaobeiTest"></class>
+            <class name="sun.baoxianonline.huatai"></class>
+            <class name="sun.baoxianonline.fangai_new"></class>
+            <class name="sun.baoxianonline.fangaiTest"></class>
+            <class name="sun.baoxianonline.jinglingbaoTest"></class>
+            <class name="sun.baoxianonline.yangguang_new"></class>
+            <class name="sun.baoxianonline.yangguangPlus"></class>
 <!--			<class name="sun.personal.tuibaoTest"></class>-->
 
 		</classes>

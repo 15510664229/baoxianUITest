@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec0d697c-af63-4738-9381-99a0acc596eb" name="Default Changelist" comment="重试">
+    <list default="true" id="ec0d697c-af63-4738-9381-99a0acc596eb" name="Default Changelist" comment="修改回归手机号">
       <change afterPath="$PROJECT_DIR$/src/test/java/sun/baoxian_fox/duolaAbaoTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/sun/baoxian_fox/mamibaobeiTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/baoxianUITest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/baoxianUITest.iml" afterDir="false" />
@@ -64,13 +64,9 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="805" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1ZFCUn4hOQyIHV9laMQnu2OY1XH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -102,7 +98,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.D:/selenium/baoxianUITest/res/testng_fox.xml">
+  <component name="RunManager" selected="TestNG./Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/res/testng.xml">
     <configuration name="GenerateAutoCodeForYml" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sun.baoxian.utils.pageObjectGenerate.GenerateAutoCodeForYml" />
       <module name="baoxianUITest" />
@@ -161,8 +157,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.D:/selenium/baoxianUITest/res/testng_fox.xml" />
         <item itemvalue="TestNG./Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/res/testng.xml" />
+        <item itemvalue="TestNG.D:/selenium/baoxianUITest/res/testng_fox.xml" />
         <item itemvalue="Application.GenerateAutoCodeForYml" />
         <item itemvalue="TestNG./Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/res/testng_online.xml" />
         <item itemvalue="Application.InstallCert" />
@@ -190,6 +186,11 @@
       <workItem from="1584624405103" duration="1410000" />
       <workItem from="1584630479465" duration="6998000" />
       <workItem from="1584670843380" duration="8182000" />
+      <workItem from="1587697015117" duration="6798000" />
+      <workItem from="1588216557825" duration="4872000" />
+      <workItem from="1588744831002" duration="8534000" />
+      <workItem from="1588763501504" duration="1940000" />
+      <workItem from="1588817687731" duration="1707000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1584375025489</created>
@@ -435,6 +436,7 @@
     <MESSAGE value="DIZHI" />
     <MESSAGE value="地址" />
     <MESSAGE value="重试" />
-    <option name="LAST_COMMIT_MESSAGE" value="重试" />
+    <MESSAGE value="修改回归手机号" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改回归手机号" />
   </component>
 </project>

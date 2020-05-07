@@ -1,0 +1,13 @@
+pages:
+  - page:
+      pageName: sun.baoxian.pageObject.personalpage
+      value: "https://bxm.ncfimg.com/#/user/check"
+      desc: "个人中心"
+      locators:
+        - {type: "cssSelector",timeout: "5",value: "input[placeholder='填写投保人手机号']",desc: "mobile",name: "mobile"}
+        - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入验证码']",desc: "sms",name: "sms"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='查询保单']",desc: "submit",name: "submit"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='我要退保']",desc: "tuibao",name: "tuibao"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='医疗保险']",desc: "yiliaobaoxian",name: "yiliaobaoxian"}
+
+

@@ -54,7 +54,7 @@ public class jiangxinAction extends WebCaseBase {
     /**
      * 线上回归
      */
-    public void jiangxin_002(String url) throws Exception {
+    public void jiangxin_002(String url,String mobile) throws Exception {
         jiangxinpage page1=new jiangxinpage();
         page1.getPage(url);
         //等待页面加载完成
@@ -72,10 +72,9 @@ public class jiangxinAction extends WebCaseBase {
         action.click(page1.jiangao());
         action.sleep(3);
         action.type(page1.name(), "回归");
-        String m1= "15510664229";
         String i1=idCardGenerator.generate("19931210", "0");
         action.type(page1.idcard(),i1);
-        action.type(page1.mobile(), m1);
+        action.type(page1.mobile(), mobile);
         action.type(page1.sms_code(), "111111");
         action.FindUitl(page1.bank_card());
         action.type(page1.bank_card(),"62179999000001111");
@@ -88,7 +87,7 @@ public class jiangxinAction extends WebCaseBase {
 //        action.DisplayElement(page1.deadline());
         action.successend();
         action.sleep(2);
-        Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
+        Reporter.log("投保人信息：手机号："+mobile+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
     }
 

@@ -210,7 +210,7 @@ public class mamibaobeiAction extends WebCaseBase {
         Reporter.log("被保人信息：姓名："+n1+"      "+"身份证号："+i2);
         Reporter.log("链接地址： "+action.getUrl());
     }
-    public void mamibaobei_fox(String url) throws Exception {
+    public void mamibaobei_fox(String url,String mobile1) throws Exception {
         mamibaobeipage page1 = new mamibaobeipage();
         page1.getPage(url);
         //等待页面加载完成
@@ -250,13 +250,12 @@ public class mamibaobeiAction extends WebCaseBase {
         action.sleep(3);
         action.click(page1.jiangao());
         action.type(page1.ins_name(), "回归");
-        String m1="15510664229";
         String i1=idCardGenerator.generate(birth1, "1");
         String i2=idCardGenerator.generate(birth2, "1");
         String n1=mobile.getChineseName();
         action.type(page1.ins_idcard(),i1);
         action.click(page1.changqi());
-        action.type(page1.mobile(), m1);
+        action.type(page1.mobile(), mobile1);
         action.type(page1.sms_code(), "111111");
         action.type(page1.email(), "226587@qq.com");
         action.type(page1.postcode(), "100000");
@@ -288,7 +287,7 @@ public class mamibaobeiAction extends WebCaseBase {
         driver.findElement(By.xpath("//*[text()='确定']")).click();
         action.sleep(2);
         action.type(page1.bank_card(), "62170000121212222");
-        action.type(page1.bank_mobile(), m1);
+        action.type(page1.bank_mobile(), mobile1);
         action.sleep(3);
 //        action.click(page1.submit());
 //        action.sleep(2);
@@ -305,7 +304,7 @@ public class mamibaobeiAction extends WebCaseBase {
        // action.DisplayElement(page1.deadline());
         action.successend();
         action.sleep(2);
-        Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
+        Reporter.log("投保人信息：手机号："+mobile1+"      "+"身份证号："+i1);
         Reporter.log("被保人信息：姓名："+n1+"      "+"身份证号："+i2);
         Reporter.log("页面最后链接地址： "+action.getUrl());
         Reporter.log("回归链接地址： "+url);

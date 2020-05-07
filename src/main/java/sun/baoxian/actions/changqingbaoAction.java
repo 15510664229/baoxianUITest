@@ -84,7 +84,7 @@ public class changqingbaoAction extends WebCaseBase {
         Reporter.log(url);
     }
 
-    public void changqingbao_002(String url) throws Exception {
+    public void changqingbao_002(String url,String mobile) throws Exception {
         changqingbaopage page1=new changqingbaopage();
         page1.getPage(url);
         //等待页面加载完成
@@ -101,8 +101,7 @@ public class changqingbaoAction extends WebCaseBase {
         List<WebElement> list=new ArrayList<>();
         list=driver.findElements(By.xpath("//*[text()='长期']"));
         list.get(0).click();
-        String m1="18230288372";
-        action.type(page1.mobile(),m1);
+        action.type(page1.mobile(),mobile);
         action.type(page1.sms_code(),"111111");
         action.type(page1.email(),"12e34@qq.com");
         action.executeJS("window.scrollBy(0,400);");
@@ -139,7 +138,7 @@ public class changqingbaoAction extends WebCaseBase {
 //        action.DisplayElement(page1.deadline());
         action.successend();
         action.sleep(2);
-        Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
+        Reporter.log("投保人信息：手机号："+mobile+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
         Reporter.log("测试回归地址"+url);
     }

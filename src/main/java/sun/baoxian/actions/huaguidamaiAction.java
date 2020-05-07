@@ -24,7 +24,7 @@ public class huaguidamaiAction extends WebCaseBase {
      * @param url
      * @throws Exception
      */
-    public void damai(String url) throws Exception {
+    public void damai(String url,String mobile) throws Exception {
         damaipage  page1 = new damaipage();
         page1.getPage(url);
         //等待页面加载完成
@@ -60,8 +60,7 @@ public class huaguidamaiAction extends WebCaseBase {
         action.sleep(3);
         action.executeJS("window.scrollBy(0,400);");
         action.sleep(2);
-        String m1="15510664229";
-        action.type(page1.ins_mobile(), m1);
+        action.type(page1.ins_mobile(), mobile);
         action.type(page1.sms_code(), "111111");
         action.type(page1.email(), "226587@qq.com");
         action.type(page1.address(), "朝阳区不知道大街自动化小区琳琳街1410号");
@@ -111,7 +110,7 @@ public class huaguidamaiAction extends WebCaseBase {
         action.sleep(2);
         action.executeJS("window.scrollBy(0,400);");
         action.type(page1.bank_card(), "62170000121212222");
-        action.type(page1.bank_mobile(), m1);
+        action.type(page1.bank_mobile(), mobile);
         action.sleep(3);
         action.click(page1.submit());
         action.sleep(2);
@@ -127,7 +126,7 @@ public class huaguidamaiAction extends WebCaseBase {
             action.fail();
             Assert.fail("核保失败-跳转收银台失败");
         }
-        Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
+        Reporter.log("投保人信息：手机号："+mobile+"      "+"身份证号："+i1);
         Reporter.log("回归链接地址： "+url);
         Reporter.log("支付链接： "+url1);
     }

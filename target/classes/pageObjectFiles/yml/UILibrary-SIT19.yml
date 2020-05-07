@@ -17,3 +17,8 @@ pages:
         - {type: "xpath",timeout: "5",value: "//*[@class='amount-box-wrap']/*[position()=1]",desc: "10w",name: "yg10w"}
         - {type: "xpath",timeout: "5",value: "//*[@class='amount-box-wrap']/*[position()=2]",desc: "30w",name: "yg30w"}
         - {type: "xpath",timeout: "5",value: "//*[@class='amount-box-wrap']/*[position()=3]",desc: "50w",name: "yg50w"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='确认无以上问题']",desc: "jiangao",name: "jiangao"}
+        - {type: "xpath",timeout: "5",value: "//*[@name='子女']//*[@class='am-input-control']/*",desc: "ins_name",name: "ins_name"}
+        - {type: "xpath",timeout: "5",value: "//*[@name='子女']//*[@name='identity']",desc: "ins_identity",name: "ins_identity"}
+        - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入真实姓名']:first-child",desc: "apl_name",name: "apl_name"}
+        - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入身份证号']:first-child",desc: "apl_identity",name: "apl_identity"}

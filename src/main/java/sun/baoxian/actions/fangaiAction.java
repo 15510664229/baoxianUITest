@@ -61,7 +61,7 @@ public class fangaiAction extends WebCaseBase {
         Reporter.log(action.getUrl());
     }
     //线上回归 旧链接 综合版
-    public void fangai_002(String url) throws Exception{
+    public void fangai_002(String url,String mobile) throws Exception{
         fangaipage page1=new fangaipage();
         page1.getPage(url);
         //等待页面加载完成
@@ -74,9 +74,8 @@ public class fangaiAction extends WebCaseBase {
         list.get(0).sendKeys("回归");
         action.sleep(2);
         String i1=idCardGenerator.generate("19881101","1");
-        String m1="18230288372";
         list.get(1).sendKeys(i1);
-        list.get(2).sendKeys(m1);
+        list.get(2).sendKeys(mobile);
         action.type(page1.sms_code(),"111111");
         action.executeJS("window.scrollBy(0,500);");
        // action.click(page1.pay_type());
@@ -100,7 +99,7 @@ public class fangaiAction extends WebCaseBase {
         }
         //action.DisplayElement(page1.deadline());
 
-        Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
+        Reporter.log("投保人信息：手机号："+mobile+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
         Reporter.log("回归链接地址："+url);
     }

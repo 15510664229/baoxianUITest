@@ -41,7 +41,7 @@ public class taikangAction extends WebCaseBase {
         Reporter.log(action.getUrl());
 
     }
-    public void taikang2019(String url) throws Exception{
+    public void taikang2019(String url,String m) throws Exception{
         taikangpage page1=new taikangpage();
         Mobile mobile=new Mobile();
         page1.getPage(url);
@@ -52,7 +52,7 @@ public class taikangAction extends WebCaseBase {
         String m1=mobile.getTel();
         action.type(page1.idcard1(),i1);
         action.sleep(2);
-        action.type(page1.mobile1(),"15510664229");
+        action.type(page1.mobile1(),m);
         action.sleep(2);
         action.type(page1.sms_code1(),"111111");
         Thread.sleep(3);
@@ -72,7 +72,7 @@ public class taikangAction extends WebCaseBase {
             action.fail();
             Assert.fail("核保失败-跳转收银台失败");
         }
-        Reporter.log("投保人信息：手机号：18230288372"+"      "+"身份证号："+i1);
+        Reporter.log("投保人信息：手机号："+m+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
         Reporter.log("测试地址"+url);
     }

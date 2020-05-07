@@ -5,6 +5,8 @@ import sun.baoxian.actions.shortInsurance19Action;
 import sun.baoxian.actions.taikangAction;
 import sun.baoxian.base.WebCaseBase;
 
+import static sun.baoxian.actions.mobileList.SXP;
+
 public class fangai_new extends WebCaseBase {
     /**
      * 防癌卫士商城版回归
@@ -15,17 +17,17 @@ public class fangai_new extends WebCaseBase {
     @Test
     public void fangai_SC_1() throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
-        action.SCTmp(yiyuan);
+        action.SCTmp(yiyuan,SXP);
     }
     @Test
     public void fangai_SC_3() throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
-        action.SCTmp(sanyuan);
+        action.SCTmp(sanyuan,SXP);
     }
     @Test
     public void fangai_SC_PH() throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
-        action.SCTmp(pinghua);
+        action.SCTmp(pinghua,SXP);
     }
     /**
      * 防癌卫士投放版回归
@@ -36,17 +38,17 @@ public class fangai_new extends WebCaseBase {
     @Test
     public void fangai_TF_1() throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
-        action.SCTmp(yiyuan2);
+        action.SCTmp(yiyuan2,SXP);
     }
     @Test
     public void fangai_TF_3() throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
-        action.SCTmp(sanyuan2);
+        action.SCTmp(sanyuan2,SXP);
     }
     @Test
     public void fangai_TF_PH() throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
-        action.SCTmp(pinghua2);
+        action.SCTmp(pinghua2,SXP);
     }
 
 }

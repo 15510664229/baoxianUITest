@@ -4,6 +4,8 @@ import org.testng.annotations.Test;
 import sun.baoxian.actions.shortInsurance19Action;
 import sun.baoxian.base.WebCaseBase;
 
+import static sun.baoxian.actions.mobileList.SLN;
+
 public class yangguang_new extends WebCaseBase {
     //阳光百万医疗线上回归
     String Month="http://bxmgray.ncfimg.com/biz/page/info?page_id=56&goods_code=G1584329159";
@@ -14,17 +16,17 @@ public class yangguang_new extends WebCaseBase {
     @Test
     public void yangguang_BW_M() throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
-        action.yangguang(Month);
+        action.yangguang(Month,SLN);
     }
     @Test
     public void yangguang_BW_Y() throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
-        action.yangguang(Year);
+        action.yangguang(Year,SLN);
     }
     @Test
     public void yangguang_BW_ZH() throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
-        action.yangguang(ZhongHe);
+        action.yangguang(ZhongHe,SLN);
     }
 
     /**
@@ -37,17 +39,17 @@ public class yangguang_new extends WebCaseBase {
     @Test
     public void yangguang_ZH_M() throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
-        action.yangguang(Month2);
+        action.yangguang(Month2,SLN);
     }
     @Test
     public void yangguang_ZH_Y() throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
-        action.yangguang(Year2);
+        action.yangguang(Year2,SLN);
     }
     @Test
     public void yangguang_ZH_ZH() throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
-        action.yangguang(ZhongHe2);
+        action.yangguang(ZhongHe2,SLN);
     }
 
 }

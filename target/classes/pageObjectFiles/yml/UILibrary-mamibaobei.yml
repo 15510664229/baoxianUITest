@@ -45,4 +45,5 @@ pages:
         - {type: "xpath",timeout: "5",value: "//*[@class='mather-baby-protocol']//*[name()='svg']//*",desc: "xieyi",name: "xieyi"}
         - {type: "classname",timeout: "5",value: "hz-button-text",desc: "pay",name: "pay"}
         - {type: "xpath",timeout: "5",value: "//*[text()='请在 23:50 前完成支付，逾期订单将自动取消']",desc: "deadline",name: "deadline"}
+        - {type: "classname",timeout: "5",value: "protocol-btm-btn",desc: "confirm",name: "confirm"}
 

@@ -254,7 +254,7 @@ public class shortInsurance19Action extends WebCaseBase {
 
     //online 线上回归
     //全民医保2020 商城版用例模板
-    public void SCTmp(String url) throws Exception {
+    public void SCTmp(String url,String mobile) throws Exception {
         shortTmp page1 = new shortTmp();
         page1.getPage(url);
         //等待页面加载完成
@@ -264,7 +264,7 @@ public class shortInsurance19Action extends WebCaseBase {
         action.type(page1.name(), "回归");
         action.sleep(1);
         action.type(page1.idcard(), i1);
-        action.type(page1.mobile(), "18230288372");
+        action.type(page1.mobile(), mobile);
         action.type(page1.sms_code(), "111111");
         //滑动页面使元素可见
         action.sleep(3);
@@ -290,7 +290,7 @@ public class shortInsurance19Action extends WebCaseBase {
             Assert.fail("核保失败-跳转收银台失败");
 
         }
-        Reporter.log("投保人信息：手机号：18230288372"+"      "+"身份证号："+i1);
+        Reporter.log("投保人信息：手机号："+mobile+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
         Reporter.log("回归链接地址： "+url);
         //action.DisplayElement(page1.pay());
@@ -304,7 +304,7 @@ public class shortInsurance19Action extends WebCaseBase {
      */
 
 
-    public void SCTmp_idcard(String url,String idcard) throws Exception {
+    public void SCTmp_idcard(String url,String idcard,String mobile) throws Exception {
         shortTmp page1 = new shortTmp();
         page1.getPage(url);
         //等待页面加载完成
@@ -314,7 +314,7 @@ public class shortInsurance19Action extends WebCaseBase {
         action.type(page1.name(), "孙雪萍");
         action.sleep(1);
         action.type(page1.idcard(), idcard);
-        action.type(page1.mobile(), "18230288372");
+        action.type(page1.mobile(), mobile);
         action.type(page1.sms_code(), "111111");
         //滑动页面使元素可见
         action.sleep(3);
@@ -340,12 +340,12 @@ public class shortInsurance19Action extends WebCaseBase {
             action.fail();
             Assert.fail("核保失败-跳转收银台失败");
         }
-        Reporter.log("投保人信息：手机号：18230288372"+"      "+"身份证号："+idcard);
+        Reporter.log("投保人信息：手机号："+mobile+"      "+"身份证号："+idcard);
         Reporter.log(action.getUrl());
     }
 
 
-    public void PHTmp(String url) throws Exception {
+    public void PHTmp(String url,String mobile) throws Exception {
         shortTmp page1 = new shortTmp();
         page1.getPage(url);
         //等待页面加载完成
@@ -356,7 +356,7 @@ public class shortInsurance19Action extends WebCaseBase {
         action.type(page1.name(), "回归");
         action.sleep(1);
         action.type(page1.idcard(), i1);
-        action.type(page1.mobile(), "18230288372");
+        action.type(page1.mobile(), mobile);
         action.type(page1.sms_code(), "111111");
         //滑动页面使元素可见
         action.sleep(3);
@@ -382,13 +382,13 @@ public class shortInsurance19Action extends WebCaseBase {
             Assert.fail("核保失败-跳转收银台失败");
         }
 
-        Reporter.log("投保人信息：手机号：18230288372"+"      "+"身份证号："+i1);
+        Reporter.log("投保人信息：手机号："+mobile+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
         Reporter.log("回归链接地址： "+url);
     }
 
     //online  阳光线上回归
-    public void yangguang(String url) throws Exception {
+    public void yangguang(String url,String mobile) throws Exception {
         shortTmp page1 = new shortTmp();
         page1.getPage(url);
         //等待页面加载完成
@@ -403,8 +403,7 @@ public class shortInsurance19Action extends WebCaseBase {
         //String i="150404199312100264";
         action.type(page1.idcard(), i1);
         action.sleep(2);
-        String m2="18230288372";
-        action.type(page1.mobile(), m2);
+        action.type(page1.mobile(), mobile);
         action.type(page1.sms_code(), "111111");
         //滑动页面使元素可见
         action.sleep(2);
@@ -424,13 +423,13 @@ public class shortInsurance19Action extends WebCaseBase {
             action.fail();
             Assert.fail("核保失败-跳转收银台失败");
         }
-        Reporter.log("投保人信息：手机号："+m2+"      "+"身份证号："+i1);
+        Reporter.log("投保人信息：手机号："+mobile+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
         Reporter.log("回归链接地址： "+url);
     }
 
     //学平险&（阳光综合意外plus版本）收费版回归 online
-    public void StudentTmp(String url) throws Exception {
+    public void StudentTmp(String url,String mobile) throws Exception {
         shortTmp page1 = new shortTmp();
         page1.getPage(url);
         //等待页面加载完成
@@ -443,7 +442,7 @@ public class shortInsurance19Action extends WebCaseBase {
         action.type(page1.apl_identity(),i);
         action.sleep(2);
         //action.type(page1.mobile(),"15510664229");
-        action.type(page1.mobile(),"15510664229");
+        action.type(page1.mobile(),mobile);
         action.sleep(2);
         action.type(page1.sms_code(), "111111");
         //被保人关系为子女
@@ -473,7 +472,7 @@ public class shortInsurance19Action extends WebCaseBase {
             action.fail();
             Assert.fail("核保失败-跳转收银台失败");
         }
-        Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i);
+        Reporter.log("投保人信息：手机号："+mobile+"      "+"身份证号："+i);
         Reporter.log(action.getUrl());
         Reporter.log("回归链接地址： "+url);
     }

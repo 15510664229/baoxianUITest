@@ -56,7 +56,7 @@ public class jinglingbaoAction extends WebCaseBase {
         Reporter.log("回归链接地址： "+url);
     }
     //线上回归
-    public void jinglingbao_002(String url) throws Exception {
+    public void jinglingbao_002(String url,String mobile) throws Exception {
         jinglingpage page1=new jinglingpage();
         page1.getPage(url);
         //等待页面加载完成
@@ -69,10 +69,9 @@ public class jinglingbaoAction extends WebCaseBase {
         List<WebElement> list=new ArrayList<>();
         list=driver.findElements(By.cssSelector("input[placeholder='信息保密 仅用于投保']"));
         list.get(0).sendKeys("回归");
-        String m1="15510664229";
         String i1=idCardGenerator.generate("19931210","1");
         list.get(1).sendKeys(i1);
-        list.get(2).sendKeys(m1);
+        list.get(2).sendKeys(mobile);
         action.type(page1.sms_code(),"111111");
         action.click(page1.submit());
         action.sleep(1);
@@ -88,7 +87,7 @@ public class jinglingbaoAction extends WebCaseBase {
             action.fail();
             Assert.fail("核保失败-跳转收银台失败");
         }
-        Reporter.log("投保人信息：手机号："+m1+"      "+"身份证号："+i1);
+        Reporter.log("投保人信息：手机号："+mobile+"      "+"身份证号："+i1);
         Reporter.log(action.getUrl());
         Reporter.log("回归链接地址： "+url);
 
