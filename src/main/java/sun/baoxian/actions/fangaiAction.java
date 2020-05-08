@@ -85,7 +85,7 @@ public class fangaiAction extends WebCaseBase {
         action.click(page1.submit());
         action.sleep(1);
         action.click(page1.submit());
-        action.sleep(1);
+        action.sleep(5);
         action.click(page1.confrim());
         //action.sleep(3);
         if (action.isElementsPresent(page1.deadline(),10)){

@@ -272,7 +272,7 @@ public class shortInsurance19Action extends WebCaseBase {
        // action.click(page1.shebao());
         //action.click(page1.pay_type());
         action.click(page1.order());
-        action.sleep(2);
+        action.isElementsPresent(page1.confrim(),10);
         action.click(page1.confrim());
         action.sleep(2);
         if (action.isElementsPresent(page1.jiangao(),5)){
@@ -322,7 +322,7 @@ public class shortInsurance19Action extends WebCaseBase {
         // action.click(page1.shebao());
         //action.click(page1.pay_type());
         action.click(page1.order());
-        action.sleep(2);
+        action.isElementsPresent(page1.confrim(),10);
         action.click(page1.confrim());
         action.sleep(2);
         if (action.isElementsPresent(page1.jiangao(),5)){
@@ -364,7 +364,7 @@ public class shortInsurance19Action extends WebCaseBase {
         action.click(page1.shebao());
         //action.click(page1.pay_type());
         action.click(page1.order());
-        action.sleep(2);
+        action.isElementsPresent(page1.confrim(),10);
         action.click(page1.confrim());
         if (action.isElementsPresent(page1.jiangao(),5)){
             action.click(page1.jiangao());
@@ -410,7 +410,7 @@ public class shortInsurance19Action extends WebCaseBase {
         action.executeJS("window.scrollBy(0,400);");
 //        action.click(page1.pay_type());
         action.click(page1.order());
-        action.sleep(2);
+        action.isElementsPresent(page1.confrim(),10);
         action.click(page1.confrim());
         action.sleep(3);
         if (action.isElementsPresent(page1.pay(),10)){
@@ -453,7 +453,7 @@ public class shortInsurance19Action extends WebCaseBase {
         action.type(page1.ins_identity(),idCardGenerator.generate("20100101","0"));
         action.sleep(3);
         action.click(page1.order());
-        action.sleep(3);
+        action.isElementsPresent(page1.confrim(),10);
         action.click(page1.confrim());
         if (action.isElementsPresent(page1.jiangao(),5)){
             action.click(page1.jiangao());
