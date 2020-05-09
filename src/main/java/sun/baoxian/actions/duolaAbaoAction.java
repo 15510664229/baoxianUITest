@@ -277,7 +277,7 @@ public class duolaAbaoAction extends WebCaseBase {
         action.type(page1.ins_idcard(),i1);
         action.type(page1.ins_mobile(), mobile);
         action.type(page1.sms_code(), "111111");
-        action.type(page1.email(), "226587@qq.com");
+       // action.type(page1.email(), "226587@qq.com");
         action.executeJS("window.scrollBy(0,400);");
         action.type(page1.address(), "朝阳区不知道大街自动化小区琳琳街1410号");
         action.executeJS("window.scrollBy(0,200);");

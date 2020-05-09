@@ -61,13 +61,15 @@ public class jiangxinAction extends WebCaseBase {
         action.pagefoload(15);
         action.sleep(5);
         action.click(page1.submit());
-        action.sleep(5);
+        action.sleep(3);
         //弹层填写信息
         //action.click(page1.male());
         action.click(page1.amount20());
         action.click(page1.internal30());
         action.click(page1.pay_Y());
         action.click(page1.submit());//投保
+        action.sleep(2);
+        action.click(page1.confirm());
         action.sleep(2);
         action.click(page1.jiangao());
         action.sleep(3);

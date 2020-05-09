@@ -27,19 +27,19 @@ pages:
         - {type: "xpath",timeout: "5",value: "//div[text()='二次重疾']/following-sibling::div[1]/div[1]/div[1]/div[2]",desc: "ercizhongji",name: "ercizhongji"}
         - {type: "xpath",timeout: "5",value: "//div[text()='特疾和罕见病']/following-sibling::div[1]/div[1]/div[1]/div[2]",desc: "tejihanjianbing",name: "tejihanjianbing"}
         - {type: "xpath",timeout: "5",value: "//div[text()='投保人豁免']/following-sibling::div[1]/div[1]/div[1]/div[1]",desc: "toubaorenhuomian",name: "toubaorenhuomian"}
-        - {type: "xpath",timeout: "5",value: "//*[text()='以上情况全无']",desc: "jiangao",name: "jiangao"}
-        - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入投保人姓名']",desc: "ins_name",name: "ins_name"}
-        - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入投保人证件号码']",desc: "ins_idcard",name: "ins_idcard"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='确认无以上问题']",desc: "jiangao",name: "jiangao"}
+        - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入真实姓名']:first-child",desc: "ins_name",name: "ins_name"}
+        - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入身份证号']:first-child",desc: "ins_idcard",name: "ins_idcard"}
         - {type: "xpath",timeout: "5",value: "//*[text()='长期']",desc: "changqi",name: "changqi"}
         - {type: "name",timeout: "5",value: "mobile",desc: "mobile",name: "mobile"}
         - {type: "cssSelector",timeout: "5",value: "input[placeholder=\"请输入验证码\"]",desc: "sms_code",name: "sms_code"}
         - {type: "name",timeout: "5",value: "email",desc: "email",name: "email"}
-        - {type: "name",timeout: "5",value: "address",desc: "address",name: "address"}
-        - {type: "name",timeout: "5",value: "postcode",desc: "postcode",name: "postcode"}
+        - {type: "cssSelector",timeout: "5",value: "textarea[placeholder='请输入详细地址']",desc: "address",name: "address"}
+        - {type: "name",timeout: "5",value: "postal_code",desc: "postcode",name: "postcode"}
         - {type: "xpath",timeout: "5",value: "//*[text()='132CM']",desc: "shengao",name: "shengao"}
         - {type: "xpath",timeout: "5",value: "//*[text()='71KG']",desc: "tizhong",name: "tizhong"}
-        - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入真实姓名']",desc: "apl_name",name: "apl_name"}
-        - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入被保人证件号码']",desc: "apl_idcard",name: "apl_idcard"}
+        - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入真实姓名']:last-child",desc: "apl_name",name: "apl_name"}
+        - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入身份证号']:last-child",desc: "apl_idcard",name: "apl_idcard"}
         - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入银行卡号']",desc: "bank_card",name: "bank_card"}
         - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入预留手机号']",desc: "bank_mobile",name: "bank_mobile"}
         - {type: "xpath",timeout: "5",value: "//*[@class='mather-baby-protocol']//*[name()='svg']//*",desc: "xieyi",name: "xieyi"}

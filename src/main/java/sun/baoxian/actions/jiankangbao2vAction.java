@@ -299,6 +299,8 @@ public class jiankangbao2vAction extends WebCaseBase {
         action.click(page1.zdjbyljt());
         action.click(page1.sfqcjbzmqbxj());
         action.click(page1.submit());
+        action.sleep(3);
+        action.click(page1.confirm());
         action.sleep(2);
         action.click(page1.jiangao());
         action.sleep(3);
@@ -311,7 +313,7 @@ public class jiankangbao2vAction extends WebCaseBase {
         String mobile_apl=mobile.getTel();
         String email1=mobile.getEmail(5,8);
         String address1=mobile.getRoad();
-        action.type(page1.ins_name(),name1);
+        action.type(page1.ins_name(),"回归");
         action.sleep(2);
         action.type(page1.ins_idcard(),idcard_ins);
         action.type(page1.mobile(),mobile1);
