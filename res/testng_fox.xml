@@ -12,6 +12,7 @@
 	<test name="UI自动化测试【线上回归】" preserve-order="true">
 		<parameter name="browerType" value="ff" />
 		<classes>
+<!--			<class name="sun.baoxian.DleteHistoryImg"></class>-->
 			<class name="sun.baoxianonline.taikang2020"></class>
             <class name="sun.baoxianonline.changqingbaoTest"></class>
             <class name="sun.baoxian_fox.duolaAbaoTest"></class>
@@ -27,6 +28,7 @@
             <class name="sun.baoxianonline.jinglingbaoTest"></class>
             <class name="sun.baoxianonline.yangguang_new"></class>
             <class name="sun.baoxianonline.yangguangPlus"></class>
+			<class name="sun.baoxian_fox.youhuibao"></class>
 <!--			<class name="sun.personal.tuibaoTest"></class>-->
 
 		</classes>

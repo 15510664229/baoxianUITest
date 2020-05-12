@@ -396,4 +396,15 @@ public  LocatorBase confrim() throws IOException
    LocatorBase locator=getLocator("confrim");
    return locator;
  }
+
+/***
+* postcode
+* @return
+* @throws IOException
+*/
+public  LocatorBase postcode() throws IOException
+ {
+   LocatorBase locator=getLocator("postcode");
+   return locator;
+ }
 }

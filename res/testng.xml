@@ -5,7 +5,7 @@
 	<listeners><!-- 监听器设置，生成测试报告的监听器，不要改此处代码 -->
 		<listener class-name="sun.baoxian.utils.ExtentIReporterListenerUtil"></listener>
 		<listener class-name="org.uncommons.reportng.HTMLReporter" />
-	 	<listener class-name='sun.baoxian.utils.RetryListener'/>
+<!--	 	<listener class-name='sun.baoxian.utils.RetryListener'/>-->
 
 	</listeners>
 	
@@ -13,24 +13,24 @@
 		<parameter name="browerType" value="ff" />
 		<classes>
 			<class name="sun.baoxian.fangaiTest"></class>
-			<class name="sun.baoxian.shortInsuranceTest">
+<!--			<class name="sun.baoxian.shortInsuranceTest">-->
 <!--				<methods >-->
 <!--					<include name="taikang2020_PH_001" />-->
 <!--					<include name="yangguangPlus" />-->
 <!--				</methods>-->
-			</class>
-			<class name="sun.baoxian.huatai"></class>
-			<class name="sun.baoxian.huaguidamaiTest"></class>
+<!--			</class>-->
+<!--			<class name="sun.baoxian.huatai"></class>-->
+<!--			<class name="sun.baoxian.huaguidamaiTest"></class>-->
 			<class name="sun.baoxian.changqingbaoTest"></class>
-			<class name="sun.baoxian.jinglingbaoTest"></class>
+<!--			<class name="sun.baoxian.jinglingbaoTest"></class>-->
 			<class name="sun.baoxian.mamibaobeiTest"></class>
-			<class name="sun.baoxian.taikangActionTest"></class>
+<!--			<class name="sun.baoxian.taikangActionTest"></class>-->
 			<class name="sun.baoxian.kaixinbaobeiTest"></class>
 			<class name="sun.baoxian.jiankangbao2vTest"></class>
 			<class name="sun.baoxian.duolaAbaoTest"></class>
 			<class name="sun.baoxian.jiangxinTest"></class>
-			<class name="sun.baoxian.yangguangPlus"></class>
-			<class name="sun.baoxian.studentChargeTest"></class>
+<!--			<class name="sun.baoxian.yangguangPlus"></class>-->
+<!--			<class name="sun.baoxian.studentChargeTest"></class>-->
 		</classes>
 	</test>
 </suite> 

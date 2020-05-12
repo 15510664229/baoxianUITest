@@ -9,6 +9,7 @@ import static sun.baoxian.actions.mobileList.SXP;
 
 public class changqingbaoTest extends WebCaseBase {
     String urlonline="https://bxm.ncfimg.com/#/long_insurancev2/detail?product_code=101912S0048";
+
     @Test
     public void changqingbaoA() throws Exception{
         changqingbaoAction action=new changqingbaoAction();

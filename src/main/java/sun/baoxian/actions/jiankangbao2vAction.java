@@ -337,18 +337,6 @@ public class jiankangbao2vAction extends WebCaseBase {
         action.sleep(10);
         //输入短信验证码
         action.executeJS("window.scrollBy(0,500);");
- //       action.click(page1.pay());//跳转至支付页面即为成功
-//        List<WebElement> smslist=new ArrayList<>();
-//        action.sleep(2);
-//        smslist=driver.findElements(By.xpath("//*[@class='sms-input']"));
-//        Actions ac=new Actions(driver);
-//        ac.moveToElement(smslist.get(0));
-//        ac.clickAndHold();
-//        for (int i=0;i<6;i++){
-//            ac.sendKeys(smslist.get(i),"1").perform();
-//        }
-//        action.sleep(8);
-//        action.DisplayElement(page1.success());
         action.successend();
         // action.SnapshotForElement("res/images/", "mamibaobei.png", page1.deadline());
         Reporter.log("投保人信息：手机号："+mobile1+"      "+"身份证号："+idcard_ins);
@@ -356,6 +344,5 @@ public class jiankangbao2vAction extends WebCaseBase {
         Reporter.log("回归链接："+url);
 
     }
-
 }
 

@@ -39,4 +39,5 @@ pages:
         - {type: "classname",timeout: "5",value: "hz-button-text",desc: "pay",name: "pay"}
         - {type: "xpath",timeout: "5",value: "//*[text()='请在 23:50 前完成支付，逾期订单将自动取消']",desc: "deadline",name: "deadline"}
         - {type: "xpath",timeout: "5",value: "//*[text()='好的，继续']",desc: "confrim",name: "confrim"}
+        - {type: "cssSelector",timeout: "5",value: "input[placeholder=\"请输入邮编\"]",desc: "postcode",name: "postcode"}
 
