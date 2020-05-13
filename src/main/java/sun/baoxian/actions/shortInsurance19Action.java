@@ -400,8 +400,8 @@ public class shortInsurance19Action extends WebCaseBase {
         action.click(page1.order());
         action.type(page1.name(), "孙雪萍");
         action.sleep(2);
-        //String i="150404199312100264";
-        action.type(page1.idcard(), i1);
+        String i="150404199312100264";
+        action.type(page1.idcard(), i);
         action.sleep(2);
         action.type(page1.mobile(), mobile);
         action.type(page1.sms_code(), "111111");
@@ -423,7 +423,7 @@ public class shortInsurance19Action extends WebCaseBase {
             action.fail();
             Assert.fail("核保失败-跳转收银台失败");
         }
-        Reporter.log("投保人信息：手机号："+mobile+"      "+"身份证号："+i1);
+        Reporter.log("投保人信息：手机号："+mobile+"      "+"身份证号："+i);
         Reporter.log(action.getUrl());
         Reporter.log("回归链接地址： "+url);
     }

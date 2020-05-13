@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 import sun.baoxian.actions.duolaAbaoAction;
 import sun.baoxian.base.WebCaseBase;
 
+import static sun.baoxian.actions.mobileList.SLN;
 import static sun.baoxian.actions.mobileList.SXP;
 
 public class youhuibao extends WebCaseBase {
@@ -11,6 +12,6 @@ public class youhuibao extends WebCaseBase {
     @Test
     public void youhuibao() throws Exception{
         duolaAbaoAction action=new duolaAbaoAction();
-        action.youhuibao(url,SXP);
+        action.youhuibao(url,SLN);
     }
 }

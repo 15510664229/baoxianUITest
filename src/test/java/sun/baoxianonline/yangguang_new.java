@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 import sun.baoxian.actions.shortInsurance19Action;
 import sun.baoxian.base.WebCaseBase;
 
+import static sun.baoxian.actions.mobileList.SLN;
 import static sun.baoxian.actions.mobileList.SXP;
 
 public class yangguang_new  extends WebCaseBase {
@@ -49,7 +50,7 @@ public class yangguang_new  extends WebCaseBase {
     @Test
     public void yangguang_ZH_ZH() throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
-        action.yangguang(ZhongHe2,SXP);
+        action.yangguang(ZhongHe2,SLN);
     }
 
 }
