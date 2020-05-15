@@ -401,6 +401,8 @@ public class shortInsurance19Action extends WebCaseBase {
         action.type(page1.name(), "孙雪萍");
         action.sleep(2);
         //String i="150404199312100264";
+
+        //兼容泰康老年意外，身份证调整为50岁
         String i="513436196005164505";
 
         action.type(page1.idcard(), i);
