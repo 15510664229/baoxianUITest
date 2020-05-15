@@ -29,6 +29,7 @@
             <class name="sun.baoxianonline.yangguang_new"></class>
             <class name="sun.baoxianonline.yangguangPlus"></class>
 			<class name="sun.baoxian_fox.youhuibao"></class>
+			<class name="sun.baoxian_fox.yangguangzhongji"></class>
 <!--			<class name="sun.personal.tuibaoTest"></class>-->
 
 		</classes>

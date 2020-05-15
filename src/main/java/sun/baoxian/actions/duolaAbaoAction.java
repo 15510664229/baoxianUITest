@@ -494,4 +494,92 @@ public class duolaAbaoAction extends WebCaseBase {
         Reporter.log("投保人信息：手机号："+mobile+"      "+"身份证号："+i1);
         Reporter.log("回归链接地址： "+url);
     }
+
+
+
+    /**
+     * 火狐浏览器适配
+     * @param url 阳光重疾IC保
+     * @throws Exception
+     */
+    public void yangguangzhongji(String url,String mobile) throws Exception {
+        /**
+         * 阳光重疾IC保
+         */
+        duolaAbaopage page1 = new duolaAbaopage();
+        page1.getPage(url);
+        //等待页面加载完成
+        action.pagefoload(15);
+        action.sleep(3);
+        action.click(page1.submit());
+        action.sleep(5);
+        //弹层填写信息
+//        action.click(page1.male());
+        List<WebElement> w = new ArrayList<WebElement>();
+        w = driver.findElements(By.className("am-list-extra"));
+        w.get(0).click();
+        //时间控件
+        List<WebElement> list = new ArrayList<>();
+        list = driver.findElements(By.className("am-picker-col-mask"));
+        SwipeScreenOrElement swp1 = new SwipeScreenOrElement(driver, list.get(0));
+        for (int i=0;i<4;i++){
+            swp1.swipe(list.get(0), 20, 30, 20, 100);
+            action.sleep(1);
+        }
+        action.sleep(2);
+        driver.findElement(By.xpath("//*[text()='确定']")).click();
+        String birth1 = w.get(0).getText().replaceAll("/*-", "");
+        w.get(1).click();
+        list = driver.findElements(By.className("am-picker-col-mask"));
+        SwipeScreenOrElement swp2 = new SwipeScreenOrElement(driver, list.get(0));
+        swp1.swipe(list.get(0), 20, 30, 20, 100);
+        action.sleep(2);
+        driver.findElement(By.xpath("//*[text()='确定']")).click();
+        String birth2 = w.get(1).getText().replaceAll("/*-", "");
+        action.click(page1.submit());
+        action.sleep(5);
+        action.click(page1.jianggao_new());
+        action.sleep(5);
+        action.type(page1.ins_name(), "孙雪萍");
+        String i1="150404199312100264";
+        action.type(page1.ins_idcard(),i1);
+        action.type(page1.ins_mobile(), mobile);
+        action.type(page1.sms_code(), "111111");
+        action.type(page1.email(), "226587@qq.com");
+        action.executeJS("window.scrollBy(0,400);");
+        action.type(page1.address(), "朝阳区不知道大街自动化小区琳琳街1410号");
+        action.executeJS("window.scrollBy(0,200);");
+        //job
+        action.click(page1.job());
+        //滑动选中职业
+        action.sleep(3);
+
+        WebElement el2 = driver.findElement(By.xpath("//*[@class='am-picker-col-indicator ']"));
+        driver.getPageSource();
+
+        Actions ta=new Actions(driver);
+        ta.release();
+        for (int i=0;i<4;i++) {
+            ta.moveToElement(el2).clickAndHold().moveByOffset(0, -150).release().build().perform();
+            action.sleep(2);
+            driver.findElement(By.xpath("//*[@class='am-picker-col-indicator ']")).click();
+            action.sleep(4);
+        }
+        //选择完成，等待回到投保页面
+        action.sleep(2);
+        action.executeJS("window.scrollBy(0,400);");
+        action.sleep(2);
+        action.type(page1.bank_card(), "62170000121212222");
+        action.type(page1.bank_mobile(), mobile);
+        action.sleep(3);
+        action.click(page1.submit());
+        action.sleep(3);
+        action.click(page1.confrim());
+        action.sleep(10);
+       // action.DisplayElement(page1.payBtn());
+        action.successend();
+        Reporter.log("投保人信息：手机号："+mobile+"      "+"身份证号："+i1);
+        Reporter.log("回归链接地址： "+url);
+    }
+
 }
