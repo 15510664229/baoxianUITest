@@ -400,7 +400,9 @@ public class shortInsurance19Action extends WebCaseBase {
         action.click(page1.order());
         action.type(page1.name(), "孙雪萍");
         action.sleep(2);
-        String i="150404199312100264";
+        //String i="150404199312100264";
+        String i="513436196005164505";
+
         action.type(page1.idcard(), i);
         action.sleep(2);
         action.type(page1.mobile(), mobile);

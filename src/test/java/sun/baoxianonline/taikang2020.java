@@ -75,4 +75,14 @@ public class taikang2020 extends WebCaseBase {
         action.PHTmp(PH_M02,SXP);
     }
 
+
+
+    //泰康老人意外   yuyinhuan  20200515
+
+    String LRYW_ZH01="https://bxm.ncfimg.com/biz/page/info?page_id=PAGE1588162655&is_gray=1&goods_code=G1588162418#/";
+    @Test
+    public void taikang_LRYW() throws Exception{
+        shortInsurance19Action action=new shortInsurance19Action();
+        action.yangguang(LRYW_ZH01,SXP);
+    }
 }
