@@ -53,4 +53,18 @@ public class yangguang_new  extends WebCaseBase {
         action.yangguang(ZhongHe2,SLN);
     }
 
+    /**
+    阳光千万保  20200602 yuyinhuan
+     */
+     //商城版
+
+    String QWB_SC="https://h5.zkydib.com/biz/page/info?page_id=PAGE1589524376&is_gray=1&goods_code=G1589280169#/";
+
+   @Test
+    public void yangguang_QWB_SC() throws Exception{
+        shortInsurance19Action action=new shortInsurance19Action();
+        action.SCTmp(QWB_SC,SXP);
+    }
+
+
 }
