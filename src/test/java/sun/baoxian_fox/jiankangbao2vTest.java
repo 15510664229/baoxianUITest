@@ -21,6 +21,6 @@ public class jiankangbao2vTest extends WebCaseBase {
     @Test
     public void jiankangbao_Fac() throws Exception{
         duolaAbaoAction action=new duolaAbaoAction();
-        action.jiankangbao2(urlFac,SXP);
+        action.jiankangbao2(urlFac,YYH);
     }
 }

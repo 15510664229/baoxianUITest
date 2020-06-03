@@ -468,7 +468,7 @@ public class duolaAbaoAction extends WebCaseBase {
         String birth2 = w.get(1).getText().replaceAll("/*-", "");
         action.click(page1.submit());
         action.sleep(5);
-        // action.click(page1.jianggao_new());
+        action.click(page1.jiangao());
         action.sleep(5);
         action.type(page1.ins_name(), "孙雪萍");
         String i1="150404199312100264";
