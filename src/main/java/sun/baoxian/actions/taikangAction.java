@@ -42,6 +42,7 @@ public class taikangAction extends WebCaseBase {
 
     }
     public void taikang2019(String url,String m) throws Exception{
+        driver.manage().deleteAllCookies();
         taikangpage page1=new taikangpage();
         Mobile mobile=new Mobile();
         page1.getPage(url);

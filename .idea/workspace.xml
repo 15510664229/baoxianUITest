@@ -82,6 +82,9 @@
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/sun/baoxian/actions/yuyuedan/ibaoCAction.java" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -104,20 +107,29 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/sun/baoxianonline" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/pageObjectFiles/yml" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.35283193" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\selenium\baoxianUITest\src\main\resources\pageObjectFiles\yml" />
+      <recent name="D:\selenium\baoxianUITest\res\images" />
+      <recent name="D:\selenium\baoxianUITest\src\main\resources\tessdata" />
+      <recent name="D:\selenium\baoxianUITest\res" />
+      <recent name="D:\selenium\baoxianUITest\src\main\resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="sun.baoxian.actions.yuyuedan" />
+      <recent name="sun.yuyuedan" />
       <recent name="sun.baoxian" />
       <recent name="sun.baoxian.utils" />
       <recent name="sun.baoxian_fox" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\selenium\baoxianUITest\src\test\java\sun\baoxianonline" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\selenium\baoxianUITest\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -132,13 +144,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FileUtils">
-    <configuration name="FileUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sun.baoxian.utils.FileUtils" />
+  <component name="RunManager" selected="TestNG.D:/selenium/baoxianUITest/res/testng_fox.xml">
+    <configuration name="GenerateAutoCodeForYml" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sun.baoxian.utils.pageObjectGenerate.GenerateAutoCodeForYml" />
       <module name="baoxianUITest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sun.baoxian.utils.*" />
+          <option name="PATTERN" value="sun.baoxian.utils.pageObjectGenerate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenerateAutoCodeForYml" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sun.baoxian.utils.pageObjectGenerate.GenerateAutoCodeForYml" />
+    <configuration name="yuyuedan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sun.http.yuyuedan" />
       <module name="baoxianUITest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sun.baoxian.utils.pageObjectGenerate.*" />
+          <option name="PATTERN" value="sun.http.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,28 +181,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DleteHistoryImg.DleteHistoryImg" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D:/selenium/baoxianUITest/res/yueyuedan_test.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="baoxianUITest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sun.baoxian.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sun.baoxian" />
-      <option name="MAIN_CLASS_NAME" value="sun.baoxian.DleteHistoryImg" />
-      <option name="METHOD_NAME" value="DleteHistoryImg" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/res/yueyuedan_test.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/res/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.Login" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="baoxianUITest" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/res/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sun.yuyuedan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sun.yuyuedan" />
+      <option name="MAIN_CLASS_NAME" value="sun.yuyuedan.LoginTest" />
+      <option name="METHOD_NAME" value="Login" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -199,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FileUtils" />
-        <item itemvalue="TestNG.DleteHistoryImg.DleteHistoryImg" />
         <item itemvalue="TestNG.D:/selenium/baoxianUITest/res/testng_fox.xml" />
+        <item itemvalue="TestNG.D:/selenium/baoxianUITest/res/yueyuedan_test.xml" />
         <item itemvalue="Application.GenerateAutoCodeForYml" />
-        <item itemvalue="TestNG./Users/xueping.sun/IdeaProjects/baoxianUITest/baoxianUITest/res/testng.xml" />
+        <item itemvalue="TestNG.LoginTest.Login" />
+        <item itemvalue="Application.yuyuedan" />
       </list>
     </recent_temporary>
   </component>
@@ -252,6 +264,17 @@
       <workItem from="1589178399717" duration="667000" />
       <workItem from="1589180338740" duration="7540000" />
       <workItem from="1589249272493" duration="9526000" />
+      <workItem from="1591614471787" duration="199000" />
+      <workItem from="1591616501468" duration="966000" />
+      <workItem from="1591617570823" duration="2474000" />
+      <workItem from="1591846501010" duration="6008000" />
+      <workItem from="1592203202963" duration="721000" />
+      <workItem from="1592554734940" duration="668000" />
+      <workItem from="1592556026977" duration="27149000" />
+      <workItem from="1594088969971" duration="3184000" />
+      <workItem from="1594108125427" duration="30479000" />
+      <workItem from="1594375114244" duration="61456000" />
+      <workItem from="1594795003994" duration="81306000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1584375025489</created>

@@ -55,6 +55,7 @@ public class jiangxinAction extends WebCaseBase {
      * 线上回归
      */
     public void jiangxin_002(String url,String mobile) throws Exception {
+        driver.manage().deleteAllCookies();
         jiangxinpage page1=new jiangxinpage();
         page1.getPage(url);
         //等待页面加载完成

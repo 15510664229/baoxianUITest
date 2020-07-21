@@ -31,7 +31,7 @@ public class test {
         ChromeOptions options=new ChromeOptions();
 //        options.addArguments("user-data-dir=~/Library/Application Support/Google/Chrome/Default");
         WebDriver driver1=new ChromeDriver(options);
-        options.setHeadless(true);//此项开启后是没有界面的
+//        options.setHeadless(true);//此项开启后是没有界面的
         driver1.get(url);//输入网址
         File file1=((TakesScreenshot)driver1).getScreenshotAs(OutputType.FILE);
         try {

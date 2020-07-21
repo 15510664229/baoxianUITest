@@ -1,0 +1,36 @@
+pages:
+    - page:
+         pageName: sun.baoxian.pageObject.iBaoCpage
+         value: "http://test.bxm.ncfimg.com/biz/page/info?page_id=PAGE1590648919&is_gray=1&goods_code=G1590648627#"
+         desc: "阳光I保C"
+         locators:
+            - {type: "xpath",timeout: "5",value: "//*[text()='立即投保']",desc: "insure",name: "insure"}
+            - {type: "xpath",timeout: "5",value: "//*[@class='price']",desc: "price",name: "price"}
+            - {type: "xpath",timeout: "5",value: "//*[@class='price-wrap']/span[1]",desc: "price2",name: "price2"}
+            - {type: "xpath",timeout: "5",value: "//*[text()='长期居住地']",desc: "city",name: "city"}
+            - {type: "xpath",timeout: "5",value: "//*[text()='长期居住地']/following-sibling::div[1]",desc: "citycont",name: "citycont"}
+            - {type: "xpath",timeout: "5",value: "//*[text()='确定'][1]",desc: "queding",name: "quding"}
+            - {type: "xpath",timeout: "5",value: "//*[@class=\"trial-list true-title insurant\"]//*[text()=\"出生日期\"]",desc: "birth",name: "birth"}
+            - {type: "xpath",timeout: "5",value: "//*[@class='trial-list true-title insurant']//*[text()='出生日期']/following-sibling::div[1]",desc: "birthcont",name: "birthcont"}
+            - {type: "xpath",timeout: "5",value: "//*[text()='20年']",desc: "pay_20Y",name: "pay_20Y"}
+            - {type: "xpath",timeout: "5",value: "//*[text()='10年']",desc: "pay_10Y",name: "pay_10Y"}
+            - {type: "xpath",timeout: "5",value: "//*[text()='年缴']",desc: "pay_type_Y",name: "pay_type_Y"}
+            - {type: "xpath",timeout: "5",value: "//*[text()='月缴']",desc: "pay_type_M",name: "pay_type_M"}
+            - {type: "xpath",timeout: "5",value: "//*[text()='15万']",desc: "baoer15",name: "baoer15"}
+            - {type: "xpath",timeout: "5",value: "//*[text()='30万']",desc: "baoer30",name: "baoer30"}
+            - {type: "xpath",timeout: "5",value: "//*[text()='确认无以上问题']",desc: "jiangao",name: "jiangao"}
+            - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入真实姓名']:first-child",desc: "aplname",name: "aplname"}
+            - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入身份证号']:first-child",desc: "aplidcard",name: "aplidcard"}
+            - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入手机号']:first-child",desc: "aplmobile",name: "aplmobile"}
+            - {type: "xpath",timeout: "5",value: "//*[@name='email']",desc: "apleml",name: "apleml"}
+            - {type: "xpath",timeout: "5",value: "//*[text()='职业类型']/following-sibling::div[1]",desc: "job",name: "job"}
+            - {type: "cssSelector",timeout: "5",value: "textarea[placeholder='请输入详细地址']:first-child",desc: "apladdress",name: "apladdress"}
+            - {type: "xpath",timeout: "5",value: "//*[@name='本人']//*[text()='身高']/following-sibling::div[1]",desc: "height",name: "height"}
+            - {type: "xpath",timeout: "5",value: "//*[@name='本人']//*[text()='体重']/following-sibling::div[1]",desc: "weight",name: "weight"}
+            - {type: "xpath",timeout: "5",value: "//*[@name='bank_card']",desc: "bankcard",name: "bankcard"}
+            - {type: "xpath",timeout: "5",value: "//*[text()='输入卡号自动识别所属银行']",desc: "bankcode",name: "bankcode"}
+            - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入手机号']:last-child",desc: "bankmobile",name: "bankmobile"}
+            - {type: "classname",timeout: "5",value: "protocol-btm-btn",desc: "protocol_but",name: "protocol_but"}
+            - {type: "xpath",timeout: "5",value: "//*[text()='支付方式']",desc: "success",name: "success"}
+            - {type: "xpath",timeout: "5",value: "//*[@name='sms_code']",desc: "ver",name: "ver"}
+            - {type: "xpath",timeout: "5",value: "//*[@class='bank-result']",desc: "code",name: "code"}

@@ -57,6 +57,7 @@ public class jinglingbaoAction extends WebCaseBase {
     }
     //线上回归
     public void jinglingbao_002(String url,String mobile) throws Exception {
+        driver.manage().deleteAllCookies();
         jinglingpage page1=new jinglingpage();
         page1.getPage(url);
         //等待页面加载完成

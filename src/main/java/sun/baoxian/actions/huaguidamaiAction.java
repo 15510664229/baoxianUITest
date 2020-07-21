@@ -25,6 +25,7 @@ public class huaguidamaiAction extends WebCaseBase {
      * @throws Exception
      */
     public void damai(String url,String mobile) throws Exception {
+        driver.manage().deleteAllCookies();
         damaipage  page1 = new damaipage();
         page1.getPage(url);
         //等待页面加载完成

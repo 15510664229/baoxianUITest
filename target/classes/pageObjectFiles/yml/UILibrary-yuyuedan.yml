@@ -1,0 +1,72 @@
+pages:
+    - page:
+       pageName: sun.baoxian.pageObject.yuyuedan.loginpage
+       value: "http://test.admin.dianxiao.ncfimg.com/"
+       desc: "预约单后台登录页面"
+       locators:
+          - {type: "name",timeout: "5",value: "username",desc: "username",name: "username"}
+          - {type: "name",timeout: "5",value: "password",desc: "password",name: "password"}
+          - {type: "name",timeout: "5",value: "verifycode",desc: "verifycode",name: "verifycode"}
+          - {type: "cssSelector",timeout: "5",value: "img[class=\"verifyimg reloadverify\"]",desc: "imgver",name: "imgver"}
+          - {type: "xpath",timeout: "5",value: "//*[text()='登 录']",desc: "login",name: "login"}
+          - {type: "classname",timeout: "5",value: "check-tips",desc: "error",name: "error"}
+    - page:
+       pageName: sun.baoxian.pageObject.yuyuedan.homepage
+       value: "http://test.admin.dianxiao.ncfimg.com/home/"
+       desc: "预约单后台首页"
+       locators:
+          - {type: "xpath",timeout: "5",value: "//*[text()='预约单管理']",desc: "menu_yuyuedan",name: "menu_yuyuedan"}
+          - {type: "xpath",timeout: "5",value: "//*[text()='预约单列表']",desc: "menu_list",name: "menu_list"}
+          - {type: "xpath",timeout: "5",value: "//*[text()='创建预约单']",desc: "create",name: "create"}
+          - {type: "name",timeout: "5",value: "plat_goods_id",desc: "plat_goods_id",name: "plat_goods_id"}
+          - {type: "cssSelector",timeout: "5",value: "input[placeholder='用户手机号']:last-child",desc: "client_id2",name: "client_id2"}
+          - {type: "xpath",timeout: "5",value: "//*[text()='保存']",desc: "save",name: "save"}
+          - {type: "xpath",timeout: "5",value: "//*[@id=\"evt-list-box\"]/tr[1]/td[9]/a[2]",desc: "first_edit",name: "first_edit"}
+          - {type: "cssSelector",timeout: "5",value: "a[data-btn-submit='sreach']",desc: "search",name: "search"}
+          - {type: "xpath",timeout: "5",value: "//*[@id='evt-list-box']/tr[1]/td[8]/span",desc: "user_url",name: "user_url"}
+          - {type: "xpath",timeout: "5",value: "//*[text()='保存成功！']",desc: "save_success",name: "save_success"}
+          - {type: "xpath",timeout: "5",value: "//iframe[contains(@id,'ifm')]",desc: "product_frame",name: "product_frame"}
+          - {type: "name",timeout: "5",value: "client_id",desc: "client_id",name: "client_id"}
+    - page:
+         pageName: sun.baoxian.pageObject.yuyuedan.iBaoC2page
+         value: "http://test.admin.dianxiao.ncfimg.com/home/pop_iBaoC2"
+         desc: "阳光I保C-三月缴"
+         locators:
+            - {type: "xpath",timeout: "5",value: "//*[text()='预约单:下一步']",desc: "book_next",name: "book_next"}
+            - {type: "xpath",timeout: "5",value: "//*[text()='预约单列表']",desc: "menu_list",name: "menu_list"}
+            - {type: "xpath",timeout: "5",value: "//*[text()='创建预约单']",desc: "create",name: "create"}
+            - {type: "name",timeout: "5",value: "plat_goods_id",desc: "plat_goods_id",name: "plat_goods_id"}
+            - {type: "name",timeout: "5",value: "client_id",desc: "client_id",name: "client_id"}
+            - {type: "xpath",timeout: "5",value: "//*[text()='保存']",desc: "save",name: "save"}
+            - {type: "classname",timeout: "5",value: "maba-button",desc: "next_save1",name: "next_save1"}
+            - {type: "xpath",timeout: "5",value: "//*[@id=\"evt-list-box\"]/tr[1]/td[9]/a[2]",desc: "first_edit",name: "first_edit"}
+            - {type: "xpath",timeout: "5",value: "//*[text()='长期居住地']",desc: "city",name: "city"}
+            - {type: "xpath",timeout: "5",value: "//*[text()='长期居住地']/following-sibling::div[1]",desc: "citycont",name: "citycont"}
+            - {type: "xpath",timeout: "5",value: "//*[text()='确定'][1]",desc: "queding",name: "quding"}
+            - {type: "xpath",timeout: "5",value: "//*[@class=\"trial-list true-title insurant\"]//*[text()=\"出生日期\"]",desc: "birth",name: "birth"}
+            - {type: "xpath",timeout: "5",value: "//*[@class='trial-list true-title insurant']//*[text()='出生日期']/following-sibling::div[1]",desc: "birthcont",name: "birthcont"}
+            - {type: "xpath",timeout: "5",value: "//*[text()='20年']",desc: "pay_20Y",name: "pay_20Y"}
+            - {type: "xpath",timeout: "5",value: "//*[text()='10年']",desc: "pay_10Y",name: "pay_10Y"}
+            - {type: "xpath",timeout: "5",value: "//*[text()='年缴']",desc: "pay_type_Y",name: "pay_type_Y"}
+            - {type: "xpath",timeout: "5",value: "//*[text()='月缴']",desc: "pay_type_M",name: "pay_type_M"}
+            - {type: "xpath",timeout: "5",value: "//*[text()='15万']",desc: "baoer15",name: "baoer15"}
+            - {type: "xpath",timeout: "5",value: "//*[text()='30万']",desc: "baoer30",name: "baoer30"}
+            - {type: "xpath",timeout: "5",value: "//*[text()='预约单:下一步']",desc: "save_next",name: "save_next"}
+            - {type: "xpath",timeout: "5",value: "//iframe[contains(@id,'ifm')]",desc: "product_frame",name: "product_frame"}
+            - {type: "xpath",timeout: "5",value: "//*[text()='确认无以上问题']",desc: "jiangao",name: "jiangao"}
+            - {type: "cssSelector",timeout: "5",value: "input[data-isr_code='applicant__cn_name']",desc: "aplname",name: "aplname"}
+            - {type: "cssSelector",timeout: "5",value: "input[data-isr_code='applicant__card_code']",desc: "aplidcard",name: "aplidcard"}
+            - {type: "cssSelector",timeout: "5",value: "input[data-isr_code='applicant__mobile']",desc: "aplmobile",name: "aplmobile"}
+            - {type: "cssSelector",timeout: "5",value: "input[data-isr_code='applicant__email']",desc: "apleml",name: "apleml"}
+            - {type: "xpath",timeout: "5",value: "//*[text()='职业类型']/following-sibling::div[1]",desc: "job",name: "job"}
+            - {type: "cssSelector",timeout: "5",value: "textarea[data-isr_code='applicant__contact_address']",desc: "apladdress",name: "apladdress"}
+            - {type: "xpath",timeout: "5",value: "//*[@name='本人']//*[text()='身高']/following-sibling::div[1]",desc: "height",name: "height"}
+            - {type: "xpath",timeout: "5",value: "//*[@name='本人']//*[text()='体重']/following-sibling::div[1]",desc: "weight",name: "weight"}
+            - {type: "cssSelector",timeout: "5",value: "input[data-isr_code='renewal__withhold_account']",desc: "bankcard",name: "bankcard"}
+            - {type: "xpath",timeout: "5",value: "//*[text()='输入卡号自动识别所属银行']",desc: "bankcode",name: "bankcode"}
+            - {type: "cssSelector",timeout: "5",value: "input[data-isr_code='renewal__withhold_mobile']",desc: "bankmobile",name: "bankmobile"}
+            - {type: "classname",timeout: "5",value: "protocol-btm-btn",desc: "protocol_but",name: "protocol_but"}
+            - {type: "xpath",timeout: "5",value: "//*[text()='预约单:保存']",desc: "save_final",name: "save_final"}
+            - {type: "xpath",timeout: "5",value: "//*[@class='price']",desc: "price",name: "price"}
+            - {type: "xpath",timeout: "5",value: "//*[@class='price-wrap']/span[1]",desc: "price2",name: "price2"}
+

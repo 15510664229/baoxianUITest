@@ -255,6 +255,7 @@ public class shortInsurance19Action extends WebCaseBase {
     //online 线上回归
     //全民医保2020 商城版用例模板
     public void SCTmp(String url,String mobile) throws Exception {
+        driver.manage().deleteAllCookies();
         shortTmp page1 = new shortTmp();
         page1.getPage(url);
         //等待页面加载完成
@@ -305,6 +306,7 @@ public class shortInsurance19Action extends WebCaseBase {
 
 
     public void SCTmp_idcard(String url,String idcard,String mobile) throws Exception {
+        driver.manage().deleteAllCookies();
         shortTmp page1 = new shortTmp();
         page1.getPage(url);
         //等待页面加载完成
@@ -346,6 +348,7 @@ public class shortInsurance19Action extends WebCaseBase {
 
 
     public void PHTmp(String url,String mobile) throws Exception {
+        driver.manage().deleteAllCookies();
         shortTmp page1 = new shortTmp();
         page1.getPage(url);
         //等待页面加载完成
@@ -389,6 +392,7 @@ public class shortInsurance19Action extends WebCaseBase {
 
     //online  阳光线上回归
     public void yangguang(String url,String mobile) throws Exception {
+        driver.manage().deleteAllCookies();
         shortTmp page1 = new shortTmp();
         page1.getPage(url);
         //等待页面加载完成
@@ -434,6 +438,7 @@ public class shortInsurance19Action extends WebCaseBase {
 
     //学平险&（阳光综合意外plus版本）收费版回归 online
     public void StudentTmp(String url,String mobile) throws Exception {
+        driver.manage().deleteAllCookies();
         shortTmp page1 = new shortTmp();
         page1.getPage(url);
         //等待页面加载完成

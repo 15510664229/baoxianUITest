@@ -1,0 +1,99 @@
+pages:
+    - page:
+       pageName: sun.baoxian.pageObject.yuyuedan.YsuperMaPage
+       value: "http://test.admin.dianxiao.ncfimg.com/"
+       desc: "超级玛丽-牛保"
+       locators:
+          - {type: "xpath",timeout: "5",value: "//*[text()='预约单:下一步']",desc: "book_next",name: "book_next"}
+          - {type: "xpath",timeout: "5",value: "//*[text()='确定'][1]",desc: "queding",name: "quding"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='trial-list true-title applicant']//*[text()='出生日期']",desc: "apl_birth",name: "apl_birth"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='trial-list true-title applicant']//*[text()='出生日期']/following-sibling::div[1]",desc: "apl_birthcont",name: "apl_birthcont"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='trial-list true-title insurant']//*[text()='出生日期']",desc: "ins_birth",name: "ins_birth"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='trial-list true-title insurant']//*[text()='出生日期']/following-sibling::div[1]",desc: "ins_birthcont",name: "ins_birthcont"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='trial-list true-title applicant']//*[text()='男']",desc: "apl_sex_M",name: "apl_sex_M"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='trial-list true-title applicant']//*[text()='女']",desc: "apl_sex_F",name: "apl_sex_F"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='trial-list true-title insurant']//*[text()='男']",desc: "ins_sex_M",name: "ins_sex_M"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='trial-list true-title insurant']//*[text()='女']",desc: "ins_sex_F",name: "ins_sex_F"}
+          - {type: "xpath",timeout: "5",value: "//*[text()='长期居住地']",desc: "city",name: "city"}
+          - {type: "xpath",timeout: "5",value: "//*[text()='长期居住地']/following-sibling::div[1]",desc: "citycont",name: "citycont"}
+          - {type: "xpath",timeout: "5",value: "//*[text()='10万']",desc: "baoer10",name: "baoer10"}
+          - {type: "xpath",timeout: "5",value: "//*[text()='25万']",desc: "baoer25",name: "baoer25"}
+          - {type: "xpath",timeout: "5",value: "//*[text()='至70岁']",desc: "insurance_period_70A",name: "insurance_period_70A"}
+          - {type: "xpath",timeout: "5",value: "//*[text()='终身']",desc: "insurance_period_999",name: "insurance_period_999"}
+          - {type: "xpath",timeout: "5",value: "//*[text()='20年']",desc: "pay_20Y",name: "pay_20Y"}
+          - {type: "xpath",timeout: "5",value: "//*[text()='10年']",desc: "pay_10Y",name: "pay_10Y"}
+          - {type: "xpath",timeout: "5",value: "//*[text()='年缴']",desc: "pay_type_Y",name: "pay_type_Y"}
+          - {type: "xpath",timeout: "5",value: "//*[text()='趸缴']",desc: "pay_type_S",name: "pay_type_S"}
+          - {type: "xpath",timeout: "5",value: "//div[text()='特定重大疾病']/following-sibling::div[1]//*[text()='投保']",desc: "zhongdajibing",name: "zhongdajibing"}
+          - {type: "xpath",timeout: "5",value: "//div[@class='mb-trial-item-right protect__70A059 length2']//*[text()='投保']",desc: "toubaorenhuomian",name: "toubaorenhuomian"}
+          - {type: "xpath",timeout: "5",value: "//*[text()='确认无以上问题']",desc: "jiangao",name: "jiangao"}
+          - {type: "cssSelector",timeout: "5",value: "input[data-isr_code='applicant__cn_name']",desc: "aplname",name: "aplname"}
+          - {type: "cssSelector",timeout: "5",value: "input[data-isr_code='applicant__card_code']",desc: "aplidcard",name: "aplidcard"}
+          - {type: "cssSelector",timeout: "5",value: "input[data-isr_code='applicant__mobile']",desc: "aplmobile",name: "aplmobile"}
+          - {type: "cssSelector",timeout: "5",value: "input[data-isr_code='applicant__email']",desc: "apleml",name: "apleml"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='applicant-single-input']//*[text()='职业类型']/following-sibling::div[1]",desc: "apl_job",name: "apl_job"}
+          - {type: "cssSelector",timeout: "5",value: "textarea[data-isr_code='applicant__contact_address']",desc: "apladdress",name: "apladdress"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='applicant-single-input']//*[text()='长期居住地']",desc: "apl_city",name: "apl_city"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='applicant-single-input']//*[text()='长期居住地']/following-sibling::div[1]",desc: "apl_citycont",name: "apl_citycont"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='applicant-single-input']//*[text()='身高']/following-sibling::div[1]",desc: "apl_height",name: "apl_height"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='applicant-single-input']//*[text()='体重']/following-sibling::div[1]",desc: "apl_weight",name: "apl_weight"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='applicant-single-input']//*[text()='证件止期']",desc: "aplcardPeriod",name: "aplcardPeriod"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='applicant-single-input']//*[text()='证件止期']/following-sibling::div[1]",desc: "aplcardDate",name: "aplcardDate"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='tab_item show']//*[@name='配偶']//*[text()='证件止期']",desc: "inscardPeriod",name: "inscardPeriod"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='tab_item show']//*[@name='配偶']//*[text()='证件止期']/following-sibling::div[1]",desc: "inscardDate",name: "inscardDate"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='tab_item show']//*[@name='配偶']//*[@name='name']",desc: "insname",name: "insname"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='tab_item show']//*[@name='配偶']//*[@name='identity']",desc: "insidcard",name: "insidcard"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='tab_item show']//*[@name='配偶']//*[@name='mobile']",desc: "insmobile",name: "insmobile"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='tab_item show']//*[@name='配偶']//*[@name='email']",desc: "inseml",name: "inseml"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='tab_item show']//*[@name='配偶']//*[text()='职业类型']/following-sibling::div[1]",desc: "ins_job",name: "ins_job"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='tab_item show']//*[@name='配偶']//*[@data-isr_code='insurant__contact_address']",desc: "insaddress",name: "insaddress"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='tab_item show']//*[@name='配偶']//*[text()='长期居住地']",desc: "ins_city",name: "ins_city"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='tab_item show']//*[@name='配偶']//*[text()='长期居住地']/following-sibling::div[1]",desc: "ins_citycont",name: "ins_citycont"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='tab_item show']//*[@name='配偶']//*[text()='身高']/following-sibling::div[1]",desc: "ins_height",name: "ins_height"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='tab_item show']//*[@name='配偶']//*[text()='体重']/following-sibling::div[1]",desc: "ins_weight",name: "ins_weight"}
+          - {type: "cssSelector",timeout: "5",value: "input[data-isr_code='renewal__withhold_account']",desc: "bankcard",name: "bankcard"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='bank-result']",desc: "bankcode",name: "bankcode"}
+          - {type: "xpath",timeout: "5",value: "//*[text()='开户行所在地']",desc: "bankcity",name: "bankcity"}
+          - {type: "xpath",timeout: "5",value: "//*[text()='开户行所在地']/following-sibling::div[1]",desc: "bankcitycont",name: "bankcitycont"}
+          - {type: "classname",timeout: "5",value: "protocol-btm-btn",desc: "protocol_but",name: "protocol_but"}
+          - {type: "xpath",timeout: "5",value: "//*[text()='预约单:保存']",desc: "save_final",name: "save_final"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='price']",desc: "price",name: "price"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='price-wrap']/span[1]",desc: "price2",name: "price2"}
+    - page:
+         pageName: sun.baoxian.pageObject.superMaPage
+         value: "http://test.bxm.ncfimg.com/biz/page/info?page_id=PAGEC1589967217&is_gray=1&goods_code=G1589888979"
+         desc: "超级玛丽-牛保"
+         locators:
+          - {type: "xpath",timeout: "5",value: "//*[text()='立即投保']",desc: "insure",name: "insure"}
+          - {type: "xpath",timeout: "5",value: "//*[@name='sms_code']",desc: "ver",name: "ver"}
+          - {type: "xpath",timeout: "5",value: "//*[text()='请在 23:50 前完成支付，逾期订单将自动取消']",desc: "success",name: "success"}
+          - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入真实姓名']:first-child",desc: "aplname",name: "aplname"}
+          - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入身份证号']:first-child",desc: "aplidcard",name: "aplidcard"}
+          - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入手机号']:first-child",desc: "aplmobile",name: "aplmobile"}
+          - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入电子邮箱']:first-child",desc: "apleml",name: "apleml"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='applicant-single-input']//*[text()='长期居住地']",desc: "apl_city",name: "apl_city"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='applicant-single-input']//*[text()='长期居住地']/following-sibling::div[1]",desc: "apl_citycont",name: "apl_citycont"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='applicant-single-input']//*[text()='身高']/following-sibling::div[1]",desc: "apl_height",name: "apl_height"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='applicant-single-input']//*[text()='体重']/following-sibling::div[1]",desc: "apl_weight",name: "apl_weight"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='applicant-single-input']//*[text()='证件止期']",desc: "aplcardPeriod",name: "aplcardPeriod"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='applicant-single-input']//*[text()='证件止期']/following-sibling::div[1]",desc: "aplcardDate",name: "aplcardDate"}
+          - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入银行卡号']:first-child",desc: "bankcard",name: "bankcard"}
+          - {type: "xpath",timeout: "5",value: "//*[text()='开户行所在地']/following-sibling::div[1]",desc: "bankcitycont",name: "bankcitycont"}
+          - {type: "classname",timeout: "5",value: "protocol-btm-btn",desc: "protocol_but",name: "protocol_but"}
+          - {type: "cssSelector",timeout: "5",value: "textarea[placeholder='请输入详细地址']:first-child",desc: "apladdress",name: "apladdress"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='tab_item show']//*[@name='配偶']//*[text()='证件止期']",desc: "inscardPeriod",name: "inscardPeriod"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='tab_item show']//*[@name='配偶']//*[text()='证件止期']/following-sibling::div[1]",desc: "inscardDate",name: "inscardDate"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='tab_item show']//*[@name='配偶']//*[@placeholder='请输入真实姓名']",desc: "insname",name: "insname"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='tab_item show']//*[@name='配偶']//*[@placeholder='请输入身份证号']",desc: "insidcard",name: "insidcard"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='tab_item show']//*[@name='配偶']//*[@placeholder='请输入手机号']",desc: "insmobile",name: "insmobile"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='tab_item show']//*[@name='配偶']//*[@placeholder='请输入电子邮箱']",desc: "inseml",name: "inseml"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='tab_item show']//*[@name='配偶']//*[text()='职业类型']/following-sibling::div[1]",desc: "ins_job",name: "ins_job"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='tab_item show']//*[@name='配偶']//*[@placeholder='请输入详细地址']",desc: "insaddress",name: "insaddress"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='tab_item show']//*[@name='配偶']//*[text()='长期居住地']",desc: "ins_city",name: "ins_city"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='tab_item show']//*[@name='配偶']//*[text()='长期居住地']/following-sibling::div[1]",desc: "ins_citycont",name: "ins_citycont"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='tab_item show']//*[@name='配偶']//*[text()='身高']/following-sibling::div[1]",desc: "ins_height",name: "ins_height"}
+          - {type: "xpath",timeout: "5",value: "//*[@class='tab_item show']//*[@name='配偶']//*[text()='体重']/following-sibling::div[1]",desc: "ins_weight",name: "ins_weight"}
+
+
+
+

@@ -85,6 +85,7 @@ public class changqingbaoAction extends WebCaseBase {
     }
 
     public void changqingbao_002(String url,String mobile) throws Exception {
+        driver.manage().deleteAllCookies();
         changqingbaopage page1=new changqingbaopage();
         page1.getPage(url);
         //等待页面加载完成

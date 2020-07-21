@@ -211,6 +211,7 @@ public class mamibaobeiAction extends WebCaseBase {
         Reporter.log("链接地址： "+action.getUrl());
     }
     public void mamibaobei_fox(String url,String mobile1) throws Exception {
+        driver.manage().deleteAllCookies();
         mamibaobeipage page1 = new mamibaobeipage();
         page1.getPage(url);
         //等待页面加载完成

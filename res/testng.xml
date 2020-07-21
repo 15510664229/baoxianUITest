@@ -8,9 +8,9 @@
 <!--	 	<listener class-name='sun.baoxian.utils.RetryListener'/>-->
 
 	</listeners>
-	
+	<parameter name="browerType" value="ff" />
 	<test name="UI自动化测试【测试回归】" preserve-order="true">
-		<parameter name="browerType" value="ff" />
+
 		<classes>
 			<class name="sun.baoxian.fangaiTest"></class>
 <!--			<class name="sun.baoxian.shortInsuranceTest">-->

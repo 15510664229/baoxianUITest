@@ -1,6 +1,6 @@
 pages:
     - page:
-       pageName: com.testfan.ui.auto.pageObject.BingPage
+       pageName: test
        value: "https://cn.bing.com/"
        desc: "bing首页搜索测试"
        locators:
@@ -8,7 +8,7 @@ pages:
           - {type: "id",timeout: "5",value: "sb_form_go",desc: "submit",name: "submit"}
           - {type: "id",timeout: "5",value: "est_en",desc: "internationalBtn",name: "internationalBtn"}       
     - page:
-       pageName: com.testfan.ui.auto.pageObject.BaiduPage
+       pageName: test
        value: "测试Baidu页面"
        desc: "Baidu"
        locators:

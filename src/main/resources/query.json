@@ -1,0 +1,1140 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "examples": [
+    {
+      "relation": [
+        {
+          "relation": "本人",
+          "relation_str": "self",
+          "relation_name": "李**"
+        },
+        {
+          "relation": "配偶",
+          "relation_str": "wife",
+          "relation_name": "哈****"
+        }
+      ],
+      "family": {
+        "self": {
+          "id": "65121",
+          "uid": "4000003245",
+          "core_uid": "4000003245",
+          "relation": "1",
+          "family_uid": "0",
+          "family_core_uid": "0",
+          "relation_name": "本人",
+          "cn_name": "李**",
+          "info": [
+            {
+              "key": "性别",
+              "value": "女"
+            },
+            {
+              "key": "出生日期",
+              "value": "1993-06-20"
+            },
+            {
+              "key": "证件类型",
+              "value": "身份证"
+            },
+            {
+              "key": "证件号码",
+              "value": "11****63"
+            },
+            {
+              "key": "手机号",
+              "value": "182****0044"
+            },
+            {
+              "key": "电子邮箱",
+              "value": "12****@qq.com"
+            },
+            {
+              "key": "长期居住地址",
+              "value": "不知道大街不知道小巷不知道巴拉巴拉1410"
+            },
+            {
+              "key": "职业",
+              "value": "5,500,50000,5000001"
+            },
+            {
+              "key": "社保",
+              "value": "无"
+            },
+            {
+              "key": "身高",
+              "value": ""
+            },
+            {
+              "key": "体重",
+              "value": ""
+            },
+            {
+              "key": "吸烟",
+              "value": "否"
+            }
+          ],
+          "bank_info": [
+            [
+              {
+                "key": "银行卡号",
+                "value": "62******"
+              },
+              {
+                "key": "开户行",
+                "value": "中国工商银行"
+              },
+              {
+                "key": "bank_id",
+                "value": "71072"
+              }
+            ]
+          ]
+        },
+        "wife": {
+          "id": "65122",
+          "uid": "4000003245",
+          "core_uid": "4000003245",
+          "relation": "2",
+          "family_uid": "0",
+          "family_core_uid": "0",
+          "relation_name": "配偶",
+          "cn_name": "哈****",
+          "info": [
+            {
+              "key": "性别",
+              "value": "男"
+            },
+            {
+              "key": "出生日期",
+              "value": "1994-06-20"
+            },
+            {
+              "key": "证件类型",
+              "value": "身份证"
+            },
+            {
+              "key": "证件号码",
+              "value": "11****95"
+            },
+            {
+              "key": "手机号",
+              "value": "182****0055"
+            },
+            {
+              "key": "电子邮箱",
+              "value": "45****@163.com"
+            },
+            {
+              "key": "长期居住地址",
+              "value": "不知道大街不知道小巷不知道1410"
+            },
+            {
+              "key": "职业",
+              "value": "专业技术人员,体育工作人员,乒乓球运动,2113001-2"
+            },
+            {
+              "key": "社保",
+              "value": "无"
+            },
+            {
+              "key": "身高",
+              "value": "184"
+            },
+            {
+              "key": "体重",
+              "value": "60"
+            },
+            {
+              "key": "吸烟",
+              "value": "否"
+            }
+          ],
+          "bank_info": [
+            [
+              {
+                "key": "银行卡号",
+                "value": "62******"
+              },
+              {
+                "key": "开户行",
+                "value": "中国工商银行"
+              },
+              {
+                "key": "bank_id",
+                "value": "71072"
+              }
+            ]
+          ]
+        }
+      },
+      "errno": 0,
+      "errmsg": "ok"
+    }
+  ],
+  "required": [
+    "relation",
+    "family",
+    "errno",
+    "errmsg"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "relation": {
+      "$id": "#/properties/relation",
+      "type": "array",
+      "title": "The relation schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": [],
+      "examples": [
+        [
+          {
+            "relation": "本人",
+            "relation_str": "self",
+            "relation_name": "李**"
+          },
+          {
+            "relation": "配偶",
+            "relation_str": "wife",
+            "relation_name": "哈****"
+          }
+        ]
+      ],
+      "additionalItems": true,
+      "items": {
+        "anyOf": [
+          {
+            "$id": "#/properties/relation/items/anyOf/0",
+            "type": "object",
+            "title": "The first anyOf schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": {},
+            "examples": [
+              {
+                "relation": "本人",
+                "relation_str": "self",
+                "relation_name": "李**"
+              }
+            ],
+            "required": [
+              "relation",
+              "relation_str",
+              "relation_name"
+            ],
+            "additionalProperties": true,
+            "properties": {
+              "relation": {
+                "$id": "#/properties/relation/items/anyOf/0/properties/relation",
+                "type": "string",
+                "title": "The relation schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "本人"
+                ]
+              },
+              "relation_str": {
+                "$id": "#/properties/relation/items/anyOf/0/properties/relation_str",
+                "type": "string",
+                "title": "The relation_str schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "self"
+                ]
+              },
+              "relation_name": {
+                "$id": "#/properties/relation/items/anyOf/0/properties/relation_name",
+                "type": "string",
+                "title": "The relation_name schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "李**"
+                ]
+              }
+            }
+          }
+        ],
+        "$id": "#/properties/relation/items"
+      }
+    },
+    "family": {
+      "$id": "#/properties/family",
+      "type": "object",
+      "title": "The family schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": {},
+      "examples": [
+        {
+          "self": {
+            "id": "65121",
+            "uid": "4000003245",
+            "core_uid": "4000003245",
+            "relation": "1",
+            "family_uid": "0",
+            "family_core_uid": "0",
+            "relation_name": "本人",
+            "cn_name": "李**",
+            "info": [
+              {
+                "key": "性别",
+                "value": "女"
+              },
+              {
+                "key": "出生日期",
+                "value": "1993-06-20"
+              },
+              {
+                "key": "证件类型",
+                "value": "身份证"
+              },
+              {
+                "key": "证件号码",
+                "value": "11****63"
+              },
+              {
+                "key": "手机号",
+                "value": "182****0044"
+              },
+              {
+                "key": "电子邮箱",
+                "value": "12****@qq.com"
+              },
+              {
+                "key": "长期居住地址",
+                "value": "不知道大街不知道小巷不知道巴拉巴拉1410"
+              },
+              {
+                "key": "职业",
+                "value": "5,500,50000,5000001"
+              },
+              {
+                "key": "社保",
+                "value": "无"
+              },
+              {
+                "key": "身高",
+                "value": ""
+              },
+              {
+                "key": "体重",
+                "value": ""
+              },
+              {
+                "key": "吸烟",
+                "value": "否"
+              }
+            ],
+            "bank_info": [
+              [
+                {
+                  "key": "银行卡号",
+                  "value": "62******"
+                },
+                {
+                  "key": "开户行",
+                  "value": "中国工商银行"
+                },
+                {
+                  "key": "bank_id",
+                  "value": "71072"
+                }
+              ]
+            ]
+          },
+          "wife": {
+            "id": "65122",
+            "uid": "4000003245",
+            "core_uid": "4000003245",
+            "relation": "2",
+            "family_uid": "0",
+            "family_core_uid": "0",
+            "relation_name": "配偶",
+            "cn_name": "哈****",
+            "info": [
+              {
+                "key": "性别",
+                "value": "男"
+              },
+              {
+                "key": "出生日期",
+                "value": "1994-06-20"
+              },
+              {
+                "key": "证件类型",
+                "value": "身份证"
+              },
+              {
+                "key": "证件号码",
+                "value": "11****95"
+              },
+              {
+                "key": "手机号",
+                "value": "182****0055"
+              },
+              {
+                "key": "电子邮箱",
+                "value": "45****@163.com"
+              },
+              {
+                "key": "长期居住地址",
+                "value": "不知道大街不知道小巷不知道1410"
+              },
+              {
+                "key": "职业",
+                "value": "专业技术人员,体育工作人员,乒乓球运动,2113001-2"
+              },
+              {
+                "key": "社保",
+                "value": "无"
+              },
+              {
+                "key": "身高",
+                "value": "184"
+              },
+              {
+                "key": "体重",
+                "value": "60"
+              },
+              {
+                "key": "吸烟",
+                "value": "否"
+              }
+            ],
+            "bank_info": [
+              [
+                {
+                  "key": "银行卡号",
+                  "value": "62******"
+                },
+                {
+                  "key": "开户行",
+                  "value": "中国工商银行"
+                },
+                {
+                  "key": "bank_id",
+                  "value": "71072"
+                }
+              ]
+            ]
+          }
+        }
+      ],
+      "required": [
+        "self",
+        "wife"
+      ],
+      "additionalProperties": true,
+      "properties": {
+        "self": {
+          "$id": "#/properties/family/properties/self",
+          "type": "object",
+          "title": "The self schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": {},
+          "examples": [
+            {
+              "id": "65121",
+              "uid": "4000003245",
+              "core_uid": "4000003245",
+              "relation": "1",
+              "family_uid": "0",
+              "family_core_uid": "0",
+              "relation_name": "本人",
+              "cn_name": "李**",
+              "info": [
+                {
+                  "key": "性别",
+                  "value": "女"
+                },
+                {
+                  "key": "出生日期",
+                  "value": "1993-06-20"
+                },
+                {
+                  "key": "证件类型",
+                  "value": "身份证"
+                },
+                {
+                  "key": "证件号码",
+                  "value": "11****63"
+                },
+                {
+                  "key": "手机号",
+                  "value": "182****0044"
+                },
+                {
+                  "key": "电子邮箱",
+                  "value": "12****@qq.com"
+                },
+                {
+                  "key": "长期居住地址",
+                  "value": "不知道大街不知道小巷不知道巴拉巴拉1410"
+                },
+                {
+                  "key": "职业",
+                  "value": "5,500,50000,5000001"
+                },
+                {
+                  "key": "社保",
+                  "value": "无"
+                },
+                {
+                  "key": "身高",
+                  "value": ""
+                },
+                {
+                  "key": "体重",
+                  "value": ""
+                },
+                {
+                  "key": "吸烟",
+                  "value": "否"
+                }
+              ],
+              "bank_info": [
+                [
+                  {
+                    "key": "银行卡号",
+                    "value": "62******"
+                  },
+                  {
+                    "key": "开户行",
+                    "value": "中国工商银行"
+                  },
+                  {
+                    "key": "bank_id",
+                    "value": "71072"
+                  }
+                ]
+              ]
+            }
+          ],
+          "required": [
+            "id",
+            "uid",
+            "core_uid",
+            "relation",
+            "family_uid",
+            "family_core_uid",
+            "relation_name",
+            "cn_name",
+            "info",
+            "bank_info"
+          ],
+          "additionalProperties": true,
+          "properties": {
+            "id": {
+              "$id": "#/properties/family/properties/self/properties/id",
+              "type": "string",
+              "title": "The id schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "65121"
+              ]
+            },
+            "uid": {
+              "$id": "#/properties/family/properties/self/properties/uid",
+              "type": "string",
+              "title": "The uid schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "4000003245"
+              ]
+            },
+            "core_uid": {
+              "$id": "#/properties/family/properties/self/properties/core_uid",
+              "type": "string",
+              "title": "The core_uid schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "4000003245"
+              ]
+            },
+            "relation": {
+              "$id": "#/properties/family/properties/self/properties/relation",
+              "type": "string",
+              "title": "The relation schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "1"
+              ]
+            },
+            "family_uid": {
+              "$id": "#/properties/family/properties/self/properties/family_uid",
+              "type": "string",
+              "title": "The family_uid schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "0"
+              ]
+            },
+            "family_core_uid": {
+              "$id": "#/properties/family/properties/self/properties/family_core_uid",
+              "type": "string",
+              "title": "The family_core_uid schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "0"
+              ]
+            },
+            "relation_name": {
+              "$id": "#/properties/family/properties/self/properties/relation_name",
+              "type": "string",
+              "title": "The relation_name schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "本人"
+              ]
+            },
+            "cn_name": {
+              "$id": "#/properties/family/properties/self/properties/cn_name",
+              "type": "string",
+              "title": "The cn_name schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "李**"
+              ]
+            },
+            "info": {
+              "$id": "#/properties/family/properties/self/properties/info",
+              "type": "array",
+              "title": "The info schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": [],
+              "examples": [
+                [
+                  {
+                    "key": "性别",
+                    "value": "女"
+                  },
+                  {
+                    "key": "出生日期",
+                    "value": "1993-06-20"
+                  }
+                ]
+              ],
+              "additionalItems": true,
+              "items": {
+                "anyOf": [
+                  {
+                    "$id": "#/properties/family/properties/self/properties/info/items/anyOf/0",
+                    "type": "object",
+                    "title": "The first anyOf schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": {},
+                    "examples": [
+                      {
+                        "key": "性别",
+                        "value": "女"
+                      }
+                    ],
+                    "required": [
+                      "key",
+                      "value"
+                    ],
+                    "additionalProperties": true,
+                    "properties": {
+                      "key": {
+                        "$id": "#/properties/family/properties/self/properties/info/items/anyOf/0/properties/key",
+                        "type": "string",
+                        "title": "The key schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                          "性别"
+                        ]
+                      },
+                      "value": {
+                        "$id": "#/properties/family/properties/self/properties/info/items/anyOf/0/properties/value",
+                        "type": "string",
+                        "title": "The value schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                          "女"
+                        ]
+                      }
+                    }
+                  }
+                ],
+                "$id": "#/properties/family/properties/self/properties/info/items"
+              }
+            },
+            "bank_info": {
+              "$id": "#/properties/family/properties/self/properties/bank_info",
+              "type": "array",
+              "title": "The bank_info schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": [],
+              "examples": [
+                [
+                  [
+                    {
+                      "key": "银行卡号",
+                      "value": "62******"
+                    },
+                    {
+                      "key": "开户行",
+                      "value": "中国工商银行"
+                    },
+                    {
+                      "key": "bank_id",
+                      "value": "71072"
+                    }
+                  ]
+                ]
+              ],
+              "additionalItems": true,
+              "items": {
+                "anyOf": [
+                  {
+                    "$id": "#/properties/family/properties/self/properties/bank_info/items/anyOf/0",
+                    "type": "array",
+                    "title": "The first anyOf schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": [],
+                    "examples": [
+                      [
+                        {
+                          "key": "银行卡号",
+                          "value": "62******"
+                        },
+                        {
+                          "key": "开户行",
+                          "value": "中国工商银行"
+                        }
+                      ]
+                    ],
+                    "additionalItems": true,
+                    "items": {
+                      "anyOf": [
+                        {
+                          "$id": "#/properties/family/properties/self/properties/bank_info/items/anyOf/0/items/anyOf/0",
+                          "type": "object",
+                          "title": "The first anyOf schema",
+                          "description": "An explanation about the purpose of this instance.",
+                          "default": {},
+                          "examples": [
+                            {
+                              "key": "银行卡号",
+                              "value": "62******"
+                            }
+                          ],
+                          "required": [
+                            "key",
+                            "value"
+                          ],
+                          "additionalProperties": true,
+                          "properties": {
+                            "key": {
+                              "$id": "#/properties/family/properties/self/properties/bank_info/items/anyOf/0/items/anyOf/0/properties/key",
+                              "type": "string",
+                              "title": "The key schema",
+                              "description": "An explanation about the purpose of this instance.",
+                              "default": "",
+                              "examples": [
+                                "银行卡号"
+                              ]
+                            },
+                            "value": {
+                              "$id": "#/properties/family/properties/self/properties/bank_info/items/anyOf/0/items/anyOf/0/properties/value",
+                              "type": "string",
+                              "title": "The value schema",
+                              "description": "An explanation about the purpose of this instance.",
+                              "default": "",
+                              "examples": [
+                                "62******"
+                              ]
+                            }
+                          }
+                        }
+                      ],
+                      "$id": "#/properties/family/properties/self/properties/bank_info/items/anyOf/0/items"
+                    }
+                  }
+                ],
+                "$id": "#/properties/family/properties/self/properties/bank_info/items"
+              }
+            }
+          }
+        },
+        "wife": {
+          "$id": "#/properties/family/properties/wife",
+          "type": "object",
+          "title": "The wife schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": {},
+          "examples": [
+            {
+              "id": "65122",
+              "uid": "4000003245",
+              "core_uid": "4000003245",
+              "relation": "2",
+              "family_uid": "0",
+              "family_core_uid": "0",
+              "relation_name": "配偶",
+              "cn_name": "哈****",
+              "info": [
+                {
+                  "key": "性别",
+                  "value": "男"
+                },
+                {
+                  "key": "出生日期",
+                  "value": "1994-06-20"
+                },
+                {
+                  "key": "证件类型",
+                  "value": "身份证"
+                },
+                {
+                  "key": "证件号码",
+                  "value": "11****95"
+                },
+                {
+                  "key": "手机号",
+                  "value": "182****0055"
+                },
+                {
+                  "key": "电子邮箱",
+                  "value": "45****@163.com"
+                },
+                {
+                  "key": "长期居住地址",
+                  "value": "不知道大街不知道小巷不知道1410"
+                },
+                {
+                  "key": "职业",
+                  "value": "专业技术人员,体育工作人员,乒乓球运动,2113001-2"
+                },
+                {
+                  "key": "社保",
+                  "value": "无"
+                },
+                {
+                  "key": "身高",
+                  "value": "184"
+                },
+                {
+                  "key": "体重",
+                  "value": "60"
+                },
+                {
+                  "key": "吸烟",
+                  "value": "否"
+                }
+              ],
+              "bank_info": [
+                [
+                  {
+                    "key": "银行卡号",
+                    "value": "62******"
+                  },
+                  {
+                    "key": "开户行",
+                    "value": "中国工商银行"
+                  },
+                  {
+                    "key": "bank_id",
+                    "value": "71072"
+                  }
+                ]
+              ]
+            }
+          ],
+          "required": [
+            "id",
+            "uid",
+            "core_uid",
+            "relation",
+            "family_uid",
+            "family_core_uid",
+            "relation_name",
+            "cn_name",
+            "info",
+            "bank_info"
+          ],
+          "additionalProperties": true,
+          "properties": {
+            "id": {
+              "$id": "#/properties/family/properties/wife/properties/id",
+              "type": "string",
+              "title": "The id schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "65122"
+              ]
+            },
+            "uid": {
+              "$id": "#/properties/family/properties/wife/properties/uid",
+              "type": "string",
+              "title": "The uid schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "4000003245"
+              ]
+            },
+            "core_uid": {
+              "$id": "#/properties/family/properties/wife/properties/core_uid",
+              "type": "string",
+              "title": "The core_uid schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "4000003245"
+              ]
+            },
+            "relation": {
+              "$id": "#/properties/family/properties/wife/properties/relation",
+              "type": "string",
+              "title": "The relation schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "2"
+              ]
+            },
+            "family_uid": {
+              "$id": "#/properties/family/properties/wife/properties/family_uid",
+              "type": "string",
+              "title": "The family_uid schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "0"
+              ]
+            },
+            "family_core_uid": {
+              "$id": "#/properties/family/properties/wife/properties/family_core_uid",
+              "type": "string",
+              "title": "The family_core_uid schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "0"
+              ]
+            },
+            "relation_name": {
+              "$id": "#/properties/family/properties/wife/properties/relation_name",
+              "type": "string",
+              "title": "The relation_name schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "配偶"
+              ]
+            },
+            "cn_name": {
+              "$id": "#/properties/family/properties/wife/properties/cn_name",
+              "type": "string",
+              "title": "The cn_name schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": "",
+              "examples": [
+                "哈****"
+              ]
+            },
+            "info": {
+              "$id": "#/properties/family/properties/wife/properties/info",
+              "type": "array",
+              "title": "The info schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": [],
+              "examples": [
+                [
+                  {
+                    "key": "性别",
+                    "value": "男"
+                  },
+                  {
+                    "key": "出生日期",
+                    "value": "1994-06-20"
+                  }
+                ]
+              ],
+              "additionalItems": true,
+              "items": {
+                "anyOf": [
+                  {
+                    "$id": "#/properties/family/properties/wife/properties/info/items/anyOf/0",
+                    "type": "object",
+                    "title": "The first anyOf schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": {},
+                    "examples": [
+                      {
+                        "key": "性别",
+                        "value": "男"
+                      }
+                    ],
+                    "required": [
+                      "key",
+                      "value"
+                    ],
+                    "additionalProperties": true,
+                    "properties": {
+                      "key": {
+                        "$id": "#/properties/family/properties/wife/properties/info/items/anyOf/0/properties/key",
+                        "type": "string",
+                        "title": "The key schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                          "性别"
+                        ]
+                      },
+                      "value": {
+                        "$id": "#/properties/family/properties/wife/properties/info/items/anyOf/0/properties/value",
+                        "type": "string",
+                        "title": "The value schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                          "男"
+                        ]
+                      }
+                    }
+                  }
+                ],
+                "$id": "#/properties/family/properties/wife/properties/info/items"
+              }
+            },
+            "bank_info": {
+              "$id": "#/properties/family/properties/wife/properties/bank_info",
+              "type": "array",
+              "title": "The bank_info schema",
+              "description": "An explanation about the purpose of this instance.",
+              "default": [],
+              "examples": [
+                [
+                  [
+                    {
+                      "key": "银行卡号",
+                      "value": "62******"
+                    },
+                    {
+                      "key": "开户行",
+                      "value": "中国工商银行"
+                    },
+                    {
+                      "key": "bank_id",
+                      "value": "71072"
+                    }
+                  ]
+                ]
+              ],
+              "additionalItems": true,
+              "items": {
+                "anyOf": [
+                  {
+                    "$id": "#/properties/family/properties/wife/properties/bank_info/items/anyOf/0",
+                    "type": "array",
+                    "title": "The first anyOf schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": [],
+                    "examples": [
+                      [
+                        {
+                          "key": "银行卡号",
+                          "value": "62******"
+                        },
+                        {
+                          "key": "开户行",
+                          "value": "中国工商银行"
+                        }
+                      ]
+                    ],
+                    "additionalItems": true,
+                    "items": {
+                      "anyOf": [
+                        {
+                          "$id": "#/properties/family/properties/wife/properties/bank_info/items/anyOf/0/items/anyOf/0",
+                          "type": "object",
+                          "title": "The first anyOf schema",
+                          "description": "An explanation about the purpose of this instance.",
+                          "default": {},
+                          "examples": [
+                            {
+                              "key": "银行卡号",
+                              "value": "62******"
+                            }
+                          ],
+                          "required": [
+                            "key",
+                            "value"
+                          ],
+                          "additionalProperties": true,
+                          "properties": {
+                            "key": {
+                              "$id": "#/properties/family/properties/wife/properties/bank_info/items/anyOf/0/items/anyOf/0/properties/key",
+                              "type": "string",
+                              "title": "The key schema",
+                              "description": "An explanation about the purpose of this instance.",
+                              "default": "",
+                              "examples": [
+                                "银行卡号"
+                              ]
+                            },
+                            "value": {
+                              "$id": "#/properties/family/properties/wife/properties/bank_info/items/anyOf/0/items/anyOf/0/properties/value",
+                              "type": "string",
+                              "title": "The value schema",
+                              "description": "An explanation about the purpose of this instance.",
+                              "default": "",
+                              "examples": [
+                                "62******"
+                              ]
+                            }
+                          }
+                        }
+                      ],
+                      "$id": "#/properties/family/properties/wife/properties/bank_info/items/anyOf/0/items"
+                    }
+                  }
+                ],
+                "$id": "#/properties/family/properties/wife/properties/bank_info/items"
+              }
+            }
+          }
+        }
+      }
+    },
+    "errno": {
+      "$id": "#/properties/errno",
+      "type": "integer",
+      "title": "The errno schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "errmsg": {
+      "$id": "#/properties/errmsg",
+      "type": "string",
+      "title": "The errmsg schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "ok"
+      ]
+    }
+  }
+}

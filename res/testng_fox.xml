@@ -8,9 +8,8 @@
 <!--	 	<listener class-name='sun.baoxian.utils.RetryListener'/>-->
 
 	</listeners>
-	
+    <parameter name="browerType" value="ff" />
 	<test name="UI自动化测试【线上回归】" preserve-order="true">
-		<parameter name="browerType" value="ff" />
 		<classes>
 <!--			<class name="sun.baoxian.DleteHistoryImg"></class>-->
 			<class name="sun.baoxianonline.taikang2020"></class>

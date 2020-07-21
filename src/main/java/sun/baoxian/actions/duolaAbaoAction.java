@@ -348,6 +348,7 @@ public class duolaAbaoAction extends WebCaseBase {
      * @throws Exception
      */
     public void youhuibao(String url,String mobile) throws Exception {
+        driver.manage().deleteAllCookies();
         /**
          * 横琴优惠保重疾险
          */
@@ -420,7 +421,7 @@ public class duolaAbaoAction extends WebCaseBase {
         action.click(page1.submit());
         action.sleep(3);
         action.click(page1.confrim());
-        action.sleep(5);
+        action.sleep(9);
         action.DisplayElement(page1.deadline());
         action.successend();
         Reporter.log("投保人信息：手机号："+mobile+"      "+"身份证号："+i1);
@@ -503,6 +504,7 @@ public class duolaAbaoAction extends WebCaseBase {
      * @throws Exception
      */
     public void yangguangzhongji(String url,String mobile) throws Exception {
+        driver.manage().deleteAllCookies();
         /**
          * 阳光重疾IC保
          */
