@@ -12,43 +12,43 @@ public class LoginTest extends WebCaseBase {
     public void Login() throws Exception{
         action.login(url);
     }
-//    @Test
+    @Test
     public void ibao2Test() throws Exception {
         ibaoCAction action=new ibaoCAction();
         action.ibaoC2Test();
     }
-//    @Test
+    @Test
     public void ibao3Test() throws Exception {
         ibaoCAction action=new ibaoCAction();
         action.ibaoC3Test();
     }
-//    @Test
+    @Test
     public void superMarieTest() throws Exception {
         YSuperMaAction action=new YSuperMaAction();
         action.supermarieTest();
     }
 
-//    @Test
+    @Test
     public  void  AiXinLife() throws Exception{
         AiXinLifeAction action=new AiXinLifeAction();
         action.aixinliftTest();
     }
-//    @Test
+    @Test
     public  void  AiXinChild() throws Exception{
         AiXinChildAction action=new AiXinChildAction();
         action.aixinChildTest();
     }
-//    @Test
+    @Test
     public  void  Golden() throws Exception{
         GolenAction action=new GolenAction();
         action.GoldenTest();
     }
-//    @Test
+    @Test
     public  void  ibaokeTest() throws Exception{
         ibaokeAction action=new ibaokeAction();
         action.ibaoKeTest();
     }
-//    @Test
+    @Test
     public  void  supermarieN3Test() throws Exception{
         YSuperMaAction action=new YSuperMaAction();
         action.supermarieN3Test();
