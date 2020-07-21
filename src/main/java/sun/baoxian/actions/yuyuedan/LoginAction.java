@@ -41,10 +41,10 @@ public class LoginAction extends WebCaseBase {
         for (int i=30;i>0;i--) {
             if (img.isEmpty()) {
                 action.click(page.imgver());
-                CreateElementScreenshot.screenShotForElement(driver, driver.findElement(By.cssSelector("img[class=\"verifyimg reloadverify\"]")), "./res/images/imgver.png");
+                CreateElementScreenshot.screenShotForElement(driver, driver.findElement(By.cssSelector("img[class=\"verifyimg reloadverify\"]")), "res/images/imgver.png");
                 action.sleep(5);
 //        FileUtils.copyFile(CreateElementScreenshot.captureElement(driver.findElement(By.cssSelector("img[class=\"verifyimg reloadverify\"]"))), new File(file + "imgver1.png"));
-                img = getcontent("./res/images/imgver.png");
+                img = getcontent("res/images/imgver.png");
 
                 System.out.println(i + "验证码是--------------------------------------------------------" + img);
                 if (img.length() < 4) {
@@ -79,7 +79,7 @@ public class LoginAction extends WebCaseBase {
         File image=new File(imageFile);
         ITesseract instance=new Tesseract();
         instance.setTessVariable("user_defined_dpi", "300");
-        instance.setDatapath("./src/main/resources/tessdata");
+        instance.setDatapath("src/main/resources/tessdata");
         instance.setLanguage("eng");
         try {
             content =instance.doOCR(image).replaceAll("\n","");
