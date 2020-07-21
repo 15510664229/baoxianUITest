@@ -7328,3 +7328,247 @@
 2020-07-21 18:12:58  [ main:382796 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
 2020-07-21 18:12:58  [ main:382797 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
 2020-07-21 18:12:58  [ main:382797 ] - [ DEBUG ]  Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sunxueping-jk/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+2020-07-21 18:23:02  [ main:0 ] - [ INFO ]  ------------------开始执行测试---------------
+2020-07-21 18:23:02  [ main:4 ] - [ INFO ]  启动浏览器
+2020-07-21 18:23:07  [ main:4777 ] - [ INFO ]  启动Firefox浏览器
+2020-07-21 18:23:08  [ main:5238 ] - [ INFO ]  打开页面
+2020-07-21 18:23:08  [ main:5287 ] - [ INFO ]  查找元素：username方式[By.name:username]
+2020-07-21 18:23:08  [ main:5340 ] - [ INFO ]  input输入：username[By.name:username  value:*******]
+2020-07-21 18:23:08  [ main:5340 ] - [ INFO ]  查找元素：password方式[By.name:password]
+2020-07-21 18:23:08  [ main:5368 ] - [ INFO ]  input输入：password[By.name:password  value:*******]
+2020-07-21 18:23:08  [ main:5368 ] - [ INFO ]  查找元素：imgver方式[By.cssSelector:img[class="verifyimg reloadverify"]]
+2020-07-21 18:23:08  [ main:5604 ] - [ INFO ]  click元素：imgver[By.cssSelector:img[class="verifyimg reloadverify"]]成功！
+2020-07-21 18:23:09  [ main:6973 ] - [ INFO ]  等待5秒
+2020-07-21 18:23:33  [ main:0 ] - [ INFO ]  ------------------开始执行测试---------------
+2020-07-21 18:23:33  [ main:4 ] - [ INFO ]  启动浏览器
+2020-07-21 18:23:38  [ main:4795 ] - [ INFO ]  启动Firefox浏览器
+2020-07-21 18:23:38  [ main:5148 ] - [ INFO ]  打开页面
+2020-07-21 18:23:38  [ main:5193 ] - [ INFO ]  查找元素：username方式[By.name:username]
+2020-07-21 18:23:39  [ main:5244 ] - [ INFO ]  input输入：username[By.name:username  value:*******]
+2020-07-21 18:23:39  [ main:5244 ] - [ INFO ]  查找元素：password方式[By.name:password]
+2020-07-21 18:23:39  [ main:5267 ] - [ INFO ]  input输入：password[By.name:password  value:*******]
+2020-07-21 18:23:39  [ main:5267 ] - [ INFO ]  查找元素：imgver方式[By.cssSelector:img[class="verifyimg reloadverify"]]
+2020-07-21 18:23:39  [ main:5494 ] - [ INFO ]  click元素：imgver[By.cssSelector:img[class="verifyimg reloadverify"]]成功！
+2020-07-21 18:23:40  [ main:6853 ] - [ INFO ]  等待5秒
+2020-07-21 18:23:46  [ main:12260 ] - [ INFO ]  查找元素：imgver方式[By.cssSelector:img[class="verifyimg reloadverify"]]
+2020-07-21 18:23:46  [ main:12477 ] - [ INFO ]  click元素：imgver[By.cssSelector:img[class="verifyimg reloadverify"]]成功！
+2020-07-21 18:23:47  [ main:13620 ] - [ INFO ]  等待5秒
+2020-07-21 18:23:52  [ main:18773 ] - [ INFO ]  查找元素：imgver方式[By.cssSelector:img[class="verifyimg reloadverify"]]
+2020-07-21 18:23:52  [ main:18988 ] - [ INFO ]  click元素：imgver[By.cssSelector:img[class="verifyimg reloadverify"]]成功！
+2020-07-21 18:23:53  [ main:20141 ] - [ INFO ]  等待5秒
+2020-07-21 18:23:59  [ main:25268 ] - [ INFO ]  查找元素：imgver方式[By.cssSelector:img[class="verifyimg reloadverify"]]
+2020-07-21 18:23:59  [ main:25484 ] - [ INFO ]  click元素：imgver[By.cssSelector:img[class="verifyimg reloadverify"]]成功！
+2020-07-21 18:24:00  [ main:26630 ] - [ INFO ]  等待5秒
+2020-07-21 18:24:05  [ main:31755 ] - [ INFO ]  查找元素：imgver方式[By.cssSelector:img[class="verifyimg reloadverify"]]
+2020-07-21 18:24:05  [ main:31970 ] - [ INFO ]  click元素：imgver[By.cssSelector:img[class="verifyimg reloadverify"]]成功！
+2020-07-21 18:24:06  [ main:33119 ] - [ INFO ]  等待5秒
+2020-07-21 18:25:07  [ main:0 ] - [ INFO ]  ------------------开始执行测试---------------
+2020-07-21 18:25:07  [ main:4 ] - [ INFO ]  启动浏览器
+2020-07-21 18:25:11  [ main:4198 ] - [ INFO ]  启动Firefox浏览器
+2020-07-21 18:25:11  [ main:4590 ] - [ INFO ]  打开页面
+2020-07-21 18:25:11  [ main:4621 ] - [ INFO ]  查找元素：username方式[By.name:username]
+2020-07-21 18:25:11  [ main:4665 ] - [ INFO ]  input输入：username[By.name:username  value:*******]
+2020-07-21 18:25:11  [ main:4665 ] - [ INFO ]  查找元素：password方式[By.name:password]
+2020-07-21 18:25:11  [ main:4686 ] - [ INFO ]  input输入：password[By.name:password  value:*******]
+2020-07-21 18:25:11  [ main:4687 ] - [ INFO ]  查找元素：imgver方式[By.cssSelector:img[class="verifyimg reloadverify"]]
+2020-07-21 18:25:12  [ main:4909 ] - [ INFO ]  click元素：imgver[By.cssSelector:img[class="verifyimg reloadverify"]]成功！
+2020-07-21 18:25:13  [ main:6239 ] - [ INFO ]  等待5秒
+2020-07-21 18:25:18  [ main:11637 ] - [ INFO ]  查找元素：verifycode方式[By.name:verifycode]
+2020-07-21 18:25:18  [ main:11661 ] - [ INFO ]  input输入：verifycode[By.name:verifycode  value:*******]
+2020-07-21 18:25:18  [ main:11662 ] - [ INFO ]  查找元素：login方式[By.xpath://*[text()='登 录']]
+2020-07-21 18:25:21  [ main:14343 ] - [ INFO ]  click元素：login[By.xpath://*[text()='登 录']]成功！
+2020-07-21 18:25:21  [ main:14343 ] - [ INFO ]  等待6秒
+2020-07-21 18:25:27  [ main:20345 ] - [ INFO ]  等待3秒判断元素：check-tips是否存在
+2020-07-21 18:25:30  [ main:23346 ] - [ INFO ]  查找一组元素：error 方式[By.className:check-tips]
+2020-07-21 18:25:30  [ main:23371 ] - [ INFO ]  判断结果为：false
+2020-07-21 18:25:30  [ main:23371 ] - [ INFO ]  等待4秒
+2020-07-21 18:53:18  [ main:0 ] - [ INFO ]  ------------------开始执行测试---------------
+2020-07-21 18:53:18  [ main:4 ] - [ INFO ]  启动浏览器
+2020-07-21 18:53:22  [ main:4191 ] - [ INFO ]  启动Firefox浏览器
+2020-07-21 18:53:22  [ main:4658 ] - [ INFO ]  打开页面
+2020-07-21 18:53:22  [ main:4690 ] - [ INFO ]  查找元素：username方式[By.name:username]
+2020-07-21 18:53:22  [ main:4735 ] - [ INFO ]  input输入：username[By.name:username  value:*******]
+2020-07-21 18:53:22  [ main:4735 ] - [ INFO ]  查找元素：password方式[By.name:password]
+2020-07-21 18:53:22  [ main:4757 ] - [ INFO ]  input输入：password[By.name:password  value:*******]
+2020-07-21 18:53:22  [ main:4757 ] - [ INFO ]  查找元素：imgver方式[By.cssSelector:img[class="verifyimg reloadverify"]]
+2020-07-21 18:53:23  [ main:4974 ] - [ INFO ]  click元素：imgver[By.cssSelector:img[class="verifyimg reloadverify"]]成功！
+2020-07-21 18:53:24  [ main:6311 ] - [ INFO ]  等待5秒
+2020-07-21 18:53:29  [ main:11694 ] - [ INFO ]  查找元素：imgver方式[By.cssSelector:img[class="verifyimg reloadverify"]]
+2020-07-21 18:53:29  [ main:11917 ] - [ INFO ]  click元素：imgver[By.cssSelector:img[class="verifyimg reloadverify"]]成功！
+2020-07-21 18:53:31  [ main:13066 ] - [ INFO ]  等待5秒
+2020-07-21 18:53:36  [ main:18192 ] - [ INFO ]  查找元素：imgver方式[By.cssSelector:img[class="verifyimg reloadverify"]]
+2020-07-21 18:53:36  [ main:18409 ] - [ INFO ]  click元素：imgver[By.cssSelector:img[class="verifyimg reloadverify"]]成功！
+2020-07-21 18:53:37  [ main:19556 ] - [ INFO ]  等待5秒
+2020-07-21 18:53:42  [ main:24710 ] - [ INFO ]  查找元素：verifycode方式[By.name:verifycode]
+2020-07-21 18:53:42  [ main:24729 ] - [ INFO ]  input输入：verifycode[By.name:verifycode  value:*******]
+2020-07-21 18:53:42  [ main:24729 ] - [ INFO ]  查找元素：login方式[By.xpath://*[text()='登 录']]
+2020-07-21 18:53:47  [ main:29019 ] - [ INFO ]  click元素：login[By.xpath://*[text()='登 录']]成功！
+2020-07-21 18:53:47  [ main:29020 ] - [ INFO ]  等待6秒
+2020-07-21 19:00:41  [ main:0 ] - [ INFO ]  ------------------开始执行测试---------------
+2020-07-21 19:00:41  [ main:5 ] - [ INFO ]  启动浏览器
+2020-07-21 19:00:45  [ main:4182 ] - [ INFO ]  启动Firefox浏览器
+2020-07-21 19:00:46  [ main:4694 ] - [ INFO ]  打开页面
+2020-07-21 19:00:46  [ main:4730 ] - [ INFO ]  查找元素：username方式[By.name:username]
+2020-07-21 19:00:46  [ main:4775 ] - [ INFO ]  input输入：username[By.name:username  value:*******]
+2020-07-21 19:00:46  [ main:4776 ] - [ INFO ]  查找元素：password方式[By.name:password]
+2020-07-21 19:00:46  [ main:4797 ] - [ INFO ]  input输入：password[By.name:password  value:*******]
+2020-07-21 19:00:46  [ main:4798 ] - [ INFO ]  查找元素：imgver方式[By.cssSelector:img[class="verifyimg reloadverify"]]
+2020-07-21 19:00:46  [ main:5017 ] - [ INFO ]  click元素：imgver[By.cssSelector:img[class="verifyimg reloadverify"]]成功！
+2020-07-21 19:00:47  [ main:6363 ] - [ INFO ]  等待5秒
+2020-07-21 19:00:53  [ main:11625 ] - [ INFO ]  查找元素：imgver方式[By.cssSelector:img[class="verifyimg reloadverify"]]
+2020-07-21 19:00:53  [ main:11842 ] - [ INFO ]  click元素：imgver[By.cssSelector:img[class="verifyimg reloadverify"]]成功！
+2020-07-21 19:00:54  [ main:12999 ] - [ INFO ]  等待5秒
+2020-07-21 19:01:00  [ main:18628 ] - [ DEBUG ]  Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 19:01:00  [ main:18633 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+2020-07-21 19:01:00  [ main:18635 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("index.ftl"): Found
+2020-07-21 19:01:00  [ main:18636 ] - [ DEBUG ]  Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sunxueping-jk/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+2020-07-21 19:01:00  [ main:18907 ] - [ DEBUG ]  Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 19:01:00  [ main:18910 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+2020-07-21 19:01:00  [ main:18910 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("head.ftl"): Found
+2020-07-21 19:01:00  [ main:18910 ] - [ DEBUG ]  Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sunxueping-jk/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+2020-07-21 19:01:00  [ main:18920 ] - [ DEBUG ]  Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 19:01:00  [ main:18923 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+2020-07-21 19:01:00  [ main:18923 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("nav.ftl"): Found
+2020-07-21 19:01:00  [ main:18923 ] - [ DEBUG ]  Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sunxueping-jk/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+2020-07-21 19:01:00  [ main:18930 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 19:01:00  [ main:18933 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+2020-07-21 19:01:00  [ main:18933 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+2020-07-21 19:01:00  [ main:18934 ] - [ DEBUG ]  Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sunxueping-jk/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+2020-07-21 19:01:00  [ main:18941 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 19:01:00  [ main:18944 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+2020-07-21 19:01:00  [ main:18944 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+2020-07-21 19:01:00  [ main:18944 ] - [ DEBUG ]  Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sunxueping-jk/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+2020-07-21 19:01:00  [ main:18961 ] - [ DEBUG ]  Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 19:01:00  [ main:18963 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+2020-07-21 19:01:00  [ main:18963 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+2020-07-21 19:01:00  [ main:18963 ] - [ DEBUG ]  Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sunxueping-jk/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+2020-07-21 19:01:00  [ main:18992 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-21 19:01:00  [ main:18992 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-21 19:01:00  [ main:18993 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-21 19:01:00  [ main:18994 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-21 19:01:00  [ main:18995 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-21 19:01:00  [ main:18996 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-21 19:01:00  [ main:18996 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-21 19:01:00  [ main:18997 ] - [ DEBUG ]  "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-07-21 19:01:00  [ main:18998 ] - [ DEBUG ]  Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 19:01:00  [ main:19001 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+2020-07-21 19:01:00  [ main:19001 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+2020-07-21 19:01:00  [ main:19001 ] - [ DEBUG ]  Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sunxueping-jk/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+2020-07-21 19:01:00  [ main:19005 ] - [ DEBUG ]  Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 19:01:00  [ main:19008 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+2020-07-21 19:01:00  [ main:19008 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+2020-07-21 19:01:00  [ main:19009 ] - [ DEBUG ]  Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sunxueping-jk/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+2020-07-21 19:01:00  [ main:19030 ] - [ DEBUG ]  Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 19:01:00  [ main:19032 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+2020-07-21 19:01:00  [ main:19033 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+2020-07-21 19:01:00  [ main:19033 ] - [ DEBUG ]  Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sunxueping-jk/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+2020-07-21 19:01:00  [ main:19036 ] - [ DEBUG ]  Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-07-21 19:01:00  [ main:19038 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+2020-07-21 19:01:00  [ main:19039 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+2020-07-21 19:01:00  [ main:19040 ] - [ DEBUG ]  Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/sunxueping-jk/.m2/repository/com/aventstack/extentreports/3.0.3/extentreports-3.0.3.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+2020-07-21 19:03:39  [ main:0 ] - [ INFO ]  ------------------开始执行测试---------------
+2020-07-21 19:03:39  [ main:4 ] - [ INFO ]  启动浏览器
+2020-07-21 19:03:44  [ main:4884 ] - [ INFO ]  启动Firefox浏览器
+2020-07-21 19:03:44  [ main:5267 ] - [ INFO ]  打开页面
+2020-07-21 19:03:45  [ main:5301 ] - [ INFO ]  查找元素：username方式[By.name:username]
+2020-07-21 19:03:45  [ main:5345 ] - [ INFO ]  input输入：username[By.name:username  value:*******]
+2020-07-21 19:03:45  [ main:5346 ] - [ INFO ]  查找元素：password方式[By.name:password]
+2020-07-21 19:03:45  [ main:5372 ] - [ INFO ]  input输入：password[By.name:password  value:*******]
+2020-07-21 19:03:45  [ main:5372 ] - [ INFO ]  查找元素：imgver方式[By.cssSelector:img[class="verifyimg reloadverify"]]
+2020-07-21 19:03:45  [ main:5589 ] - [ INFO ]  click元素：imgver[By.cssSelector:img[class="verifyimg reloadverify"]]成功！
+2020-07-21 19:03:46  [ main:6936 ] - [ INFO ]  等待5秒
+2020-07-21 19:03:52  [ main:12351 ] - [ INFO ]  查找元素：verifycode方式[By.name:verifycode]
+2020-07-21 19:03:52  [ main:12375 ] - [ INFO ]  input输入：verifycode[By.name:verifycode  value:*******]
+2020-07-21 19:03:52  [ main:12375 ] - [ INFO ]  查找元素：login方式[By.xpath://*[text()='登 录']]
+2020-07-21 19:03:52  [ main:12595 ] - [ INFO ]  click元素：login[By.xpath://*[text()='登 录']]成功！
+2020-07-21 19:03:52  [ main:12595 ] - [ INFO ]  等待6秒
+2020-07-21 19:03:58  [ main:18597 ] - [ INFO ]  等待3秒判断元素：check-tips是否存在
+2020-07-21 19:04:01  [ main:21600 ] - [ INFO ]  查找一组元素：error 方式[By.className:check-tips]
+2020-07-21 19:04:01  [ main:21630 ] - [ INFO ]  判断结果为：true
+2020-07-21 19:04:01  [ main:21630 ] - [ INFO ]  查找元素：error方式[By.className:check-tips]
+2020-07-21 19:04:01  [ main:21660 ] - [ INFO ]  查找元素：verifycode方式[By.name:verifycode]
+2020-07-21 19:04:01  [ main:21674 ] - [ INFO ]  清除input值:verifycode[By.name:verifycode]
+2020-07-21 19:04:01  [ main:21674 ] - [ INFO ]  查找元素：imgver方式[By.cssSelector:img[class="verifyimg reloadverify"]]
+2020-07-21 19:04:01  [ main:21895 ] - [ INFO ]  click元素：imgver[By.cssSelector:img[class="verifyimg reloadverify"]]成功！
+2020-07-21 19:04:02  [ main:23054 ] - [ INFO ]  等待5秒
+2020-07-21 19:04:07  [ main:28207 ] - [ INFO ]  查找元素：verifycode方式[By.name:verifycode]
+2020-07-21 19:04:07  [ main:28225 ] - [ INFO ]  input输入：verifycode[By.name:verifycode  value:*******]
+2020-07-21 19:04:07  [ main:28225 ] - [ INFO ]  查找元素：login方式[By.xpath://*[text()='登 录']]
+2020-07-21 19:04:10  [ main:30868 ] - [ INFO ]  click元素：login[By.xpath://*[text()='登 录']]成功！
+2020-07-21 19:04:10  [ main:30868 ] - [ INFO ]  等待6秒
+2020-07-21 19:04:16  [ main:36868 ] - [ INFO ]  等待3秒判断元素：check-tips是否存在
+2020-07-21 19:04:19  [ main:39868 ] - [ INFO ]  查找一组元素：error 方式[By.className:check-tips]
+2020-07-21 19:04:19  [ main:39876 ] - [ INFO ]  判断结果为：false
+2020-07-21 19:04:19  [ main:39876 ] - [ INFO ]  等待4秒
+2020-07-21 19:04:23  [ main:43884 ] - [ INFO ]  等待10秒判断元素：//*[text()='预约单管理']是否存在
+2020-07-21 19:04:33  [ main:53884 ] - [ INFO ]  查找一组元素：menu_yuyuedan 方式[By.xpath://*[text()='预约单管理']]
+2020-07-21 19:04:33  [ main:53889 ] - [ INFO ]  判断结果为：true
+2020-07-21 19:04:34  [ main:54536 ] - [ INFO ]  打开页面
+2020-07-21 19:04:34  [ main:54542 ] - [ INFO ]  等待3秒
+2020-07-21 19:04:37  [ main:57542 ] - [ INFO ]  查找元素：create方式[By.xpath://*[text()='创建预约单']]
+2020-07-21 19:04:37  [ main:57784 ] - [ INFO ]  click元素：create[By.xpath://*[text()='创建预约单']]成功！
+2020-07-21 19:04:37  [ main:57784 ] - [ INFO ]  等待2秒
+2020-07-21 19:09:28  [ main:0 ] - [ INFO ]  ------------------开始执行测试---------------
+2020-07-21 19:09:28  [ main:4 ] - [ INFO ]  启动浏览器
+2020-07-21 19:09:32  [ main:4146 ] - [ INFO ]  启动Firefox浏览器
+2020-07-21 19:09:33  [ main:4528 ] - [ INFO ]  打开页面
+2020-07-21 19:09:33  [ main:4561 ] - [ INFO ]  查找元素：username方式[By.name:username]
+2020-07-21 19:09:33  [ main:4604 ] - [ INFO ]  input输入：username[By.name:username  value:*******]
+2020-07-21 19:09:33  [ main:4605 ] - [ INFO ]  查找元素：password方式[By.name:password]
+2020-07-21 19:09:33  [ main:4626 ] - [ INFO ]  input输入：password[By.name:password  value:*******]
+2020-07-21 19:09:33  [ main:4626 ] - [ INFO ]  查找元素：imgver方式[By.cssSelector:img[class="verifyimg reloadverify"]]
+2020-07-21 19:09:33  [ main:4842 ] - [ INFO ]  click元素：imgver[By.cssSelector:img[class="verifyimg reloadverify"]]成功！
+2020-07-21 19:09:35  [ main:6171 ] - [ INFO ]  等待5秒
+2020-07-21 19:09:40  [ main:11552 ] - [ INFO ]  查找元素：imgver方式[By.cssSelector:img[class="verifyimg reloadverify"]]
+2020-07-21 19:09:40  [ main:11772 ] - [ INFO ]  click元素：imgver[By.cssSelector:img[class="verifyimg reloadverify"]]成功！
+2020-07-21 19:09:41  [ main:12953 ] - [ INFO ]  等待5秒
+2020-07-21 19:09:46  [ main:18085 ] - [ INFO ]  查找元素：imgver方式[By.cssSelector:img[class="verifyimg reloadverify"]]
+2020-07-21 19:09:47  [ main:18306 ] - [ INFO ]  click元素：imgver[By.cssSelector:img[class="verifyimg reloadverify"]]成功！
+2020-07-21 19:09:48  [ main:19468 ] - [ INFO ]  等待5秒
+2020-07-21 19:09:53  [ main:24594 ] - [ INFO ]  查找元素：imgver方式[By.cssSelector:img[class="verifyimg reloadverify"]]
+2020-07-21 19:09:53  [ main:24811 ] - [ INFO ]  click元素：imgver[By.cssSelector:img[class="verifyimg reloadverify"]]成功！
+2020-07-21 19:09:54  [ main:25960 ] - [ INFO ]  等待5秒
+2020-07-21 19:09:59  [ main:31106 ] - [ INFO ]  查找元素：imgver方式[By.cssSelector:img[class="verifyimg reloadverify"]]
+2020-07-21 19:10:00  [ main:31321 ] - [ INFO ]  click元素：imgver[By.cssSelector:img[class="verifyimg reloadverify"]]成功！
+2020-07-21 19:10:01  [ main:32466 ] - [ INFO ]  等待5秒
+2020-07-21 19:10:06  [ main:37592 ] - [ INFO ]  查找元素：imgver方式[By.cssSelector:img[class="verifyimg reloadverify"]]
+2020-07-21 19:10:06  [ main:37807 ] - [ INFO ]  click元素：imgver[By.cssSelector:img[class="verifyimg reloadverify"]]成功！
+2020-07-21 19:10:07  [ main:38949 ] - [ INFO ]  等待5秒
+2020-07-21 19:10:12  [ main:44082 ] - [ INFO ]  查找元素：imgver方式[By.cssSelector:img[class="verifyimg reloadverify"]]
+2020-07-21 19:10:13  [ main:44301 ] - [ INFO ]  click元素：imgver[By.cssSelector:img[class="verifyimg reloadverify"]]成功！
+2020-07-21 19:10:14  [ main:45449 ] - [ INFO ]  等待5秒
+2020-07-21 19:10:19  [ main:50578 ] - [ INFO ]  查找元素：imgver方式[By.cssSelector:img[class="verifyimg reloadverify"]]
+2020-07-21 19:10:19  [ main:50790 ] - [ INFO ]  click元素：imgver[By.cssSelector:img[class="verifyimg reloadverify"]]成功！
+2020-07-21 19:10:20  [ main:51935 ] - [ INFO ]  等待5秒
+2020-07-21 19:10:25  [ main:57082 ] - [ INFO ]  查找元素：imgver方式[By.cssSelector:img[class="verifyimg reloadverify"]]
+2020-07-21 19:10:26  [ main:57295 ] - [ INFO ]  click元素：imgver[By.cssSelector:img[class="verifyimg reloadverify"]]成功！
+2020-07-21 19:10:27  [ main:58445 ] - [ INFO ]  等待5秒
+2020-07-21 19:10:32  [ main:63599 ] - [ INFO ]  查找元素：imgver方式[By.cssSelector:img[class="verifyimg reloadverify"]]
+2020-07-21 19:10:32  [ main:63813 ] - [ INFO ]  click元素：imgver[By.cssSelector:img[class="verifyimg reloadverify"]]成功！
+2020-07-21 19:10:33  [ main:64952 ] - [ INFO ]  等待5秒
+2020-07-21 19:10:38  [ main:70100 ] - [ INFO ]  查找元素：imgver方式[By.cssSelector:img[class="verifyimg reloadverify"]]
+2020-07-21 19:10:39  [ main:70313 ] - [ INFO ]  click元素：imgver[By.cssSelector:img[class="verifyimg reloadverify"]]成功！
+2020-07-21 19:10:40  [ main:71450 ] - [ INFO ]  等待5秒
+2020-07-21 19:10:45  [ main:76576 ] - [ INFO ]  查找元素：imgver方式[By.cssSelector:img[class="verifyimg reloadverify"]]
+2020-07-21 19:10:45  [ main:76793 ] - [ INFO ]  click元素：imgver[By.cssSelector:img[class="verifyimg reloadverify"]]成功！
+2020-07-21 19:10:46  [ main:77929 ] - [ INFO ]  等待5秒
+2020-07-21 19:10:51  [ main:83074 ] - [ INFO ]  查找元素：imgver方式[By.cssSelector:img[class="verifyimg reloadverify"]]
+2020-07-21 19:10:52  [ main:83290 ] - [ INFO ]  click元素：imgver[By.cssSelector:img[class="verifyimg reloadverify"]]成功！
+2020-07-21 19:10:53  [ main:84482 ] - [ INFO ]  等待5秒
+2020-07-21 19:10:58  [ main:89609 ] - [ INFO ]  查找元素：imgver方式[By.cssSelector:img[class="verifyimg reloadverify"]]
+2020-07-21 19:10:58  [ main:89828 ] - [ INFO ]  click元素：imgver[By.cssSelector:img[class="verifyimg reloadverify"]]成功！
+2020-07-21 19:10:59  [ main:90983 ] - [ INFO ]  等待5秒
+2020-07-21 19:11:04  [ main:96135 ] - [ INFO ]  查找元素：verifycode方式[By.name:verifycode]
+2020-07-21 19:11:04  [ main:96155 ] - [ INFO ]  input输入：verifycode[By.name:verifycode  value:*******]
+2020-07-21 19:11:04  [ main:96155 ] - [ INFO ]  查找元素：login方式[By.xpath://*[text()='登 录']]
+2020-07-21 19:11:07  [ main:98980 ] - [ INFO ]  click元素：login[By.xpath://*[text()='登 录']]成功！
+2020-07-21 19:11:07  [ main:98980 ] - [ INFO ]  等待6秒
+2020-07-21 19:11:13  [ main:104981 ] - [ INFO ]  等待3秒判断元素：check-tips是否存在
+2020-07-21 19:11:16  [ main:107983 ] - [ INFO ]  查找一组元素：error 方式[By.className:check-tips]
+2020-07-21 19:11:16  [ main:108009 ] - [ INFO ]  判断结果为：false
+2020-07-21 19:11:16  [ main:108009 ] - [ INFO ]  等待4秒
+2020-07-21 19:11:20  [ main:112017 ] - [ INFO ]  等待10秒判断元素：//*[text()='预约单管理']是否存在
+2020-07-21 19:11:30  [ main:122017 ] - [ INFO ]  查找一组元素：menu_yuyuedan 方式[By.xpath://*[text()='预约单管理']]
+2020-07-21 19:11:30  [ main:122024 ] - [ INFO ]  判断结果为：true
+2020-07-21 19:11:31  [ main:122629 ] - [ INFO ]  打开页面
+2020-07-21 19:11:31  [ main:122635 ] - [ INFO ]  等待3秒
