@@ -114,11 +114,7 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\selenium\baoxianUITest\src\main\resources\pageObjectFiles\yml" />
-      <recent name="D:\selenium\baoxianUITest\res\images" />
-      <recent name="D:\selenium\baoxianUITest\src\main\resources\tessdata" />
-      <recent name="D:\selenium\baoxianUITest\res" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\selenium\baoxianUITest\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -128,7 +124,11 @@
       <recent name="sun.baoxian.utils" />
       <recent name="sun.baoxian_fox" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\selenium\baoxianUITest\src\main\resources\pageObjectFiles\yml" />
+      <recent name="D:\selenium\baoxianUITest\res\images" />
+      <recent name="D:\selenium\baoxianUITest\src\main\resources\tessdata" />
+      <recent name="D:\selenium\baoxianUITest\res" />
       <recent name="D:\selenium\baoxianUITest\src\main\resources" />
     </key>
   </component>
@@ -144,7 +144,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.D:/selenium/baoxianUITest/res/testng_fox.xml">
+  <component name="RunManager" selected="TestNG.D:/selenium/baoxianUITest/res/yueyuedan_test.xml">
     <configuration name="GenerateAutoCodeForYml" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sun.baoxian.utils.pageObjectGenerate.GenerateAutoCodeForYml" />
       <module name="baoxianUITest" />
@@ -211,9 +211,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.D:/selenium/baoxianUITest/res/testng_fox.xml" />
         <item itemvalue="TestNG.D:/selenium/baoxianUITest/res/yueyuedan_test.xml" />
         <item itemvalue="Application.GenerateAutoCodeForYml" />
+        <item itemvalue="TestNG.D:/selenium/baoxianUITest/res/testng_fox.xml" />
         <item itemvalue="TestNG.LoginTest.Login" />
         <item itemvalue="Application.yuyuedan" />
       </list>
@@ -274,7 +274,8 @@
       <workItem from="1594088969971" duration="3184000" />
       <workItem from="1594108125427" duration="30479000" />
       <workItem from="1594375114244" duration="61456000" />
-      <workItem from="1594795003994" duration="81306000" />
+      <workItem from="1594795003994" duration="82616000" />
+      <workItem from="1595311584985" duration="14660000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1584375025489</created>

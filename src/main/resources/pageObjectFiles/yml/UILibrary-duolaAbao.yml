@@ -1,5 +1,64 @@
 pages:
   - page:
+      pageName: sun.baoxian.pageObject.yuyuedan.YduolaAPage
+      value: "http://test.admin.dianxiao.ncfimg.com/"
+      desc: "哆啦A保-预约单"
+      locators:
+        - {type: "xpath",timeout: "5",value: "//*[text()='预约单:下一步']",desc: "book_next",name: "book_next"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='确定'][1]",desc: "queding",name: "quding"}
+        - {type: "xpath",timeout: "5",value: "//*[@class='trial-list true-title applicant']//*[text()='出生日期']",desc: "apl_birth",name: "apl_birth"}
+        - {type: "xpath",timeout: "5",value: "//*[@class='trial-list true-title applicant']//*[text()='出生日期']/following-sibling::div[1]",desc: "apl_birthcont",name: "apl_birthcont"}
+        - {type: "xpath",timeout: "5",value: "//*[@class='trial-list true-title insurant']//*[text()='出生日期']",desc: "ins_birth",name: "ins_birth"}
+        - {type: "xpath",timeout: "5",value: "//*[@class='trial-list true-title insurant']//*[text()='出生日期']/following-sibling::div[1]",desc: "ins_birthcont",name: "ins_birthcont"}
+        - {type: "xpath",timeout: "5",value: "//*[@class='trial-list true-title applicant']//*[text()='男']",desc: "apl_sex_M",name: "apl_sex_M"}
+        - {type: "xpath",timeout: "5",value: "//*[@class='trial-list true-title applicant']//*[text()='女']",desc: "apl_sex_F",name: "apl_sex_F"}
+        - {type: "xpath",timeout: "5",value: "//*[@class='trial-list true-title insurant']//*[text()='男']",desc: "ins_sex_M",name: "ins_sex_M"}
+        - {type: "xpath",timeout: "5",value: "//*[@class='trial-list true-title insurant']//*[text()='女']",desc: "ins_sex_F",name: "ins_sex_F"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='长期居住地']",desc: "city",name: "city"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='长期居住地']/following-sibling::div[1]",desc: "citycont",name: "citycont"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='15万']",desc: "baoer15",name: "baoer15"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='25万']",desc: "baoer25",name: "baoer25"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='至70岁']",desc: "insurance_period_70A",name: "insurance_period_70A"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='终身']",desc: "insurance_period_999",name: "insurance_period_999"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='20年']",desc: "pay_20Y",name: "pay_20Y"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='10年']",desc: "pay_10Y",name: "pay_10Y"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='年缴']",desc: "pay_type_Y",name: "pay_type_Y"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='月缴']",desc: "pay_type_M",name: "pay_type_M"}
+        - {type: "xpath",timeout: "5",value: "//div[text()='特定疾病/恶性肿瘤']/following-sibling::div[1]/div[1]/div[1]/div[2]",desc: "tdjb",name: "tdjb"}
+        - {type: "xpath",timeout: "5",value: "//div[text()='恶性肿瘤二次赔付']/following-sibling::div[1]/div[1]/div[1]/div[2]",desc: "exzlerci",name: "exzlerci"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='确认无以上问题']",desc: "jiangao",name: "jiangao"}
+        - {type: "cssSelector",timeout: "5",value: "input[data-isr_code='applicant__cn_name']",desc: "aplname",name: "aplname"}
+        - {type: "cssSelector",timeout: "5",value: "input[data-isr_code='applicant__card_code']",desc: "aplidcard",name: "aplidcard"}
+        - {type: "cssSelector",timeout: "5",value: "input[data-isr_code='applicant__mobile']",desc: "aplmobile",name: "aplmobile"}
+        - {type: "cssSelector",timeout: "5",value: "input[data-isr_code='applicant__email']",desc: "apleml",name: "apleml"}
+        - {type: "cssSelector",timeout: "5",value: "textarea[data-isr_code='applicant__contact_address']",desc: "apladdress",name: "apladdress"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='职业类型']/following-sibling::div[1][1]",desc: "apl_job",name: "apl_job"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='长期居住地'][1]",desc: "apl_city",name: "apl_city"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='长期居住地']/following-sibling::div[1][1]",desc: "apl_citycont",name: "apl_citycont"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='证件止期'][1]",desc: "aplcardPeriod",name: "aplcardPeriod"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='证件止期']/following-sibling::div[1][1]",desc: "aplcardDate",name: "aplcardDate"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='子女']",desc: "child",name: "child"}
+        - {type: "xpath",timeout: "5",value: "//*[@class='tab_item show']//*[@name='子女']//*[text()='证件止期']",desc: "inscardPeriod",name: "inscardPeriod"}
+        - {type: "xpath",timeout: "5",value: "//*[@class='tab_item show']//*[@name='子女']//*[text()='证件止期']/following-sibling::div[1]",desc: "inscardDate",name: "inscardDate"}
+        - {type: "xpath",timeout: "5",value: "//*[@class='tab_item show']//*[@name='子女']//*[@name='name']",desc: "insname",name: "insname"}
+        - {type: "xpath",timeout: "5",value: "//*[@class='tab_item show']//*[@name='子女']//*[@name='identity']",desc: "insidcard",name: "insidcard"}
+        - {type: "xpath",timeout: "5",value: "//*[@class='tab_item show']//*[@name='子女']//*[@name='mobile']",desc: "insmobile",name: "insmobile"}
+        - {type: "xpath",timeout: "5",value: "//*[@class='tab_item show']//*[@name='子女']//*[@name='email']",desc: "inseml",name: "inseml"}
+        - {type: "xpath",timeout: "5",value: "//*[@class='tab_item show']//*[@name='子女']//*[text()='职业类型']/following-sibling::div[1]",desc: "ins_job",name: "ins_job"}
+        - {type: "xpath",timeout: "5",value: "//*[@class='tab_item show']//*[@name='子女']//*[@data-isr_code='insurant__contact_address']",desc: "insaddress",name: "insaddress"}
+        - {type: "xpath",timeout: "5",value: "//*[@class='tab_item show']//*[@name='子女']//*[text()='长期居住地']",desc: "ins_city",name: "ins_city"}
+        - {type: "xpath",timeout: "5",value: "//*[@class='tab_item show']//*[@name='子女']//*[text()='长期居住地']/following-sibling::div[1]",desc: "ins_citycont",name: "ins_citycont"}
+        - {type: "xpath",timeout: "5",value: "//*[@class='tab_item show']//*[@name='子女']//*[text()='身高']/following-sibling::div[1]",desc: "ins_height",name: "ins_height"}
+        - {type: "xpath",timeout: "5",value: "//*[@class='tab_item show']//*[@name='子女']//*[text()='体重']/following-sibling::div[1]",desc: "ins_weight",name: "ins_weight"}
+        - {type: "cssSelector",timeout: "5",value: "input[data-isr_code='renewal__withhold_account']",desc: "bankcard",name: "bankcard"}
+        - {type: "xpath",timeout: "5",value: "//*[@class='bank-result']",desc: "bankcode",name: "bankcode"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='开户行所在地']",desc: "bankcity",name: "bankcity"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='开户行所在地']/following-sibling::div[1]",desc: "bankcitycont",name: "bankcitycont"}
+        - {type: "classname",timeout: "5",value: "protocol-btm-btn",desc: "protocol_but",name: "protocol_but"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='预约单:保存']",desc: "save_final",name: "save_final"}
+        - {type: "xpath",timeout: "5",value: "//*[@class='price']",desc: "price",name: "price"}
+        - {type: "xpath",timeout: "5",value: "//*[@class='insurebottom-price']/span[1]",desc: "price2",name: "price2"}
+  - page:
       pageName: sun.baoxian.pageObject.duolaAbaopage
       value: "http://test.bxm.ncfimg.com/biz/page/info?page_id=105&is_gray=1&goods_code=G1581501768#/"
       desc: "哆啦A保"
@@ -40,4 +99,6 @@ pages:
         - {type: "xpath",timeout: "5",value: "//*[text()='请在 23:50 前完成支付，逾期订单将自动取消']",desc: "deadline",name: "deadline"}
         - {type: "xpath",timeout: "5",value: "//*[text()='好的，继续']",desc: "confrim",name: "confrim"}
         - {type: "cssSelector",timeout: "5",value: "input[placeholder=\"请输入邮编\"]",desc: "postcode",name: "postcode"}
+        - {type: "xpath",timeout: "5",value: "//*[@class='tab_item show']//*[@name='子女']//*[@placeholder='请输入真实姓名']",desc: "insname",name: "insname"}
+        - {type: "xpath",timeout: "5",value: "//*[@class='tab_item show']//*[@name='子女']//*[@placeholder='请输入详细地址']",desc: "insaddress",name: "insaddress"}
 

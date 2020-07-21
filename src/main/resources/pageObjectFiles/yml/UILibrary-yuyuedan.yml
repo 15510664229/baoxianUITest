@@ -46,6 +46,7 @@ pages:
             - {type: "xpath",timeout: "5",value: "//*[@class=\"trial-list true-title insurant\"]//*[text()=\"出生日期\"]",desc: "birth",name: "birth"}
             - {type: "xpath",timeout: "5",value: "//*[@class='trial-list true-title insurant']//*[text()='出生日期']/following-sibling::div[1]",desc: "birthcont",name: "birthcont"}
             - {type: "xpath",timeout: "5",value: "//*[text()='20年']",desc: "pay_20Y",name: "pay_20Y"}
+            - {type: "xpath",timeout: "5",value: "//*[text()='15年']",desc: "pay_15Y",name: "pay_15Y"}
             - {type: "xpath",timeout: "5",value: "//*[text()='10年']",desc: "pay_10Y",name: "pay_10Y"}
             - {type: "xpath",timeout: "5",value: "//*[text()='年缴']",desc: "pay_type_Y",name: "pay_type_Y"}
             - {type: "xpath",timeout: "5",value: "//*[text()='月缴']",desc: "pay_type_M",name: "pay_type_M"}

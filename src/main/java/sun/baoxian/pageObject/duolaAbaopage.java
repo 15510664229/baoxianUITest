@@ -407,4 +407,26 @@ public  LocatorBase postcode() throws IOException
    LocatorBase locator=getLocator("postcode");
    return locator;
  }
+
+/***
+* insname
+* @return
+* @throws IOException
+*/
+public  LocatorBase insname() throws IOException
+ {
+   LocatorBase locator=getLocator("insname");
+   return locator;
+ }
+
+/***
+* insaddress
+* @return
+* @throws IOException
+*/
+public  LocatorBase insaddress() throws IOException
+ {
+   LocatorBase locator=getLocator("insaddress");
+   return locator;
+ }
 }
