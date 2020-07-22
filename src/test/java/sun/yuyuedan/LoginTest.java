@@ -7,9 +7,10 @@ import sun.baoxian.base.WebCaseBase;
 
 public class LoginTest extends WebCaseBase {
     String url="http://test.admin.dianxiao.ncfimg.com/";
-    LoginAction action=new LoginAction();
+
     @BeforeTest
     public void Login() throws Exception{
+        LoginAction action=new LoginAction();
         action.login(url);
     }
     @Test
