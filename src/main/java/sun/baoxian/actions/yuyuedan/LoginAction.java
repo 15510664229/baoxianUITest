@@ -46,7 +46,7 @@ public class LoginAction extends WebCaseBase {
 //        FileUtils.copyFile(CreateElementScreenshot.captureElement(driver.findElement(By.cssSelector("img[class=\"verifyimg reloadverify\"]"))), new File(file + "imgver1.png"));
                 img = getcontent("res/images/imgver.png");
 
-                System.out.println(i + "验证码是--------------------------------------------------------" + img);
+               // System.out.println(i + "验证码是--------------------------------------------------------" + img);
                 if (img.length() < 4) {
                     img = "";
                 }else {
@@ -79,7 +79,7 @@ public class LoginAction extends WebCaseBase {
         File image=new File(imageFile);
         ITesseract instance=new Tesseract();
         instance.setTessVariable("user_defined_dpi", "300");
-        instance.setDatapath("src/main/resources/tessdata");
+        instance.setDatapath("resources/tessdata");
         instance.setLanguage("eng");
         try {
             content =instance.doOCR(image).replaceAll("\n","");
