@@ -5,25 +5,15 @@ import net.sourceforge.tess4j.ITesseract;
 import net.sourceforge.tess4j.Tesseract;
 import net.sourceforge.tess4j.TesseractException;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.Reporter;
 import sun.baoxian.base.WebCaseBase;
 import sun.baoxian.base.WebElementBase;
-import sun.baoxian.pageObject.iBaoCpage;
 import sun.baoxian.pageObject.yuyuedan.homepage;
-import sun.baoxian.pageObject.yuyuedan.iBaoC2page;
 import sun.baoxian.pageObject.yuyuedan.loginpage;
-import sun.baoxian.utils.SwipeScreenOrElement;
-
 import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-
 public class LoginAction extends WebCaseBase {
     WebElementBase action = new WebElementBase();
     //火狐浏览器预约单后台登录流程

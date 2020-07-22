@@ -11,9 +11,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Parameters;
+import org.testng.annotations.*;
 
 
 public class WebCaseBase {
@@ -23,7 +21,7 @@ public class WebCaseBase {
     private static Logger log = Logger.getLogger(WebCaseBase.class);
 
 
-    @BeforeMethod
+    @BeforeSuite
     @Parameters({"browerType"})
     public void setup(String browerType) throws IOException {
         log.info("------------------开始执行测试---------------");
@@ -42,9 +40,9 @@ public class WebCaseBase {
                 log.info("启动Chrome浏览器");
                 break;
             case "ff":
-//                System.setProperty("webdriver.firefox.marionette","C:\\Program Files\\Mozilla Firefox\\firefox.exe");
-//                this.driver = new FirefoxDriver();
                 // 引入geckodriver驱动 ---第二个参数是驱动所在路径
+//                System.setProperty("webdriver.gecko.driver","C:\\Program Files\\Mozilla Firefox\\geckodriver.exe");
+                //linux上运行设置如下：
                 System.setProperty("webdriver.gecko.driver","/usr/bin/geckodriver");
 // 新建一个firefox浏览器实例,并设置headless,不显示浏览器的情况下运行程序
                 FirefoxBinary firefoxBinary = new FirefoxBinary();
@@ -52,7 +50,6 @@ public class WebCaseBase {
                 FirefoxOptions firefoxOptions = new FirefoxOptions();
                 firefoxOptions.setBinary(firefoxBinary);
                 this.driver = new FirefoxDriver(firefoxOptions);
-//WebDriver driver = new FirefoxDriver();
                 log.info("启动Firefox浏览器");
                 break;
             case "ie":
@@ -71,10 +68,10 @@ public class WebCaseBase {
 //        driver.manage().window().maximize();
     }
 
-    @AfterMethod
+    @AfterSuite
     public void tearDown() throws IOException {
         this.driver.quit();
-        WebElementBase action = new WebElementBase();
+//        WebElementBase action = new WebElementBase();
         log.info("关闭浏览器");
 
     }
