@@ -14,12 +14,12 @@ public class yangguang_new  extends WebCaseBase {
     String ZhongHe="http://bxm.ncfimg.com/biz/page/info?page_id=48&goods_code=G1583985163";
 
 
-    @Test
+//    @Test
     public void yangguang_BW_M() throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
         action.yangguang(Month,SXP);
     }
-    @Test
+//    @Test
     public void yangguang_BW_Y() throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
         action.yangguang(Year,SXP);
@@ -37,12 +37,12 @@ public class yangguang_new  extends WebCaseBase {
     String Year2="http://bxm.ncfimg.com/biz/page/info?page_id=54&goods_code=G1584329030";
     String ZhongHe2="http://bxm.ncfimg.com/biz/page/info?page_id=49&goods_code=G1583985162";
 
-    @Test
+//    @Test
     public void yangguang_ZH_M() throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
         action.yangguang(Month2,SXP);
     }
-    @Test
+//    @Test
     public void yangguang_ZH_Y() throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
         action.yangguang(Year2,SXP);

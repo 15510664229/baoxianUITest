@@ -15,12 +15,12 @@ public class taikang2020 extends WebCaseBase {
     //泰康2020 平滑版  商城版链接
     String PH_M01="https://bxm.ncfimg.com/biz/page/info?page_id=11&goods_code=G1581517315";
     String PH_ZH01="https://bxm.ncfimg.com/biz/page/info?page_id=15&goods_code=G1581754461";
-    @Test
+//    @Test
     public void taikang2020_SC_1_M() throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
         action.SCTmp(Month,SXP);
     }
-    @Test
+//    @Test
     public void taikang2020_SC_1_Y() throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
         action.SCTmp(Year,SXP);
@@ -35,7 +35,7 @@ public class taikang2020 extends WebCaseBase {
         shortInsurance19Action action=new shortInsurance19Action();
         action.SCTmp(PH_ZH01,SXP);
     }
-    @Test
+//    @Test
     public void taikang2020_SC_PH_M() throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
         action.SCTmp(PH_M01,SXP);
@@ -49,12 +49,12 @@ public class taikang2020 extends WebCaseBase {
     //泰康2020 平滑版  商城版链接
     String PH_M02="https://bxm.ncfimg.com/biz/page/info?page_id=17&goods_code=G1581754461";
     String PH_ZH02="https://bxm.ncfimg.com/biz/page/info?page_id=18&goods_code=G1581517315";
-    @Test
+//    @Test
     public void taikang2020_TF_1_M() throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
         action.PHTmp(Month2,SXP);
     }
-    @Test
+//    @Test
     public void taikang2020_TF_1_Y() throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
         action.PHTmp(Year2,SXP);
@@ -69,7 +69,7 @@ public class taikang2020 extends WebCaseBase {
         shortInsurance19Action action=new shortInsurance19Action();
         action.PHTmp(PH_ZH02,SXP);
     }
-    @Test
+//    @Test
     public void taikang2020_TF_PH_M() throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
         action.PHTmp(PH_M02,SXP);

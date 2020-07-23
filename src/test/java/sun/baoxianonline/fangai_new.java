@@ -14,12 +14,12 @@ public class fangai_new extends WebCaseBase {
     String yiyuan="https://bxm.ncfimg.com/biz/page/info?page_id=38&goods_code=G1583331645";
     String sanyuan="https://bxm.ncfimg.com/biz/page/info?page_id=39&goods_code=G1583331691";
     String pinghua="https://bxm.ncfimg.com/biz/page/info?page_id=40&goods_code=G1583331721";
-    @Test
+//    @Test
     public void fangai_SC_1() throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
         action.SCTmp(yiyuan,SXP);
     }
-    @Test
+//    @Test
     public void fangai_SC_3() throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
         action.SCTmp(sanyuan,SXP);
@@ -40,12 +40,12 @@ public class fangai_new extends WebCaseBase {
         shortInsurance19Action action=new shortInsurance19Action();
         action.SCTmp(yiyuan2,SXP);
     }
-    @Test
+//    @Test
     public void fangai_TF_3() throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
         action.SCTmp(sanyuan2,SXP);
     }
-    @Test
+//    @Test
     public void fangai_TF_PH() throws Exception{
         shortInsurance19Action action=new shortInsurance19Action();
         action.SCTmp(pinghua2,SXP);
