@@ -324,13 +324,14 @@ public class shortInsurance19Action extends WebCaseBase {
         // action.click(page1.shebao());
         //action.click(page1.pay_type());
         action.click(page1.order());
-        action.isElementsPresent(page1.confrim(),10);
+       // action.isElementsPresent(page1.confrim(),10);
+        action.sleep(2);
         action.click(page1.confrim());
         action.sleep(2);
         if (action.isElementsPresent(page1.jiangao(),5)){
             action.click(page1.jiangao());
         }
-        action.sleep(3);
+        action.sleep(5);
         if (action.isElementsPresent(page1.pay(),10)) {
         action.DisplayElement(page1.pay());
         action.getUrl();
