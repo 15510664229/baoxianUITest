@@ -60,7 +60,7 @@ public class LoginAction extends WebCaseBase {
         if ( action.isElementsPresent(page1.menu_yuyuedan(),10) ){
             Reporter.log("登陆成功  ");
         }else {
-//            Assert.fail("登陆失败 ");
+            Assert.fail("登陆失败 ");
         }
     }
 
@@ -70,7 +70,8 @@ public class LoginAction extends WebCaseBase {
         File image=new File(imageFile);
         ITesseract instance=new Tesseract();
         instance.setTessVariable("user_defined_dpi", "300");
-        instance.setDatapath("src/main/resources/tessdata");
+//        instance.setDatapath("src/main/resources/tessdata");
+        instance.setDatapath("/usr/local/share/tessdata");
         instance.setLanguage("eng");
         try {
             content =instance.doOCR(image).replaceAll("\n","");
