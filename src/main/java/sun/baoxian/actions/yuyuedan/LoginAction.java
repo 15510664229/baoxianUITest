@@ -35,6 +35,7 @@ public class LoginAction extends WebCaseBase {
                 action.sleep(5);
 //        FileUtils.copyFile(CreateElementScreenshot.captureElement(driver.findElement(By.cssSelector("img[class=\"verifyimg reloadverify\"]"))), new File(file + "imgver1.png"));
                 img = getcontent("res/images/imgver.png");
+                Reporter.log( "第"+i+"次识别出来的验证码是      "+ img);
 
                // System.out.println(i + "验证码是--------------------------------------------------------" + img);
                 if (img.length() < 4) {
