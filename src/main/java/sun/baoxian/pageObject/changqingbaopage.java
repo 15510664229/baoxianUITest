@@ -35,6 +35,17 @@ public  LocatorBase jiangao() throws IOException
  }
 
 /***
+* jiangao1
+* @return
+* @throws IOException
+*/
+public  LocatorBase jiangao1() throws IOException
+ {
+   LocatorBase locator=getLocator("jiangao1");
+   return locator;
+ }
+
+/***
 * ins_name
 * @return
 * @throws IOException

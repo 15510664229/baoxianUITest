@@ -6,6 +6,7 @@ pages:
       locators:
         - {type: "classname",timeout: "5",value: "maba-button",desc: "submit",name: "submit"}
         - {type: "xpath",timeout: "5",value: "//*[text()='以上情况全无']",desc: "jiangao",name: "jiangao"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='确认无以上问题']",desc: "jiangao1",name: "jiangao1"}
         - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入投保人姓名']",desc: "ins_name",name: "ins_name"}
         - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入投保人证件号码']",desc: "ins_idcard",name: "ins_idcard"}
         - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入投保人手机号']",desc: "mobile",name: "mobile"}
