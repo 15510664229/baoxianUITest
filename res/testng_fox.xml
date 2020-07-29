@@ -12,12 +12,12 @@
 	<test name="UI自动化测试【线上回归】" preserve-order="true">
 		<classes>
 <!--			<class name="sun.baoxian.DleteHistoryImg"></class>-->
+			<class name="sun.baoxianonline.jiangxinTest"></class>
+			<class name="sun.baoxianonline.changqingbaoTest"></class>
 			<class name="sun.baoxianonline.taikang2020"></class>
-            <class name="sun.baoxianonline.changqingbaoTest"></class>
             <class name="sun.baoxianonline.taikang2019"></class>
             <class name="sun.baoxianonline.huaguidamaiTest"></class>
             <class name="sun.baoxianonline.studentChargeTest"></class>
-            <class name="sun.baoxianonline.jiangxinTest"></class>
             <class name="sun.baoxian_fox.mamibaobeiTest"></class>
             <class name="sun.baoxianonline.huatai"></class>
             <class name="sun.baoxianonline.fangai_new"></class>
