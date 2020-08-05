@@ -87,7 +87,7 @@ public class LoginAction extends WebCaseBase {
         ImageIO.write(textImage, "png", new File(imageFile));
        // File image=new File(imageFile);
         ITesseract instance=new Tesseract();
-        instance.setTessVariable("user_defined_dpi", "300");
+//        instance.setTessVariable("user_defined_dpi", "300");
 //        instance.setDatapath("src/main/resources/tessdata");
         instance.setDatapath("src/main/resources/tessdata");
         instance.setLanguage("eng");
