@@ -71,7 +71,7 @@ public class LoginAction extends WebCaseBase {
         ITesseract instance=new Tesseract();
         instance.setTessVariable("user_defined_dpi", "300");
 //        instance.setDatapath("src/main/resources/tessdata");
-        instance.setDatapath("/usr/local/share/tessdata");
+        instance.setDatapath("src/main/resources/tessdata");
         instance.setLanguage("eng");
         try {
             content =instance.doOCR(image).replaceAll("\n","");
