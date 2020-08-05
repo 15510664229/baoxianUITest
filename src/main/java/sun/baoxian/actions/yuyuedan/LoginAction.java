@@ -93,7 +93,7 @@ public class LoginAction extends WebCaseBase {
         instance.setTessVariable("user_defined_dpi", "300");
 //        instance.setDatapath("src/main/resources/tessdata");
          imageFile=dealImage(imageFile);
-        instance.setDatapath("src/main/resources/tessdata");
+        instance.setDatapath("/usr/local/share/tessdata");
         instance.setLanguage("eng");
         try {
             content =instance.doOCR(new File(imageFile)).replaceAll("[^0-9a-zA-Z]","");
