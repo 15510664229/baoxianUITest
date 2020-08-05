@@ -4,6 +4,7 @@ package sun.baoxian.actions.yuyuedan;
 import net.sourceforge.tess4j.ITesseract;
 import net.sourceforge.tess4j.Tesseract;
 import net.sourceforge.tess4j.TesseractException;
+import net.sourceforge.tess4j.util.ImageHelper;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.Reporter;
@@ -11,7 +12,11 @@ import sun.baoxian.base.WebCaseBase;
 import sun.baoxian.base.WebElementBase;
 import sun.baoxian.pageObject.yuyuedan.homepage;
 import sun.baoxian.pageObject.yuyuedan.loginpage;
+
+import javax.imageio.ImageIO;
+import java.awt.image.BufferedImage;
 import java.io.File;
+import java.io.IOException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 public class LoginAction extends WebCaseBase {
@@ -65,16 +70,29 @@ public class LoginAction extends WebCaseBase {
     }
 
     //图形验证码获取方法
-    public  static  String getcontent(String imageFile){
+    public  static  String getcontent(String imageFile) throws IOException {
         String content="";
-        File image=new File(imageFile);
+
+        BufferedImage textImage = ImageIO.read(new File(imageFile));
+        // 这里对图片黑白处理,增强识别率.这里先通过截图,截取图片中需要识别的部分
+        textImage = ImageHelper.convertImageToGrayscale(textImage);
+        // 图片锐化
+        textImage = ImageHelper.convertImageToBinary(textImage);
+        // 图片放大倍数,增强识别率(很多图片本身无法识别,放大5倍时就可以轻易识,但是考滤到客户电脑配置低,针式打印机打印不连贯的问题,这里就放大5倍)
+        textImage = ImageHelper.getScaledInstance(textImage, textImage.getWidth() * 1, textImage.getHeight() * 1);
+
+        textImage = ImageHelper.convertImageToBinary(textImage);
+//        String saveImgPath = "/root/project/java/tesseract_model/temp_img";
+//            String saveImgPath = "D:\\software\\ocr-tesseract\\img_tem\\temp.img";
+        ImageIO.write(textImage, "png", new File(imageFile));
+       // File image=new File(imageFile);
         ITesseract instance=new Tesseract();
         instance.setTessVariable("user_defined_dpi", "300");
 //        instance.setDatapath("src/main/resources/tessdata");
         instance.setDatapath("src/main/resources/tessdata");
         instance.setLanguage("eng");
         try {
-            content =instance.doOCR(image).replaceAll("\n","");
+            content =instance.doOCR(textImage).replaceAll("\n","");
 //            content =instance.doOCR(image);
 
         }catch (TesseractException e){
