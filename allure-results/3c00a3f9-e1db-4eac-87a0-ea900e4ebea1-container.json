@@ -1,1 +1,0 @@
-{"uuid":"3c00a3f9-e1db-4eac-87a0-ea900e4ebea1","name":"UI预约单【测试回归】","children":["45f95bf0-d65f-4cf8-8822-74df32575009"],"befores":[{"name":"Login","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1595238696119,"stop":1595238869174}],"afters":[],"links":[],"start":1595238696118,"stop":1595239032402}
