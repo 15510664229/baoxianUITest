@@ -109,7 +109,7 @@ public class YduolaAbaoAction extends WebCaseBase {
 
         action.click(page1.tdjb());
         action.click(page1.exzlerci());
-        action.sleep(3);
+        action.sleep(5);
 
         String price1=action.getText(page1.price());
         init.setPrice1(price1);
