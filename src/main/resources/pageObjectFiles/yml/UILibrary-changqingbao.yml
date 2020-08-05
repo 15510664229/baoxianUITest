@@ -7,12 +7,12 @@ pages:
         - {type: "classname",timeout: "5",value: "maba-button",desc: "submit",name: "submit"}
         - {type: "xpath",timeout: "5",value: "//*[text()='以上情况全无']",desc: "jiangao",name: "jiangao"}
         - {type: "xpath",timeout: "5",value: "//*[text()='确认无以上问题']",desc: "jiangao1",name: "jiangao1"}
-        - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入投保人姓名']",desc: "ins_name",name: "ins_name"}
-        - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入投保人证件号码']",desc: "ins_idcard",name: "ins_idcard"}
-        - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入投保人手机号']",desc: "mobile",name: "mobile"}
+        - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入真实姓名']",desc: "ins_name",name: "ins_name"}
+        - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入身份证号']",desc: "ins_idcard",name: "ins_idcard"}
+        - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入手机号']",desc: "mobile",name: "mobile"}
         - {type: "name",timeout: "5",value: "sms_code",desc: "sms_code",name: "sms_code"}
         - {type: "name",timeout: "5",value: "email",desc: "email",name: "email"}
-        - {type: "cssSelector",timeout: "5",value: "input[placeholder='请输入投保人详细地址']",desc: "address",name: "address"}
+        - {type: "cssSelector",timeout: "5",value: "textarea[placeholder='请输入详细地址']",desc: "address",name: "address"}
         - {type: "name",timeout: "5",value: "postcode",desc: "postcode",name: "postcode"}
         - {type: "xpath",timeout: "5",value: "//*[text()='本人']",desc: "self",name: "self"}
         - {type: "xpath",timeout: "5",value: "//*[text()='配偶']",desc: "mate",name: "mate"}

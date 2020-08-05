@@ -16,7 +16,7 @@ pages:
         - {type: "xpath",timeout: "5",value: "//*[text()='30年']",desc: "internal30",name: "internal30"}
         - {type: "xpath",timeout: "5",value: "//*[text()='缴10年(年缴)']",desc: "pay_Y",name: "pay_Y"}
         - {type: "xpath",timeout: "5",value: "//*[text()='缴10年(月缴)']",desc: "pay_M",name: "pay_M"}
-        - {type: "xpath",timeout: "5",value: "//*[text()='以上情况全无']",desc: "jiangao",name: "jiangao"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='确认无以上问题']",desc: "jiangao",name: "jiangao"}
         - {type: "xpath",timeout: "5",value: "//*[@class='am-input-control']/*",desc: "name",name: "name"}
         - {type: "name",timeout: "5",value: "identity",desc: "idcard",name: "idcard"}
         - {type: "name",timeout: "5",value: "mobile",desc: "mobile",name: "mobile"}

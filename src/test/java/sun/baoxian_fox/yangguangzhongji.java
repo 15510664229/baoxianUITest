@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 import sun.baoxian.actions.duolaAbaoAction;
 import sun.baoxian.base.WebCaseBase;
 
+import static sun.baoxian.actions.mobileList.SXP;
 import static sun.baoxian.actions.mobileList.YYH;
 
 public class yangguangzhongji extends WebCaseBase {

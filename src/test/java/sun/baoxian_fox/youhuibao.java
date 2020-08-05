@@ -12,6 +12,6 @@ public class youhuibao extends WebCaseBase {
     @Test
     public void youhuibao() throws Exception{
         duolaAbaoAction action=new duolaAbaoAction();
-        action.youhuibao(url,SLN);
+        action.youhuibao(url,SXP);
     }
 }
