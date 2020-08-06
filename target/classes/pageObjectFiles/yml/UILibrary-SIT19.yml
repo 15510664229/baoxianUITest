@@ -13,7 +13,7 @@ pages:
         - {type: "xpath",timeout: "5",value: "//*[text()='无']",desc: "shebao",name: "shebao"}
         - {type: "xpath",timeout: "5",value: "//*[text()='全额缴纳']",desc: "pay_type",name: "pay_type"}
         - {type: "xpath",timeout: "5",value: "//div[@class='protocol-btm-btn']",desc: "confrim",name: "confrim"}
-        - {type: "classname",timeout: "5",value: "hz-button-text",desc: "pay",name: "pay"}
+        - {type: "xpath",timeout: "5",value: "//*[text()='请在 23:50 前完成支付，逾期订单将自动取消']",desc: "pay",name: "pay"}
         - {type: "xpath",timeout: "5",value: "//*[@class='amount-box-wrap']/*[position()=1]",desc: "10w",name: "yg10w"}
         - {type: "xpath",timeout: "5",value: "//*[@class='amount-box-wrap']/*[position()=2]",desc: "30w",name: "yg30w"}
         - {type: "xpath",timeout: "5",value: "//*[@class='amount-box-wrap']/*[position()=3]",desc: "50w",name: "yg50w"}
