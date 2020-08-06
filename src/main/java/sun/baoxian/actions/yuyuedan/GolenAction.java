@@ -104,7 +104,7 @@ public class GolenAction extends WebCaseBase {
 
         action.sleep(3);
         action.click(page1.die());
-        action.click(page1.shengji());
+//        action.click(page1.shengji());
         action.sleep(3);
         String price1=action.getText(page1.price());
         init.setPrice1(price1);

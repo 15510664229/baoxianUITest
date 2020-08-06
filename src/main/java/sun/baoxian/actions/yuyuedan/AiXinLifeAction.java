@@ -118,7 +118,7 @@ public class AiXinLifeAction extends WebCaseBase {
         action.clear(page1.bankmobile());
         action.type(page1.bankmobile(),init.getBankMob());
         init.setPrice2(action.getText(page1.price2()));
-        action.sleep(3);
+        action.sleep(5);
 
 
         //点击保存

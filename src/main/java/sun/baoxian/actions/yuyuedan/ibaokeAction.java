@@ -42,7 +42,7 @@ public class ibaokeAction extends WebCaseBase {
         init.setBankCode("中国银行");
         init.setBankMob(mobile);
         init.setAplAdr((info.getRoad()).toString());
-        init.setAplEmail((info.getEmail(5,9)).toString());
+//        init.setAplEmail((info.getEmail(5,9)).toString());
         page.getPage("http://test.admin.dianxiao.ncfimg.com/DxParamData");
         //等待页面加载
         action.pagefoload(5);
@@ -97,7 +97,7 @@ public class ibaokeAction extends WebCaseBase {
         action.type(page3.aplidcard(),init.getAplCard());
         action.clear(page3.aplmobile());
         action.type(page3.aplmobile(),init.getAplMob());
-        action.type(page3.apleml(),init.getAplEmail());
+//        action.type(page3.apleml(),init.getAplEmail());
         //职业选择
         action.sleep(5);
         action.click(page3.job());
@@ -196,7 +196,7 @@ public class ibaokeAction extends WebCaseBase {
         target.setAplAdr(action.getText(page4.apladdress()));
         action.click(page4.bankmobile());
         target.setBankMob(action.getAttribute(page4.bankmobile(),"value"));
-        target.setAplEmail(action.getAttribute(page4.apleml(),"value"));
+//        target.setAplEmail(action.getAttribute(page4.apleml(),"value"));
         target.setPrice2(action.getText(page4.price2()));
         target.setAplJob(action.getText(page4.job()).replaceAll("/*-", ""));
         target.setBankCode(action.getText(page4.code()));
